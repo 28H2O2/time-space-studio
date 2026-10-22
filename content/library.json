@@ -1,0 +1,1575 @@
+{
+  "artworks": [
+    {
+      "id": "contemporary-ocean-2025",
+      "title": "永恒的海洋 2：西边界流",
+      "titleOriginal": "Perpetual Ocean 2: Western Boundary Currents",
+      "creator": "Greg Shirah / NASA Scientific Visualization Studio",
+      "year": "2025",
+      "category": "time-space",
+      "methods": [
+        "连续轨迹",
+        "三维流场"
+      ],
+      "topics": [
+        "当代观察",
+        "海洋",
+        "动态可视化"
+      ],
+      "sourceUrl": "https://svs.gsfc.nasa.gov/5425/",
+      "imageKey": "contemporary-ocean-2025.jpg",
+      "width": 1920,
+      "height": 1080,
+      "rights": {
+        "label": "Public domain · NASA SVS",
+        "url": "https://svs.gsfc.nasa.gov/help/",
+        "credit": "NASA Scientific Visualization Studio / Greg Shirah",
+        "usage": "按 NASA SVS 公版使用说明缓存官方静态预览，未修改；完整动画在原站观看。本帧不能单独读取运动速度。"
+      },
+      "observation": "黑色背景上的地球；美洲居中，蓝白线条沿海岸聚集并在海面形成旋涡。静态预览没有时间刻度或温度图例。",
+      "evidence": "官方发布日为 2025-02-27。基于 ECCO-2 的 2021–2023 年模型输出；本图是 beauty 版本，不能将蓝白配色解释成温度。已核对原站下载与 NASA SVS 公版说明。",
+      "analysis": {
+        "structure": "地球提供真实地理参照，密集的蓝白流线把原本不可见的海流显现出来。静帧突出旋涡和主流带，时间推进需要到原站动画中观看。",
+        "borrow": "可借用线条的连续性、密度和明暗来表达运动，不必给每段路径套卡片。把空间底图压低，让活动痕迹成为视觉主体。",
+        "application": "适合研究交通、人流或物资流动的表现。这个预览采用审美配色，不能把颜色当作温度，也不能仅凭一张静帧判断速度。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-22T11:57:32.179538+00:00",
+        "inputHash": "50289b3fdca929e172f65711b19cb10bffa8ffc7d04c24ba384b1b189168e410",
+        "referenceSources": [
+          "https://svs.gsfc.nasa.gov/5425/",
+          "https://svs.gsfc.nasa.gov/help/"
+        ]
+      },
+      "addedAt": "2026-10-22T11:57:32.179538+00:00"
+    },
+    {
+      "id": "contemporary-openmoji-map",
+      "title": "OpenMoji：世界地图符号",
+      "titleOriginal": "OpenMoji — World Map (U+1F5FA)",
+      "creator": "Benedikt Groß、Daniel Utz 与 OpenMoji 贡献者 / HfG Schwäbisch Gmünd",
+      "year": "2018–2026（持续项目）",
+      "category": "graphic",
+      "methods": [
+        "符号系统",
+        "地点与状态"
+      ],
+      "topics": [
+        "当代观察",
+        "图标",
+        "开放设计"
+      ],
+      "sourceUrl": "https://github.com/hfg-gmuend/openmoji",
+      "imageKey": "contemporary-openmoji-map.png",
+      "width": 618,
+      "height": 618,
+      "rights": {
+        "label": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "credit": "OpenMoji · openmoji.org · CC BY-SA 4.0",
+        "usage": "按项目图形许可缓存原始 618px PNG，未修改；该图片继续适用 CC BY-SA 4.0。小尺寸为官方图标资源原尺寸，未放大补像素。"
+      },
+      "observation": "透明底上的横向地图符号，黑色粗轮廓、浅蓝海洋和黄绿色陆地；大陆被概括为少量圆转曲线。没有标注、方向箭头或时间轴。",
+      "evidence": "官方仓库说明项目始于 2018 年、持续更新至 2026 年，图形采用 CC BY-SA 4.0。本项是世界地图单个符号，不是完整地理地图；未将项目年份当成该图标的首次创作日期。",
+      "analysis": {
+        "structure": "浅蓝海洋和黄绿色陆地被统一的黑色粗轮廓包围，复杂大陆被缩减为几段易辨认的曲线。透明背景让符号能进入不同页面，画面本身没有时间信息。",
+        "borrow": "可借用一致的描边、圆转和有限色彩，为地点、车辆、人物与状态建立同一家族的符号。先保证轮廓可辨，再决定颜色承担多少信息。",
+        "application": "适合给搬迁图或旅行笔记做小型图例。它用于识别地图这一概念，不能代替准确地理；在真实路线图中仍要另外说明距离和方向。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-22T11:57:32.179538+00:00",
+        "inputHash": "50289b3fdca929e172f65711b19cb10bffa8ffc7d04c24ba384b1b189168e410",
+        "referenceSources": [
+          "https://github.com/hfg-gmuend/openmoji",
+          "https://creativecommons.org/licenses/by-sa/4.0/"
+        ]
+      },
+      "addedAt": "2026-10-22T11:57:32.179538+00:00"
+    },
+    {
+      "id": "contemporary-stripes-2025",
+      "title": "全球气候条纹：1850—2025",
+      "titleOriginal": "Warming Stripes — Global, 1850–2025",
+      "creator": "Ed Hawkins / University of Reading",
+      "year": "2018 起；数据更新至 2025",
+      "category": "time-space",
+      "methods": [
+        "时间切片",
+        "色彩编码"
+      ],
+      "topics": [
+        "当代观察",
+        "气候",
+        "极简图形"
+      ],
+      "sourceUrl": "https://showyourstripes.info/",
+      "imageKey": "contemporary-stripes-2025.png",
+      "width": 3780,
+      "height": 2126,
+      "rights": {
+        "label": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "credit": "Professor Ed Hawkins (University of Reading) · showyourstripes.info",
+        "usage": "依据作者官网 FAQ 的 CC BY 4.0 说明，保留署名与原站链接，缓存原图，未修改。"
+      },
+      "observation": "满幅竖向色带，没有坐标、标题或图例；左侧以深浅蓝色为主，右侧逐渐出现浅色、橙色与深红。竖条自身没有上下变化。",
+      "evidence": "作者官网当前应用数据明确给出 GLOBE、1850–2025、MO.png 下载路径；FAQ 明确说明每条代表一年，图像采用 CC BY 4.0。年份范围是数据范围，不是作品创作于 1850 年。",
+      "analysis": {
+        "structure": "从左到右依次排开年份，用同宽竖条承载每年的温度信息。画面去掉坐标与文字，蓝红之间的变化让长期趋势先于具体读数进入视线。",
+        "borrow": "可借用等宽时间单元和单一视觉变量，将长时间记录压缩成一条有节奏的色带。需要精确阅读时，应在旁边补充年份和色标。",
+        "application": "适合年度状态概览、个人习惯或旅行天气记录。颜色必须有一致含义；这里表达的是时间序列，不是地理距离，也不能直接读出每年的数值。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-22T11:57:32.179538+00:00",
+        "inputHash": "50289b3fdca929e172f65711b19cb10bffa8ffc7d04c24ba384b1b189168e410",
+        "referenceSources": [
+          "https://showyourstripes.info/",
+          "https://creativecommons.org/licenses/by/4.0/"
+        ]
+      },
+      "addedAt": "2026-10-22T11:57:32.179538+00:00"
+    },
+    {
+      "id": "art-wang-hui-kangxi-scroll3-detail",
+      "title": "康熙南巡图第三卷：济南至泰山（泰山段细节）",
+      "titleOriginal": "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai (detail)",
+      "creator": "王翚及助手（Wang Hui and assistants）",
+      "year": "1698（馆方断代）",
+      "category": "art",
+      "methods": [
+        "连续空间叙事",
+        "路径引导",
+        "地标锚点",
+        "尺度对比"
+      ],
+      "topics": [
+        "手卷",
+        "行旅叙事",
+        "观看次序"
+      ],
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/49156",
+      "imageKey": "art-wang-hui-kangxi-scroll3-detail.jpg",
+      "width": 3001,
+      "height": 1372,
+      "rights": {
+        "label": "Public Domain / CC0（The Met Open Access）",
+        "url": "https://www.metmuseum.org/hubs/open-access",
+        "credit": "Wang Hui and assistants, The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai, datable to 1698. The Metropolitan Museum of Art, Purchase, The Dillon Fund Gift, 1979, 1979.5a–d.",
+        "usage": "Met对象页标示Public Domain，公开API isPublicDomain=true，Open Access政策以CC0提供。此文件是馆方提供的泰山段细节，非本地裁切、非全卷；本地下载未修改。"
+      },
+      "observation": "所选泰山段细节中，人物队伍沿下方道路进入山门，山路穿过树石转折并逐层上升到山间建筑；巨大山体占据主体，细小人物和朱红建筑形成观察锚点。全卷缩览另外看过，具有连续展开的横向山川与城市。",
+      "evidence": "馆方要求全卷自右向左观看。馆方说王翚以地图和版画构图，未亲访泰山，特定地点之间有想象山水连接。因此这里的时间是叙事、行旅与观看次序，不是可读分钟/日期的定量时间轴；不能从人物间距计算行程时长或当作测绘地图。",
+      "analysis": {
+        "structure": "泰山细节以山体作主体，人物队伍沿道路进入山门，再由转折山路连接层层建筑；小人物和朱红屋宇形成观察锚点。这里没有可量读的时间轴。",
+        "borrow": "可借用连续路径、地标重复与尺度反差，让视线随行进路线逐段停留；疏密和遮挡也能组织阅读节奏。",
+        "application": "适合旅行故事、地点记忆和展览导览。观看次序与叙事过程不等于实际行程时长，也不宜把画面当成测绘地图。"
+      },
+      "writing": {
+        "author": "dot",
+        "model": "unknown",
+        "generatedAt": "2026-10-22T09:14:40Z",
+        "inputHash": "200855145c7c2e7dc3e1c1ad1b7c67125f36f32a16a3dfa7343493cf7b6b8053",
+        "referenceSources": [
+          "https://www.metmuseum.org/art/collection/search/49156",
+          "https://www.metmuseum.org/hubs/open-access"
+        ]
+      },
+      "addedAt": "2026-10-22T09:14:40Z"
+    },
+    {
+      "id": "ts-ibry-paris-lyon-1878",
+      "title": "巴黎—里昂列车运行图（Ibry图法）",
+      "titleOriginal": "Graphique de la marche des trains sur un chemin de fer, d’après la méthode de Ibry (Fig. 7)",
+      "creator": "Charles Ibry（图法）；Étienne-Jules Marey（刊载）",
+      "year": "1878",
+      "category": "time-space",
+      "methods": [
+        "时间—距离坐标",
+        "连续轨迹",
+        "共同时间标尺",
+        "停留段"
+      ],
+      "topics": [
+        "交通时刻表",
+        "移动速度",
+        "会车与停留"
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ibry's_Visual_Train_Schedule.png",
+      "imageKey": "ts-ibry-paris-lyon-1878.png",
+      "width": 1908,
+      "height": 1077,
+      "rights": {
+        "label": "Public Domain（Commons文件页标示）",
+        "url": "https://commons.wikimedia.org/wiki/File:Ibry's_Visual_Train_Schedule.png#Licensing",
+        "credit": "Charles Ibry（图法）；Étienne-Jules Marey, La Méthode Graphique, 1878, p.20, fig.7; Wikimedia Commons（Falcorian上传）",
+        "usage": "选定图像文件页标示公有领域（作者1904年卒，1878年出版）。本地PNG与下载源字节一致，未修改。应保留Ibry图法与Marey刊载的区别，不写成Marey独创。"
+      },
+      "observation": "横轴从早六时走到次日早六时，纵轴由巴黎到里昂并列出中途站；站间纵向间距明显不等，列车轨迹在网格内向右上或右下延伸。部分轨迹在站线上短暂停为水平段。图下保留Fig.7及Ibry图法说明。",
+      "evidence": "Marey1885版p.21原文说明站间距按公里比例、小时分成10分钟小格、24小时自6点起。本图展示定量时刻与路线里程关系；斜率绝对值更大代表速度更快，水平段表示停车。线交叉只说明同一线路位置与时刻，不等同实际碰撞，也不是社交连接。",
+      "analysis": {
+        "structure": "横轴从早六时到次日早六时，纵轴按线路站距排列地点；斜线连接列车在不同时刻的位置，水平小段表示停留。线交叉不等于发生碰撞。",
+        "borrow": "可借用共同时间标尺、距离位置和连续轨迹，把速度、停站与往返方向放在同一平面比较；以较轻网格辅助读数。",
+        "application": "适合通勤比较、交通调度和移动资源安排。若纵轴只是类别而非真实距离，斜率就不能再解释为速度。"
+      },
+      "writing": {
+        "author": "dot",
+        "model": "unknown",
+        "generatedAt": "2026-10-22T09:14:40Z",
+        "inputHash": "f1008ff69ccbc3b8600a7470a8916c9b6ed09d775e0d0e035c5f5318228bb5eb",
+        "referenceSources": [
+          "https://commons.wikimedia.org/wiki/File:Ibry's_Visual_Train_Schedule.png",
+          "https://commons.wikimedia.org/wiki/File:Ibry's_Visual_Train_Schedule.png#Licensing",
+          "https://fr.wikisource.org/wiki/Page:Marey_-_La_m%C3%A9thode_graphique,_1885.djvu/49"
+        ]
+      },
+      "addedAt": "2026-10-22T09:14:40Z"
+    },
+    {
+      "id": "ts-priestley-history-1769",
+      "title": "新历史图",
+      "titleOriginal": "A New Chart of History",
+      "creator": "Joseph Priestley",
+      "year": "1769",
+      "category": "time-space",
+      "methods": [
+        "并行时间带",
+        "共同时间标尺",
+        "地区分层",
+        "直接标注"
+      ],
+      "topics": [
+        "历史时间图",
+        "政权更替",
+        "同时性"
+      ],
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_New_Chart_of_History.jpg",
+      "imageKey": "ts-priestley-history-1769.jpg",
+      "width": 3272,
+      "height": 2114,
+      "rights": {
+        "label": "Public Domain（Commons文件页标示）",
+        "url": "https://commons.wikimedia.org/wiki/File:A_New_Chart_of_History.jpg#Licensing",
+        "credit": "Joseph Priestley, A New Chart of History, 1769; J. Johnson, London; Wikimedia Commons（Sette-quattro 上传的黑白衍生扫描图）",
+        "usage": "使用Commons已标为公有领域的选定文件。作者1804年卒、原作1769年出版。本地下载文件未修改。勿把另一份Rumsey馆藏图像的CC BY-NC-SA条款误套到此文件；若换用Rumsey图，须相应更换来源、署名与许可。"
+      },
+      "observation": "上下沿均有水平年代刻度；右侧按美洲、非洲、亚洲和欧洲细分地区标记。图中用连续封闭区域与文字呈现政权，罗马帝国跨越多条地区带形成大块连贯区域，右侧逐渐分出多个政权。中央和左下保留说明与献辞。此选定文件是黑白版本，不能描述为彩色编码。",
+      "evidence": "Commons列作品与出版年1769；原图刊记一致。与已收录A Chart of Biography不同：本图主体是地区中的政权延续与统合，旧作主体是人物生命区间。纵向地区带是概括性分区，不应当作按真实土地面积绘制的地图。",
+      "analysis": {
+        "structure": "横向共用年代标尺，纵向以概括地区分层，政权名称写在连续边界内；大片区域的合并与分裂可跨层比较。它表达历史时间，不是按土地面积缩放的地理地图。",
+        "borrow": "可借用统一标尺、直接标注和跨泳道连续边界，让并行历史与归属变化同屏出现；黑白也能靠轮廓建立层级。",
+        "application": "适合整理机构沿革、区域归属或多地点状态变迁；需要另列史料依据，避免把概括边界误当精确事实。"
+      },
+      "writing": {
+        "author": "dot",
+        "model": "unknown",
+        "generatedAt": "2026-10-22T09:14:40Z",
+        "inputHash": "20dcad034054e3f704a9170960f8a1be06b81780b76bd577c53157a96cb08415",
+        "referenceSources": [
+          "https://commons.wikimedia.org/wiki/File:A_New_Chart_of_History.jpg",
+          "https://commons.wikimedia.org/wiki/File:A_New_Chart_of_History.jpg#Licensing",
+          "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~254828~5519513"
+        ]
+      },
+      "addedAt": "2026-10-22T09:14:40Z"
+    },
+    {
+      "id": "ts-adams-synchronology",
+      "title": "亚当斯世界历史同步图（第9页）",
+      "titleOriginal": "Adams’ Synchronological Chart of Universal History — Page 9",
+      "creator": "Sebastian C. Adams",
+      "year": "1881",
+      "category": "time-space",
+      "methods": [
+        "连续轨迹",
+        "并行时间带",
+        "图文混排",
+        "局部放大阅读"
+      ],
+      "topics": [
+        "历史时间图",
+        "世界史",
+        "同时性"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~226109~5505931:Page-9--Adams--Synchronological-Cha",
+      "imageKey": "time-space-adams-synchronology.jpg",
+      "width": 2631,
+      "height": 2800,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "此页下方的年代由左向右推进，许多政权色带叠成密集层次，带内直接写统治者与年份；上方则放人物、建筑、事件插图与战役列表。文字、图像和时间格共用纵向对齐线。",
+      "evidence": "Rumsey条目6000.010为1881年版第9页，原系列首次1871年出版，全卷为长卷式同步历史图；本图是馆方单独扫描的一页，并非本项目裁剪。",
+      "analysis": {
+        "structure": "版面下部按横向年代刻度自左向右推进，密集叠放政权色带并内嵌统治者与年份；上部则在同一版面配置人物建筑插图与欧洲战役等专题列表。",
+        "borrow": "下部用对齐年代刻度的多色条带承载连续政权更迭，上部空间则灵活排布专题列表与插图，把时间主干与补充资料分层组合在同一图面。",
+        "application": "适合展示多政权并行的历史长卷、跨地域同期的脉络对照，以及需要兼顾时间主线与专题附录的复杂史料汇编。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:33:00.767499+00:00",
+        "inputHash": "b8a383859d805bfeefd2fe4ccb2b338d87e9a0886e2d6145c6457d65efa1aae8"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-bacon-routes",
+      "title": "培根世界商业航线与等时区域图",
+      "titleOriginal": "Bacon’s Library & Commercial Route Chart of the World, Mercator’s Projection",
+      "creator": "G.W. Bacon & Co.",
+      "year": "约1910",
+      "category": "time-space",
+      "methods": [
+        "网络与方向",
+        "等时区域",
+        "路线时间标注",
+        "多中心比较"
+      ],
+      "topics": [
+        "时间地理",
+        "世界交通",
+        "航运"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~345960~90113417:Bacon-s-Library-&-Commercial-Route-",
+      "imageKey": "time-space-bacon-routes.jpg",
+      "width": 2800,
+      "height": 1509,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "宽幅世界图上铺有跨海路线，顶部有TIME DISTANCES表。底部三幅椭圆小地图分别以London、Melbourne、New York为题，使用连续色区和图例表达旅行时间；主图的地理着色更浅。",
+      "evidence": "Rumsey条目15259.002，出版年约1910（馆藏估计），149×75厘米。三幅等时图表示从伦敦、墨尔本和纽约出发的旅行时间；主图另有航线和通讯设施。",
+      "analysis": {
+        "structure": "主图在浅色世界底图上铺设跨海路线，顶部设时间距离表，底部并列三幅分别以伦敦、墨尔本、纽约为中心的连续色区等时小地图。",
+        "borrow": "主图展示具体网络与路线标注，辅以多中心小图，用等时色带对比不同起点的可达范围，兼顾具体路径与全局时间成本。",
+        "application": "适合表达全球航运网络、多枢纽出发的旅行时间比较，以及交通条件对空间可达性的影响。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:30:16.343736+00:00",
+        "inputHash": "8f7464b9ba5fcfb1d24a1b399061a469d1399d32a3cb4b086dff17a80234a8da"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-carey-europe",
+      "title": "欧洲主要事件编年表（1789—1815）",
+      "titleOriginal": "Chronological Map of Universal History: Principal Events in Europe, 1789–1815",
+      "creator": "M. Lavoisne；Mathew Carey",
+      "year": "1820",
+      "category": "time-space",
+      "methods": [
+        "时间切片",
+        "地点与状态",
+        "时间分栏",
+        "区域行对齐",
+        "浅底色编码"
+      ],
+      "topics": [
+        "历史时间图",
+        "欧洲",
+        "时间切片"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~35421~1200340",
+      "imageKey": "time-space-carey-europe.jpg",
+      "width": 2800,
+      "height": 1958,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "顶部将1789至1815分成六个时间栏，国家沿垂直方向排列，文字事件填在对应格内。浅绿、粉红、黄色区块跨栏连续，行边界会随文字长度起伏；没有地理底图。",
+      "evidence": "Rumsey条目1642.003为1820年美国版图册，作者列M. Lavoisne与Mathew Carey。此页比较欧洲1789至1815年的事件，是时间与国家类别矩阵。",
+      "analysis": {
+        "structure": "采用无地理底图的矩阵结构：顶部横栏切分六个时间段，纵向排列欧洲各国，格内填入事件文字并用浅底色跨栏编码。",
+        "borrow": "允许行边界随格内文字体量起伏，再用跨栏连续的浅色块把同一政权或局势阶段串联起来。",
+        "application": "适合在密集转折期内，按时间切片横向比对多个国家或部门的同步动态与阶段变化。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:29:43.829057+00:00",
+        "inputHash": "fe225ed7a6bf971c59b4ebca2f9d81647cfa718034494a684392e5f0ab764fd9"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-carey-persia",
+      "title": "土耳其帝国与近代波斯世系历史年表图",
+      "titleOriginal": "Genealogical, Historical, and Chronological Map of the Empire of the Turks and of Modern Persia",
+      "creator": "M. Lavoisne；Mathew Carey",
+      "year": "1820",
+      "category": "time-space",
+      "methods": [
+        "网络与方向",
+        "谱系连接",
+        "并行分区",
+        "正文与图分栏"
+      ],
+      "topics": [
+        "历史时间图",
+        "奥斯曼",
+        "波斯",
+        "中亚"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~35480~1200399",
+      "imageKey": "time-space-carey-persia.jpg",
+      "width": 2800,
+      "height": 1954,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "左侧为奥斯曼家系，右侧为成吉思汗、帖木儿等家系分区，粉、黄、绿背景分别包围不同段落。细折线连接名字与日期，黑点和小符号标识节点；两侧长列正文包围中央谱系。",
+      "evidence": "Rumsey条目1642.062，1820年费城版，题名覆盖奥斯曼1299年起及波斯1206至1815年；由T.H. Palmer印制，依据1817年伦敦版修订。关系线不等于按比例的时间轴。",
+      "analysis": {
+        "structure": "中央并列奥斯曼与成吉思汗、帖木儿等世系，粉、黄、绿底色区分段落，细折线与黑点连接人名和日期，两侧由长列正文包围。",
+        "borrow": "用彩色色块为复杂网络分群，再以细折线连接节点，并在主图外围排布长文说明。",
+        "application": "适合展示多支家族、学派或机构的传承关系，并在同页对照各自的背景记述。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:29:59.265145+00:00",
+        "inputHash": "9aacf41ec87761a717ab753a4534214722dc52617d44ea381466ad40c87b13e9"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-london-1908",
+      "title": "伦敦地下铁道网络图",
+      "titleOriginal": "London Underground Railways",
+      "creator": "Partington & Company Ltd.；London Underground Railways",
+      "year": "约1908",
+      "category": "time-space",
+      "methods": [
+        "网络与方向",
+        "历史地图",
+        "彩色线路编码",
+        "底图降权",
+        "节点与线路"
+      ],
+      "topics": [
+        "交通网络",
+        "地铁",
+        "空间拓扑"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~299515~90070496:London-underground-railways--Partin",
+      "imageKey": "time-space-london-1908.jpg",
+      "width": 2800,
+      "height": 2219,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "粗彩色线和较大的站点圆点覆盖在浅灰街道底图上，站名沿线摆放，左上角有线型图例。四周是高饱和度广告和大字标题。图中仍保留地理弯曲，没有按统一角度整理为现代地铁图。",
+      "evidence": "Rumsey条目11614.002，日期约1908，口袋地图22×27厘米。此面为地理交通网络，不含时间轴；时刻及票务说明在另一面，未把它们误算进本图。",
+      "analysis": {
+        "structure": "将城市街道处理为浅灰底图，上方覆盖保留真实地理弯曲的粗彩色线路与大圆点站点，沿线排布站名，左上设图例，四周环绕高饱和度广告。",
+        "borrow": "降低环境底图的视觉权重，用高对比度的色彩编码和放大节点把复杂路网从背景中剥离，同时保留真实地理方位。",
+        "application": "适合表达城市轨道交通、公交干线或地下管网等需要兼顾地面街道相对位置与网络换乘关系的专题图。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:30:16.343736+00:00",
+        "inputHash": "8f7464b9ba5fcfb1d24a1b399061a469d1399d32a3cb4b086dff17a80234a8da"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-minard-cotton",
+      "title": "1858、1864与1865年欧洲原棉进口量示意地图",
+      "titleOriginal": "Carte figurative et approximative des quantités de coton brut importées en Europe en 1858, en 1864 et en 1865",
+      "creator": "Charles Joseph Minard",
+      "year": "1866",
+      "category": "time-space",
+      "methods": [
+        "时间切片",
+        "网络与方向",
+        "小多图",
+        "比例流带",
+        "跨年同色编码"
+      ],
+      "topics": [
+        "连续流向",
+        "贸易",
+        "时间切片"
+      ],
+      "sourceUrl": "https://www.loc.gov/item/99463789/",
+      "imageKey": "time-space-minard-cotton.jpg",
+      "width": 2560,
+      "height": 1633,
+      "rights": {
+        "label": "馆藏可自由使用与再利用",
+        "url": "https://www.loc.gov/item/99463789/#rights-and-access",
+        "credit": "Library of Congress, Geography and Map Division",
+        "usage": "来源条目的 Rights & Access 声明可自由使用与再利用；用于个人学习站点。采用馆方文章提供的预览图片，保留整幅及原色。"
+      },
+      "observation": "1858、1864、1865三幅地图横向并列，相似的海岸轮廓和颜色在三幅中重复。蓝色、橙色等运输带的粗细变化明显，图例及数量表集中在上沿；扫描保留折痕和右上缺损。",
+      "evidence": "LOC条目99463789及馆方2021年6月专题文章确认1866年绘图，比较1858、1864、1865年欧洲棉花进口；原图注明1毫米宽代表5000吨。",
+      "analysis": {
+        "structure": "三幅同海岸轮廓的地图横向并列，上沿集中放置图例与数量表，蓝、橙等色运输带跨图重复且粗细随各年进口量显著变化。",
+        "borrow": "横向并置同底图小多图，固定产地颜色编码，直接以流带宽度按比例换算不同年份的数量。",
+        "application": "适合对比多个时间切片下的跨区贸易流向、供应链转移或交通流量突变。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:29:59.265145+00:00",
+        "inputHash": "9aacf41ec87761a717ab753a4534214722dc52617d44ea381466ad40c87b13e9"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-minard-cotton-1862",
+      "title": "1858与1861年欧洲原棉进口量示意地图",
+      "titleOriginal": "Carte figurative et approximative des quantitiés de coton en laine importées en Europe en 1858 et en 1861",
+      "creator": "Charles Joseph Minard",
+      "year": "1862",
+      "category": "time-space",
+      "methods": [
+        "时间切片",
+        "网络与方向",
+        "双时点对照",
+        "比例流带",
+        "地图与折线图并置"
+      ],
+      "topics": [
+        "连续流向",
+        "贸易",
+        "时间切片"
+      ],
+      "sourceUrl": "https://www.loc.gov/item/2004626057/",
+      "imageKey": "time-space-minard-cotton-1862.jpg",
+      "width": 2048,
+      "height": 1303,
+      "rights": {
+        "label": "馆藏可自由使用与再利用",
+        "url": "https://www.loc.gov/item/2004626057/#rights-and-access",
+        "credit": "Library of Congress, Geography and Map Division",
+        "usage": "来源条目的 Rights & Access 声明可自由使用与再利用；用于个人学习站点。采用馆方文章提供的预览图片，保留整幅及原色。"
+      },
+      "observation": "两幅相同布局的地图分别标1858与1861，彩色流带从产地汇入欧洲；左上还放一张多线统计图，右上是颜色图例与文字说明。线路宽度承担数量，地图轮廓用很细的线。",
+      "evidence": "LOC条目2004626057的Created / Published字段为1862，注明同页两幅手工着色地图、另有曲线图和统计。自动生成引用中的1858是数据年份，未作为出版年使用。",
+      "analysis": {
+        "structure": "同页并置两幅同布局地图，极细底图轮廓上由产地向欧洲汇入按量定宽的彩色流带，左上附多线统计图，右上置图例与说明。",
+        "borrow": "弱化地理底图线条，将双时点流向地图与折线统计图同页组合，兼顾空间路径与数值趋势。",
+        "application": "适合呈现两个关键节点的物资流向对比，同时补充更长周期的连续数量变化。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:29:59.265145+00:00",
+        "inputHash": "9aacf41ec87761a717ab753a4534214722dc52617d44ea381466ad40c87b13e9"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-minard-migration",
+      "title": "1858年全球人口迁移与劳工流动图",
+      "titleOriginal": "Carte figurative et approximative représentant pour l’année 1858 les émigrants du globe",
+      "creator": "Charles Joseph Minard",
+      "year": "1862",
+      "category": "time-space",
+      "methods": [
+        "网络与方向",
+        "比例流带",
+        "来源分类色",
+        "世界路线"
+      ],
+      "topics": [
+        "连续流向",
+        "迁移",
+        "殖民史"
+      ],
+      "sourceUrl": "https://www.loc.gov/item/98687134/",
+      "imageKey": "time-space-minard-migration.jpg",
+      "width": 2048,
+      "height": 1516,
+      "rights": {
+        "label": "馆藏可自由使用与再利用",
+        "url": "https://www.loc.gov/item/98687134/#rights-and-access",
+        "credit": "Library of Congress, Geography and Map Division",
+        "usage": "来源条目的 Rights & Access 声明可自由使用与再利用；用于个人学习站点。采用馆方文章提供的预览图片，保留整幅及原色。"
+      },
+      "observation": "一张世界轮廓上铺设跨洋彩色带，欧洲出发的绿色和粉色宽带集中通向美洲与澳洲。右上图例用色块列出出发地；带内直接写数字，陆地轮廓与地名保持细黑线。",
+      "evidence": "LOC条目98687134的出版字段为1862，原图题名记录1858年的流动；馆方文章说明其中也涉及奴役和契约劳工，不能把全部流向称作自愿移民。图显示单年聚合流量，并非逐人逐时轨迹。",
+      "analysis": {
+        "structure": "以细黑线勾勒世界轮廓，跨洋彩色宽带连接出发地与美洲、澳洲等目的地，右上图例按色块区分来源地，带内直接写明数字，涵盖移民、被奴役者与契约劳工。",
+        "borrow": "弱化底图细节，用不同色相区分起点，借流带宽度与带内嵌字同时交代跨洋路线与单年聚合数量，让视线集中在主干流向上。",
+        "application": "适合呈现单一年份或固定周期内，跨洲际的人口转移、强迫劳工输送或大宗物资调配的路线分布与规模对比。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:33:00.767499+00:00",
+        "inputHash": "b8a383859d805bfeefd2fe4ccb2b338d87e9a0886e2d6145c6457d65efa1aae8"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-ogilby-bristol",
+      "title": "伦敦至布里斯托尔道路条带图（第一图版）",
+      "titleOriginal": "The Road from London to the City of Bristol, Plate I: London to Marlborough",
+      "creator": "John Ogilby",
+      "year": "1675",
+      "category": "time-space",
+      "methods": [
+        "网络与方向",
+        "历史地图",
+        "路线条带",
+        "里程序列",
+        "局部方向校准"
+      ],
+      "topics": [
+        "交通网络",
+        "旅程",
+        "空间顺序"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~278387~90051189:Road-from-London-to-the-City-of-Bri",
+      "imageKey": "time-space-ogilby-bristol.jpg",
+      "width": 2800,
+      "height": 2079,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "道路被拆成七条竖向卷轴，逐条向上阅读，每条中部沿道路标里程。罗盘在各条中重复出现，方向并不相同；河流、村落与山丘只画在道路附近，标题占据上方中央。",
+      "evidence": "Rumsey条目9735.055，1675年Britannia中的路线地图。它以线性路线和里程组织空间，提供旅程次序，但没有钟表时间编码。",
+      "analysis": {
+        "structure": "将连续道路拆分为七条自下而上阅读的竖向卷轴，道路居中并标注连续里程，仅绘沿途河流、村落与山丘，各条内单独配置方向不一的罗盘。",
+        "borrow": "打破统一的正北朝向，把弯曲长路径拉直为平行条带，用局部罗盘校准真实方向，从而在紧凑版面中放大沿线细节。",
+        "application": "适合表达长途公路行进指南、徒步路线、河流沿岸考察或具有明确先后次序的线性空间导览。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:30:16.343736+00:00",
+        "inputHash": "8f7464b9ba5fcfb1d24a1b399061a469d1399d32a3cb4b086dff17a80234a8da"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-peutinger",
+      "title": "波伊廷格古道图（第一图版）",
+      "titleOriginal": "Scheda prior: Tabula Peutingeriana",
+      "creator": "Petrus Bertius（图册编者）；Marcus Welser、Conrad Peutinger（馆藏列名）",
+      "year": "1619",
+      "category": "time-space",
+      "methods": [
+        "网络与方向",
+        "历史地图",
+        "路线拓扑",
+        "地理压缩",
+        "图形地标"
+      ],
+      "topics": [
+        "交通网络",
+        "古罗马",
+        "历史地理"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~284870~90057377:Scheda-prior---Tabula-Peutingeriana",
+      "imageKey": "time-space-peutinger.jpg",
+      "width": 2800,
+      "height": 2004,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "细路线把名字与数字串接成横向网络，较大的聚落使用城堡式小图标。水体是深色弯带，陆地形状被明显压扁拉长；顶端与中央的大字区域名跨越许多路线。",
+      "evidence": "Rumsey条目11296.096列图版1619年，整册部分出版资料为1618年。该页为Peutinger路线图传统的早期印本之一，并非古罗马时代的原件；本图没有明确时间轴。",
+      "analysis": {
+        "structure": "大幅压缩纵向地理尺度并将陆地横向拉长，水体化为深色弯带；细线串联地名与数字形成横向路网，较大聚落标以城堡图标，大字区名横跨路网。",
+        "borrow": "放弃真实的几何形状与面积比例，通过极端的空间变形将二维地理挤压为线性走廊，集中展示节点连接次序、间距与地标等级。",
+        "application": "适合表达长距离驿道网络、干线走廊的节点拓扑关系，或只需关注站点顺序与区间距离的路线系统。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:30:16.343736+00:00",
+        "inputHash": "8f7464b9ba5fcfb1d24a1b399061a469d1399d32a3cb4b086dff17a80234a8da"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-priestley-biography",
+      "title": "传记时间图",
+      "titleOriginal": "A Chart of Biography",
+      "creator": "Joseph Priestley",
+      "year": "1765",
+      "category": "time-space",
+      "methods": [
+        "连续轨迹",
+        "横向时间轴",
+        "寿命线段",
+        "分类泳道"
+      ],
+      "topics": [
+        "历史时间图",
+        "人物",
+        "同时性"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~356169~90123069:A-Chart-of-Biography",
+      "imageKey": "time-space-priestley-biography.jpg",
+      "width": 2800,
+      "height": 1816,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "上下边缘重复年代刻度，人物名附在长短不同的水平线旁；横向分区把诗人、艺术家、数学家等类别隔开。近代一侧明显更密，大片早期空白仍被保留，标题花饰放在左上空区。",
+      "evidence": "Rumsey条目15812.001列1765年、Joseph Priestley，图以人物生存区间并列历史人物。这里的纵轴是人物类别，不是地理坐标。",
+      "analysis": {
+        "structure": "上下边缘重复横向年代刻度，纵向按诗人、数学家等类别划出水平泳道，内部以水平线段标出人物生卒区间。",
+        "borrow": "用纯线段长度代替冗长文字传记，并保留早期大面积空白，直接靠空间疏密反映记录分布，把装饰移入空区。",
+        "application": "适合对比不同领域人物的活跃年代、代际重叠与同一时期的群聚现象。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:29:43.829057+00:00",
+        "inputHash": "fe225ed7a6bf971c59b4ebca2f9d81647cfa718034494a684392e5f0ab764fd9"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-quin-323",
+      "title": "公元前323年亚历山大帝国历史地图",
+      "titleOriginal": "B.C. 323. Exhibiting the Empire of Alexander",
+      "creator": "Edward Quin；Sidney Hall（雕版）",
+      "year": "1830（图版1828）",
+      "category": "time-space",
+      "methods": [
+        "历史地图",
+        "时间切片",
+        "历史时间切片",
+        "遮罩边界",
+        "局部着色"
+      ],
+      "topics": [
+        "历史地理",
+        "亚历山大",
+        "中亚"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~695~70057",
+      "imageKey": "time-space-quin-323.jpg",
+      "width": 2246,
+      "height": 2800,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "黑色云幕占满大部分矩形地理网格，只在左下区域露出地中海至亚洲的地图。帝国区域以鲜粉红色突出，云幕边缘分成多层灰白晕圈，标题直接注明公元前323年。",
+      "evidence": "Rumsey条目2839.005，1830年Historical Atlas中的第五时期；图版署1828年6月，Sidney Hall雕版。云幕呈现作者设定的已知世界范围，不是实际无人居住区域。",
+      "analysis": {
+        "structure": "矩形网格大部分被黑色云幕覆盖，仅左下角露出地中海至亚洲地图，帝国范围涂鲜粉红色，云幕边缘呈多层灰白晕圈。",
+        "borrow": "用大面积深色遮罩压暗背景，仅在重点区域开窗并施以高饱和色彩，形成强烈视觉聚焦。",
+        "application": "适合表现特定历史截面的地理认知范围、局部区域聚焦或分阶段揭露的空间叙事。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:29:59.265145+00:00",
+        "inputHash": "9aacf41ec87761a717ab753a4534214722dc52617d44ea381466ad40c87b13e9"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-quin-alexander",
+      "title": "第六时期：公元前301年亚历山大帝国的瓜分",
+      "titleOriginal": "Sixth Period: B.C. 301. The Partition of the Empire of Alexander",
+      "creator": "Edward Quin；W. Hughes（绘制与雕版）",
+      "year": "约1856",
+      "category": "time-space",
+      "methods": [
+        "历史地图",
+        "时间切片",
+        "历史时间切片",
+        "政治分区色",
+        "图例分置"
+      ],
+      "topics": [
+        "历史地理",
+        "亚历山大",
+        "疆域变化"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~299604~90070624:Sixth-period---B-C--301--The-Partit",
+      "imageKey": "time-space-quin-alexander.jpg",
+      "width": 2800,
+      "height": 1706,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "半圆形外框中保留大片空白，左下方云环内显露地图。不同政权用浅蓝、粉红、黄等色区分，两组颜色图例放在标题两侧，图中可见地理经纬线。",
+      "evidence": "Rumsey条目0743.021，作者Quin与Hughes，出版年约1856、依据正文推定。题名所指是公元前301年的帝国分裂；它与1830年图册属于不同版本，不宜当作完全同投影的严格前后对比。",
+      "analysis": {
+        "structure": "半圆形外框内留有大片空白，左下方云环内显露带经纬线的地图，浅蓝、粉红、黄等色区分政权，标题两侧分置颜色图例。",
+        "borrow": "在固定外框与云环遮罩内用多色块切分政权，并将图例拆置在标题两侧以平衡版面。",
+        "application": "适合呈现单一年份的政权分裂、疆域割据，或在同一母体下分化出的多方势力范围。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:29:59.265145+00:00",
+        "inputHash": "9aacf41ec87761a717ab753a4534214722dc52617d44ea381466ad40c87b13e9"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-railway-1917",
+      "title": "奥地利帝国皇家铁路西北线运行图",
+      "titleOriginal": "K.k. Österreichische Staatsbahnen — K.k. Nordwestbahndirektion, Bildfahrplan",
+      "creator": "K.k. Österreichische Staatsbahnen（奥地利帝国皇家铁路）",
+      "year": "1917",
+      "category": "time-space",
+      "methods": [
+        "连续轨迹",
+        "时间—距离坐标",
+        "斜率表示移动",
+        "线型层级"
+      ],
+      "topics": [
+        "连续轨迹",
+        "铁路运行图",
+        "交通时刻"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~352850~90120084",
+      "imageKey": "time-space-railway-1917.jpg",
+      "width": 2105,
+      "height": 2800,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "纵幅上左右两侧都列站名，横向网格上有小时标号。大量相反方向的斜线交叉，部分线更粗并有红蓝描迹，短水平段与折点出现在站位附近；底部另列两组很窄的支线图和线型图例。",
+      "evidence": "Rumsey条目15644.000，1917年6月1日的Nordwestbahn运行图，纸面100×75厘米。横轴为一天中的时刻，纵轴为沿线站位，属于真正的时间—空间运行图。",
+      "analysis": {
+        "structure": "横轴按小时划分网格，纵轴在左右两侧排列车站位置，以不同粗细与红蓝描迹的交叉斜线连接各站与时刻，底部附支线图与图例。",
+        "borrow": "利用二维正交网格将空间位置与时间结合，通过线段斜率表达移动速度，用水平短段表示停靠，用线型和颜色区分等级。",
+        "application": "适合表达多班次交通工具的排班调度、双向会车节点，以及物体在固定路线上的连续时空轨迹。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:30:16.343736+00:00",
+        "inputHash": "8f7464b9ba5fcfb1d24a1b399061a469d1399d32a3cb4b086dff17a80234a8da"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-stream-time",
+      "title": "时间之流：世界历史图解",
+      "titleOriginal": "Der Strom der Zeiten oder bildliche Darstellung der Weltgeschichte",
+      "creator": "Friedrich Strass",
+      "year": "1804",
+      "category": "time-space",
+      "methods": [
+        "连续轨迹",
+        "河流隐喻",
+        "纵向时间轴",
+        "分叉与合流"
+      ],
+      "topics": [
+        "历史时间图",
+        "文明史",
+        "并行历史"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~291110~90062688:Der-Strom-der-Zeiten-oder-bildliche",
+      "imageKey": "time-space-stream-time.jpg",
+      "width": 1492,
+      "height": 2800,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "纵幅两边是年代刻度，许多浅黄、粉红、淡绿的带状河道由上而下流动。带宽、合并和分叉呈现政权关系，名字直接沿河道书写，顶部由云层与圆形标题引出。",
+      "evidence": "Rumsey条目11291.002为1804年第二版手工着色时间图，130×70厘米。河流是历史组织比喻，宽度不能直接读成现代统计面积或人口。",
+      "analysis": {
+        "structure": "两侧设纵向年代刻度，多条着色带状河道自上而下流动，沿河直接书写名称，以分叉与合流组织政权关系。",
+        "borrow": "用带状流向、粗细变化与并合拆分来表达多主体的延续、分裂和吞并，无需依赖精确统计数值。",
+        "application": "适合展示多个并行传统、机构或政权在长时段中的源流演变、分化与汇合关系。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:29:43.829057+00:00",
+        "inputHash": "fe225ed7a6bf971c59b4ebca2f9d81647cfa718034494a684392e5f0ab764fd9"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-temple-time",
+      "title": "时间神殿历史图",
+      "titleOriginal": "The Temple of Time",
+      "creator": "Emma Willard",
+      "year": "1846",
+      "category": "time-space",
+      "methods": [
+        "连续轨迹",
+        "透视时间轴",
+        "建筑隐喻",
+        "分层标注"
+      ],
+      "topics": [
+        "历史时间图",
+        "文明史",
+        "信息空间"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~315043~90083688:The-Temple-of-Time",
+      "imageKey": "time-space-temple-time.jpg",
+      "width": 2800,
+      "height": 2037,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "画面把历史排成向远处收束的柱廊。天花板按人物领域分栏，柱身写人名与年代，地面有分叉的帝国带；前景较宽、远景逐渐挤密，底部保留说明小字。",
+      "evidence": "Rumsey条目13233.002记作者Emma Willard、1846年、68×96厘米。图中以创世为远端的年代体系属于原作的宗教历史观。",
+      "analysis": {
+        "structure": "用向远端收束的透视柱廊组织历史：天花板按人物领域分栏，柱身记人名与年代，地面铺设分叉的帝国带。",
+        "borrow": "把建筑构件拆成不同维度的容器，并用近宽远窄的透视自然压缩远古尺度、放大近世细节。",
+        "application": "适合同时呈现人物分类、断代节点与政权脉络，且近期信息密度远高于早期的长时段主题。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:29:43.829057+00:00",
+        "inputHash": "fe225ed7a6bf971c59b4ebca2f9d81647cfa718034494a684392e5f0ab764fd9"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-turkestan",
+      "title": "突厥斯坦地图（亚洲第54幅）",
+      "titleOriginal": "Turkestan. Asie 54.",
+      "creator": "Philippe Vandermaelen",
+      "year": "1827",
+      "category": "time-space",
+      "methods": [
+        "历史地图",
+        "稀疏地理底图",
+        "边界着色",
+        "字级区分"
+      ],
+      "topics": [
+        "历史地理",
+        "中亚",
+        "乌兹别克斯坦"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~25120~990010:Turkestan--Asie-54-",
+      "imageKey": "time-space-turkestan.jpg",
+      "width": 2800,
+      "height": 1915,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "黑色细线绘河流、城镇与道路，绿色和黄色主要留在边界边缘。TURKESTAN与BOUKHARIE使用大字距字母跨区域排布，细小地名靠近河流与路线，纸面留有大量空白。",
+      "evidence": "Rumsey条目2212.086，为Vandermaelen的1827年Atlas Universel第54张亚洲图，覆盖今土库曼斯坦和乌兹别克斯坦部分区域。图本身没有时间轴；它是一个历史地理截面，并非已确认的乌兹别克博物馆展板。",
+      "analysis": {
+        "structure": "纸面留有大量空白，黑细线绘出河流、道路与沿线小地名，绿黄两色仅涂于边界边缘，跨区域名称用大字距字母排布。",
+        "borrow": "保留大面积底图留白，仅沿边界施以窄带色彩，并用字距与字级差区分跨区大名与局部据点。",
+        "application": "适合绘制资料稀疏区域的空间底图，突出水系、路线与宏观区域归属而不被底色干扰。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:29:59.265145+00:00",
+        "inputHash": "9aacf41ec87761a717ab753a4534214722dc52617d44ea381466ad40c87b13e9"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "ts-willard-nations",
+      "title": "万国图景：帝国进程透视草图",
+      "titleOriginal": "Picture of Nations, or Perspective Sketch of the Course of Empire",
+      "creator": "Emma Willard",
+      "year": "1836",
+      "category": "time-space",
+      "methods": [
+        "连续轨迹",
+        "透视时间轴",
+        "带状分流",
+        "边缘事件索引"
+      ],
+      "topics": [
+        "历史时间图",
+        "文明史",
+        "时间尺度"
+      ],
+      "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~29401~1130446:Picture-of-nations-",
+      "imageKey": "time-space-willard-nations.jpg",
+      "width": 2800,
+      "height": 1767,
+      "rights": {
+        "label": "CC BY-NC-SA 3.0（馆藏图像）",
+        "url": "https://www.davidrumsey.com/about/copyright-and-permissions",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries",
+        "usage": "原作出版于1929年前，条目提供 Download 1。依馆方许可用于个人、非商业学习；注明作者、馆藏及 CC BY-NC-SA 3.0。图像仅等比缩小并转为JPEG，未裁剪、未调色；图像改编继续遵守同一许可。"
+      },
+      "observation": "中央历史带从顶部窄处向底部铺开。左右斜边排列世纪、年份和事件；中央以不同粗细、互相吞并的暗色带标出帝国，基督诞生位置画成放射光。远期与近期刻度的视觉间距不同。",
+      "evidence": "Rumsey条目4545.001记1836年版，图版登记1835年，作者Emma Willard，43×28厘米；收于其Universal History配套图册。创世起点和文明排序属于原作观念。",
+      "analysis": {
+        "structure": "中央历史带自顶部窄处向底部铺开，内部以相互吞并的粗细暗色带标出帝国；左右斜边排列世纪、年份与事件索引。",
+        "borrow": "将主干演化放在中央透视带，把具体事件抽离到两侧斜边作索引，并按远近拉开不同的视觉时间间距。",
+        "application": "适合表达主干格局演变与边缘具体事件并存、且需要压缩早期尺度的历史过程。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:29:43.829057+00:00",
+        "inputHash": "fe225ed7a6bf971c59b4ebca2f9d81647cfa718034494a684392e5f0ab764fd9"
+      },
+      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+    },
+    {
+      "id": "art-hiroshige-mishima",
+      "title": "三岛：朝雾（东海道五十三次）",
+      "titleOriginal": "Mishima: Morning Mist (Mishima, asagiri), from the series \"Fifty-three Stations of the Tokaido Road (Tokaido gojusan tsugi no uchi),\" also known as the Hoeido Tokaido",
+      "creator": "Utagawa Hiroshige",
+      "year": "c. 1833/34",
+      "category": "art",
+      "methods": [
+        "明度分层",
+        "局部细节",
+        "空间留白"
+      ],
+      "topics": [
+        "木版画",
+        "旅行",
+        "雾中空间"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/10926",
+      "imageKey": "art-hiroshige-mishima.jpg",
+      "width": 1686,
+      "height": 1080,
+      "rights": {
+        "label": "CC0 · Public Domain",
+        "url": "https://www.artic.edu/image-licensing",
+        "credit": "Utagawa Hiroshige, Mishima: Morning Mist (Mishima, asagiri), from the series \"Fifty-three Stations of the Tokaido Road (Tokaido gojusan tsugi no uchi),\" also known as the Hoeido Tokaido, c. 1833/34. Art Institute of Chicago, Gift of H. R. Warner. 1932.170.",
+        "usage": "馆方标记为公版图像，按 CC0 提供，可用于本站展示；保留作者、作品及馆藏来源。"
+      },
+      "observation": "前景行人、轿子与马的轮廓清楚，深蓝衣服和浅色斗笠集中在中央偏下。后方建筑、鸟居与行人逐步化为浅灰形状，地面轮廓较少；右侧较深的树木与淡化的远景形成对照。",
+      "evidence": "Art Institute of Chicago 官方馆藏 API（作品 10926）确认标题、作者/地区、年代、媒介及 is_public_domain=true；图像使用政策确认为 CC0。官方记录： https://api.artic.edu/api/v1/artworks/10926 。视觉观察基于已下载并逐张查看的官方原色预览。",
+      "analysis": {
+        "structure": "前景中央偏下的行人、轿子与马匹轮廓清晰且色彩较深；后方建筑、鸟居与人影逐层简化为浅灰剪影，地面留白较多，右侧深色树木压住边角。",
+        "borrow": "利用明度递减和轮廓弱化处理后景，仅保留前景局部细节与色彩，无需复杂透视线条即可拉开纵深。",
+        "application": "适合表达主次信息的层级剥离、由近及远的空间衰减，或核心对象与背景环境的主从关系。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:20:02.391056+00:00",
+        "inputHash": "2396b66f4fafca4c2fb2c6fab53336283bb34fa32e94a0a6b00d50ce378cd47c"
+      },
+      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+    },
+    {
+      "id": "art-hokusai-wave",
+      "title": "神奈川冲浪里（富岳三十六景）",
+      "titleOriginal": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series \"Thirty-Six Views of Mount Fuji (Fugaku sanjūrokkei)\"",
+      "creator": "Katsushika Hokusai",
+      "year": "1830/33",
+      "category": "art",
+      "methods": [
+        "弧形包围",
+        "尺度对比",
+        "轮廓重复"
+      ],
+      "topics": [
+        "木版画",
+        "运动方向",
+        "近远关系"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/24645",
+      "imageKey": "art-hokusai-wave.jpg",
+      "width": 1686,
+      "height": 1155,
+      "rights": {
+        "label": "CC0 · Public Domain",
+        "url": "https://www.artic.edu/image-licensing",
+        "credit": "Katsushika Hokusai, Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series \"Thirty-Six Views of Mount Fuji (Fugaku sanjūrokkei)\", 1830/33. Art Institute of Chicago, Clarence Buckingham Collection. 1925.3245.",
+        "usage": "馆方标记为公版图像，按 CC0 提供，可用于本站展示；保留作者、作品及馆藏来源。"
+      },
+      "observation": "左侧巨浪向右弯成弧形，浪尖由许多重复的小钩状轮廓组成；三条细长船只沿波谷与浪面分布。远处小型山峰位于浪弧下方，大片天空留白将浪尖和山峰分隔开。",
+      "evidence": "Art Institute of Chicago 官方馆藏 API（作品 24645）确认标题、作者/地区、年代、媒介及 is_public_domain=true；图像使用政策确认为 CC0。官方记录： https://api.artic.edu/api/v1/artworks/24645 。视觉观察基于已下载并逐张查看的官方原色预览。",
+      "analysis": {
+        "structure": "左侧巨浪向右弯曲包围画面，浪尖布满重复钩状轮廓；三条细长船只嵌在波谷与浪面间，远处小山峰置于浪弧下方，与大片天空留白相接。",
+        "borrow": "用大尺度前景弧线框住远景小目标，配合密集重复的边缘轮廓与大片留白，拉大近远与动静反差。",
+        "application": "适合表达单一主导力量对局部个体的包围关系、悬殊的体量对比，或带有明确指向的动态过程。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:20:02.391056+00:00",
+        "inputHash": "2396b66f4fafca4c2fb2c6fab53336283bb34fa32e94a0a6b00d50ce378cd47c"
+      },
+      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+    },
+    {
+      "id": "art-kandinsky-cannons",
+      "title": "即兴30号（大炮）",
+      "titleOriginal": "Improvisation No. 30 (Cannons)",
+      "creator": "Vasily Kandinsky",
+      "year": "1913",
+      "category": "art",
+      "methods": [
+        "线面叠置",
+        "方向交错",
+        "色块对比"
+      ],
+      "topics": [
+        "抽象绘画",
+        "路径",
+        "视觉密度"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/8991",
+      "imageKey": "art-kandinsky-cannons.jpg",
+      "width": 1686,
+      "height": 1693,
+      "rights": {
+        "label": "CC0 · Public Domain",
+        "url": "https://www.artic.edu/image-licensing",
+        "credit": "Vasily Kandinsky, Improvisation No. 30 (Cannons), 1913. Art Institute of Chicago, Arthur Jerome Eddy Memorial Collection. 1931.511.",
+        "usage": "馆方标记为公版图像，按 CC0 提供，可用于本站展示；保留作者、作品及馆藏来源。"
+      },
+      "observation": "黑色长线、折线和弧线穿过蓝、黄、红等不规则色块，线条并不总与色块边缘重合。右下角可见两个深色轮形与长斜线，中部多条斜线向不同方向伸展，画面没有统一的水平网格。",
+      "evidence": "Art Institute of Chicago 官方馆藏 API（作品 8991）确认标题、作者/地区、年代、媒介及 is_public_domain=true；图像使用政策确认为 CC0。官方记录： https://api.artic.edu/api/v1/artworks/8991 。视觉观察基于已下载并逐张查看的官方原色预览。",
+      "analysis": {
+        "structure": "放弃统一水平网格，蓝、黄、红不规则色块与黑线相互叠置，中部多向斜线发散，右下角固定两个深色轮形与长斜线。",
+        "borrow": "让线条脱离色块边缘独立穿插，将局部具象图形与多向延展的折线、弧线并置，形成疏密不一的视觉重心。",
+        "application": "适合表达非网格化的多向路径、冲突方向或叠加关系，用于呈现边界不完全重合的复合层信息与局部高密度焦点。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:20:04.511977+00:00",
+        "inputHash": "0fe008dbf5e2da33a29f717a3ee21c6c83b4368460c4d313c43acda359f7ed74"
+      },
+      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+    },
+    {
+      "id": "art-mondrian-lozenge",
+      "title": "黄、黑、蓝、红与灰的菱形构图",
+      "titleOriginal": "Lozenge Composition with Yellow, Black, Blue, Red, and Gray",
+      "creator": "Piet Mondrian",
+      "year": "1921",
+      "category": "art",
+      "methods": [
+        "正交分割",
+        "非对称平衡",
+        "边界裁切"
+      ],
+      "topics": [
+        "抽象绘画",
+        "网格",
+        "空间分区"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/109819",
+      "imageKey": "art-mondrian-lozenge.jpg",
+      "width": 3000,
+      "height": 3000,
+      "rights": {
+        "label": "CC0 · Public Domain",
+        "url": "https://www.artic.edu/image-licensing",
+        "credit": "Piet Mondrian, Lozenge Composition with Yellow, Black, Blue, Red, and Gray, 1921. Art Institute of Chicago, Gift of Edgar Kaufmann, Jr.. 1957.307.",
+        "usage": "馆方标记为公版图像，按 CC0 提供，可用于本站展示；保留作者、作品及馆藏来源。"
+      },
+      "observation": "画布以菱形方向悬置，内部黑线仍保持竖直与水平；长横线贯穿画面，竖线长短不一。黄色、蓝色、黑色及一小块红色分别占据不同区域，大部分区域为浅色，部分线与色块在菱形边界处终止。",
+      "evidence": "Art Institute of Chicago 官方馆藏 API（作品 109819）确认标题、作者/地区、年代、媒介及 is_public_domain=true；图像使用政策确认为 CC0。官方记录： https://api.artic.edu/api/v1/artworks/109819 。视觉观察基于已下载并逐张查看的官方原色预览。",
+      "analysis": {
+        "structure": "画布旋转为菱形，内部依靠水平与竖直黑线做正交分割。大片浅色区域搭配少量黄、蓝、黑及局部红块，部分线条与色块在斜边处直接截断。",
+        "borrow": "斜向画框与正交网格错位结合，并用斜边裁切色块与线条，可制造向画外延伸的不对称视觉张力。",
+        "application": "适合表达局部取样与整体网格的关系、非对称板块的权重分配，或突破常规矩形框架的版面分区。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:20:02.391056+00:00",
+        "inputHash": "2396b66f4fafca4c2fb2c6fab53336283bb34fa32e94a0a6b00d50ce378cd47c"
+      },
+      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+    },
+    {
+      "id": "art-muybridge-locomotion",
+      "title": "动物运动，图版758",
+      "titleOriginal": "Animal Locomotion, Plate 758",
+      "creator": "Eadweard Muybridge",
+      "year": "1887",
+      "category": "art",
+      "methods": [
+        "连续画格",
+        "统一背景",
+        "顺序编号"
+      ],
+      "topics": [
+        "摄影",
+        "动作序列",
+        "时间切片"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/195560",
+      "imageKey": "art-muybridge-locomotion.jpg",
+      "width": 1686,
+      "height": 952,
+      "rights": {
+        "label": "CC0 · Public Domain",
+        "url": "https://www.artic.edu/image-licensing",
+        "credit": "Eadweard Muybridge, Animal Locomotion, Plate 758, 1887. Art Institute of Chicago, Kenneth and Christine Tanaka Fund. 2008.203.",
+        "usage": "馆方标记为公版图像，按 CC0 提供，可用于本站展示；保留作者、作品及馆藏来源。"
+      },
+      "observation": "二十四个鸟类飞行画格排成三行，每格都有方格背景与较深边框。鸟翼在相邻格中的开合姿态不断变化，画格下方带有顺序编号，白色鸟体与深色背景形成清楚对比。",
+      "evidence": "Art Institute of Chicago 官方馆藏 API（作品 195560）确认标题、作者/地区、年代、媒介及 is_public_domain=true；图像使用政策确认为 CC0。官方记录： https://api.artic.edu/api/v1/artworks/195560 。视觉观察基于已下载并逐张查看的官方原色预览。",
+      "analysis": {
+        "structure": "二十四个画格分三行排列，底部标注顺序编号。每格均以深色方格网为底，白色飞鸟在相邻画格中呈现双翼连续开合的姿态变化。",
+        "borrow": "固定深色网格背景并按序排列等大画格，可剥离环境干扰，让观者直接比对相邻帧之间的微小位移与形态差异。",
+        "application": "适合表达连续动作的阶段拆解、固定参照系下的形态演变，或多步骤过程的逐帧对比。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:20:02.391056+00:00",
+        "inputHash": "2396b66f4fafca4c2fb2c6fab53336283bb34fa32e94a0a6b00d50ce378cd47c"
+      },
+      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+    },
+    {
+      "id": "art-seurat-grande-jatte",
+      "title": "大碗岛的星期天",
+      "titleOriginal": "A Sunday on La Grande Jatte — 1884",
+      "creator": "Georges Seurat",
+      "year": "1884–86, border added 1888–89",
+      "category": "art",
+      "methods": [
+        "重复形状",
+        "明暗分带",
+        "人物尺度"
+      ],
+      "topics": [
+        "绘画",
+        "群体",
+        "空间层次"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/27992",
+      "imageKey": "art-seurat-grande-jatte.jpg",
+      "width": 1686,
+      "height": 1130,
+      "rights": {
+        "label": "CC0 · Public Domain",
+        "url": "https://www.artic.edu/image-licensing",
+        "credit": "Georges Seurat, A Sunday on La Grande Jatte — 1884, 1884–86, border added 1888–89. Art Institute of Chicago, Helen Birch Bartlett Memorial Collection. 1926.224.",
+        "usage": "馆方标记为公版图像，按 CC0 提供，可用于本站展示；保留作者、作品及馆藏来源。"
+      },
+      "observation": "许多站立和坐卧的人物散布在岸边，近景人物明显大于远景；树干、人物身体和伞柄形成多组竖向形状。大片阴影与明亮草地交替，伞面和帽子的弧形轮廓反复出现，表面由密集的小色点构成。",
+      "evidence": "Art Institute of Chicago 官方馆藏 API（作品 27992）确认标题、作者/地区、年代、媒介及 is_public_domain=true；图像使用政策确认为 CC0。官方记录： https://api.artic.edu/api/v1/artworks/27992 。视觉观察基于已下载并逐张查看的官方原色预览。",
+      "analysis": {
+        "structure": "岸边人群按近大远小散布，大片阴影与明亮草地交替分布；树干、人体与伞柄构成竖向序列，伞面与帽子的弧形轮廓反复出现。",
+        "borrow": "用大面积明暗区域划分地面层次，借竖向形状与重复弧线统摄零散个体，并以尺寸梯度建立深度。",
+        "application": "适合组织多人物、多节点的群像或分布图，在密集元素中维持画面秩序，清晰呈现空间纵深与局部聚集关系。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:21:21.825894+00:00",
+        "inputHash": "af3ee4a7ad1c1f94996db1d654c74db9e5983f47c94bc5d04b16532c969882e3"
+      },
+      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+    },
+    {
+      "id": "graphic-divan-japonais",
+      "title": "《Divan Japonais》海报",
+      "titleOriginal": "Divan Japonais",
+      "creator": "Henri de Toulouse-Lautrec",
+      "year": "1893",
+      "category": "graphic",
+      "methods": [
+        "大色块剪影",
+        "对角线构图",
+        "文字与图像穿插"
+      ],
+      "topics": [
+        "海报",
+        "观看方向",
+        "前后层次"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/67166",
+      "imageKey": "graphic-divan-japonais.jpg",
+      "width": 1686,
+      "height": 2243,
+      "rights": {
+        "label": "CC0 · Public Domain",
+        "url": "https://www.artic.edu/image-licensing",
+        "credit": "Henri de Toulouse-Lautrec, Divan Japonais, 1893. Art Institute of Chicago, Mr. and Mrs. Carter H. Harrison Collection. 1949.1002.",
+        "usage": "馆方标记为公版图像，按 CC0 提供，可用于本站展示；保留作者、作品及馆藏来源。"
+      },
+      "observation": "前景女子的黑色裙子与帽子连成大片深色轮廓，右侧男子、左侧乐手和舞台人物在其后分层出现。台沿与乐器斜线贯穿背景；大标题横跨画面上部，地址和署名字样使用更小的手写式字体。",
+      "evidence": "Art Institute of Chicago 官方馆藏 API（作品 67166）确认标题、作者/地区、年代、媒介及 is_public_domain=true；图像使用政策确认为 CC0。官方记录： https://api.artic.edu/api/v1/artworks/67166 。视觉观察基于已下载并逐张查看的官方原色预览。",
+      "analysis": {
+        "structure": "前景女子的黑色裙帽连成深色大轮廓，其后按纵深排布右侧男子、乐手与舞台人物；台沿与乐器斜线贯穿背景，大标题横跨上方，小号手写体标出地址与署名。",
+        "borrow": "用前景大面积深色剪影锚定视线，再借斜向线条切分中后景层次，并将不同字号的手写字直接穿插在空白处。",
+        "application": "适合活动海报或演出视觉，处理多人物场景的前后遮挡、观看视线引导以及标题与附属信息的层级区分。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:21:21.825894+00:00",
+        "inputHash": "af3ee4a7ad1c1f94996db1d654c74db9e5983f47c94bc5d04b16532c969882e3"
+      },
+      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+    },
+    {
+      "id": "graphic-illuminated-leaf",
+      "title": "彩饰手抄本残页",
+      "titleOriginal": "Illuminated Manuscript Leaf",
+      "creator": "佚名（意大利）",
+      "year": "c. 1450",
+      "category": "graphic",
+      "methods": [
+        "单栏文字",
+        "局部强调",
+        "宽边距"
+      ],
+      "topics": [
+        "手抄本",
+        "阅读节奏",
+        "文字层级"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/72884",
+      "imageKey": "graphic-illuminated-leaf.jpg",
+      "width": 1686,
+      "height": 2609,
+      "rights": {
+        "label": "CC0 · Public Domain",
+        "url": "https://www.artic.edu/image-licensing",
+        "credit": "佚名（意大利）, Illuminated Manuscript Leaf, c. 1450. Art Institute of Chicago, Gift of Ernest F. Detterer. 1917.235.1.",
+        "usage": "馆方标记为公版图像，按 CC0 提供，可用于本站展示；保留作者、作品及馆藏来源。"
+      },
+      "observation": "页面中央是一列深色手写文字，四周留有宽阔边距。少数大写字母使用蓝色或金色，并配红色或淡紫色细线装饰；这些局部强调散布在正文行内，而不是被放入独立方框。",
+      "evidence": "Art Institute of Chicago 官方馆藏 API（作品 72884）确认标题、作者/地区、年代、媒介及 is_public_domain=true；图像使用政策确认为 CC0。官方记录： https://api.artic.edu/api/v1/artworks/72884 。视觉观察基于已下载并逐张查看的官方原色预览。",
+      "analysis": {
+        "structure": "单栏深色手写文字居中排列，四周保留宽阔留白；蓝、金色大写字母配红紫细线装饰，直接散布于正文行内。",
+        "borrow": "不设独立边框或大标题，仅靠宽边距稳住版心，通过在连续文本内部嵌入局部色彩与细线装饰来形成可见的阅读节点。",
+        "application": "适合呈现长篇连续文本的阅读节奏，解决在不打断单栏阅读流的前提下，温和提示内部局部重点与视觉停顿的问题。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:21:21.825894+00:00",
+        "inputHash": "af3ee4a7ad1c1f94996db1d654c74db9e5983f47c94bc5d04b16532c969882e3"
+      },
+      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+    },
+    {
+      "id": "graphic-morris-cray",
+      "title": "《克雷》印花织物纹样",
+      "titleOriginal": "Cray",
+      "creator": "William Morris",
+      "year": "Design 1884, made 1884–1917",
+      "category": "graphic",
+      "methods": [
+        "重复单元",
+        "曲线连接",
+        "密度分层"
+      ],
+      "topics": [
+        "纺织纹样",
+        "节奏",
+        "重复"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/47661",
+      "imageKey": "graphic-morris-cray.jpg",
+      "width": 1000,
+      "height": 2506,
+      "rights": {
+        "label": "CC0 · Public Domain",
+        "url": "https://www.artic.edu/image-licensing",
+        "credit": "William Morris, Cray, Design 1884, made 1884–1917. Art Institute of Chicago, Gift of Mrs. Charles F. Batchelder. 1974.419a.",
+        "usage": "馆方标记为公版图像，按 CC0 提供，可用于本站展示；保留作者、作品及馆藏来源。"
+      },
+      "observation": "长条织物上，大朵红粉色花头与浅色弯曲枝干重复出现，深蓝底上另有更细小的叶片和花朵填满间隙。大枝干斜向上伸展，花头并未简单排成横平竖直的方格。",
+      "evidence": "Art Institute of Chicago 官方馆藏 API（作品 47661）确认标题、作者/地区、年代、媒介及 is_public_domain=true；图像使用政策确认为 CC0。官方记录： https://api.artic.edu/api/v1/artworks/47661 。视觉观察基于已下载并逐张查看的官方原色预览。",
+      "analysis": {
+        "structure": "长幅深蓝底面上，大朵红粉花头与浅色弯曲枝干斜向重复延展，避开横平竖直的方格排列；枝干间隙由更细小的叶片与花朵填满，形成双层密度。",
+        "borrow": "用斜向S形主枝干串联重复的大尺度母题，再在底色空隙铺设小尺度辅纹，使周期重复的版面不显出硬性网格边界。",
+        "application": "适合长幅背景、包装纸或织物纹样设计，处理重复单元的节奏变化、视觉连贯性以及远近两层细节密度的平衡。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:20:06.370275+00:00",
+        "inputHash": "ae53ca4b620c38764eac2ceef75bc20218265a3964a565cbb22327c5409098f5"
+      },
+      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+    },
+    {
+      "id": "graphic-palais-de-glace",
+      "title": "冰宫海报",
+      "titleOriginal": "Palais de Glace",
+      "creator": "Jules Chéret",
+      "year": "1891",
+      "category": "graphic",
+      "methods": [
+        "主次人物",
+        "动态曲线",
+        "标题节奏"
+      ],
+      "topics": [
+        "海报",
+        "动作",
+        "空间层次"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/218856",
+      "imageKey": "graphic-palais-de-glace.jpg",
+      "width": 1609,
+      "height": 2270,
+      "rights": {
+        "label": "CC0 · Public Domain",
+        "url": "https://www.artic.edu/image-licensing",
+        "credit": "Jules Chéret, Palais de Glace, 1891. Art Institute of Chicago, Gift of Mary A. Young. 2013.1145.",
+        "usage": "馆方标记为公版图像，按 CC0 提供，可用于本站展示；保留作者、作品及馆藏来源。"
+      },
+      "observation": "前景滑冰者以黄、红和深紫色呈现，衣摆与围巾向两侧扬起；后方人物使用蓝灰色并逐渐缩小。上下两组深蓝大字沿着人物周围排列，字母高度与倾斜方向并不完全一致。",
+      "evidence": "Art Institute of Chicago 官方馆藏 API（作品 218856）确认标题、作者/地区、年代、媒介及 is_public_domain=true；图像使用政策确认为 CC0。官方记录： https://api.artic.edu/api/v1/artworks/218856 。视觉观察基于已下载并逐张查看的官方原色预览。",
+      "analysis": {
+        "structure": "画面以高饱和度的前景滑冰者为核心，后方人物借蓝灰色调与尺寸递减退入背景，上下两组深蓝大字环绕主体排布。",
+        "borrow": "利用冷暖色对比与人物缩放直接拉开空间前后关系；让标题字高与倾斜度随主体动势微调，嵌入人物外围空隙。",
+        "application": "适合表达单一焦点与群体背景并存的场景，或需要在有限版面内同时呈现明确主次层级与动态节奏的视觉主题。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:20:04.511977+00:00",
+        "inputHash": "0fe008dbf5e2da33a29f717a3ee21c6c83b4368460c4d313c43acda359f7ed74"
+      },
+      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+    },
+    {
+      "id": "graphic-utamaro-birds",
+      "title": "《百千鸟狂歌合》跨页插图",
+      "titleOriginal": "Myriad Birds: A Kyoka Competition (Momo chidori kyoka awase)",
+      "creator": "Kitagawa Utamaro",
+      "year": "c. 1790",
+      "category": "graphic",
+      "methods": [
+        "跨页构图",
+        "留白",
+        "图文分置"
+      ],
+      "topics": [
+        "书籍版面",
+        "植物与动物",
+        "空间平衡"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/187515",
+      "imageKey": "graphic-utamaro-birds.jpg",
+      "width": 1686,
+      "height": 1127,
+      "rights": {
+        "label": "CC0 · Public Domain",
+        "url": "https://www.artic.edu/image-licensing",
+        "credit": "Kitagawa Utamaro, Myriad Birds: A Kyoka Competition (Momo chidori kyoka awase), c. 1790. Art Institute of Chicago, Martin A. Ryerson Collection. 2022.1403.",
+        "usage": "馆方标记为公版图像，按 CC0 提供，可用于本站展示；保留作者、作品及馆藏来源。"
+      },
+      "observation": "打开的双页中，左上角集中排有纵向文字，右侧两只较大的水鸟占据画面下半部，一只较小的鸟停在左上方枝条上。弧形枝条跨过书页中缝，左下保留了较大面积的空白。",
+      "evidence": "Art Institute of Chicago 官方馆藏 API（作品 187515）确认标题、作者/地区、年代、媒介及 is_public_domain=true；图像使用政策确认为 CC0。官方记录： https://api.artic.edu/api/v1/artworks/187515 。视觉观察基于已下载并逐张查看的官方原色预览。",
+      "analysis": {
+        "structure": "对开书页中，纵向文字集中于左上角，右侧下半部放置两只大水鸟，左上方枝头停一只小鸟；弧形枝条横跨装订中缝，左下方留出大块空白。",
+        "borrow": "利用跨过中缝的弧线元素连接左右两页，将文字块与主体图像对角分置，并保留单侧大面积留白来平衡视觉重量。",
+        "application": "适合画册对开页、诗画合集或博物图谱，解决跨页装订割裂画面、图文同页拥挤以及大小物体的空间平衡问题。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:20:06.370275+00:00",
+        "inputHash": "ae53ca4b620c38764eac2ceef75bc20218265a3964a565cbb22327c5409098f5"
+      },
+      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+    },
+    {
+      "id": "graphic-zodiaque",
+      "title": "《黄道十二宫（〈羽毛〉杂志）》日历海报",
+      "titleOriginal": "Zodiaque (\"La Plume\")",
+      "creator": "Alphonse Marie Mucha",
+      "year": "1896–97",
+      "category": "graphic",
+      "methods": [
+        "环形分区",
+        "细密边饰",
+        "主次尺度"
+      ],
+      "topics": [
+        "海报",
+        "历法",
+        "文字层级"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/111986",
+      "imageKey": "graphic-zodiaque.jpg",
+      "width": 1600,
+      "height": 2148,
+      "rights": {
+        "label": "CC0 · Public Domain",
+        "url": "https://www.artic.edu/image-licensing",
+        "credit": "Alphonse Marie Mucha, Zodiaque (\"La Plume\"), 1896–97. Art Institute of Chicago, Mrs. Victor F. Lawson Collection. 1925.844.",
+        "usage": "馆方标记为公版图像，按 CC0 提供，可用于本站展示；保留作者、作品及馆藏来源。"
+      },
+      "observation": "人物侧脸位于大圆环中央，星座图案依次嵌在外围的小格中；卷曲头发越过圆环与边框。顶部为刊名字样，底部将十二个月的文字排为窄长小栏，图像主体与日历文字的面积差异很大。",
+      "evidence": "Art Institute of Chicago 官方馆藏 API（作品 111986）确认标题、作者/地区、年代、媒介及 is_public_domain=true；图像使用政策确认为 CC0。官方记录： https://api.artic.edu/api/v1/artworks/111986 。视觉观察基于已下载并逐张查看的官方原色预览。",
+      "analysis": {
+        "structure": "中央大圆环内为人物侧脸，外圈分格嵌入十二星座图案，卷发越过环框边界；顶部设刊名，底部将十二个月份排成窄长小栏，图像与日历文字面积悬殊。",
+        "borrow": "以同心圆环外圈分格收纳序列图形，允许主体局部破框，并把高密度实用文字压缩在底部窄栏以让出主视觉。",
+        "application": "适合年历、刊物封面或十二节点主题图，解决装饰主图与细碎序列信息同版排布时的主次尺度问题。"
+      },
+      "writing": {
+        "model": "gemini-4-argon",
+        "generatedAt": "2026-10-22T04:20:06.370275+00:00",
+        "inputHash": "ae53ca4b620c38764eac2ceef75bc20218265a3964a565cbb22327c5409098f5"
+      },
+      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+    }
+  ],
+  "batches": [
+    {
+      "id": "contemporary-2026-10-22",
+      "date": "2026-10-22",
+      "featuredIds": [
+        "contemporary-ocean-2025",
+        "contemporary-stripes-2025",
+        "contemporary-openmoji-map"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-10-22T12:03:34.466Z"
+    },
+    {
+      "id": "cloud-trial-2026-10-22",
+      "date": "2026-10-22",
+      "featuredIds": [
+        "ts-priestley-history-1769",
+        "ts-ibry-paris-lyon-1878",
+        "art-wang-hui-kangxi-scroll3-detail"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-10-22T09:20:20.311Z"
+    },
+    {
+      "id": "launch-2026-10-22",
+      "date": "2026-10-22",
+      "featuredIds": [
+        "ts-railway-1917",
+        "ts-temple-time",
+        "graphic-divan-japonais"
+      ],
+      "status": "published",
+      "count": 30,
+      "createdAt": "2026-10-22T04:49:27.635Z"
+    }
+  ],
+  "latestSuccess": "2026-10-22T12:03:34.466Z"
+}

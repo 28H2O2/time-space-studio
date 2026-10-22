@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+.DS_Store
+*.local
+private/
+backups/
+time-space-notes-*
+public/media/personal-*
+content/personal*
