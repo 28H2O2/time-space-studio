@@ -56,6 +56,7 @@ export interface StyleRule {
 
 export interface Batch {
   id: string;
+  queueId?: string;
   date: string;
   featuredIds: string[];
   status: "published";

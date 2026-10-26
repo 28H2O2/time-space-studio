@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "issues": [
+    {
+      "id": "queue-routes",
+      "notBefore": "2026-10-27",
+      "title": "???????",
+      "approvedBy": "codex",
+      "approvedAt": "2026-10-26T03:41:19.373Z",
+      "featuredIds": [
+        "ts-ogilby-bristol",
+        "ts-peutinger",
+        "art-hiroshige-mishima"
+      ],
+      "artworks": []
+    },
+    {
+      "id": "queue-parallel-histories",
+      "notBefore": "2026-10-28",
+      "title": "?????????????",
+      "approvedBy": "codex",
+      "approvedAt": "2026-10-26T03:41:19.373Z",
+      "featuredIds": [
+        "ts-adams-synchronology",
+        "ts-priestley-biography",
+        "graphic-illuminated-leaf"
+      ],
+      "artworks": []
+    },
+    {
+      "id": "queue-quantity-and-pattern",
+      "notBefore": "2026-10-29",
+      "title": "???????????",
+      "approvedBy": "codex",
+      "approvedAt": "2026-10-26T03:41:19.373Z",
+      "featuredIds": [
+        "ts-minard-cotton-1862",
+        "ts-minard-migration",
+        "graphic-morris-cray"
+      ],
+      "artworks": []
+    },
+    {
+      "id": "queue-changing-states",
+      "notBefore": "2026-10-30",
+      "title": "??????????",
+      "approvedBy": "codex",
+      "approvedAt": "2026-10-26T03:41:19.373Z",
+      "featuredIds": [
+        "ts-quin-323",
+        "ts-quin-alexander",
+        "art-kandinsky-cannons"
+      ],
+      "artworks": []
+    },
+    {
+      "id": "queue-organizing-relations",
+      "notBefore": "2026-10-31",
+      "title": "??????????",
+      "approvedBy": "codex",
+      "approvedAt": "2026-10-26T03:41:19.373Z",
+      "featuredIds": [
+        "ts-carey-europe",
+        "ts-carey-persia",
+        "art-mondrian-lozenge"
+      ],
+      "artworks": []
+    },
+    {
+      "id": "queue-distance-and-time",
+      "notBefore": "2026-11-01",
+      "title": "??????????",
+      "approvedBy": "codex",
+      "approvedAt": "2026-10-26T03:41:19.373Z",
+      "featuredIds": [
+        "ts-bacon-routes",
+        "ts-london-1908",
+        "art-muybridge-locomotion"
+      ],
+      "artworks": []
+    },
+    {
+      "id": "queue-panorama-and-rhythm",
+      "notBefore": "2026-11-02",
+      "title": "?????????",
+      "approvedBy": "codex",
+      "approvedAt": "2026-10-26T03:41:19.373Z",
+      "featuredIds": [
+        "ts-willard-nations",
+        "art-seurat-grande-jatte",
+        "graphic-utamaro-birds"
+      ],
+      "artworks": []
+    }
+  ]
+}

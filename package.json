@@ -7,9 +7,11 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "content:check": "node scripts/check-content.mjs",
-    "test": "node --experimental-strip-types --test tests/*.test.ts",
-    "check": "npm run content:check && tsc --noEmit && npm test",
-    "build": "npm run content:check && tsc --noEmit && vite build",
+    "queue:check": "node scripts/check-queue.mjs",
+    "publish:daily": "node scripts/publish-daily.mjs",
+    "test": "node --experimental-strip-types --test tests/*.test.ts tests/*.test.mjs",
+    "check": "npm run content:check && npm run queue:check && tsc --noEmit && npm test",
+    "build": "npm run content:check && npm run queue:check && tsc --noEmit && vite build && node scripts/write-publication.mjs",
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": { "react": "19.2.6", "react-dom": "19.2.6", "lucide-react": "1.31.0" },

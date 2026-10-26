@@ -1,0 +1,102 @@
+name: Publish daily selection
+
+on:
+  schedule:
+    # UTC: 08:37 and 10:37 in Asia/Shanghai / Asia/Taipei.
+    - cron: '37 0,2 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Rehearse the next issue, or publish today's issue
+        required: true
+        default: rehearse
+        type: choice
+        options:
+          - rehearse
+          - publish
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-content-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      MODE: ${{ inputs.mode || 'publish' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Validate library, queue and tests
+        run: npm run check
+      - name: Prepare one issue
+        id: prepare
+        shell: bash
+        run: |
+          if [ "$MODE" = "rehearse" ]; then
+            node scripts/publish-daily.mjs --rehearse
+          else
+            node scripts/publish-daily.mjs
+          fi
+      - name: Validate prepared publication
+        run: npm run check
+      - name: Build and record content fingerprint
+        run: npm run build
+      - name: Commit only publication files
+        if: env.MODE == 'publish' && steps.prepare.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git diff --name-only | while IFS= read -r file; do
+            case "$file" in
+              content/library.json|content/publication-queue.json|content/queue-media/*|public/media/*) ;;
+              *) echo "Unexpected changed file: $file"; exit 1 ;;
+            esac
+          done
+          git add -- content/library.json content/publication-queue.json content/queue-media public/media
+          git diff --cached --check
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "content: publish ${{ steps.prepare.outputs.batch_id }}"
+          # A concurrent main update must fail this push; the next run checks out main again.
+          git push origin HEAD:main
+      - name: Optional explicit Vercel deployment
+        if: env.MODE == 'publish'
+        env:
+          DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        shell: bash
+        run: |
+          if [ -n "$DEPLOY_HOOK" ]; then
+            curl --fail --silent --show-error --request POST "$DEPLOY_HOOK" > /dev/null
+          fi
+      - name: Verify production content and images
+        if: env.MODE == 'publish'
+        run: node scripts/verify-publication.mjs
+      - name: Save rehearsal build
+        if: env.MODE == 'rehearse'
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-selection-rehearsal-${{ github.run_id }}
+          path: dist/
+          retention-days: 7
+      - name: Report result
+        if: always()
+        env:
+          JOB_STATUS: ${{ job.status }}
+          REMAINING: ${{ steps.prepare.outputs.remaining }}
+        shell: bash
+        run: |
+          printf '\nResult: **%s**\n\nMode: %s\n\nRemaining issues: %s\n' "$JOB_STATUS" "$MODE" "$REMAINING" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$JOB_STATUS" != "success" ]; then
+            echo 'Publication failed. Review the failing step; a successful push alone is not a verified deployment.' >> "$GITHUB_STEP_SUMMARY"
+          fi
