@@ -77,6 +77,7 @@ test('queue rejects unknown works, repeats, malformed dates, and unapproved cont
     q => q.issues[0].notBefore = '2026-02-30',
     q => q.issues[0].approvedBy = '',
     q => q.issues[0].approvedAt = 'not a date',
+    q => q.issues[0].title = '???????',
   ]) {
     const { library, queue } = fixtures(); mutate(queue);
     assert.throws(() => validateQueue(library, queue));

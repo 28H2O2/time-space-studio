@@ -17,7 +17,7 @@ export function validateQueue(library, queue) {
   for (const issue of queue.issues) {
     assert(/^queue-[a-z0-9-]+$/.test(issue.id) && !ids.has(issue.id) && !consumed.has(issue.id), `Duplicate queue item: ${issue.id}`); ids.add(issue.id);
     assert(isDay(issue.notBefore) && issue.notBefore >= previousDay, 'Queue must be ordered by notBefore'); previousDay = issue.notBefore;
-    assert(typeof issue.title === 'string' && issue.title.trim(), 'Missing editorial theme');
+    assert(typeof issue.title === 'string' && /[\p{L}\p{N}]/u.test(issue.title), 'Missing or corrupted editorial theme');
     assert(['codex', 'dot', 'human'].includes(issue.approvedBy) && isTimestamp(issue.approvedAt), `Queue item is not approved: ${issue.id}`);
     assert(Array.isArray(issue.artworks), `Missing artworks array: ${issue.id}`);
     assert(Array.isArray(issue.featuredIds) && issue.featuredIds.length === 3 && new Set(issue.featuredIds).size === 3, `Queue item needs three distinct works: ${issue.id}`);
