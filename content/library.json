@@ -1,6 +1,546 @@
 {
   "artworks": [
     {
+      "id": "graphic-gregg-be-kind-books",
+      "title": "善待图书俱乐部：举牌构成的阅读邀请",
+      "creator": "Arlington Gregg / Illinois WPA Art Project",
+      "year": "1936—1940",
+      "category": "graphic",
+      "methods": [
+        "文字层级",
+        "剪影群像"
+      ],
+      "topics": [
+        "阅读推广",
+        "公共海报",
+        "丝网印刷"
+      ],
+      "observation": "黑底上是一组蓝色儿童剪影，细线勾出眼镜与少量面部特征；上方倾斜的浅色牌子用红蓝字写出主题。下方手写体以问句收尾。",
+      "titleOriginal": "Be kind to books club Are you a member? / / Gregg.",
+      "sourceUrl": "https://www.loc.gov/item/2011645392/",
+      "imageKey": "graphic-gregg-be-kind-books.jpg",
+      "width": 657,
+      "height": 1024,
+      "rights": {
+        "label": "No known restrictions on publication · LOC",
+        "url": "https://www.loc.gov/item/2011645392/#rights-and-access",
+        "credit": "Arlington Gregg / Illinois WPA Art Project / Library of Congress, Prints and Photographs Division / 2011645392",
+        "usage": "采用馆方提供的 JPEG 数字图像，完整保留图像与原件边缘，未裁切或改色。用于来源明确的图像学习与评论；权利依据为本条馆藏说明，不将其改标为 CC0。"
+      },
+      "evidence": "LOC 将作者记为 Arlington Gregg，年代为 1936 至 1940 年间，媒介为彩色丝网印刷；目录说明为儿童举着读书俱乐部牌子的 WPA 海报。这里保留出版区间，不推定某个具体年份。 已核对馆藏条目、数字图片与该条目的 Rights & Access。",
+      "analysis": {
+        "structure": "牌子的倾角与人群的向上姿态组成统一的阅读方向。红色大字建立第一层，蓝色补充文字建立第二层，底部问句把观看转换成参与邀请。",
+        "borrow": "把标题放进角色正在操作的物件里，让文字成为场景的一部分；通过字号、色彩和位置安排阅读顺序，而不是对所有句子同样加粗。",
+        "application": "适合读书活动、社团招募与公共倡议。主信息、补充说明和行动邀请应各有位置，缩小到手机卡片后也要保留可读的主题词。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-26T03:00:15.372Z",
+        "inputHash": "1148b218c7045736a6f4e40a8dc503950029eca3e632a797a71a6b2af5583585",
+        "referenceSources": [
+          "https://www.loc.gov/item/2011645392/",
+          "https://www.loc.gov/item/2011645392/#rights-and-access",
+          "https://tile.loc.gov/storage-services/service/pnp/ppmsca/31200/31267v.jpg"
+        ]
+      },
+      "addedAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "ts-hergesheimer-virginia-1861",
+      "title": "弗吉尼亚被奴役人口分布图：比例与底表",
+      "creator": "Edwin Hergesheimer 制图 / Henry S. Graham 出版",
+      "year": "1861（采用 1860 年人口普查）",
+      "category": "time-space",
+      "methods": [
+        "分级设色",
+        "图表互证"
+      ],
+      "topics": [
+        "统计地图",
+        "历史人口",
+        "奴隶制历史"
+      ],
+      "observation": "各县以深浅不同的灰色线纹填充，县名旁有数字；西侧大片县域接近留白，东南部多个县更深。左上附逐县人口表，右侧有 Virginia 与 Kanawha 的比较表。",
+      "titleOriginal": "Map of Virginia : showing the distribution of its slave population from the census of 1860",
+      "sourceUrl": "https://www.loc.gov/item/2010586922/",
+      "imageKey": "ts-hergesheimer-virginia-1861.jpg",
+      "width": 2932,
+      "height": 2150,
+      "rights": {
+        "label": "Free to use and reuse · LOC Geography and Map Division",
+        "url": "https://www.loc.gov/item/2010586922/#rights-and-access",
+        "credit": "Edwin Hergesheimer 制图 / Henry S. Graham 出版 / Library of Congress, Geography and Map Division / 2010586922",
+        "usage": "采用馆方提供的 JPEG 数字图像，完整保留图像与原件边缘，未裁切或改色。用于来源明确的图像学习与评论；权利依据为本条馆藏说明，不将其改标为 CC0。"
+      },
+      "evidence": "LOC 书目注明出版于 1861，依据 1860 年人口普查，含逐县人口表与 Virginia/Kanawha 比较表；原图注明低于十分之一的县不加阴影。灰阶表达被奴役人口占比，不能与人口总数混读。 已核对馆藏条目、数字图片与该条目的 Rights & Access。",
+      "analysis": {
+        "structure": "地图呈现空间分布，表格保留分母与绝对数量，县名和数值提供两者之间的核对入口。行政区面积会影响视觉重量，即使它不代表人口规模。",
+        "borrow": "地图显示比例时，同时提供可核查的分子、分母与数据年份；不要让一个深色县域看起来就必然意味着更多人数。",
+        "application": "适合学习统计制图及其历史语境。需要保留奴隶制与普查分类的背景，不能将这些记录中的人抽象成纯粹的装饰纹理，也不能用当代行政区直接替换历史边界。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-26T03:00:15.372Z",
+        "inputHash": "ea4c9195f60aba7bcee87b1e517ec2422050fd224e1383fd77e7d925a2974a7b",
+        "referenceSources": [
+          "https://www.loc.gov/item/2010586922/",
+          "https://www.loc.gov/item/2010586922/#rights-and-access",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd388:g3881:g3881e:cw1047000/full/pct:25/0/default.jpg"
+        ]
+      },
+      "addedAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "ts-world-time-zones-2006",
+      "title": "世界标准时区图：规则网格与实际边界",
+      "creator": "美国中央情报局（Central Intelligence Agency）",
+      "year": "2006",
+      "category": "time-space",
+      "methods": [
+        "地点与状态",
+        "规则与例外"
+      ],
+      "topics": [
+        "时区",
+        "世界地图",
+        "时间换算"
+      ],
+      "observation": "红色纵向参考线穿过海洋，陆地被不同深浅的黄绿色区域划分，区域内标有小时数。右侧国际日期变更线出现折转；下边缘排列时间标记。",
+      "titleOriginal": "Standard time zones of the world",
+      "sourceUrl": "https://www.loc.gov/item/2006629909/",
+      "imageKey": "ts-world-time-zones-2006.jpg",
+      "width": 1486,
+      "height": 810,
+      "rights": {
+        "label": "Free to use and reuse · LOC Geography and Map Division",
+        "url": "https://www.loc.gov/item/2006629909/#rights-and-access",
+        "credit": "美国中央情报局（Central Intelligence Agency） / Library of Congress, Geography and Map Division / 2006629909",
+        "usage": "采用馆方提供的 JPEG 数字图像，完整保留图像与原件边缘，未裁切或改色。用于来源明确的图像学习与评论；权利依据为本条馆藏说明，不将其改标为 CC0。"
+      },
+      "evidence": "LOC 将此图记为 CIA 2006 年版，编号 803248AI (R02183) 4-06；原图标出 UTC 参照与日期变更说明。本图仅作历史图形设计参考，不代表现行时区、边界或夏令时规则。 已核对馆藏条目、数字图片与该条目的 Rights & Access。",
+      "analysis": {
+        "structure": "规则的纵向网格与曲折的实际分区并置，让抽象小时差落到具体地理范围。数值标签承担精确读取，填色帮助分区识别，两者不能互相替代。",
+        "borrow": "先显示可解释的基准规则，再显式标出偏离规则的区域；数字与图形同时出现，读者就能从总览进入局部核对。",
+        "application": "可用于理解跨地区时间界面的信息组织。实际排程应使用实时维护的时区数据库与具体日期，不能从这张 2006 年地图读取今天的时差。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-26T03:00:15.372Z",
+        "inputHash": "8b47ac2de1d6a356b1e4b3feb79998204fb9fbd9a28306124e431a0a9bfb0287",
+        "referenceSources": [
+          "https://www.loc.gov/item/2006629909/",
+          "https://www.loc.gov/item/2006629909/#rights-and-access",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3201:g3201b:ct001924/full/pct:25/0/default.jpg"
+        ]
+      },
+      "addedAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "graphic-hirt-national-parks-wildlife",
+      "title": "国家公园保护野生动物：岩石上的大角羊",
+      "creator": "J. Hirt / WPA Federal Art Project",
+      "year": "1936—1939",
+      "category": "graphic",
+      "methods": [
+        "剪影层次",
+        "斜向构图"
+      ],
+      "topics": [
+        "公共海报",
+        "自然保护",
+        "丝网印刷"
+      ],
+      "observation": "两只大角羊站在向右上升的岩石上，橙色天空占据上半幅；远山用低对比蓝色块表示。下方深色岩面承载浅色的两行宣传文字。",
+      "titleOriginal": "The national parks preserve wild life",
+      "sourceUrl": "https://www.loc.gov/item/98518597/",
+      "imageKey": "graphic-hirt-national-parks-wildlife.jpg",
+      "width": 808,
+      "height": 1024,
+      "rights": {
+        "label": "No known restrictions on publication · LOC",
+        "url": "https://www.loc.gov/item/98518597/#rights-and-access",
+        "credit": "J. Hirt / WPA Federal Art Project / Library of Congress, Prints and Photographs Division / 98518597",
+        "usage": "采用馆方提供的 JPEG 数字图像，完整保留图像与原件边缘，未裁切或改色。用于来源明确的图像学习与评论；权利依据为本条馆藏说明，不将其改标为 CC0。"
+      },
+      "evidence": "LOC 注明设计者 J. Hirt，出版于 1936 至 1939 年间，媒介为彩色丝网印刷；馆藏说明确认两只大角羊。本次采用标注为原件数字化的 ppmsca.23061，未使用另一份彩色翻拍版本。 已核对馆藏条目、数字图片与该条目的 Rights & Access。",
+      "analysis": {
+        "structure": "上升的岩石把重心推向动物，天空留白让弯曲羊角与轮廓变得清楚。下方暗面同时承担前景重量与文字底板。",
+        "borrow": "让画面中的实体自然兼任文字承载区，减少另外添加的标题框；远景、主体与前景用少量明度层级拉开距离。",
+        "application": "适用于自然教育、展览或旅行海报。借鉴层次与留白时，应根据真实内容重新构图，而不是把动物剪影当成可随意替换的装饰符号。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-26T03:00:15.372Z",
+        "inputHash": "b580c1acbaa0d89216d554e06e2bd5190e43467dc29276b4974ed05cec8db50c",
+        "referenceSources": [
+          "https://www.loc.gov/item/98518597/",
+          "https://www.loc.gov/item/98518597/#rights-and-access",
+          "https://tile.loc.gov/storage-services/service/pnp/ppmsca/23000/23061v.jpg"
+        ]
+      },
+      "addedAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "art-hiroshige-kameido-triptych",
+      "title": "龟户梅屋敷全图：跨三联的游园路线",
+      "creator": "歌川广重（Andō Hiroshige）",
+      "year": "1836—1842",
+      "category": "art",
+      "methods": [
+        "连续空间",
+        "长幅叙事"
+      ],
+      "topics": [
+        "浮世绘",
+        "游园",
+        "三联画"
+      ],
+      "observation": "三张竖幅并成横向全景，纸张接缝清晰可见；小路从左下入口穿过梅林，向右上弯曲。人物分布在园路与建筑旁，粉红色横向云带遮挡部分空间。",
+      "titleOriginal": "Kameido umeyashiki zenzu",
+      "sourceUrl": "https://www.loc.gov/item/2008661242/",
+      "imageKey": "art-hiroshige-kameido-triptych.jpg",
+      "width": 1024,
+      "height": 512,
+      "rights": {
+        "label": "No known restrictions on publication · LOC",
+        "url": "https://www.loc.gov/item/2008661242/#rights-and-access",
+        "credit": "歌川广重（Andō Hiroshige） / Library of Congress, Prints and Photographs Division / 2008661242",
+        "usage": "采用馆方提供的 JPEG 数字图像，完整保留图像与原件边缘，未裁切或改色。用于来源明确的图像学习与评论；权利依据为本条馆藏说明，不将其改标为 CC0。"
+      },
+      "evidence": "LOC 记此作出自《东都名所》，年代在 1836 至 1842 年间，形制为三联彩色木刻。本次使用馆方三联整体预览；目录说明梅园向公众开放，画面中可见入园与游览的人群。 已核对馆藏条目、数字图片与该条目的 Rights & Access。",
+      "analysis": {
+        "structure": "园路将三个物理画幅串成一片连续空间，人物尺度保持相近，视线可沿路径缓慢移动。横向云带制造间隔，接缝却没有切断主要路线。",
+        "borrow": "设计跨页或横向滚动叙事时，让关键路径跨越分界，同时用重复的人物尺度与植物纹理维持连续感。",
+        "application": "适合展览长卷、园区介绍或横向网页。三联是空间延展，不是三个不同时间点；若做时间叙事，需要另加明确的时间标记。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-26T03:00:15.372Z",
+        "inputHash": "643d0b8410ca5df30b808cc0d1454f141e191fd71532f3b187a6bebfc1c4d106",
+        "referenceSources": [
+          "https://www.loc.gov/item/2008661242/",
+          "https://www.loc.gov/item/2008661242/#rights-and-access",
+          "https://tile.loc.gov/storage-services/service/pnp/jpd/02700/02758v.jpg"
+        ]
+      },
+      "addedAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "ts-parsons-san-francisco-1878",
+      "title": "从海湾望向旧金山的鸟瞰图",
+      "creator": "Charles R. Parsons / Currier & Ives",
+      "year": "1878",
+      "category": "time-space",
+      "methods": [
+        "鸟瞰空间",
+        "地点与状态"
+      ],
+      "topics": [
+        "城市",
+        "港口",
+        "历史地图"
+      ],
+      "observation": "前景是大小不一的帆船和轮船，码头沿海岸伸入水面；城市街网向后延展到丘陵。画面下沿排列地点名称，标题指出从海湾向西南观看。",
+      "titleOriginal": "The city of San Francisco. Birds eye view from the bay looking south-west",
+      "sourceUrl": "https://www.loc.gov/item/75693104/",
+      "imageKey": "ts-parsons-san-francisco-1878.jpg",
+      "width": 2844,
+      "height": 2068,
+      "rights": {
+        "label": "Free to use and reuse · LOC Geography and Map Division",
+        "url": "https://www.loc.gov/item/75693104/#rights-and-access",
+        "credit": "Charles R. Parsons / Currier & Ives / Library of Congress, Geography and Map Division / 75693104",
+        "usage": "采用馆方提供的 JPEG 数字图像，完整保留图像与原件边缘，未裁切或改色。用于来源明确的图像学习与评论；权利依据为本条馆藏说明，不将其改标为 CC0。"
+      },
+      "evidence": "LOC 记作者 Charles R. Parsons、出版者 Currier & Ives，版权年份 1878；目录特别注明这是不按比例绘制的透视地图，并设有地点索引。它不是航拍照片，也不是可量距的平面地图。 已核对馆藏条目、数字图片与该条目的 Rights & Access。",
+      "analysis": {
+        "structure": "海湾、码头、街网与山丘形成连续的前后层次，使港口与城市腹地在一个视角中建立关系。建筑密度和道路走向提供定位线索，但透视会改变尺度。",
+        "borrow": "介绍大型场所时，先让观众看懂入口、内部通路和远处边界；将密集名称放到索引区，避免在主画面逐一贴标签。",
+        "application": "适合园区、展区或历史城市的导览插画。若要支持实际寻路，应补充平面图与距离，不把透视压缩后的街区长度当作真实测量。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-26T03:00:15.372Z",
+        "inputHash": "4323b1a754b12fbc565d3e4951679413b95371e9d7e1fe316e926c7fd6926238",
+        "referenceSources": [
+          "https://www.loc.gov/item/75693104/",
+          "https://www.loc.gov/item/75693104/#rights-and-access",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd436:g4364:g4364s:pm000371/full/pct:25/0/default.jpg"
+        ]
+      },
+      "addedAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "art-hokusai-sunshu-ejiri",
+      "title": "骏州江尻：用散落物画出风",
+      "creator": "葛饰北斋（Katsushika Hokusai）",
+      "year": "1832 或 1833",
+      "category": "art",
+      "methods": [
+        "方向暗示",
+        "动静对照"
+      ],
+      "topics": [
+        "浮世绘",
+        "风",
+        "瞬间"
+      ],
+      "observation": "田间小路弯向画面深处，多位行人俯身或抬手；纸张和一顶帽子散在空中，两株树的枝叶向一侧倾斜。远处富士山以细轮廓线出现。",
+      "titleOriginal": "Sunshū ejiri",
+      "sourceUrl": "https://www.loc.gov/item/2009615396/",
+      "imageKey": "art-hokusai-sunshu-ejiri.jpg",
+      "width": 1024,
+      "height": 708,
+      "rights": {
+        "label": "No known restrictions on publication · LOC",
+        "url": "https://www.loc.gov/item/2009615396/#rights-and-access",
+        "credit": "葛饰北斋（Katsushika Hokusai） / Library of Congress, Prints and Photographs Division / 2009615396",
+        "usage": "采用馆方提供的 JPEG 数字图像，完整保留图像与原件边缘，未裁切或改色。用于来源明确的图像学习与评论；权利依据为本条馆藏说明，不将其改标为 CC0。"
+      },
+      "evidence": "LOC 将作品记为《富岳三十六景》中的 Sunshū ejiri，年代为 1832 或 1833；馆藏说明提到风中行人、帽子、纸张与远处富士山。本次采用该馆此版数字图像，未用后期重印本替代。 已核对馆藏条目、数字图片与该条目的 Rights & Access。",
+      "analysis": {
+        "structure": "风本身不可见，画面通过弯树、俯身人物和飞散纸片给出多个方向线索。远山的稳定轮廓与前景动作形成对照，让瞬间感集中在近处。",
+        "borrow": "表现不可见的力时，可以画它对不同物体造成的共同影响；几个方向一致、尺度不同的线索，往往比一条显式箭头更有叙事性。",
+        "application": "适合插画、动态分镜和运动状态设计。静态图中的分散纸片是同一画面的多个物体，不应自动解释成同一物体的时间序列。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-26T03:00:15.372Z",
+        "inputHash": "66b2fa2e0002e5be3837dcd4b9fdb22347a7d602a0c3d5dbbc59179a75b9e59f",
+        "referenceSources": [
+          "https://www.loc.gov/item/2009615396/",
+          "https://www.loc.gov/item/2009615396/#rights-and-access",
+          "https://tile.loc.gov/storage-services/service/pnp/jpd/00400/00406v.jpg"
+        ]
+      },
+      "addedAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "ts-maury-atlantic-trade-winds-1851",
+      "title": "大西洋信风图：网格中的风带",
+      "creator": "Matthew Fontaine Maury；E. J. De Haven 编绘 / 美国海军相关机构",
+      "year": "1851",
+      "category": "time-space",
+      "methods": [
+        "网格编码",
+        "带状分区"
+      ],
+      "topics": [
+        "气象",
+        "航海",
+        "统计图"
+      ],
+      "observation": "密集网格铺满画面，蓝绿色与粉色的波状色带从左向右延伸。色带中写着东北信风、东南信风与无风带等名称，许多小格里还有细小数字；右上是标题和说明栏。",
+      "titleOriginal": "Trade wind chart of the Atlantic Ocean",
+      "sourceUrl": "https://www.loc.gov/item/2009575918/",
+      "imageKey": "ts-maury-atlantic-trade-winds-1851.jpg",
+      "width": 2729,
+      "height": 1846,
+      "rights": {
+        "label": "Free to use and reuse · LOC Geography and Map Division",
+        "url": "https://www.loc.gov/item/2009575918/#rights-and-access",
+        "credit": "Matthew Fontaine Maury；E. J. De Haven 编绘 / 美国海军相关机构 / Library of Congress, Geography and Map Division / 2009575918",
+        "usage": "采用馆方提供的 JPEG 数字图像，完整保留图像与原件边缘，未裁切或改色。用于来源明确的图像学习与评论；权利依据为本条馆藏说明，不将其改标为 CC0。"
+      },
+      "evidence": "LOC 记此图为 Maury《风与海流图》Series B 的大西洋信风图，出版于 1851；图内署名列出 M. F. Maury 与编绘者 E. J. De Haven。色带代表风区，不能因图集名称含 current 就把本张解读成海流路径。 已核对馆藏条目、数字图片与该条目的 Rights & Access。",
+      "analysis": {
+        "structure": "大面积色带提供第一层的区域判断，网格内小数字提供第二层细节。画面没有采用常见的陆地轮廓作为主角，而是把风区的边界和变化放在前景。",
+        "borrow": "对密集观测资料，可先给读者一层可辨认的分区，再提供网格细读；保留说明栏，明确格子、色带和数字各自的含义。",
+        "application": "可借鉴于周期性环境数据或运营区间图。复用前必须重建坐标和统计定义，不能直接把横向位置当作连续日期，或把色带宽度当作风速。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-26T03:00:15.372Z",
+        "inputHash": "92df2081c8071fa939b9be493fbf69f9b38188e0ea885a3ef9672e7c1d60fddb",
+        "referenceSources": [
+          "https://www.loc.gov/item/2009575918/",
+          "https://www.loc.gov/item/2009575918/#rights-and-access",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd9:g9101:g9101c:ct009511/full/pct:25/0/default.jpg"
+        ]
+      },
+      "addedAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "ts-china-annual-isotherms-1878",
+      "title": "中国及周边年均温等温线图",
+      "creator": "Royal Asiatic Society, North China Branch（出版机构；个人制图者未核实）",
+      "year": "约 1878",
+      "category": "time-space",
+      "methods": [
+        "等值线",
+        "多变量叠加"
+      ],
+      "topics": [
+        "气候",
+        "东亚",
+        "历史科学图"
+      ],
+      "observation": "经纬网覆盖中国及周边区域；红色曲线带有温度数字，黑色线条在近海弯曲并伴有月份文字。右下标题写明 MEAN ANNUAL TEMPERATURE，图边仍可见破损与折痕。",
+      "titleOriginal": "Isothermal lines of [months] : [China]",
+      "sourceUrl": "https://www.loc.gov/item/2007627808/",
+      "imageKey": "ts-china-annual-isotherms-1878.jpg",
+      "width": 1317,
+      "height": 1531,
+      "rights": {
+        "label": "Free to use and reuse · LOC Geography and Map Division",
+        "url": "https://www.loc.gov/item/2007627808/#rights-and-access",
+        "credit": "Royal Asiatic Society, North China Branch（出版机构；个人制图者未核实） / Library of Congress, Geography and Map Division / 2007627808",
+        "usage": "采用馆方提供的 JPEG 数字图像，完整保留图像与原件边缘，未裁切或改色。用于来源明确的图像学习与评论；权利依据为本条馆藏说明，不将其改标为 CC0。"
+      },
+      "evidence": "LOC 将整套图著录为 Isothermal lines of [months] : [China]，出版年代用方括号记为 1878。本次收录第一张 cs000001，按图内标题明确标作年均温图；图下注释区分红色大气温度与黑色陆海信息，并说明括号内为华氏温度。 已核对馆藏条目、数字图片与该条目的 Rights & Access。",
+      "analysis": {
+        "structure": "地理底图承载不同性质的连续场：红色等温线跨越边界，黑色海流与地形信息维持另一层阅读。年平均值与线旁月份注记不应合并为同一个时间口径。",
+        "borrow": "同图叠加多个变量时，用颜色与线型共同分工，并在图例交代单位、统计期间和符号含义。不能只靠颜色差别让读者猜。",
+        "application": "适合研究环境地图的图层组织。此图是历史资料，不能作为当代气候数据；要做月份比较，应继续查阅同套各月图并统一口径。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-26T03:00:15.372Z",
+        "inputHash": "e5b731021d606bf06beb930e5eb83d6323ec9f3c595bf77167f40be1beee58f1",
+        "referenceSources": [
+          "https://www.loc.gov/item/2007627808/",
+          "https://www.loc.gov/item/2007627808/#rights-and-access",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmdsetmaps:20:07:62:78:08:2007627808:cs000001/full/pct:25/0/default.jpg"
+        ]
+      },
+      "addedAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "graphic-welsh-visit-zoo",
+      "title": "来动物园：两只企鹅的黑白形体",
+      "creator": "Louise Welsh / WPA Federal Art Project",
+      "year": "1936 或 1937",
+      "category": "graphic",
+      "methods": [
+        "正负形",
+        "图文分区"
+      ],
+      "topics": [
+        "公共海报",
+        "动物",
+        "木刻"
+      ],
+      "observation": "画面中一只企鹅直立，另一只横卧；羽毛、岩石和背景被压缩为深黑、灰绿与浅底色块。下方独立一行粗体字写着 VISIT THE ZOO。",
+      "titleOriginal": "Visit the zoo",
+      "sourceUrl": "https://www.loc.gov/item/98518441/",
+      "imageKey": "graphic-welsh-visit-zoo.jpg",
+      "width": 693,
+      "height": 1024,
+      "rights": {
+        "label": "No known restrictions on publication · LOC",
+        "url": "https://www.loc.gov/item/98518441/#rights-and-access",
+        "credit": "Louise Welsh / WPA Federal Art Project / Library of Congress, Prints and Photographs Division / 98518441",
+        "usage": "采用馆方提供的 JPEG 数字图像，完整保留图像与原件边缘，未裁切或改色。用于来源明确的图像学习与评论；权利依据为本条馆藏说明，不将其改标为 CC0。"
+      },
+      "evidence": "LOC 将作者记为 Louise Welsh，出版日期记为 1936 或 1937，媒介为彩色木刻；馆藏说明为两只企鹅。这里保留日期范围，不把背面 1937 年印章当作确定创作日。 已核对馆藏条目、数字图片与该条目的 Rights & Access。",
+      "analysis": {
+        "structure": "直立与横卧的动物构成一纵一横的重心，轮廓在少量色块间切换。图像负责吸引注意，下方短句直接交代行动。",
+        "borrow": "用两个不同姿态建立节奏，让主标题保持简短。先检查缩小后是否仍能辨认轮廓，再添加纹理。",
+        "application": "可用于展览、自然教育或活动海报。可借鉴少色印刷与轮廓组织；当前数字文件来自馆方复制影像，纸色和黑度不应直接当作原作的精确色值。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-26T03:00:15.372Z",
+        "inputHash": "24dac9a8a7407753c74e78ca7e67f3fec5abba1f00e0d41c770292e4daf6a93c",
+        "referenceSources": [
+          "https://www.loc.gov/item/98518441/",
+          "https://www.loc.gov/item/98518441/#rights-and-access",
+          "https://tile.loc.gov/storage-services/service/pnp/cph/3f00000/3f05000/3f05600/3f05606v.jpg"
+        ]
+      },
+      "addedAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "ts-magnus-telegraph-1858",
+      "title": "美洲与欧洲电报图：连线、时钟与通信",
+      "creator": "Charles Magnus & Co.",
+      "year": "1858",
+      "category": "time-space",
+      "methods": [
+        "网络与方向",
+        "多视图叙事"
+      ],
+      "topics": [
+        "通信",
+        "跨洋连接",
+        "时间比较"
+      ],
+      "observation": "旗帜占据上方，局部地图和世界地图分布在版面中部；下方中央是一组标有城市名的钟面，两侧有船只，底部还有细长的海底剖面。文字分成总统致女王与女王电文两组。",
+      "titleOriginal": "Telegraph chart, America and Europe",
+      "sourceUrl": "https://www.loc.gov/item/99466769/",
+      "imageKey": "ts-magnus-telegraph-1858.jpg",
+      "width": 1866,
+      "height": 1484,
+      "rights": {
+        "label": "Free to use and reuse · LOC Geography and Map Division",
+        "url": "https://www.loc.gov/item/99466769/#rights-and-access",
+        "credit": "Charles Magnus & Co. / Library of Congress, Geography and Map Division / 99466769",
+        "usage": "采用馆方提供的 JPEG 数字图像，完整保留图像与原件边缘，未裁切或改色。用于来源明确的图像学习与评论；权利依据为本条馆藏说明，不将其改标为 CC0。"
+      },
+      "evidence": "LOC 书目 Created / Published 明确记为 1858，出版者为 Charles Magnus & Co.；采用书目年份，不采用 API 中不完整的 date 值。原图可见电缆标记、多个钟面和电文标题。 已核对馆藏条目、数字图片与该条目的 Rights & Access。",
+      "analysis": {
+        "structure": "一项跨洋通信事件被分解成地理连接、城市时间、船只与电文几个视角。中央钟面形成视觉汇聚点，但各城市的环形排列不是地理位置。",
+        "borrow": "为复杂事件安排多个互补视图：地图回答在哪里，钟面回答时间如何比较，原文回答传递了什么。用一个清晰的视觉中心组织它们。",
+        "application": "适合跨时区协作或通信史专题。应区分示意性的城市排列、地图中的实际地点和电文发生时间，不能把装饰连线当成精确的网络拓扑。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-26T03:00:15.372Z",
+        "inputHash": "d07195528410a61109e86de537cccb50935e41757250abb2523d0e10cf6f513f",
+        "referenceSources": [
+          "https://www.loc.gov/item/99466769/",
+          "https://www.loc.gov/item/99466769/#rights-and-access",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3201:g3201p:ct000465/full/pct:25/0/default.jpg"
+        ]
+      },
+      "addedAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "ts-ensign-eastern-railroads-1856",
+      "title": "美国东部铁路图：总览与新英格兰放大图",
+      "creator": "Ensign, Bridgman & Fanning",
+      "year": "1856",
+      "category": "time-space",
+      "methods": [
+        "网络与方向",
+        "多尺度对照"
+      ],
+      "topics": [
+        "铁路",
+        "历史地图",
+        "信息层级"
+      ],
+      "observation": "左侧是跨州地图，右侧单列新英格兰放大图；州域以淡红、黄、绿区分，黑色铁路与地名叠加其上。左上另有尼亚加拉瀑布小景，外围是连续装饰边框。",
+      "titleOriginal": "Ensign, Bridgman & Fanning's rail road map of the Eastern States",
+      "sourceUrl": "https://www.loc.gov/item/98688360/",
+      "imageKey": "ts-ensign-eastern-railroads-1856.jpg",
+      "width": 1876,
+      "height": 1301,
+      "rights": {
+        "label": "Free to use and reuse · LOC Geography and Map Division",
+        "url": "https://www.loc.gov/item/98688360/#rights-and-access",
+        "credit": "Ensign, Bridgman & Fanning / Library of Congress, Geography and Map Division / 98688360",
+        "usage": "采用馆方提供的 JPEG 数字图像，完整保留图像与原件边缘，未裁切或改色。用于来源明确的图像学习与评论；权利依据为本条馆藏说明，不将其改标为 CC0。"
+      },
+      "evidence": "美国国会图书馆目录列出版者为 Ensign, Bridgman & Fanning，年代为 1856；说明中明确列出新英格兰放大图和瀑布插图。图上铁路编号与旁侧名称表对应，没有列车时刻轴。 已核对馆藏条目、数字图片与该条目的 Rights & Access。",
+      "analysis": {
+        "structure": "在一个版面中并置区域总览与局部放大，让读者先定位跨州关系，再查看线路密集区。淡色面表达州域，黑色线网表达连接，两种层次共同占据地理底图。",
+        "borrow": "当局部信息过密时，单独给它更大的比例尺，并保留与总图一致的色彩和地名；不必让整张总图承担全部细节。",
+        "application": "可用于园区导览、交通网络或服务覆盖图。线路连通只说明空间关系，不能据此推断发车频率、运行时间或线路在今天的状态。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-10-26T03:00:15.372Z",
+        "inputHash": "979b81470bb8de450ea20d9c56812dd986691536be2753ce22aa73d2b4be057a",
+        "referenceSources": [
+          "https://www.loc.gov/item/98688360/",
+          "https://www.loc.gov/item/98688360/#rights-and-access",
+          "https://tile.loc.gov/image-services/iiif/service:gmd:gmd371:g3716:g3716p:rr000850/full/pct:25/0/default.jpg"
+        ]
+      },
+      "addedAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
       "id": "contemporary-ocean-2025",
       "title": "永恒的海洋 2：西边界流",
       "titleOriginal": "Perpetual Ocean 2: Western Boundary Currents",
@@ -1535,6 +2075,54 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-10-26",
+      "date": "2026-10-26",
+      "featuredIds": [
+        "ts-world-time-zones-2006",
+        "ts-hergesheimer-virginia-1861",
+        "graphic-gregg-be-kind-books"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "daily-2026-10-25",
+      "date": "2026-10-25",
+      "featuredIds": [
+        "ts-parsons-san-francisco-1878",
+        "art-hiroshige-kameido-triptych",
+        "graphic-hirt-national-parks-wildlife"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "daily-2026-10-24",
+      "date": "2026-10-24",
+      "featuredIds": [
+        "ts-china-annual-isotherms-1878",
+        "ts-maury-atlantic-trade-winds-1851",
+        "art-hokusai-sunshu-ejiri"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
+      "id": "daily-2026-10-23",
+      "date": "2026-10-23",
+      "featuredIds": [
+        "ts-ensign-eastern-railroads-1856",
+        "ts-magnus-telegraph-1858",
+        "graphic-welsh-visit-zoo"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-10-26T03:00:15.372Z"
+    },
+    {
       "id": "contemporary-2026-10-22",
       "date": "2026-10-22",
       "featuredIds": [
@@ -1571,5 +2159,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-10-22T12:03:34.466Z"
+  "latestSuccess": "2026-10-26T03:00:15.372Z"
 }
