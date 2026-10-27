@@ -2075,6 +2075,19 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-10-27",
+      "date": "2026-10-27",
+      "featuredIds": [
+        "ts-ogilby-bristol",
+        "ts-peutinger",
+        "art-hiroshige-mishima"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-10-27T02:40:49.701Z",
+      "queueId": "queue-routes"
+    },
+    {
       "id": "daily-2026-10-26",
       "date": "2026-10-26",
       "featuredIds": [
@@ -2159,5 +2172,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-10-26T03:00:15.372Z"
+  "latestSuccess": "2026-10-27T02:40:49.701Z"
 }
