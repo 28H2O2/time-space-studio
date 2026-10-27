@@ -1,9 +1,6 @@
 name: Publish daily selection
 
 on:
-  schedule:
-    # UTC: 08:37 and 10:37 in Asia/Shanghai / Asia/Taipei.
-    - cron: '37 0,2 * * *'
   workflow_dispatch:
     inputs:
       mode:
