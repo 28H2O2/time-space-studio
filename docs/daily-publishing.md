@@ -1,13 +1,13 @@
 # 每日自动发布
 
-本任务在 GitHub 托管的 Linux runner 上运行，不依赖 Windows 开机。它发布已经准备好的内容；来源检索、读图核验和写作仍由维护者或 agent 完成。
+发布本身在 GitHub 托管的 Linux runner 上运行，但工作流不再有 GitHub 定时触发，每天由本机 Paseo 定时任务通过 `workflow_dispatch` 触发。它发布已经准备好的内容；来源检索、读图核验和写作仍由维护者或 agent 完成。
 
 ## 实际时间与入口
 
 - 工作流：`.github/workflows/daily-publish.yml`，名称为 **Publish daily selection**。
-- 每天 UTC 00:37 / 02:37，即北京时间 08:37 / 10:37。第二次执行用于重试或检查，已发刊不会再消费下一期。
+- 触发方：Paseo 定时任务「时空图像室｜每日发布兜底」，每天北京时间 08:00 / 11:00（cron `0 8,11 * * *`，时区 `Asia/Shanghai`）。每次启动一个 agent，检查线上清单、远端 `main` 和最近运行；当天未发刊时只触发一次 `publish`，并核验线上内容。第二次执行用于重试或检查，已发刊不会再消费下一期。
 - 内容日期按 `Asia/Taipei`（与上海当前同为 UTC+8）计算；入库时间使用实际 UTC 时间。
-- GitHub 调度可能延迟；任务只在 `main` 运行。公开仓库长期无活动时，GitHub 可能停用定时任务。
+- Paseo 定时任务依赖本机开机且 Paseo 正在运行；关机或 Paseo 未启动时当次不会执行，需要手动发布。工作流只在 `main` 运行。
 - 手动入口：https://github.com/28H2O2/time-space-studio/actions/workflows/daily-publish.yml
 
 ## 首轮内容
@@ -60,11 +60,10 @@ GitHub 自带令牌推送不会再次触发普通 `push` 工作流，因此本�
 
 若推送成功但部署未完成，后续运行不会重复发刊，会继续核验相同内容。若 Vercel 构建失败，需要先查看 Vercel 日志、修复或重新部署；配置了 Deploy Hook 时，重试会重新请求部署。工作流失败与库存状态显示在 Actions 日志和运行摘要中。
 
-停用方式：在 Actions 页面选择此工作流并点击 **Disable workflow**。重新启用后只处理当前日期的一期，不补发全部遗漏日期。
+停用方式：在 Paseo 中暂停上述定时任务；如需同时禁止手动发布，在 Actions 页面选择此工作流并点击 **Disable workflow**。重新启用后只处理当前日期的一期，不补发全部遗漏日期。
 
 ## 官方参考
 
-- [GitHub 定时触发与限制](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
 - [GITHUB_TOKEN 对后续工作流触发的影响](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)
 - [Vercel GitHub 集成](https://vercel.com/docs/git/vercel-for-github)
 - [可选 Vercel Deploy Hook](https://vercel.com/docs/deploy-hooks)
