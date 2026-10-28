@@ -2,19 +2,6 @@
   "version": 1,
   "issues": [
     {
-      "id": "queue-parallel-histories",
-      "notBefore": "2026-10-28",
-      "title": "把不同历史放到同一条时间轴",
-      "approvedBy": "codex",
-      "approvedAt": "2026-10-26T03:41:19.373Z",
-      "featuredIds": [
-        "ts-adams-synchronology",
-        "ts-priestley-biography",
-        "graphic-illuminated-leaf"
-      ],
-      "artworks": []
-    },
-    {
       "id": "queue-quantity-and-pattern",
       "notBefore": "2026-10-29",
       "title": "流量、迁移与重复的纹样",

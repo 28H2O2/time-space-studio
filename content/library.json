@@ -2075,6 +2075,19 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-10-28",
+      "date": "2026-10-28",
+      "featuredIds": [
+        "ts-adams-synchronology",
+        "ts-priestley-biography",
+        "graphic-illuminated-leaf"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-10-28T12:43:16.515Z",
+      "queueId": "queue-parallel-histories"
+    },
+    {
       "id": "daily-2026-10-27",
       "date": "2026-10-27",
       "featuredIds": [
@@ -2172,5 +2185,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-10-27T02:40:49.701Z"
+  "latestSuccess": "2026-10-28T12:43:16.515Z"
 }
