@@ -2075,6 +2075,19 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-10-29",
+      "date": "2026-10-29",
+      "featuredIds": [
+        "ts-minard-cotton-1862",
+        "ts-minard-migration",
+        "graphic-morris-cray"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-10-29T00:02:03.785Z",
+      "queueId": "queue-quantity-and-pattern"
+    },
+    {
       "id": "daily-2026-10-28",
       "date": "2026-10-28",
       "featuredIds": [
@@ -2185,5 +2198,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-10-28T12:43:16.515Z"
+  "latestSuccess": "2026-10-29T00:02:03.785Z"
 }

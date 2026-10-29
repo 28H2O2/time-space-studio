@@ -2,19 +2,6 @@
   "version": 1,
   "issues": [
     {
-      "id": "queue-quantity-and-pattern",
-      "notBefore": "2026-10-29",
-      "title": "流量、迁移与重复的纹样",
-      "approvedBy": "codex",
-      "approvedAt": "2026-10-26T03:41:19.373Z",
-      "featuredIds": [
-        "ts-minard-cotton-1862",
-        "ts-minard-migration",
-        "graphic-morris-cray"
-      ],
-      "artworks": []
-    },
-    {
       "id": "queue-changing-states",
       "notBefore": "2026-10-30",
       "title": "同一空间中的状态变化",
