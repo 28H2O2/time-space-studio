@@ -2075,6 +2075,19 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-10-30",
+      "date": "2026-10-30",
+      "featuredIds": [
+        "ts-quin-323",
+        "art-kandinsky-cannons",
+        "graphic-palais-de-glace"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-10-30T00:02:14.068Z",
+      "queueId": "queue-changing-states"
+    },
+    {
       "id": "daily-2026-10-29",
       "date": "2026-10-29",
       "featuredIds": [
@@ -2198,5 +2211,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-10-29T00:02:03.785Z"
+  "latestSuccess": "2026-10-30T00:02:14.068Z"
 }

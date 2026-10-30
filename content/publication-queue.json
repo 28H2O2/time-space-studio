@@ -2,19 +2,6 @@
   "version": 1,
   "issues": [
     {
-      "id": "queue-changing-states",
-      "notBefore": "2026-10-30",
-      "title": "地图、抽象与海报的视觉节奏",
-      "approvedBy": "codex",
-      "approvedAt": "2026-10-29T03:50:10.081Z",
-      "featuredIds": [
-        "ts-quin-323",
-        "art-kandinsky-cannons",
-        "graphic-palais-de-glace"
-      ],
-      "artworks": []
-    },
-    {
       "id": "queue-organizing-relations",
       "notBefore": "2026-10-31",
       "title": "时间表、几何与城市空间",
