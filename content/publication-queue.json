@@ -2,65 +2,6 @@
   "version": 1,
   "issues": [
     {
-      "id": "queue-organizing-relations",
-      "notBefore": "2026-10-31",
-      "title": "时间表、几何与城市空间",
-      "approvedBy": "codex",
-      "approvedAt": "2026-10-29T03:50:10.081Z",
-      "featuredIds": [
-        "ts-carey-europe",
-        "art-mondrian-lozenge",
-        "photo-dovizielli-spanish-steps"
-      ],
-      "artworks": [
-        {
-          "id": "photo-dovizielli-spanish-steps",
-          "title": "罗马西班牙广场与阶梯",
-          "titleOriginal": "[Spanish Steps, Rome]",
-          "creator": "Pietro Dovizielli",
-          "year": "约1855",
-          "category": "art",
-          "methods": [
-            "建筑摄影",
-            "透视",
-            "明暗"
-          ],
-          "topics": [
-            "城市空间",
-            "公共场所",
-            "历史摄影"
-          ],
-          "sourceUrl": "https://www.metmuseum.org/art/collection/search/834929",
-          "imageKey": "photo-dovizielli-spanish-steps.jpg",
-          "width": 480,
-          "height": 624,
-          "rights": {
-            "label": "公有领域 / CC0",
-            "url": "https://www.metmuseum.org/policies/image-resources",
-            "credit": "The Metropolitan Museum of Art，Gift of W. Bruce and Delaney H. Lundberg, 2019",
-            "usage": "使用博物馆开放获取的公有领域作品数字图像，注明馆藏与来源。"
-          },
-          "observation": "深褐色照片中，台阶自前景向上展开，两侧建筑围出近似对称的空间；中央方尖碑与后方教堂双塔形成竖向轴线，台阶下方有摊棚和人物。",
-          "evidence": "大都会艺术博物馆馆藏编号 834929，标注作者、约1855年、玻璃底片蛋白银盐照片及 Public Domain；图像来自馆方开放获取资源。",
-          "analysis": {
-            "structure": "阶梯的水平线层层上升，方尖碑和双塔在中轴聚合视线，左右建筑与前景阴影构成框景。",
-            "borrow": "可用重复的水平线和一条清晰竖轴组织复杂空间，并保留少量人物或物件作为尺度参照。",
-            "application": "绘制场地层级或入口路径时，可先标出视线方向、台阶与建筑边界，再选择性加入人物和活动。"
-          },
-          "writing": {
-            "author": "codex",
-            "generatedAt": "2026-10-29T03:50:10.081Z",
-            "inputHash": "af9cd914f08130a0f911470ecf6100b72053b5d0225a6379a0d661bb5909e2bf",
-            "referenceSources": [
-              "https://www.metmuseum.org/art/collection/search/834929",
-              "https://www.metmuseum.org/policies/image-resources"
-            ]
-          },
-          "addedAt": "2026-10-29T03:50:10.081Z"
-        }
-      ]
-    },
-    {
       "id": "queue-distance-and-time",
       "notBefore": "2026-11-01",
       "title": "航线、运动与装饰",
