@@ -2120,6 +2120,19 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-11-01",
+      "date": "2026-11-01",
+      "featuredIds": [
+        "ts-bacon-routes",
+        "art-muybridge-locomotion",
+        "graphic-zodiaque"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-11-01T00:01:55.882Z",
+      "queueId": "queue-distance-and-time"
+    },
+    {
       "id": "daily-2026-10-31",
       "date": "2026-10-31",
       "featuredIds": [
@@ -2269,5 +2282,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-10-31T00:01:47.629Z"
+  "latestSuccess": "2026-11-01T00:01:55.882Z"
 }
