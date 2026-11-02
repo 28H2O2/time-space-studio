@@ -1,18 +1,4 @@
 {
   "version": 1,
-  "issues": [
-    {
-      "id": "queue-panorama-and-rhythm",
-      "notBefore": "2026-11-02",
-      "title": "历史、色点与版画留白",
-      "approvedBy": "codex",
-      "approvedAt": "2026-10-29T03:50:10.081Z",
-      "featuredIds": [
-        "ts-willard-nations",
-        "art-seurat-grande-jatte",
-        "graphic-utamaro-birds"
-      ],
-      "artworks": []
-    }
-  ]
+  "issues": []
 }
