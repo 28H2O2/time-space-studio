@@ -45,5 +45,5 @@ const message = plan.changed ? `${dryRun ? 'Would publish' : 'Prepared'} ${plan.
 console.log(message);
 console.log(`Approved issues remaining: ${plan.queue.issues.length}`);
 if (plan.queue.issues.length <= 2) console.log('::warning::Content inventory is low; prepare and approve more issues.');
-if (process.env.GITHUB_OUTPUT) appendFileSync(process.env.GITHUB_OUTPUT, `changed=${plan.changed && !dryRun}\nbatch_id=${plan.batch?.id || ''}\nremaining=${plan.queue.issues.length}\n`);
+if (process.env.GITHUB_OUTPUT) appendFileSync(process.env.GITHUB_OUTPUT, `changed=${plan.changed && !dryRun}\nbatch_id=${plan.batch?.id || ''}\ntitle=${(plan.issue?.title || '').replace(/\s+/g, ' ').trim()}\nremaining=${plan.queue.issues.length}\n`);
 if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Daily publication\n\n${message}\n\nMode: ${args.includes('--rehearse') ? 'rehearsal (no production push)' : 'publish'}\n\nApproved issues remaining: **${plan.queue.issues.length}**\n`);

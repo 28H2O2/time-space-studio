@@ -1,0 +1,40 @@
+name: Feishu notification
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Send a connectivity test, or announce the latest published issue again
+        required: true
+        default: test
+        type: choice
+        options:
+          - test
+          - latest
+
+permissions:
+  contents: read
+
+concurrency:
+  group: feishu-notification
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      MODE: ${{ inputs.mode }}
+      FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+      FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+      FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Send message
+        run: node scripts/feishu-notify.mjs "--$MODE"

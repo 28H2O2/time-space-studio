@@ -79,6 +79,16 @@ jobs:
       - name: Verify production content and images
         if: env.MODE == 'publish'
         run: node scripts/verify-publication.mjs
+      - name: Notify Feishu group
+        if: env.MODE == 'publish' && steps.prepare.outputs.changed == 'true'
+        # A failed notification must not turn a verified publication into a failed run.
+        continue-on-error: true
+        env:
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
+          ISSUE_TITLE: ${{ steps.prepare.outputs.title }}
+        run: node scripts/feishu-notify.mjs --latest --title "$ISSUE_TITLE"
       - name: Save rehearsal build
         if: env.MODE == 'rehearse'
         uses: actions/upload-artifact@v4

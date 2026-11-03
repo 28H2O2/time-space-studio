@@ -62,6 +62,24 @@ GitHub 自带令牌推送不会再次触发普通 `push` 工作流，因此本�
 
 停用方式：在 Paseo 中暂停上述定时任务；如需同时禁止手动发布，在 Actions 页面选择此工作流并点击 **Disable workflow**。重新启用后只处理当前日期的一期，不补发全部遗漏日期。
 
+## 飞书群推送
+
+发布并通过线上核验后，工作流用飞书自建应用向指定群发一条消息（本期主题、三件作品、网站链接）。只在本次真正发刊时发送；同日重试不会重复发送，飞书的 `uuid` 去重也会拦住一小时内的相同请求。发送失败只在日志里给出 warning，不会让已核验的发布变成失败。
+
+在仓库 **Settings → Secrets and variables → Actions → Repository secrets** 添加：
+
+| Secret | 内容 |
+| --- | --- |
+| `FEISHU_APP_ID` | 应用的 App ID |
+| `FEISHU_APP_SECRET` | 应用的 App Secret |
+| `FEISHU_CHAT_ID` | 目标群的 `chat_id`（形如 `oc_…`） |
+
+可选的 `FEISHU_API_BASE`（默认 `https://open.feishu.cn`）只用于 Lark 国际版等其他域名，需使用 HTTPS。三个 Secret 未配置时，推送步骤会跳过。
+
+前提：应用已发布并启用机器人能力，已加入目标群，并有“以应用身份发消息”（`im:message:send_as_bot`）权限。查找 `chat_id` 时，在本机设置 `FEISHU_APP_ID` 和 `FEISHU_APP_SECRET` 后运行 `node scripts/feishu-notify.mjs --list-chats`；该模式在 GitHub Actions 中被禁用，因为本仓库公开，日志会暴露群名称。
+
+手动入口：Actions 中的 **Feishu notification**。`test` 发送连通性测试消息，`latest` 重新播报最新一期（不含主题行）。
+
 ## 官方参考
 
 - [GITHUB_TOKEN 对后续工作流触发的影响](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)
