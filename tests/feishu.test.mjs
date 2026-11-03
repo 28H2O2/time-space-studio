@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildMessage, sendPost, tenantToken } from '../scripts/feishu-notify.mjs';
+import { announce, buildMessage, sendPost, tenantToken } from '../scripts/feishu-notify.mjs';
 
 const work = (id, title, creator, year, category) => ({
-  id, title, creator, year, category, sourceUrl: `https://museum.example/${id}`,
+  id, title, creator, year, category, imageKey: `${id}.jpg`, sourceUrl: `https://museum.example/${id}`,
   rights: { credit: `${creator} / 某馆藏`, url: `https://museum.example/rights/${id}` },
   analysis: { structure: `${title}的结构。第二句不应出现。`, borrow: '借鉴', application: '应用' },
 });
@@ -95,4 +95,64 @@ test('API errors are reported without leaking the secret or token', async () => 
     assert(!error.message.includes('t-secret-token'));
     return true;
   });
+});
+
+const announceArgs = fetchImpl => ({
+  appId: 'cli_app', appSecret: 'shh', chatId: 'oc_chat', fetchImpl, library, title: '主题',
+  readImage: item => Buffer.from(`bytes-of-${item.id}`), log: () => {},
+});
+const tokenOk = { match: 'tenant_access_token', body: { code: 0, tenant_access_token: 't' } };
+
+test('each picture is uploaded first and embedded under its own work in the post', async () => {
+  let n = 0;
+  const { impl, calls } = fakeFetch([
+    tokenOk,
+    { match: 'im/v1/images', get body() { return { code: 0, data: { image_key: `img_${++n}` } }; } },
+    { match: 'im/v1/messages', body: { code: 0, data: { message_id: 'om_1' } } },
+  ]);
+  assert.deepEqual(await announce(announceArgs(impl)), { batchId: 'daily-2026-11-04', attached: 3 });
+  const uploads = calls.filter(call => call.url.includes('im/v1/images'));
+  assert.equal(uploads.length, 3);
+  assert(uploads[0].init.body instanceof FormData);
+  assert.equal(uploads[0].init.body.get('image_type'), 'message');
+  assert.equal(uploads[0].init.body.get('image').name, 'a.jpg');
+  assert.equal(uploads[0].init.headers.Authorization, 'Bearer t');
+  const sent = JSON.parse(JSON.parse(calls.at(-1).init.body).content);
+  const keys = sent.zh_cn.content.flat().filter(part => part.tag === 'img').map(part => part.image_key);
+  assert.deepEqual(keys, ['img_1', 'img_2', 'img_3']);
+  const order = sent.zh_cn.content.map(paragraph => paragraph[0].tag === 'img' ? 'img' : paragraph[0].text.slice(0, 3));
+  assert.deepEqual(order.slice(1, 4), ['1. ', 'img', '作者甲']);
+});
+
+test('a picture that fails to upload is left out but the text still goes out', async () => {
+  const { impl, calls } = fakeFetch([
+    tokenOk,
+    { match: 'im/v1/images', body: { code: 99991672, msg: 'Access denied. scope im:resource required' } },
+    { match: 'im/v1/messages', body: { code: 0, data: { message_id: 'om_1' } } },
+  ]);
+  assert.equal((await announce(announceArgs(impl))).attached, 0);
+  assert(!calls.at(-1).init.body.includes('image_key'));
+});
+
+test('with required pictures nothing is sent when an upload fails', async () => {
+  const { impl, calls } = fakeFetch([
+    tokenOk,
+    { match: 'im/v1/images', body: { code: 99991672, msg: 'Access denied. scope im:resource required' } },
+  ]);
+  await assert.rejects(announce({ ...announceArgs(impl), requireImages: true }), /99991672/);
+  assert(!calls.some(call => call.url.includes('im/v1/messages')));
+});
+
+test('a corrected message is not suppressed by the duplicate filter of the earlier text-only one', async () => {
+  const uuids = [];
+  for (const withImage of [false, true]) {
+    const { impl, calls } = fakeFetch([
+      tokenOk,
+      { match: 'im/v1/images', body: withImage ? { code: 0, data: { image_key: 'k' } } : { code: 1, msg: 'no' } },
+      { match: 'im/v1/messages', body: { code: 0, data: { message_id: 'om' } } },
+    ]);
+    await announce(announceArgs(impl));
+    uuids.push(JSON.parse(calls.at(-1).init.body).uuid);
+  }
+  assert.notEqual(uuids[0], uuids[1]);
 });

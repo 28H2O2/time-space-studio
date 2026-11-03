@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const SITE = 'https://time-space-studio.vercel.app';
@@ -19,7 +19,8 @@ const clip = (value, max) => {
 };
 const firstSentence = value => String(value).split(/(?<=[。！？])/)[0];
 
-export function buildMessage(library, { title = '', site = SITE } = {}) {
+// `images` maps a work id to the image_key Feishu returned for its uploaded picture.
+export function buildMessage(library, { title = '', site = SITE, images = {} } = {}) {
   const batch = library.batches[0];
   assert(batch, 'No published issue to announce');
   const works = batch.featuredIds.map(id => {
@@ -33,6 +34,7 @@ export function buildMessage(library, { title = '', site = SITE } = {}) {
   if (title) lines.push([text(`本期主题：${title}`, ['bold'])]);
   works.forEach((work, index) => {
     lines.push([text(`${index + 1}. ${work.title}`, ['bold'])]);
+    if (images[work.id]) lines.push([{ tag: 'img', image_key: images[work.id] }]);
     lines.push([text(`${work.creator} · ${work.year} · ${CATEGORY[work.category] || work.category}`)]);
     lines.push([text(`看点：${clip(firstSentence(work.analysis.structure), 90)}`)]);
     lines.push([text(`图像：${clip(work.rights.credit, 110)}`)]);
@@ -84,8 +86,18 @@ export async function tenantToken({ appId, appSecret, base = 'https://open.feish
   return body.tenant_access_token;
 }
 
-export async function sendPost({ appId, appSecret, chatId, base = 'https://open.feishu.cn', fetchImpl = fetch, content, dedupeKey }) {
-  const token = await tenantToken({ appId, appSecret, base, fetchImpl });
+export async function uploadImage({ token, base = 'https://open.feishu.cn', fetchImpl = fetch, bytes, filename }) {
+  const form = new FormData();
+  form.append('image_type', 'message');
+  form.append('image', new Blob([bytes], { type: filename.endsWith('.png') ? 'image/png' : 'image/jpeg' }), filename);
+  const response = await request(fetchImpl, `${base}/open-apis/im/v1/images`, { method: 'POST', headers: { Authorization: `Bearer ${token}` }, body: form });
+  const body = await json(response, 'Feishu image upload');
+  assert(typeof body.data?.image_key === 'string' && body.data.image_key, 'Feishu image upload returned no image_key');
+  return body.data.image_key;
+}
+
+export async function sendPost({ appId, appSecret, chatId, base = 'https://open.feishu.cn', fetchImpl = fetch, content, dedupeKey, token }) {
+  token ??= await tenantToken({ appId, appSecret, base, fetchImpl });
   // The uuid makes Feishu drop an identical send within an hour, so a retry cannot double-post.
   const uuid = createHash('sha256').update(`${dedupeKey}:${chatId}`).digest('hex').slice(0, 32);
   const response = await request(fetchImpl, `${base}/open-apis/im/v1/messages?receive_id_type=chat_id`, {
@@ -94,6 +106,30 @@ export async function sendPost({ appId, appSecret, chatId, base = 'https://open.
     body: JSON.stringify({ receive_id: chatId, msg_type: 'post', content: JSON.stringify(content), uuid }),
   });
   return (await json(response, 'Feishu send message')).data?.message_id;
+}
+
+// Uploads each featured picture, then posts the issue. A picture that cannot be uploaded is left
+// out (the text still goes out) unless `requireImages` is set, in which case nothing is sent.
+export async function announce({ appId, appSecret, chatId, base, fetchImpl = fetch, library, title, readImage, requireImages = false, log = console.log }) {
+  const token = await tenantToken({ appId, appSecret, base, fetchImpl });
+  const batch = library.batches[0];
+  assert(batch, 'No published issue to announce');
+  const images = {};
+  for (const id of batch.featuredIds) {
+    const work = library.artworks.find(a => a.id === id);
+    try {
+      assert(work, `Unknown featured work: ${id}`);
+      images[id] = await uploadImage({ token, base, fetchImpl, bytes: readImage(work), filename: work.imageKey });
+    } catch (error) {
+      if (requireImages) throw error;
+      log(`::warning::Image for ${id} was not attached: ${error.message}`);
+    }
+  }
+  const { batchId, content } = buildMessage(library, { title, images });
+  // Keyed by content so a corrected re-send is not swallowed by Feishu's one-hour duplicate filter.
+  const dedupeKey = `${batchId}:${createHash('sha256').update(JSON.stringify(content)).digest('hex')}`;
+  await sendPost({ appId, appSecret, chatId, base, fetchImpl, token, content, dedupeKey });
+  return { batchId, attached: Object.keys(images).length };
 }
 
 export async function listChats({ appId, appSecret, base = 'https://open.feishu.cn', fetchImpl = fetch }) {
@@ -141,9 +177,12 @@ async function main(argv, env) {
     console.log('Feishu test message sent.');
     return;
   }
-  const { batchId, content } = buildMessage(library, { title });
-  await sendPost({ ...cfg, content, dedupeKey: batchId });
-  console.log(`Feishu notification sent for ${batchId}.`);
+  const mediaDir = fileURLToPath(new URL('../public/media/', import.meta.url));
+  const { batchId, attached } = await announce({
+    ...cfg, library, title, requireImages: argv.includes('--require-images'),
+    readImage: work => readFileSync(join(mediaDir, work.imageKey)),
+  });
+  console.log(`Feishu notification sent for ${batchId} with ${attached} picture(s).`);
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === resolve(process.argv[1])) {

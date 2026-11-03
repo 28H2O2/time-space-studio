@@ -16,6 +16,11 @@ on:
         required: false
         default: ''
         type: string
+      require_images:
+        description: Fail before sending anything if a picture cannot be uploaded
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: read
@@ -32,6 +37,7 @@ jobs:
     env:
       MODE: ${{ inputs.mode }}
       ISSUE_TITLE: ${{ inputs.title }}
+      REQUIRE_IMAGES: ${{ inputs.require_images }}
       FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
       FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
       FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
@@ -43,4 +49,7 @@ jobs:
         with:
           node-version: '22'
       - name: Send message
-        run: node scripts/feishu-notify.mjs "--$MODE" --title "$ISSUE_TITLE"
+        run: |
+          flags=()
+          if [ "$REQUIRE_IMAGES" = "true" ]; then flags+=(--require-images); fi
+          node scripts/feishu-notify.mjs "--$MODE" --title "$ISSUE_TITLE" "${flags[@]}"

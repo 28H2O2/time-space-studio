@@ -76,7 +76,7 @@ GitHub 自带令牌推送不会再次触发普通 `push` 工作流，因此本�
 
 可选的 `FEISHU_API_BASE`（默认 `https://open.feishu.cn`）只用于 Lark 国际版等其他域名，需使用 HTTPS。三个 Secret 未配置时，推送步骤会跳过。
 
-前提：应用已发布并启用机器人能力，已加入目标群，并有“以应用身份发消息”（`im:message:send_as_bot`）权限。查找 `chat_id` 时，在本机设置 `FEISHU_APP_ID` 和 `FEISHU_APP_SECRET` 后运行 `node scripts/feishu-notify.mjs --list-chats`；该模式在 GitHub Actions 中被禁用，因为本仓库公开，日志会暴露群名称。
+前提：应用已发布并启用机器人能力，已加入目标群，并有“以应用身份发消息”（`im:message:send_as_bot`）权限。消息里的三张图片需要先上传到飞书，因此还需要“获取与上传图片或文件资源”（`im:resource`）权限；缺少该权限时图片会被略过，文字仍会发出，运行日志里有 warning。手动工作流勾选 `require_images` 时，图片上传失败会在发送前直接报错，不会发出任何消息。查找 `chat_id` 时，在本机设置 `FEISHU_APP_ID` 和 `FEISHU_APP_SECRET` 后运行 `node scripts/feishu-notify.mjs --list-chats`；该模式在 GitHub Actions 中被禁用，因为本仓库公开，日志会暴露群名称。
 
 手动入口：Actions 中的 **Feishu notification**。`test` 发送连通性测试消息，`latest` 重新播报最新一期；主题没有保存在内容库里，需要主题行时在 `title` 输入框填写。消息内每件作品含作者与年代、看点、图像署名，以及网站详情、原始出处、图片许可三个链接。
 
