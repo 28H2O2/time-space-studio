@@ -1,4 +1,1022 @@
 {
   "version": 1,
-  "issues": []
+  "issues": [
+    {
+      "id": "queue-instruments-of-time",
+      "notBefore": "2026-11-03",
+      "title": "时间的器具：河流、星盘与转动的历盘",
+      "approvedBy": "droid",
+      "approvedAt": "2026-11-03T02:27:06.113Z",
+      "featuredIds": [
+        "ts-stream-time",
+        "ts-muzaffari-astrolabe-1291",
+        "graphic-shunman-rotating-calendar-1795"
+      ],
+      "artworks": [
+        {
+          "id": "ts-muzaffari-astrolabe-1291",
+          "title": "穆扎法尔星盘：黄铜盘面上的天空与时间",
+          "titleOriginal": "Astrolabe of ‘Umar ibn Yusuf ibn ‘Umar ibn ‘Ali ibn Rasul al-Muzaffari",
+          "creator": "‘Umar ibn Yusuf al-Muzaffari（拉苏勒王朝亲王，款识所属）",
+          "year": "1291（伊历690年）",
+          "category": "time-space",
+          "methods": [
+            "同心圆刻度",
+            "可转动叠层",
+            "天球平面投影"
+          ],
+          "topics": [
+            "星盘",
+            "天文仪器",
+            "测时与定位",
+            "中世纪也门"
+          ],
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/444408",
+          "imageKey": "time-muzaffari-astrolabe-1291.jpg",
+          "width": 1800,
+          "height": 2400,
+          "rights": {
+            "label": "CC0 / Met Open Access",
+            "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+            "credit": "‘Umar ibn Yusuf al-Muzaffari, Astrolabe, dated 690 AH/1291 CE, Yemen. The Metropolitan Museum of Art, Edward C. Moore Collection, Bequest of Edward C. Moore, 1891, 91.1.535a–h",
+            "usage": "馆方 Open Access 公有领域图像（主图 DP170386，3000×4000 像素）。本地文件为等比缩小至 1800×2400 并重新编码为 JPEG，未裁切、未调色。"
+          },
+          "observation": "一件圆形黄铜仪器斜放在灰色背景前，顶部有镂空的叶卷纹饰和吊环。外缘是一圈带格的刻度环，每格里刻有阿拉伯文字符和数字；内侧盘面叠着一层镂空的星网，上有若干带尖的指针和新月形的枝杈，其下露出带弧线的网格板。中央由一枚销钉固定着一根细长的指针条。",
+          "evidence": "已核对 Met 馆藏页：标题、制作者款识（Yemini，统治期 1295–96）、日期 dated 690 AH/1291 CE、产地 Yemen、材质为黄铜铸造并锤制、镂空、錾刻、嵌银、馆藏号 91.1.535a–h、入藏信息 Edward C. Moore 遗赠 1891。页面称款识把此件归于登基前几年的拉苏勒亲王 ‘Umar ibn Yusuf，并说开罗所存其论著描述了这件器物。Met Open Access API 标注 isPublicDomain 为 true。盘面上的阿拉伯文字我未逐字释读。",
+          "analysis": {
+            "structure": "外圈刻度环负责读角度，中层可转动的星网负责标出恒星的位置，下层板面画出与地理纬度相关的网格。几层叠合后，转动一层即可改变天与地的对应，所以它是“可计算的图”，不是静态示意。",
+            "borrow": "可借用“固定底盘加可转动叠层”的结构：底层放稳定的参照，上层放可移动的变量，用重叠关系读出结果。外圈刻度环让精确读数在边缘完成，也为中心留出复杂图形。",
+            "application": "适合做时间轴、日程或比较类互动图表：把基线固定，把可调的层做成滑块或转盘。需要注意星盘依赖具体纬度的板，换纬度就要换板，借用时不应把一张板当作适用于所有场景。"
+          },
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:18:14.413Z",
+            "inputHash": "61493e1228025a5740359e6c7c1cebd3f7db135bf81dc3b45f8da946dd9a6189",
+            "referenceSources": [
+              "https://www.metmuseum.org/art/collection/search/444408",
+              "https://collectionapi.metmuseum.org/public/collection/v1/objects/444408",
+              "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+              "https://images.metmuseum.org/CRDImages/is/original/DP170386.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:18:14.413Z"
+        },
+        {
+          "id": "graphic-shunman-rotating-calendar-1795",
+          "title": "可转动的图画历：浪涛底座上的月历圆盘",
+          "titleOriginal": "Moveable rotating calendar mounted on elaborate wave-base with rabbit crest",
+          "creator": "久保俊满（Kubo Shunman）",
+          "year": "1795（乙卯年）",
+          "category": "graphic",
+          "methods": [
+            "图画历（egoyomi）",
+            "镂窗圆盘",
+            "图文并置"
+          ],
+          "topics": [
+            "日历",
+            "历日知识",
+            "摺物（surimono）",
+            "木版印刷"
+          ],
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/77876",
+          "imageKey": "graphic-shunman-rotating-calendar-1795.jpg",
+          "width": 2400,
+          "height": 1801,
+          "rights": {
+            "label": "CC0 / Met Open Access",
+            "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+            "credit": "Kubo Shunman, Moveable rotating calendar mounted on elaborate wave-base with rabbit crest, 1795. The Metropolitan Museum of Art, Purchase, Marjorie H. Holden Gift, 2012, 2012.248.5",
+            "usage": "馆方 Open Access 公有领域图像（主图 DP-14464-005，4000×3002 像素）。本地文件为等比缩小至 2400×1801 并重新编码为 JPEG，未裁切、未调色。"
+          },
+          "observation": "横长的浅黄纸面分三段：左侧是几行手写体的墨字，中间是一个悬挂小环的黄色圆盘，立在蓝灰色卷浪形底座和彩色台座上，右侧是一位坐着的人物，穿黄绿色和服，伸手用折扇指向圆盘，旁边是一大片竖排小字。圆盘边缘环排着一圈汉字，盘面上开有三个小窗，分别露出红色、白色和带文字的纸片。右下角有一个红色圆印。",
+          "evidence": "已核对 Met 馆藏页：作者久保俊满（Japanese, 1757–1820），日期 1795, year of the rabbit，江户时代，媒介为 woodblock print (surimono)，墨与色，画面尺寸 13.7×27.9 cm，馆藏号 2012.248.5，Purchase, Marjorie H. Holden Gift, 2012。馆方说明称这是一幅图画历（egoyomi），画一位讲述者讲解“浑天仪”（kontenki，一类浑天仪或星盘），原本由环架构成的仪器在这里被巧妙地换成可转动的历盘。图中日文我未逐字释读，历日信息只依馆方说明。Met 记录 isPublicDomain 为 true。",
+          "analysis": {
+            "structure": "画面把三类内容并排：左边的诗文、中间的历盘、右边讲解人和说明文字。圆盘居中并有垂直吊环和台座，形成视觉中心；讲解人的手臂与折扇把视线从文字带到盘面。盘上的窗口露出来的是各月信息，不是连续的时间轴。",
+            "borrow": "可借用“用一个可操作的物体代替抽象说明”的做法：让核心信息落在一个单独的、被突出的形体上，旁边的人物和文字围着它服务。镂窗读取的方式也适合把大量数据收进一个紧凑的圆盘。",
+            "application": "适合做年历、节气卡、活动日程或纸质互动小册：用转盘加小窗呈现“当前月份”的信息。借用时应保留原物是纸质摺物、带诗文与说明的语境，不宜把它当作通用的日历模板。"
+          },
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:18:14.413Z",
+            "inputHash": "d2f51c3e279f9fa86c1d16d885a0ef68770bdf9025ac325ddcf54af26998176a",
+            "referenceSources": [
+              "https://www.metmuseum.org/art/collection/search/77876",
+              "https://collectionapi.metmuseum.org/public/collection/v1/objects/77876",
+              "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+              "https://images.metmuseum.org/CRDImages/as/original/DP-14464-005.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:18:14.413Z"
+        }
+      ]
+    },
+    {
+      "id": "queue-city-and-ice",
+      "notBefore": "2026-11-04",
+      "title": "城市里的线路、广场与冰面",
+      "approvedBy": "droid",
+      "approvedAt": "2026-11-03T02:27:06.113Z",
+      "featuredIds": [
+        "ts-london-1908",
+        "ts-anonymous-dam-square-panorama",
+        "art-avercamp-winter-skaters"
+      ],
+      "artworks": [
+        {
+          "id": "art-avercamp-winter-skaters",
+          "title": "冰上景观：村口运河上的人群",
+          "titleOriginal": "Winterlandschap met schaatsers / Winter Landscape with Ice Skaters",
+          "creator": "Hendrick Avercamp",
+          "year": "约1608",
+          "category": "art",
+          "methods": [
+            "高视点俯瞰",
+            "前景—远景纵深",
+            "人群散点",
+            "冷色天空与暖色建筑"
+          ],
+          "topics": [
+            "冬季",
+            "冰面活动",
+            "村镇空间",
+            "尺度与人流"
+          ],
+          "sourceUrl": "https://www.rijksmuseum.nl/en/collection/object/Winter-Landscape-with-Ice-Skaters--918895dc18da94e357c6763adda8882f",
+          "imageKey": "art-avercamp-winter-skaters.jpg",
+          "rights": {
+            "label": "Public Domain Mark 1.0（Rijksmuseum 标示）",
+            "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "credit": "Hendrick Avercamp, Winter Landscape with Ice Skaters, c. 1608, 木板油画, Rijksmuseum, Amsterdam, 馆藏号 SK-A-1718",
+            "usage": "馆方 IIIF 原图（6337×3674 px）等比缩小至 2400 px 宽并重存为 JPEG，未裁剪、未调色。馆方将该作品标为公有领域。"
+          },
+          "observation": "画面横向展开，低处是岸边的砖房、船和结冰的运河，左侧有带蓝绿色屋顶的教堂，远处冰面缩成细小的人影，地平线很高；天空占上方近一半，色调灰白偏暖。冰面中部到右下聚集大量穿深色衣服的人：有人滑冰，有人持杖击球，有人推雪橇或拖着物品，红色雪橇较醒目。左右各有一棵光秃的树框住画面，树枝上和天空中有零星的鸟，左下前景可见倒地的动物和乌鸦。",
+          "evidence": "已核对 Rijksmuseum 对象页与官方 Linked Art 记录（id.rijksmuseum.nl/200108163）：馆藏号 SK-A-1718；署名 Hendrick Avercamp（画面右侧木屋墙面有缩写签名）；年代 c. 1608；媒介为木板油画；支撑物 77.3 × 131.9 cm；图像许可标示为 Public Domain Mark 1.0。馆方荷兰文简介称此画因视点较高而成为严冬中人和动物活动的样本，数百人出现在冰上，多为消遣，也有人出于迫切需要而劳作。画中地点是否对应某个具体村镇，页面未说明，这里不作判断。",
+          "analysis": {
+            "structure": "高视点把岸边建筑、冰面和远处村镇压进同一张横向画面：近处用较大的人物与船只建立尺度，越往远处人影越小，冰面成为连接各处的开放平面。人群沿冰面分散而非排成一条路径，使不同活动同时可读；冷色天空、灰白冰面与房屋的暖色把空间层次分开。",
+            "borrow": "可借用“高视点 + 近大远小的人物尺度 + 一片可通行的开放平面”来组织信息：用前景细节提供可识别的单位，用远景的小点表示密度。也可借其用季节气候（冰、冷光、裸树）作为时间线索，而不必写文字说明。",
+            "application": "适合城市广场、水岸、园区的活动分布图或场景插画，展示同一时刻多种行为共存。注意这是绘画构图而非测绘：人数、位置和比例都为画面服务，不能当作真实人流统计。"
+          },
+          "width": 2400,
+          "height": 1391,
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:19:49.306Z",
+            "inputHash": "bb54f79581f974af758710ae8f7fda674c0453ce339a1fa3b342b73f4cf37f8c",
+            "referenceSources": [
+              "https://www.rijksmuseum.nl/en/collection/object/Winter-Landscape-with-Ice-Skaters--918895dc18da94e357c6763adda8882f",
+              "https://id.rijksmuseum.nl/200108163",
+              "https://iiif.micr.io/aXnzA/full/max/0/default.jpg",
+              "https://data.rijksmuseum.nl/search/collection?objectNumber=SK-A-1718"
+            ]
+          },
+          "addedAt": "2026-11-03T02:19:49.306Z"
+        },
+        {
+          "id": "ts-anonymous-dam-square-panorama",
+          "title": "阿姆斯特丹水坝广场全景：三张照片拼成的广场",
+          "titleOriginal": "Panorama van de Dam te Amsterdam / Panorama of Dam Square in Amsterdam",
+          "creator": "佚名摄影师（anonymous）",
+          "year": "1899—1903",
+          "category": "time-space",
+          "methods": [
+            "多幅拼接",
+            "高机位",
+            "广场环形布局",
+            "人流与车辆"
+          ],
+          "topics": [
+            "城市广场",
+            "全景摄影",
+            "日常人流",
+            "有轨交通"
+          ],
+          "sourceUrl": "https://www.rijksmuseum.nl/en/collection/object/Panorama-of-Dam-Square-in-Amsterdam--9bd13ad02ec4e5ee33ced062b3e2b06b",
+          "imageKey": "ts-anonymous-dam-square-panorama.jpg",
+          "rights": {
+            "label": "Public Domain Mark 1.0（Rijksmuseum 标示）",
+            "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "credit": "Anonymous, Panorama of Dam Square in Amsterdam, 1899-1903, 日光明胶银盐照片, Rijksmuseum, Amsterdam, 馆藏号 RP-F-F17849",
+            "usage": "馆方 IIIF 原图（6358×3232 px）等比缩小至 3000 px 宽并重存为 JPEG，未裁剪、未调色，保留卡纸衬底。馆方将该作品标为公有领域。"
+          },
+          "observation": "灰蓝色纹理卡纸上并排贴着三张照片，接缝处可见明显的竖向分界，相邻画面的建筑并不完全对齐。拍摄点较高，广场铺石地面呈大片留白，中央偏右立着带雕像的纪念碑，周围有圆形的路缘线和电车轨道的弧线。步行者零散分布，左侧人行道上有小群人和马车，右侧停着数辆带顶棚的车辆。远处是几层高的商业建筑，屋顶有“NATIONALE LEVENSVERZEKERINGBANK”字样的招牌。",
+          "evidence": "已核对 Rijksmuseum 对象页与官方 Linked Art 记录（id.rijksmuseum.nl/200325690）：馆藏号 RP-F-F17849；标题 Panorama of Dam Square in Amsterdam；摄影师 anonymous（荷兰）；年代 1899—1903；馆方技术记录为日光明胶银盐印相（daglichtgelatinezilverdruk），照片尺寸 78 × 183 mm，卡纸 106 × 213 mm；图像许可标示为 Public Domain Mark 1.0。三张照片是否同时拍摄、拼贴由谁完成，页面未说明，这里不作判断；招牌文字为画面可见内容。",
+          "analysis": {
+            "structure": "三张窄幅照片沿水平方向依次排开，用拼贴代替单张广角，让观看者在一个平面上看到整圈广场边缘。因为视点高，地面像一块舞台，步行者与车辆被地面的圆弧线和轨道线组织起来；接缝既是拼接痕迹，也提示这是在时间上略有先后的多次取景（是否同时拍摄页面未说明）。",
+            "borrow": "可借用“分段取景再并置”的方式处理比单一视角更宽的空间，并保留接缝来诚实标示每段的边界。也可借其高机位让地面线条、路缘与轨道成为空间骨架，人物点缀其上显示尺度。",
+            "application": "适合做街区或广场的现状记录、人流观察和使用方式对比；多段并置也适合展示同一场地在不同时刻的状态。注意单次画面只是一个瞬间，不能直接推断全天或全年的人流规律。"
+          },
+          "width": 3000,
+          "height": 1525,
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:19:49.306Z",
+            "inputHash": "c4ee1046fd11f2459f2234d1606a260497bd5b348eeef1bd8367cfc379939ae9",
+            "referenceSources": [
+              "https://www.rijksmuseum.nl/en/collection/object/Panorama-of-Dam-Square-in-Amsterdam--9bd13ad02ec4e5ee33ced062b3e2b06b",
+              "https://id.rijksmuseum.nl/200325690",
+              "https://iiif.micr.io/UOqKQ/full/max/0/default.jpg",
+              "https://data.rijksmuseum.nl/search/collection?type=photograph&imageAvailable=true&title=panorama"
+            ]
+          },
+          "addedAt": "2026-11-03T02:19:49.306Z"
+        }
+      ]
+    },
+    {
+      "id": "queue-frames-and-light-trails",
+      "notBefore": "2026-11-05",
+      "title": "分幅、光迹与被折叠的塔",
+      "approvedBy": "droid",
+      "approvedAt": "2026-11-03T02:27:06.113Z",
+      "featuredIds": [
+        "ts-turkestan",
+        "ts-delano-chicago-rail-yard-night",
+        "art-delaunay-la-tour"
+      ],
+      "artworks": [
+        {
+          "id": "ts-delano-chicago-rail-yard-night",
+          "title": "芝加哥铁路编组场之夜：灯笼留下的光迹",
+          "titleOriginal": "Chicago, Illinois. One of the yards of the Chicago and Northwestern Railroad at night. The light streaks are caused by lantern of men going in and out of the yard office",
+          "creator": "Jack Delano / U.S. Office of War Information",
+          "year": "1942年12月",
+          "category": "time-space",
+          "methods": [
+            "长曝光光迹",
+            "透视纵深",
+            "近景信号灯与远景股道",
+            "夜间照明"
+          ],
+          "topics": [
+            "铁路编组场",
+            "夜间劳动",
+            "空间纵深",
+            "时间痕迹"
+          ],
+          "sourceUrl": "https://www.loc.gov/pictures/item/2017836467/",
+          "imageKey": "ts-delano-chicago-rail-yard-night.jpg",
+          "rights": {
+            "label": "No known restrictions（Library of Congress Rights Advisory）",
+            "url": "https://www.loc.gov/rr/print/res/071_fsab.html",
+            "credit": "Jack Delano, photographer, 1942 Dec. Library of Congress, Prints & Photographs Division, Farm Security Administration/Office of War Information Black & White Negatives, LC-USW3-012681-D.",
+            "usage": "LOC条目的权利提示为 No known restrictions，并链接FSA/OWI黑白影像权利说明。本地JPEG由LOC提供的TIFF母版等比缩小至长边2000像素并转JPEG，未裁剪、未调色，底片边缘与编号保留。LOC说明该数字文件来自缩微胶卷中间件（intermediary roll film）。"
+          },
+          "observation": "近景中央是一盏带圆形透镜的手提信号灯，亮度很高；左侧有窗内透出灯光的小木屋和一辆旧车，中间一列棚车停在股道上。数条铁轨向远处收窄，远处有几处泛光灯与雾状光晕。画面右侧和棚车附近有几道细长、弯曲的白色光迹。底片边缘保留黑边与手写编号。",
+          "evidence": "核验LOC Prints & Photographs在线目录条目 2017836467：摄影者 Delano, Jack, 1914-1997；日期 1942 Dec.；标题（含“光迹由进出调度室的人们的灯笼造成”）；复制编号 LC-USW3-012681-D；呼叫号 LC-USW3- 012681-D [P&P] LOT 220；所属 FSA/OWI 黑白底片；Rights Advisory: No known restrictions。已下载并读取缩小后的JPEG，画面与条目标题相符。光迹成因来自LOC标题，不是本站自行推断；曝光时间未知。",
+          "analysis": {
+            "structure": "静止的轨道、建筑与车厢构成稳定的空间场景，近处信号灯和远处灯光拉出纵深；弯曲光迹是时间在同一张底片上的累积痕迹，显示人的走动并非瞬间。",
+            "borrow": "把“固定场景”与“运动留下的轨迹”叠在同一画面：背景保持清晰以承载位置，光迹单独承载过程。近大远小的纵深可以示意规模，光迹则示意时间厚度。",
+            "application": "适合表达人流、设备或信息在固定场地内的活动范围与时段，例如调度场、物流中心的夜间作业。需注意光迹只显示运动路径，不能读出速度、顺序或人数。"
+          },
+          "width": 2000,
+          "height": 1546,
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:20:37.810Z",
+            "inputHash": "209790a7af774ca09c9b12815bc5e8479b57fe6a5b1c55ec36ea2f8e599c53c5",
+            "referenceSources": [
+              "https://www.loc.gov/pictures/item/2017836467/",
+              "https://www.loc.gov/rr/print/res/071_fsab.html",
+              "https://www.loc.gov/pictures/collection/fsa/",
+              "https://tile.loc.gov/storage-services/master/pnp/fsa/8d11000/8d11200/8d11258u.tif"
+            ]
+          },
+          "addedAt": "2026-11-03T02:20:37.810Z"
+        },
+        {
+          "id": "art-delaunay-la-tour",
+          "title": "塔：德劳内笔下被折叠的埃菲尔铁塔",
+          "titleOriginal": "La Tour",
+          "creator": "Robert Delaunay（法国，1885–1941）",
+          "year": "1926",
+          "category": "art",
+          "methods": [
+            "石版画",
+            "几何切面",
+            "倾斜透视",
+            "多视点并置"
+          ],
+          "topics": [
+            "巴黎城市",
+            "塔与街区",
+            "空间折叠",
+            "现代主义"
+          ],
+          "sourceUrl": "https://clevelandart.org/art/1989.59",
+          "imageKey": "art-delaunay-la-tour.jpg",
+          "rights": {
+            "label": "CC0 / Public Domain（Cleveland Museum of Art Open Access）",
+            "url": "https://www.clevelandart.org/open-access",
+            "credit": "Robert Delaunay, La Tour, 1926, lithograph. The Cleveland Museum of Art, John L. Severance Fund, 1989.59.",
+            "usage": "馆藏页标示 Public Domain，可复制、修改与分发；开放获取API标记为 CC0。本地JPEG由馆方 print 尺寸文件（2533×3400）等比缩小为长边2400像素，未裁剪、未调色。"
+          },
+          "observation": "黑白石版画，竖构图。中央的铁塔被分解为尖锐的几何碎片和格构，塔身下部有拱门，拱门下露出一簇小房屋。左右两侧各有一栋深色楼房向画面内倾斜，上半部是圆润的云团形状。画面明暗对比强，下缘有手写字迹。",
+          "evidence": "核验Cleveland Museum of Art馆藏页 1989.59：作者 Robert Delaunay（French, 1885–1941）；标题 La Tour；年代 1926；媒介 lithograph；图录号 Loyer and Perusseaux 3；馆藏 John L. Severance Fund, 1989.59；页面标示 Public Domain。同一记录的开放获取API显示 share_license_status 为 CC0，并给出 print 尺寸文件。已读取下载图像，与馆方描述一致。馆方页面未提供作者意图说明，本条不据此推断；下缘手写字迹未作释读。",
+          "analysis": {
+            "structure": "塔居中，两侧楼房倾斜内收，天空与街区被切成不同方向的片段；同一画面中塔身、拱门和楼房呈现不同角度，产生空间被拉伸、折叠的印象。",
+            "borrow": "用中心地标加两侧倾斜体量组织画面，让观看视角在塔顶、拱门和街区之间移动；几何碎片可以把同一对象的多个局部并置，而不必遵循单一消失点。",
+            "application": "适合表达同一地点的多个观看位置、尺度对比或城市记忆的拼合。这是一幅艺术家的主观构图，不是地理测绘，不能用来读取距离或比例。"
+          },
+          "width": 1788,
+          "height": 2400,
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:20:37.810Z",
+            "inputHash": "fa21ec3bbbfae9a6cb0585e9a93ba6ad9328123c3af8041a06fa306c46a16dce",
+            "referenceSources": [
+              "https://clevelandart.org/art/1989.59",
+              "https://www.clevelandart.org/open-access",
+              "https://openaccess-api.clevelandart.org/api/artworks/1989.59",
+              "https://openaccess-cdn.clevelandart.org/1989.59/1989.59_print.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:20:37.810Z"
+        }
+      ]
+    },
+    {
+      "id": "queue-empire-sky-and-pattern",
+      "notBefore": "2026-11-06",
+      "title": "帝国的瓜分、北天星图与重复的型纸",
+      "approvedBy": "droid",
+      "approvedAt": "2026-11-03T02:27:06.113Z",
+      "featuredIds": [
+        "ts-quin-alexander",
+        "ts-durer-northern-sky-1515",
+        "graphic-katagami-mallows"
+      ],
+      "artworks": [
+        {
+          "id": "ts-durer-northern-sky-1515",
+          "title": "北天星图与十二黄道宫",
+          "titleOriginal": "Celestial Map of the Northern Sky with the Twelve Zodiac Signs（版面题字：Imagines coeli Septentrionales cum duodecim imaginibus zodiaci）",
+          "creator": "Albrecht Dürer（德国，1471—1528）",
+          "year": "1515",
+          "category": "time-space",
+          "methods": [
+            "天球投影",
+            "圆形星图",
+            "星座形象",
+            "黄道刻度环"
+          ],
+          "topics": [
+            "天文星图",
+            "黄道十二宫",
+            "木刻版画"
+          ],
+          "sourceUrl": "https://www.artic.edu/artworks/106550",
+          "imageKey": "ts-durer-north-celestial-map.jpg",
+          "width": 1686,
+          "height": 2102,
+          "rights": {
+            "label": "CC0 Public Domain Designation（Art Institute of Chicago）",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Albrecht Dürer, Celestial Map of the Northern Sky with the Twelve Zodiac Signs, 1515, woodcut; Art Institute of Chicago, Clarence Buckingham Collection, 1964.1065",
+            "usage": "采用馆方IIIF服务提供的JPEG（宽1686px），完整保留图像与纸边，未裁切或改色。馆方对该作品图像标示CC0公有领域。"
+          },
+          "observation": "方形木刻版框内是一个大圆：圆心附近挤着小熊、大熊、天龙等形象，圆周带有黑白相间的刻度环，几条直线从中心向外放射。人像与动物形象的躯体上布满带星点的小圆圈和数字，各星座旁有拉丁文名称，如Taurus、Aries、Pisces、Ursa maior、Virgo、Libra、Scorpio、Sagittarius。部分文字相对圆心倒置或斜置。四个角各有一位手持天球的人物，旁注Aratus Cilix、Ptolemeus Aegyptius、M. Manilius Romanus、Azophi Arabus。顶部是哥特体拉丁题字。",
+          "evidence": "核对Art Institute of Chicago作品页（artic.edu/artworks/106550）及其公开API字段：作者Albrecht Dürer（德国，1471—1528），日期1515，媒介为象牙色laid paper上的黑色木刻，版面43.2×43 cm、纸张58.4×46.3 cm，馆藏号1964.1065，Clarence Buckingham Collection，is_public_domain为真，页面图像署名为CC0 Public Domain Designation。馆方说明称该图与南天图并为赠送给皇帝马克西米利安一位人文主义顾问的一组作品，画面如同从太空观看天空，并被后人多次复制用于制作球面。已读取下载图像，题字、四角人名、刻度环与馆方记录一致。图中星点的具体星表来源、刻版者分工本页未写，故不下判断。",
+          "analysis": {
+            "structure": "以天球北极为中心把球面压到平面：星座形象沿放射线与同心圆摆开，外圈刻度环承担黄道角度读数，星点用小圆圈加数字标出。读者在图中读到的是天空方位与相邻关系，不是日期或事件先后；形象大小为叙事服务，并不与星体亮度或距离成比例。",
+            "borrow": "可借用“中心极点＋刻度环＋放射线”的圆形坐标骨架，让每个对象既有图形身份又有可查的位置读数；四角的注记人物把图的出处和权威交代在边缘，不压住主体。",
+            "application": "适合做环形排布的方向图、季节或周期面板、以某个中心对象为参照的关系图。用形象代替点时要保留一层可读的刻度或编号，否则图像虽生动，位置就无法查证。"
+          },
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:18:09.868Z",
+            "inputHash": "06cd247c2789591b94f208c929548ef000f61b97223b61e4692f0d2b4c6d2c99",
+            "referenceSources": [
+              "https://www.artic.edu/artworks/106550",
+              "https://api.artic.edu/api/v1/artworks/106550",
+              "https://www.artic.edu/iiif/2/8d78cb88-9377-3e24-c62c-9bcc16ac3920/full/1686,/0/default.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:18:09.868Z"
+        },
+        {
+          "id": "graphic-katagami-mallows",
+          "title": "锦葵纹型纸",
+          "titleOriginal": "Stencil with Design of Mallows",
+          "creator": "日本（作者未知）",
+          "year": "19世纪晚期",
+          "category": "graphic",
+          "methods": [
+            "镂空型纸",
+            "叶形重叠",
+            "深浅块面与线描对照",
+            "丝网加固"
+          ],
+          "topics": [
+            "纹样",
+            "染织型纸",
+            "满地花叶"
+          ],
+          "sourceUrl": "https://www.artic.edu/artworks/60674",
+          "imageKey": "graphic-katagami-mallows.jpg",
+          "width": 1686,
+          "height": 1239,
+          "rights": {
+            "label": "CC0 Public Domain Designation（Art Institute of Chicago）",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Japan, Stencil with Design of Mallows, late 19th century, mulberry paper treated with persimmon juice, with silk web reinforcement; Art Institute of Chicago, Clarence Buckingham Collection, 1928.447",
+            "usage": "采用馆方IIIF服务提供的JPEG（宽1686px），完整保留图像与纸边，未裁切或改色。馆方对该作品图像标示CC0公有领域。"
+          },
+          "observation": "棕色纸框中间开出一块矩形窗口，窗口内布满圆形裂叶，叶面有放射状叶脉。叶子大致分两种：一种是实心深色块，叶脉被刻成白色细缝；另一种只留细线轮廓，内部镂空。深色叶片成簇，约三处较集中，周围分布线描叶片，叶子相互叠压，之间点缀小簇毛状短刻线。窗口里隐约可见一层细网格，图的边缘处有磨损或破损。",
+          "evidence": "核对Art Institute of Chicago作品页（artic.edu/artworks/60674）及公开API字段：标题Stencil with Design of Mallows，产地日本，作者标示为“Japan”（未署个人），日期Late 19th century（1850—1899），媒介为涂柿渍的桑皮纸并有丝网加固，馆藏号1928.447，Clarence Buckingham Collection，来源记录为Kate Sturges Buckingham（1858—1937）于1928年5月11日捐赠，is_public_domain为真，页面标示CC0 Public Domain Designation。尺寸、具体产地与工坊页面未载。已读取下载图像；本图为型纸实物，所见是单张纸上的刻痕，不能由此判断它在布上重复的排布方式。",
+          "analysis": {
+            "structure": "靠“实心叶块”和“只留轮廓的叶”两种密度，在同一平面里制造聚散：深色簇是视觉重心，线描叶填充其间。叶子互相叠压，没有留下清晰的格点，疏密起伏依靠叶团的大小与间距，而非规则格栅。",
+            "borrow": "可借用同一母题两种处理（实心与线描）形成的层次，以及用丝网等“看不见的支撑”保持细刻线连续的做法。型纸刻痕必须相连，这一制作限制也限定了形状。",
+            "application": "适合做满铺的背景纹理、包装或界面底纹：用两到三种密度的同一元素控制疏密，使内容区仍有空白可读。需要无缝平铺时，仍要另外检查边缘衔接，本页没有显示这一点。"
+          },
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:18:09.868Z",
+            "inputHash": "387fb6cafbeddddd39f48a158f4a9fd7690f6fa8d7e6050ab2a78119b03c075c",
+            "referenceSources": [
+              "https://www.artic.edu/artworks/60674",
+              "https://api.artic.edu/api/v1/artworks/60674",
+              "https://www.artic.edu/iiif/2/9b6a6782-a9e2-c3e7-bebe-76fd8dacabc2/full/1686,/0/default.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:18:09.868Z"
+        }
+      ]
+    },
+    {
+      "id": "queue-quantity-distance-and-scroll",
+      "notBefore": "2026-11-07",
+      "title": "数量、远距离与展开的长卷",
+      "approvedBy": "droid",
+      "approvedAt": "2026-11-03T02:27:06.113Z",
+      "featuredIds": [
+        "ts-minard-cotton",
+        "ts-voyager-pale-blue-dot",
+        "art-anon-life-on-the-river"
+      ],
+      "artworks": [
+        {
+          "id": "ts-voyager-pale-blue-dot",
+          "title": "暗淡蓝点：旅行者1号拍摄的地球",
+          "titleOriginal": "Solar System Portrait – Earth as ‘Pale Blue Dot’ (PIA00452)",
+          "creator": "NASA/JPL-Caltech（旅行者1号窄角相机）",
+          "year": "1990-02-14（拍摄）；1996-09-12（Photojournal 收录）",
+          "category": "time-space",
+          "methods": [
+            "尺度对比",
+            "留白与单点标记",
+            "距离压缩"
+          ],
+          "topics": [
+            "太空探测",
+            "地球",
+            "距离与视角"
+          ],
+          "sourceUrl": "https://science.nasa.gov/photojournal/solar-system-portrait-earth-as-pale-blue-dot/",
+          "imageKey": "ts-voyager-pale-blue-dot.jpg",
+          "width": 453,
+          "height": 614,
+          "rights": {
+            "label": "NASA/JPL-Caltech · JPL Image Use Policy（可免许可使用，需署名）",
+            "url": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+            "credit": "Courtesy NASA/JPL-Caltech",
+            "usage": "下载 NASA Photojournal PIA00452 页面提供的 JPEG 原文件（453×614 像素），未裁剪、未调色、未缩放。页面署名为 NASA/JPL-Caltech，未标注第三方版权。不得暗示 NASA、JPL 或 Caltech 为任何产品背书；不使用 NASA 徽标。"
+          },
+          "observation": "近黑的深灰底色上有几道淡淡的斜向光带，分别偏粉红、绿和浅褐，最右侧一条最亮最直。靠右下方、右侧光带之中有一个极小的浅色亮点。画面没有刻度、标注或边框，其余部分只有颗粒状噪点。",
+          "evidence": "核对 NASA Photojournal 页面 PIA00452：说明为旅行者1号于 1990 年 2 月 14 日、从约 60 亿公里（37 亿英里）外拍摄的窄角彩色图像，属“太阳系全家福”60 帧马赛克的一部分；观测点约在黄道面上方 32 度；地球在窄角相机中只有 0.12 像素大；地球恰好落在一道由靠近太阳造成的散射光线中；彩色由紫、蓝、绿三个滤镜合成；背景特征是放大后的伪影。署名 NASA/JPL-Caltech；页面显示图片收录日 09/12/1996。使用依据为 JPL Image Use Policy。图像自身不含距离或时间信息，这些数值来自页面说明；我没有核实具体拍摄时分。",
+          "analysis": {
+            "structure": "画面以大面积近乎空白的暗色背景为“空间”，真正的对象小到不足一个像素，只能靠颜色和落在光带内的位置被找到。光带是页面说明的散射光与放大伪影，并非天体结构，也不指示方向或距离。",
+            "borrow": "可借用“极大留白里只放一个极小标记”的比例对比：先让读者感到空，再让他们找到目标，距离感便出现在寻找过程里。同时应像馆方那样把伪影和对象分开交代。",
+            "application": "适合需要表现尺度、距离、孤立或“远处回望”的叙事和展览导览。静帧本身读不出距离、角度或时间，必须配文字或比例图；也不要把背景光带当成数据结构。"
+          },
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:19:08.924Z",
+            "inputHash": "11ed2d856e4b15aedfd19480f5cdf79ad7b0d78d61113edffa064639ba3cf7a6",
+            "referenceSources": [
+              "https://science.nasa.gov/photojournal/solar-system-portrait-earth-as-pale-blue-dot/",
+              "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00452/PIA00452.jpg",
+              "https://www.jpl.nasa.gov/jpl-image-use-policy/"
+            ]
+          },
+          "addedAt": "2026-11-03T02:19:08.924Z"
+        },
+        {
+          "id": "art-anon-life-on-the-river",
+          "title": "江上生活：传马远名下的河上长卷",
+          "titleOriginal": "Life on the river (F1909.239)",
+          "creator": "未知（馆方：Formerly attributed to Ma Yuan 馬遠）",
+          "year": "18世纪（馆方断代）",
+          "category": "art",
+          "methods": [
+            "长卷横向展开",
+            "前中远层次",
+            "分组叙事",
+            "留白水面"
+          ],
+          "topics": [
+            "手卷",
+            "河上日常",
+            "非西方绘画传统"
+          ],
+          "sourceUrl": "https://asia.si.edu/object/F1909.239/",
+          "imageKey": "art-anon-life-on-the-river.jpg",
+          "width": 4096,
+          "height": 356,
+          "rights": {
+            "label": "CC0 1.0（Smithsonian Open Access / National Museum of Asian Art）",
+            "url": "https://www.si.edu/openaccess",
+            "credit": "Formerly attributed to Ma Yuan, Life on the river, 18th century, China. Freer Gallery of Art, Gift of Charles Lang Freer, F1909.239. National Museum of Asian Art, Smithsonian Institution.",
+            "usage": "馆方对象页标示 CC0。使用的是馆方 IIIF 服务（FS-F1909.239_009，原始 10240×890）按 4096 像素宽度输出的整卷图像，只有服务端等比缩小，未裁剪、未调色；含右侧裱边与题签。"
+          },
+          "observation": "横向极长的手卷全景：左侧约七成是绢本画心，右侧是深色纸上的四个大字题签，周围有织锦裱边。画心里，左端是远处低矮的山岸和几条小船，中段前景有成片的芦苇与树木，水面上散布数条载人小船，右部的岸边有岩壁，岸上可见水牛。人物很小，水面和岸线占去大部分横向空间。",
+          "evidence": "核对 National Museum of Asian Art 对象页 F1909.239：题名 Life on the river，18世纪，中国，绢本水墨设色，高 18.6 × 宽 173.9 厘米，馆方称此前归于马远（Formerly attributed to Ma Yuan），画面树干下有马远的伪款（spurious signature），实际作者未知；来源为 Loon Gu Sai（北京）— Charles Lang Freer（1909 购入）— 1920 年入藏 Freer Gallery；条款标示 CC0 1.0。馆方说明称这是对中国河上典型形象与固定角色的“虚拟选集”。图像用 IIIF 清单确认 009 号为整卷。题签四字的释文及落款馆方页面未提供，我不做释读；也未核实画中各组人物之间有无时间先后。",
+          "analysis": {
+            "structure": "长卷沿水平方向展开，一段岸线、一片水面、一组小船依次出现；前景的芦苇与树把近处挡在前面，中景是水与船，远处只剩低矮山影，三层深度叠在同一条横带里。馆方称人物场景是典型形象的“选集”，所以左右段落之间是并置，而不是同一事件的先后。",
+            "borrow": "可借用“分组+留白”的节奏：把内容切成若干小群落，群落之间留出空白或重复元素（如芦苇），让读者在横向移动时停顿、再继续。前景遮挡与远景淡化也能在窄长画幅里制造深度。",
+            "application": "适合横向时间线、路线导览、长页面上的叙事分段。要区分：这幅画并非地图，也无法读出具体时刻或行程时长；其“时间”只是观看顺序与日常场景的共时并置。"
+          },
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:19:08.924Z",
+            "inputHash": "0f11eff4d180589ec9040be1827c60f1e53dcc43594e2da64e4c8fb2cd382bad",
+            "referenceSources": [
+              "https://asia.si.edu/object/F1909.239/",
+              "https://ids.si.edu/ids/manifest/FS-F1909.239_009",
+              "https://ids.si.edu/ids/iiif/FS-F1909.239_009/full/4096,/0/default.jpg",
+              "https://www.si.edu/openaccess"
+            ]
+          },
+          "addedAt": "2026-11-03T02:19:08.924Z"
+        }
+      ]
+    },
+    {
+      "id": "queue-cycles-and-wedges",
+      "notBefore": "2026-11-08",
+      "title": "循环的时间、按月分割的楔形与展览海报",
+      "approvedBy": "droid",
+      "approvedAt": "2026-11-03T02:27:06.113Z",
+      "featuredIds": [
+        "ts-nightingale-army-east-mortality-1858",
+        "ts-walters-cosmography-year-seasons",
+        "graphic-schiele-secession-49-1918"
+      ],
+      "artworks": [
+        {
+          "id": "ts-nightingale-army-east-mortality-1858",
+          "title": "东方军队死亡率极坐标面积图（南丁格尔）",
+          "titleOriginal": "Diagrams of the Mortality in the Army in the East",
+          "creator": "Florence Nightingale",
+          "year": "1858（图示数据为 1854年4月—1856年3月）",
+          "category": "time-space",
+          "methods": [
+            "极坐标面积图",
+            "月份环形排列",
+            "双图并置对比",
+            "基准圆"
+          ],
+          "topics": [
+            "军队死亡率",
+            "公共卫生",
+            "月度周期"
+          ],
+          "sourceUrl": "https://wellcomecollection.org/works/jxwtskzc",
+          "imageKey": "ts-nightingale-army-east-mortality-1858.jpg",
+          "width": 2400,
+          "height": 1660,
+          "rights": {
+            "label": "Public Domain Mark · Wellcome Collection",
+            "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "credit": "Florence Nightingale, Notes on matters affecting the health, efficiency, and hospital administration of the British Army, London: Harrison, 1858; Wellcome Collection (works/jxwtskzc, b20387118), Public Domain Mark",
+            "usage": "采用 Wellcome IIIF 服务按宽度 2400 像素输出的整页 JPEG，未裁剪、未调色；页面左缘的说明文字在扫描中被折页截断，保持原状。Wellcome 标注 Public Domain Mark，允许复制、修改与商用。"
+          },
+          "observation": "一页上并置两幅由同一圆心向外展开的扇形图：右侧标“APRIL 1854 to MARCH 1855”，左侧标“APRIL 1855 to MARCH 1856”，页顶标题为“DIAGRAMS OF THE MORTALITY IN THE ARMY IN THE EAST”。每幅分成十二个楔形，沿外缘写月份名（右图另有 BULGARIA、CRIMEA 字样），楔内写有数字。右图自 JULY 起顺时针到 JUNE，楔形半径在 JANUARY、FEBRUARY 一带最长，APRIL、MAY、JUNE 附近的楔形最小；左图整体小得多。两图以一条虚线相连，圆心附近各有小圆。左下方是被折页截断的说明文字，可读出“…had the army been as healthy as Manchester - 12.4 per 1000 per annum”。整页为灰色点画质感，无彩色。",
+          "evidence": "核对 Wellcome 目录记录 works/jxwtskzc：题名页著录为“Notes on matters affecting the health, efficiency, and hospital administration of the British Army … by Florence Nightingale”，London: printed by Harrison, 1858，许可为 Public Domain Mark，馆方 IIIF 清单为 b20387118（共 1076 个画布）。本图为第 522 个画布 b20387118_0522（折叠插页）。该页图题、两段日期范围与基准圆说明直接取自图上文字；图内数字因缩放和纸张折痕未逐项转录，也不据此推算具体死亡率。这是 1858 年印本中的插页，不是后来重绘的版本。",
+          "analysis": {
+            "structure": "用角度表示一年中的月份，用楔形面积（半径）表示该月死亡率，十二个楔形围绕同一圆心形成周期；两个相邻年度并排放在同一页，用同一套方位和同一个基准圆（以曼彻斯特死亡率为对照）比较。时间在此是循环的日历月，不是地理位置。",
+            "borrow": "当数据本身有年度周期、需要让“同一月份”在两个时期之间一一对应时，可以借用环形排列、共同圆心和固定基准圆。把对照基线画进图里，比只在旁边写一个数字更容易让读者看出差距。",
+            "application": "适合季节性强的运营、健康或访问量数据的年度复盘。注意面积随半径平方增长，会夸大极端值；需要精确读数时应并列配上数值表或直条图，并在图上说明用的是半径还是面积。"
+          },
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:24:13.741Z",
+            "inputHash": "2b6424c96ea1b5e0be21ef7c35a71a0b12a21ec744dd044da7d3985c6d8d4ad5",
+            "referenceSources": [
+              "https://wellcomecollection.org/works/jxwtskzc",
+              "https://api.wellcomecollection.org/catalogue/v2/works/jxwtskzc",
+              "https://iiif.wellcomecollection.org/presentation/v2/b20387118",
+              "https://iiif.wellcomecollection.org/image/b20387118_0522.jp2/full/2400,/0/default.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:24:13.741Z"
+        },
+        {
+          "id": "ts-walters-cosmography-year-seasons",
+          "title": "年、季节、元素与体液的双圆图（《宇宙志》）",
+          "titleOriginal": "Diagrams of the harmony of the Year and Seasons, and the Harmony of the Elements, Seasons and Humors",
+          "creator": "英格兰佚名抄绘者（Walters W.73《Cosmography》，据 Isidore、Bede、Abbo of Fleury 文本）",
+          "year": "12世纪晚期",
+          "category": "time-space",
+          "methods": [
+            "轮形图（rota）",
+            "交叉弧线对应",
+            "中心标签",
+            "文字与图并排"
+          ],
+          "topics": [
+            "中世纪宇宙观",
+            "季节与方位",
+            "四元素与体液"
+          ],
+          "sourceUrl": "https://art.thewalters.org/object/W.73.8R/",
+          "imageKey": "ts-walters-cosmography-year-seasons.jpg",
+          "width": 1030,
+          "height": 1800,
+          "rights": {
+            "label": "Creative Commons Zero (CC0) · The Walters Art Museum",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "The Walters Art Museum, Baltimore, W.73.8R（Cosmography, W.73, fol. 8r），Acquired by Henry Walters, 1903",
+            "usage": "采用馆方 art.thewalters.org 提供的 1030×1800 JPEG（CPS_W.73.8R_Fp_DD.jpg），未裁剪、未调色、未再压缩。馆方对该馆藏图像标示 CC0；不将其改标为其他许可。"
+          },
+          "observation": "一张竖版羊皮纸页：左侧是上下两个大圆，右侧是一栏拉丁文正文。两个圆都是绿色外圈，内部由多条互相交叉的圆弧划成一圈小格，中央各有一个圆形标签（上圆中央写 ANNUS，下圆中央写 COMMUNIO ELEMENTORUM）。小格内沿弧线以红、绿、黑墨写字，部分文字倒置或沿弧形排列。纸面可见背面透出的另一个同心圆图形，边缘与右下角有污渍。",
+          "evidence": "核对馆方对象页 W.73.8R：题名、12世纪晚期、英格兰、墨与颜料于中等厚度羊皮纸、编号 W.73.8R、版权标示 Creative Commons Zero，所属册为 W.73 Cosmography。馆方说明上图以八条交叉弧线表示四季、四种年质、四个方位及换季日期，并称其表现 Isidore《De natura rerum》中时间与空间统一的观念；下图联系四元素、四季与四体液。图上中央标签文字与此说明相符。图内拉丁字迹未逐字转写，这里不补充馆方说明以外的解读。作者为英格兰佚名抄绘者；Isidore 等人为文本来源，不是画者。",
+          "analysis": {
+            "structure": "用同一种“中心加交叉弧线”的轮形，把方位、季节、冷热干湿四种性质以及体液放在互相对应的位置。每个格子同时属于两条弧，所以一个概念（如夏）可以同时与方向、日期和性质相连；这是概念对应关系，不是日历时间轴，也不是地图。",
+            "borrow": "当多个分类维度（时间、地点、性质）需要互相对照时，可借用共享格子、中心标签和相同的圆形外壳，让读者靠“同一位置”建立对应，而不必另开多张表。",
+            "application": "适合表现季节、地点与活动、状态三类标签之间的对应关系，如年度计划与场地安排。应避免把分类对应画得像因果或顺序；可在中心写明图在比较什么，并给每条弧线一致的标记。"
+          },
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:24:13.741Z",
+            "inputHash": "a9300e572d29cce6a1d062f4e5f559d052d57fe4a6d4e953fb1e4ffccbedb4b7",
+            "referenceSources": [
+              "https://art.thewalters.org/object/W.73.8R/",
+              "https://art.thewalters.org/object/W.73/",
+              "https://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html",
+              "https://art.thewalters.org/images/art/CPS_W.73.8R_Fp_DD.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:24:13.741Z"
+        },
+        {
+          "id": "graphic-schiele-secession-49-1918",
+          "title": "维也纳分离派第49届展览海报",
+          "titleOriginal": "Plakat für die 49. Ausstellung der Secession",
+          "creator": "Egon Schiele（设计）；Albert Berger（印刷，Kunstanstalt）",
+          "year": "1918",
+          "category": "graphic",
+          "methods": [
+            "彩色石版",
+            "黑底大块色面",
+            "手绘体粗字",
+            "桌面俯视"
+          ],
+          "topics": [
+            "展览海报",
+            "维也纳分离派",
+            "表现主义"
+          ],
+          "sourceUrl": "https://sammlung.wienmuseum.at/objekt/226732-plakat-fuer-die-49-ausstellung-der-secession/",
+          "imageKey": "graphic-schiele-secession-49-1918.jpg",
+          "width": 1968,
+          "height": 2400,
+          "rights": {
+            "label": "CC0 · Wien Museum Online Sammlung",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Albert Berger (Kunstanstalt)（石版印刷），Egon Schiele（艺术家），Plakat für die 49. Ausstellung der Secession, 1918, Wien Museum Inv.-Nr. 129035, CC0",
+            "usage": "取馆方 3500×4268 px 的 full JPEG，等比缩小到 1968×2400 px 并以 JPEG 质量 88 重新保存，未裁剪、未调色；图右缘的色彩校准卡是馆方拍摄时带入，保留未去除。馆方对该图像标示 CC0，并建议注明作者与 Wien Museum。"
+          },
+          "observation": "竖版海报，上半是大块黑色底，一张灰色长桌从上向下斜展，围着桌子坐着约九人，穿橙、红、黄、白色衣服，坐在橙黄色椅子上，每人面前有书本或纸张，桌上有红色烧瓶形物件。桌面右下角有手写签名式标记。下半是白底黑边的文字区，粗大的黑色字写着“SECESSION / 49. AUSSTELLUNG / 9–6 1K–”，字形窄长而不规则；最底部小字写“STEINDRUCK ALB. BERGER WIEN VIII.”。纸张四周留有米色边，右侧附有色彩校准卡。",
+          "evidence": "核对 Wien Museum Online Sammlung 对象页：Inv.-Nr. 129035，艺术家 Egon Schiele（1890—1918），石版印刷机构 Albert Berger (Kunstanstalt)，类别为海报，1918，技法为彩色石版，尺寸 67.8×53.2 cm，页面图像标示 CC0。图上的“SECESSION 49. AUSSTELLUNG”与印刷者字样可直接读到。馆方此页没有写展览日期、画中人物身份或设计意图，这里均不补充；“9–6”和“1K–”只按图上文字记录，不推断含义。",
+          "analysis": {
+            "structure": "画面分成两层：上半用黑底、斜向的灰桌面和围坐的人物构成场景，下半是白底黑字的信息块。黑色边框把图和字连在一起，字块的黑色面积与上方黑底相呼应。桌面从后向前扩大并斜出，把视线从上方人物带到下方标题。",
+            "borrow": "可借用“一幅有叙事的场景加一块高对比字块”的上下分层，以及让字块与图像共享同一种黑色边框。用少数几种颜色（橙、红、黄）压在大面积黑底和灰色上，可使人物在不依赖细节的情况下立刻成群出现。",
+            "application": "适合展览、读书会或小型聚会的单张海报。借鉴时应保留文字区的可读性：只有字形足够粗、字距足够松时才能用不规则字体，而不是把装饰字体用于所有信息。"
+          },
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:24:13.741Z",
+            "inputHash": "5c2ed45aa7db54b120badf122cf4c13d503b6c52f087f29f2fac88f0b6f25d6b",
+            "referenceSources": [
+              "https://sammlung.wienmuseum.at/objekt/226732-plakat-fuer-die-49-ausstellung-der-secession/",
+              "https://creativecommons.org/publicdomain/zero/1.0/deed.de",
+              "https://sammlung.wienmuseum.at/images/objects/226732/938324_full.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:24:13.741Z"
+        }
+      ]
+    },
+    {
+      "id": "queue-city-from-above",
+      "notBefore": "2026-11-09",
+      "title": "从上方看城市与月夜的北角",
+      "approvedBy": "droid",
+      "approvedAt": "2026-11-03T02:27:06.113Z",
+      "featuredIds": [
+        "ts-edo-shozu-1682",
+        "ts-fairchild-new-york-harbor-1934",
+        "art-balke-north-cape-moonlight"
+      ],
+      "artworks": [
+        {
+          "id": "ts-edo-shozu-1682",
+          "title": "武州丰岛郡江户庄图（江户大绘图）",
+          "titleOriginal": "Bushū Toshima-gun Edo shōzu（封面题：Edo ōezu；封签：Kan’ei Edo kozu）",
+          "creator": "佚名（刊行者未核实）",
+          "year": "1682（天和2年）刊；馆方推测原图约作于宽永年间（1630或1631）",
+          "category": "time-space",
+          "methods": [
+            "木版城市图",
+            "地块与名称标注",
+            "图画式地形",
+            "方位文字标注"
+          ],
+          "topics": [
+            "江户城市空间",
+            "城郭与护城河",
+            "水岸与港湾"
+          ],
+          "sourceUrl": "https://www.loc.gov/item/80691955/",
+          "imageKey": "ts-edo-shozu-1682.jpg",
+          "width": 3743,
+          "height": 2757,
+          "rights": {
+            "label": "No known restrictions · LOC / World Digital Library",
+            "url": "https://www.loc.gov/item/80691955/#rights-and-access",
+            "credit": "佚名 / Library of Congress, Geography and Map Division（World Digital Library 收录）/ 索书号 G7964.T7G46 1631 .B82 1682",
+            "usage": "采用馆方IIIF服务提供的25%比例JPEG（3743×2757），完整保留图面，未裁切或改色。权利依据为馆藏页所载World Digital Library说明（馆方未发现版权或其他限制），不将其改标为CC0。"
+          },
+          "observation": "整幅木版印刷的江户地图以汉字“西”在上、“南”在左、“東”在下标出方位，因此图面并非常见的上北下南。右上方画有多层天守的城郭，护城河呈环形层层围绕内部地块；河道向下通向画面底部的海面，海中画有帆船和波纹。街区被画成密集的长方格，格内写有名称，右下部分有多块涂黑的方格。左上角是松树与岩石的图画式山景，左下有一块成段的说明文字。",
+          "evidence": "LOC条目记录题名Bushū Toshima-gun Edo shōzu、日期1682（Tenwa 2）、85×120 cm折叠木版图，附注写明封面题Edo ōezu、封签题Kan’ei Edo kozu，并称原图推测作于宽永年间（1630或1631）、天和年间（1681-83）重印，属显示土地所有的地籍图和图画式地图；LOC注“Oriented with north toward the upper right”，图上方位字（西在上、南在左、東在下）可作对照。作者未著录，故写作佚名。已核对馆藏条目、IIIF数字图像与Rights & Access说明；图上黑方格含义、地块名称均未逐项解读，不据此下结论。",
+          "analysis": {
+            "structure": "这是一张地理空间图：用同心的护城河和城郭把权力中心放在右上，街区以名称格拼成外围网格，海岸与船只出现在底部。方位靠图中汉字标注，而不靠固定的“上北下南”；地块大小服务于名称标注，未必按比例，且1682年的重印与约1630年的原图之间存在时间差。",
+            "borrow": "可借用“自设方位+中心嵌套+密集标签格”的做法：先明确朝向，再让主要关系（护城河包围、水岸出口）用线条层级表达，次要信息塞进统一的名称格。图画式山水与海浪作为边缘装饰，也帮助读者辨认地形而不抢占主图。",
+            "application": "适合设计校园、园区或展会的导览图，以及需要标注多层级归属的组织结构图。重印地图不能直接当作某一年的城市现状，使用时应分开写明原图年代、重印年代和馆方说明。"
+          },
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:25:51.856Z",
+            "inputHash": "02a460666e92e6d7ef46f31e016102a93efbfdc62c7e71b70e42e262b44a3f75",
+            "referenceSources": [
+              "https://www.loc.gov/item/80691955/",
+              "https://www.loc.gov/item/80691955/#rights-and-access",
+              "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7964:g7964t:ct002119/full/pct:25/0/default.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:25:51.856Z"
+        },
+        {
+          "id": "ts-fairchild-new-york-harbor-1934",
+          "title": "纽约港与曼哈顿航拍：云层下的城市尺度",
+          "titleOriginal": "[Aerial view of New York City] / Fairchild Aerial Surveys Inc., N.Y.C.",
+          "creator": "Fairchild Aerial Surveys, Inc.",
+          "year": "约1934（馆方著录 c1934）",
+          "category": "time-space",
+          "methods": [
+            "斜向航拍",
+            "港湾与街区对照",
+            "云影与尺度"
+          ],
+          "topics": [
+            "城市尺度",
+            "港口与铁路",
+            "水陆边界"
+          ],
+          "sourceUrl": "https://www.loc.gov/item/98505923/",
+          "imageKey": "ts-fairchild-new-york-harbor-1934.jpg",
+          "width": 2400,
+          "height": 1910,
+          "rights": {
+            "label": "No known restrictions on publication · LOC（No renewal in Copyright office）",
+            "url": "https://www.loc.gov/item/98505923/#rights-and-access",
+            "credit": "Fairchild Aerial Surveys, Inc. / Library of Congress, Prints and Photographs Division / LC-USZ62-119975 / 版权局登记 J15824",
+            "usage": "由馆方提供的母版TIFF（4096×3260）等比缩小为2400×1910的JPEG，保留黑色边框和底部厂牌文字，未裁切、未调色。权利依据为馆藏页“No known restrictions on publication. No renewal in Copyright office.”，不改标为CC0。"
+          },
+          "observation": "倾斜俯拍的黑白照片，画面上半是天空和大片白云，云影落在下方的地面上。中央偏左是一片深色水面，水面两侧是密集的街区网格。曼哈顿南端建筑最高、最密，沿岸排列着许多伸入水中的码头；水面中央有一座长条形的岛，左下有一座更小的小岛。左侧岸线有铺满轨道的大面积场站，右侧是分布更均匀的街区。左上角有机翼，右下角印有厂牌文字，四周为胶片边框。",
+          "evidence": "LOC条目标题为“[Aerial view of New York City] / Fairchild Aerial Surveys Inc., N.Y.C.”，馆方著录日期c1934、1张照片、归入“New York--New York City--Harbor”；Rights Advisory为“No known restrictions on publication. No renewal in Copyright office.”，版权局编号J15824，复制号LC-USZ62-119975。图中具体地名（如岛屿名称）馆藏页未逐项标注，本文只据画面描述，不替馆方添加。已核对馆藏条目、母版TIFF与JPEG预览，并实际查看缩小后的图片。",
+          "analysis": {
+            "structure": "这是一张倾斜航拍：近景贴近水面、远景被云层吞没，同一画面里能同时比较港口、铁路场站、高楼区和规则网格街区的密度。云影与云层暗示拍摄当下的天气，不是时间序列；城市只呈现一个瞬间的空间格局。",
+            "borrow": "可借用“前景小而清楚、远景成片”的斜视角：让读者先用水面这类大形做参照，再看岸线上的纹理差别。云层与天空占画面上半，也为下方的密度对比留出呼吸空间。",
+            "application": "适合用于城市地理说明、港口与交通基础设施的对比图，或区域规划汇报的开场页。它是单张斜拍，不能当作测绘比例图；量算距离、面积应改用正射影像或地图。"
+          },
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:25:51.856Z",
+            "inputHash": "4dd8503afaf9e2850ae16140c8e727c8ffe8b35dbcab08ba81b32cfc997af591",
+            "referenceSources": [
+              "https://www.loc.gov/item/98505923/",
+              "https://www.loc.gov/item/98505923/#rights-and-access",
+              "https://tile.loc.gov/storage-services/master/pnp/cph/3c10000/3c19000/3c19900/3c19975u.tif",
+              "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c19000/3c19900/3c19975v.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:25:51.856Z"
+        },
+        {
+          "id": "art-balke-north-cape-moonlight",
+          "title": "月光下的北角",
+          "titleOriginal": "The North Cape by Moonlight",
+          "creator": "彼得·巴尔克（Peder Balke）",
+          "year": "1848",
+          "category": "art",
+          "methods": [
+            "月光与云隙",
+            "明暗纵深",
+            "水面反光"
+          ],
+          "topics": [
+            "夜景",
+            "海景",
+            "北欧浪漫主义"
+          ],
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/441379",
+          "imageKey": "art-balke-north-cape-moonlight.jpg",
+          "width": 3928,
+          "height": 2836,
+          "rights": {
+            "label": "Public Domain · The Met Open Access（CC0）",
+            "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+            "credit": "彼得·巴尔克（Peder Balke） / The Metropolitan Museum of Art, Gift of Christen Sveaas, in celebration of the Museum’s 150th Anniversary, 2019 / 2019.167.4",
+            "usage": "采用Met Open Access提供的原图JPEG（3928×2836），未裁切或改色。馆方标明该对象为公有领域（isPublicDomain），作者1887年去世、作品1848年。用于来源明确的图像学习与评论。"
+          },
+          "observation": "画面近乎全暗，只有云层中间一处月亮与被照亮的云团是最亮的部分。远处是一排平顶的黑色峭壁，山顶带有少量白色；峭壁前的雾使轮廓变得柔和。水面上有一缕银色的反光，从远处一直延伸到近景。近景一条小船里有三个人，其中一人站立持长篙；右侧停着带帆的船，左侧远处另有一艘帆船。",
+          "evidence": "Met页面记录：彼得·巴尔克，《The North Cape by Moonlight》，1848年，布面油画，62×85 cm，编号2019.167.4，Gift of Christen Sveaas, 2019，公共领域。馆方说明称巴尔克仅在1832年去过北角，并引述1848年奥斯陆展出时批评家对“所选瞬间的独特感知”的评语。Met API记录显示isPublicDomain为true，并给出原图文件。已核对条目与API记录，并实际查看下载的图片。",
+          "analysis": {
+            "structure": "光线是组织画面的主线：月亮与云隙构成上方光源，远处海面反光与近处小船形成一条由远及近的亮带。深色的前景、中景的峭壁和远处的雾，把空间分成几层，让远近关系靠明暗而不是线条来读。",
+            "borrow": "可借用“一个光源+一条反光路径”的深度构造：让最亮的区域只占很小比例，再用一条连续的亮线把眼睛带向前景的主体。夜景中用雾与浓淡分层，比增加细节更能说明距离。",
+            "application": "适合做夜间场景的氛围参考、封面或长图的光线设计，以及叙事型信息页的开场画面。馆方把画面的“时刻”归于画家的感知，不应据此把它当作某次真实夜晚的记录。"
+          },
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:25:51.856Z",
+            "inputHash": "2b5f794b1dabb25fb371e9d83b76c51082dc28c100837073057e1418743c5ca2",
+            "referenceSources": [
+              "https://www.metmuseum.org/art/collection/search/441379",
+              "https://collectionapi.metmuseum.org/public/collection/v1/objects/441379",
+              "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+              "https://images.metmuseum.org/CRDImages/ep/original/DP-1740-001_cropped.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:25:51.856Z"
+        }
+      ]
+    },
+    {
+      "id": "queue-calendar-collage-weather",
+      "notBefore": "2026-11-10",
+      "title": "历页、拼贴与天气",
+      "approvedBy": "droid",
+      "approvedAt": "2026-11-03T02:27:06.113Z",
+      "featuredIds": [
+        "ts-rouen-book-of-hours-may",
+        "graphic-schwitters-merz3-plate1",
+        "art-cotman-boats-storm"
+      ],
+      "artworks": [
+        {
+          "id": "ts-rouen-book-of-hours-may",
+          "title": "鲁昂时祷书历页：五月的劳作与圣徒日",
+          "titleOriginal": "Leaf from a Book of Hours: Calendar Page for May (recto)",
+          "creator": "佚名（法国鲁昂）",
+          "year": "约1510",
+          "category": "time-space",
+          "methods": [
+            "月历表格",
+            "图文并置",
+            "圣徒日标注",
+            "颜色分级"
+          ],
+          "topics": [
+            "中世纪历法",
+            "时祷书",
+            "月度劳作"
+          ],
+          "sourceUrl": "https://clevelandart.org/art/2011.65.a",
+          "imageKey": "ts-rouen-book-of-hours-may.jpg",
+          "rights": {
+            "label": "CC0 / Cleveland Museum of Art Open Access",
+            "url": "https://www.clevelandart.org/open-access",
+            "credit": "Anonymous (France, Rouen), c. 1510; The Jeanne Miles Blackburn Collection, Cleveland Museum of Art, 2011.65.a",
+            "usage": "采用馆方 Open Access 提供的 print 尺寸 JPEG，未裁切、未改色、未缩放。馆方将该条目标为 CC0。作者未知，不推测抄写者或画师。"
+          },
+          "observation": "页面上部有两格拱形插图：左格是一男一女骑马，男子臂上停着猎鹰；右格是林中两位裸身人物。下方分为左右两栏的月历表，每行有罗马数字、字母标记和红、蓝、金色的圣徒名。四周是金底花叶卷草边饰。",
+          "evidence": "已核对 Cleveland 馆藏页：标题为五月历页，年代约1510，材质为墨、蛋彩与液态金于羊皮纸，叶面 18.1 x 12.9 cm，法国鲁昂，馆藏号 2011.65.a，API 许可标注 CC0。馆方说明称插图为五月“月度劳作”放鹰，并指出5月5日列有鲁昂相关圣徒 Audoennus，据此推断此书为鲁昂使用。本记录未自行辨认每个抄写字母，也未补造作者意图。",
+          "analysis": {
+            "structure": "一页同时承载两种时间信息：上方插图用场景概括整个月份，下方表格逐日排列并用红、蓝、金区分圣徒日的重要程度。月历依靠固定行序读取日期，边饰只框定版面而不参与日期定位。",
+            "borrow": "可借用“月度主题图 + 逐日表格”的分层：先用一幅画交代整段时间的性质，再用规则网格承载精确日期，并以少量颜色区分重要事件。",
+            "application": "适用于月报、年度计划或活动日历。借鉴时应保证逐日信息仍然规则可查，主题插图不应占用日期格；也不要把本页的宗教节日分级当作通用时间尺度。"
+          },
+          "width": 2284,
+          "height": 3400,
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:20:56.605Z",
+            "inputHash": "eae116f18b0e2a558c3fffe3893cb7cf8549012edd01304d35b86b11f7a42fc8",
+            "referenceSources": [
+              "https://clevelandart.org/art/2011.65.a",
+              "https://www.clevelandart.org/open-access",
+              "https://openaccess-cdn.clevelandart.org/2011.65.a/2011.65.a_print.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:20:56.605Z"
+        },
+        {
+          "id": "graphic-schwitters-merz3-plate1",
+          "title": "默兹3号作品集第1图：印刷碎片拼贴石版画",
+          "titleOriginal": "Merz 3 Portfolio: Plate 1",
+          "creator": "库尔特·施维特斯（Kurt Schwitters）",
+          "year": "1923",
+          "category": "graphic",
+          "methods": [
+            "矩形模块",
+            "棋盘网格",
+            "纵横粗条",
+            "黑白灰层次"
+          ],
+          "topics": [
+            "默兹",
+            "印刷拼贴",
+            "构成主义版面"
+          ],
+          "sourceUrl": "https://clevelandart.org/art/1995.4",
+          "imageKey": "graphic-schwitters-merz3-plate1.jpg",
+          "rights": {
+            "label": "CC0 / Cleveland Museum of Art Open Access",
+            "url": "https://www.clevelandart.org/open-access",
+            "credit": "Kurt Schwitters (German, 1887-1948), Merz 3 Portfolio: Plate 1, 1923; Dudley P. Allen Fund, Cleveland Museum of Art, 1995.4",
+            "usage": "采用馆方 Open Access 提供的 print 尺寸 JPEG，未裁切、未改色、未缩放。馆方将该条目标为 CC0；作者1948年去世，作品1923年创作。"
+          },
+          "observation": "竖幅纸面上散布大小不一的黑色、灰色矩形，间有棋盘格方块、几条贯穿的黑色竖条、同心圆、字母“M”和“Ex”，左上与右上有小人物和电线杆式的细节。矩形边缘互相贴合或略有错位，纸面下部和左右留有浅色空白，左下角有手写签名。",
+          "evidence": "已核对 Cleveland 馆藏页：标题 Merz 3 Portfolio: Plate 1，1923，媒介为石版画，Dudley P. Allen Fund，馆藏号 1995.4，API 许可标注 CC0。馆方说明称六幅石版画制于 Molling 印刷厂，施维特斯把刚印好、油墨未干的印刷品拼贴后转印到石版上。本记录只据图中可见元素描述，未解释各符号的含义，也未称其为某件具体海报。",
+          "analysis": {
+            "structure": "画面用若干粗黑竖条作骨架，周围的灰面、黑块和棋盘格以直角相接，形成密度不同的区域；少量曲线、字母与小图像打破硬边矩形。留白让密集区域有喘息处，视线沿竖条上下移动。",
+            "borrow": "可借用“直角模块 + 少量曲线或字母作为停顿点”的做法：用统一的黑灰明度做版面骨架，再以棋盘格这类规则纹理制造密度变化。",
+            "application": "适合信息拼贴式的封面、展览视觉或系统界面草图。借鉴时要先确定阅读顺序和留白，不要把所有碎片等量堆叠；它是艺术家的版画作品，而非可直接照搬的商业海报网格。"
+          },
+          "width": 2785,
+          "height": 3400,
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:20:56.605Z",
+            "inputHash": "6ea9914e6726302bcea22400f722f4d04d3ba20598e99c6c5bcf58966714fc89",
+            "referenceSources": [
+              "https://clevelandart.org/art/1995.4",
+              "https://www.clevelandart.org/open-access",
+              "https://openaccess-cdn.clevelandart.org/1995.4/1995.4_print.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:20:56.605Z"
+        },
+        {
+          "id": "art-cotman-boats-storm",
+          "title": "海上船只与逼近的风暴",
+          "titleOriginal": "Boats off the coast, storm approaching",
+          "creator": "约翰·塞尔·科特曼（John Sell Cotman）",
+          "year": "1830",
+          "category": "art",
+          "methods": [
+            "天空占比",
+            "深浅远近",
+            "冷暖对比",
+            "水彩洗染"
+          ],
+          "topics": [
+            "天气",
+            "海景",
+            "水彩"
+          ],
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/746834",
+          "imageKey": "art-cotman-boats-storm.jpg",
+          "rights": {
+            "label": "Public Domain / The Met Open Access",
+            "url": "https://www.metmuseum.org/policies/image-resources",
+            "credit": "John Sell Cotman (British, 1782-1842), Boats off the coast, storm approaching, 1830; Purchase, Charles and Jessie Price Gift, 2017, The Metropolitan Museum of Art, 2017.75",
+            "usage": "采用 The Met Open Access 提供的原图 JPEG，未裁切、未改色、未缩放。馆方将该条目标为公有领域。"
+          },
+          "observation": "画面约三分之二是天空：左侧为深灰色厚云，右上露出蓝天和浅色云边。海面有浅绿、米黄的起伏浪。前景一艘黄帆船最大最亮，后方有桅杆船和小帆船，远处地平线上有低矮白色岸线和几只海鸥。右后方有蓝灰色山形暗影。",
+          "evidence": "已核对 The Met 馆藏页和 Open Access 数据：标题 Boats off the coast, storm approaching，Cotman，1830，水彩铅笔底稿并加不透明水彩、刮除、遮盖与阿拉伯胶，纸面 47.2 x 65.2 cm，馆藏号 2017.75，isPublicDomain 为 true。图中可见右下有签名式笔迹，但我未据此补充地点或具体风暴来源；馆方页面未给出地点，故地点标为未知。",
+          "analysis": {
+            "structure": "前景最亮的帆船、中景略暗的船桅和远处淡色岸线形成由近到远的层次；左侧深云压向海面，右侧天光打开，暗与亮把时间感放在天气变化而非钟点上。",
+            "borrow": "可借用“用天气变化暗示时间推进”的方法：让主体保持最高对比，把远景压到低对比，再用一侧暗、一侧亮制造即将变化的方向感。",
+            "application": "适合需要表现时间压力、逼近事件或空间纵深的插图与可视化封面。借鉴时不要把画中天气当作真实时序记录；它只是单幅画面的视觉暗示。"
+          },
+          "width": 3677,
+          "height": 2709,
+          "writing": {
+            "author": "droid",
+            "generatedAt": "2026-11-03T02:20:56.605Z",
+            "inputHash": "897b119bcde6c6109ee57378467ef04d7ba5ac42fa05e8a9706b9b33879c79d8",
+            "referenceSources": [
+              "https://www.metmuseum.org/art/collection/search/746834",
+              "https://www.metmuseum.org/policies/image-resources",
+              "https://images.metmuseum.org/CRDImages/dp/original/DP873397.jpg"
+            ]
+          },
+          "addedAt": "2026-11-03T02:20:56.605Z"
+        }
+      ]
+    }
+  ]
 }
