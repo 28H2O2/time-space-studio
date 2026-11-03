@@ -11,8 +11,8 @@
 
 ## 工作副本与前置检查
 
-1. 只在专用克隆 `E:\AISec\tss-replenish` 中工作，不要碰 `E:\AISec\time-space-studio`。目录不存在时从 `https://github.com/28H2O2/time-space-studio.git` 克隆，并运行 `npm ci`。
-2. `git fetch`，工作区必须干净且 `git pull --ff-only` 成功；否则停止并汇报，不要强制覆盖。
+1. 定时任务使用 Paseo 的 worktree 隔离：每次运行都在一个全新的 worktree 中开始，结束后由 Paseo 归档丢弃，所以不会积累上一次遗留的状态。只在当前 worktree 里工作，不要进入或修改主工作目录 `E:\AISec\time-space-studio`。
+2. 新 worktree 的起点可能落后于远端，先执行 `git fetch origin` 和 `git checkout -B replenish origin/main`，再执行 `npm ci`（新 worktree 没有 `node_modules`）。这个分支是一次性的，推送时用 `git push origin HEAD:main`，不要推 `replenish` 分支。
 3. 用 `gh run list --workflow daily-publish.yml --limit 3` 确认没有 `queued` 或 `in_progress` 的发布运行。有就稍等（每次不超过 60 秒，总计不超过 10 分钟），仍未结束则停止汇报。
 4. 读取 `https://time-space-studio.vercel.app/publication.json` 和本地 `content/library.json`，了解近期各期的主题、媒介、作者、年代，避免重复。
 
@@ -28,7 +28,7 @@
 ## 提交与汇报
 
 - 只暂存 `content/publication-queue.json` 和 `content/queue-media/` 下的新图。不要改 `content/library.json`、`public/`、`src/` 或工作流。
-- 提交信息写明补了哪几期（日期和主题），推送到 `main`。推送被拒就 `git pull --rebase` 重新验证后再推一次；仍失败就停止并汇报，不要强制推送。
+- 提交信息写明补了哪几期（日期和主题），推送到 `main`。推送被拒就 `git fetch origin && git rebase origin/main`，重新运行 `npm run check` 后再推一次；仍失败就停止并汇报，不要强制推送。
 - 严禁运行 `npm run publish:daily` 的非 dry-run 形式，不触发发布工作流，不修改密钥、部署或定时任务设置。
 - 用中文汇报：当前日期、补前和补后的队列期数及末期日期、每期主题和三件作品的来源链接、验证结果、提交号。做不到的地方如实写明，不要为了完成数量放宽核验。
 
