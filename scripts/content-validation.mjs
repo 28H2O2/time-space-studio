@@ -23,7 +23,7 @@ export function validateArtworks(artworks, readImage) {
     assert(isTimestamp(a.addedAt) && isTimestamp(a.writing?.generatedAt), `Invalid date: ${a.id}`);
     assert(/^[a-f0-9]{64}$/.test(a.writing.inputHash), `Missing input hash: ${a.id}`);
     if (a.writing.author) {
-      assert(['dot', 'codex'].includes(a.writing.author));
+      assert(text(a.writing.author), `Invalid writing author: ${a.id}`);
       assert(Array.isArray(a.writing.referenceSources) && a.writing.referenceSources.length && a.writing.referenceSources.every(url));
     } else assert(['gemini-4-argon', 'factory/gemini-4-argon'].includes(a.writing.model));
     assert(Number.isInteger(a.width) && a.width > 0 && Number.isInteger(a.height) && a.height > 0);

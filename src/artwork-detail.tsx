@@ -50,7 +50,7 @@ export default function ArtworkDetail({ artwork, note, compared, externallySavin
       <details className="provenance"><summary>{c.rights}</summary><p>{artwork.rights.label}</p><p>{artwork.rights.usage}</p>{artwork.rights.url && <a href={artwork.rights.url} target="_blank" rel="noreferrer">{c.rights} ↗</a>}<p>{artwork.evidence}</p></details>
       <details className="provenance"><summary>{c.writing}</summary>
         {artwork.writing.author ? <>
-          <p>{artwork.writing.author === 'dot' ? 'dot' : 'Codex'} 撰写 · <time dateTime={artwork.writing.generatedAt}>{artwork.writing.generatedAt}</time></p>
+          <p>{artwork.writing.author === 'codex' ? 'Codex' : artwork.writing.author} 撰写 · <time dateTime={artwork.writing.generatedAt}>{artwork.writing.generatedAt}</time></p>
           <p>输入 SHA-256：{artwork.writing.inputHash}</p>
           {artwork.writing.referenceSources.map((url, index) => <p key={url}><a href={url} target="_blank" rel="noreferrer">参考来源 {index + 1} ↗</a></p>)}
         </> : <p>{artwork.writing.model} · {shortDate(artwork.writing.generatedAt)}</p>}

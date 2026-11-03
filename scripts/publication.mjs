@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { isDay, isTimestamp, validateArtworks, validateLibrary } from './content-validation.mjs';
+import { isDay, isTimestamp, text, validateArtworks, validateLibrary } from './content-validation.mjs';
 
 export function localDay(now) {
   const parts = Object.fromEntries(new Intl.DateTimeFormat('en', { timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(now).map(p => [p.type, p.value]));
@@ -18,7 +18,7 @@ export function validateQueue(library, queue) {
     assert(/^queue-[a-z0-9-]+$/.test(issue.id) && !ids.has(issue.id) && !consumed.has(issue.id), `Duplicate queue item: ${issue.id}`); ids.add(issue.id);
     assert(isDay(issue.notBefore) && issue.notBefore >= previousDay, 'Queue must be ordered by notBefore'); previousDay = issue.notBefore;
     assert(typeof issue.title === 'string' && /[\p{L}\p{N}]/u.test(issue.title), 'Missing or corrupted editorial theme');
-    assert(['codex', 'dot', 'human'].includes(issue.approvedBy) && isTimestamp(issue.approvedAt), `Queue item is not approved: ${issue.id}`);
+    assert(text(issue.approvedBy) && isTimestamp(issue.approvedAt), `Queue item is not approved: ${issue.id}`);
     assert(Array.isArray(issue.artworks), `Missing artworks array: ${issue.id}`);
     assert(Array.isArray(issue.featuredIds) && issue.featuredIds.length === 3 && new Set(issue.featuredIds).size === 3, `Queue item needs three distinct works: ${issue.id}`);
     const available = new Set(known);

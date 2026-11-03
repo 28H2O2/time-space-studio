@@ -34,7 +34,7 @@
 }
 ```
 
-上例仅说明字段，作品 ID 和审核时间必须换成真实值。`approvedBy` 可为 `human`、`codex` 或 `dot`，代表本期选图确认者，不覆盖作品本身的写作来源。`approvedAt` 应记录实际确认时间。三个 ID 必须互不重复，且没有出现在已发期刊或其他待发期刊中。
+上例仅说明字段，作品 ID 和审核时间必须换成真实值。`approvedBy` 不限定取值（如 `human`、`codex`、`dot`、`droid`），只要求是非空的真实名称，代表本期选图确认者，不覆盖作品本身的写作来源。`approvedAt` 应记录实际确认时间。三个 ID 必须互不重复，且没有出现在已发期刊或其他待发期刊中。
 
 已有作品直接引用 ID，`artworks` 留空。全新作品需要把符合 `src/lib/types.ts` 的完整记录放入本期 `artworks`，图片放入 `content/queue-media/`，文件名与 `imageKey` 一致；每条新增作品都必须被该期引用。新作品在发布时才写入 `library.json`，图片移入 `public/media/`，`addedAt` 更新为实际入库时间，`writing` 原样保留。
 

@@ -2,6 +2,8 @@ export type ArtworkCategory = "time-space" | "graphic" | "art";
 
 // Historical Gemini records stay byte-for-byte intact; new dot writing must
 // not imply that a particular underlying model was disclosed or invoked.
+// `author` names whoever actually wrote the text and is not restricted to a
+// fixed list.
 export type WritingProvenance = {
   model: "gemini-4-argon" | "factory/gemini-4-argon";
   generatedAt: string;
@@ -9,8 +11,8 @@ export type WritingProvenance = {
   author?: never;
   referenceSources?: never;
 } | {
-  author: "dot" | "codex";
-  // New dot records omit model; retain only the already-published marker.
+  author: string;
+  // New records omit model; retain only the already-published marker.
   model?: "unknown";
   generatedAt: string;
   inputHash: string;

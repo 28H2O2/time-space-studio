@@ -83,6 +83,15 @@ test('queue rejects unknown works, repeats, malformed dates, and unapproved cont
     assert.throws(() => validateQueue(library, queue));
   }
 });
+test('writing author and approver are free-form but must be named', () => {
+  const { library, queue } = fixtures();
+  queue.issues[0].approvedBy = 'any-editor';
+  const custom = artwork('custom-author'); custom.writing.author = 'any-writer';
+  const bytes = Buffer.alloc(150, 1); bytes[0] = 255; bytes[1] = 216;
+  assert.doesNotThrow(() => { validateQueue(library, queue); validateArtworks([custom], () => bytes); });
+  custom.writing.author = ' ';
+  assert.throws(() => validateArtworks([custom], () => bytes), /Invalid writing author/);
+});
 test('consumed queue IDs cannot be replayed', () => {
   const { library, queue } = fixtures(); library.batches[0].queueId = queue.issues[0].id;
   assert.throws(() => validateQueue(library, queue), /Duplicate queue/);
