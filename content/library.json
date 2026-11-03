@@ -1,6 +1,102 @@
 {
   "artworks": [
     {
+      "id": "ts-muzaffari-astrolabe-1291",
+      "title": "穆扎法尔星盘：黄铜盘面上的天空与时间",
+      "titleOriginal": "Astrolabe of ‘Umar ibn Yusuf ibn ‘Umar ibn ‘Ali ibn Rasul al-Muzaffari",
+      "creator": "‘Umar ibn Yusuf al-Muzaffari（拉苏勒王朝亲王，款识所属）",
+      "year": "1291（伊历690年）",
+      "category": "time-space",
+      "methods": [
+        "同心圆刻度",
+        "可转动叠层",
+        "天球平面投影"
+      ],
+      "topics": [
+        "星盘",
+        "天文仪器",
+        "测时与定位",
+        "中世纪也门"
+      ],
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/444408",
+      "imageKey": "time-muzaffari-astrolabe-1291.jpg",
+      "width": 1800,
+      "height": 2400,
+      "rights": {
+        "label": "CC0 / Met Open Access",
+        "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "credit": "‘Umar ibn Yusuf al-Muzaffari, Astrolabe, dated 690 AH/1291 CE, Yemen. The Metropolitan Museum of Art, Edward C. Moore Collection, Bequest of Edward C. Moore, 1891, 91.1.535a–h",
+        "usage": "馆方 Open Access 公有领域图像（主图 DP170386，3000×4000 像素）。本地文件为等比缩小至 1800×2400 并重新编码为 JPEG，未裁切、未调色。"
+      },
+      "observation": "一件圆形黄铜仪器斜放在灰色背景前，顶部有镂空的叶卷纹饰和吊环。外缘是一圈带格的刻度环，每格里刻有阿拉伯文字符和数字；内侧盘面叠着一层镂空的星网，上有若干带尖的指针和新月形的枝杈，其下露出带弧线的网格板。中央由一枚销钉固定着一根细长的指针条。",
+      "evidence": "已核对 Met 馆藏页：标题、制作者款识（Yemini，统治期 1295–96）、日期 dated 690 AH/1291 CE、产地 Yemen、材质为黄铜铸造并锤制、镂空、錾刻、嵌银、馆藏号 91.1.535a–h、入藏信息 Edward C. Moore 遗赠 1891。页面称款识把此件归于登基前几年的拉苏勒亲王 ‘Umar ibn Yusuf，并说开罗所存其论著描述了这件器物。Met Open Access API 标注 isPublicDomain 为 true。盘面上的阿拉伯文字我未逐字释读。",
+      "analysis": {
+        "structure": "外圈刻度环负责读角度，中层可转动的星网负责标出恒星的位置，下层板面画出与地理纬度相关的网格。几层叠合后，转动一层即可改变天与地的对应，所以它是“可计算的图”，不是静态示意。",
+        "borrow": "可借用“固定底盘加可转动叠层”的结构：底层放稳定的参照，上层放可移动的变量，用重叠关系读出结果。外圈刻度环让精确读数在边缘完成，也为中心留出复杂图形。",
+        "application": "适合做时间轴、日程或比较类互动图表：把基线固定，把可调的层做成滑块或转盘。需要注意星盘依赖具体纬度的板，换纬度就要换板，借用时不应把一张板当作适用于所有场景。"
+      },
+      "writing": {
+        "author": "droid",
+        "generatedAt": "2026-11-03T02:18:14.413Z",
+        "inputHash": "61493e1228025a5740359e6c7c1cebd3f7db135bf81dc3b45f8da946dd9a6189",
+        "referenceSources": [
+          "https://www.metmuseum.org/art/collection/search/444408",
+          "https://collectionapi.metmuseum.org/public/collection/v1/objects/444408",
+          "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "https://images.metmuseum.org/CRDImages/is/original/DP170386.jpg"
+        ]
+      },
+      "addedAt": "2026-11-03T02:43:07.763Z"
+    },
+    {
+      "id": "graphic-shunman-rotating-calendar-1795",
+      "title": "可转动的图画历：浪涛底座上的月历圆盘",
+      "titleOriginal": "Moveable rotating calendar mounted on elaborate wave-base with rabbit crest",
+      "creator": "久保俊满（Kubo Shunman）",
+      "year": "1795（乙卯年）",
+      "category": "graphic",
+      "methods": [
+        "图画历（egoyomi）",
+        "镂窗圆盘",
+        "图文并置"
+      ],
+      "topics": [
+        "日历",
+        "历日知识",
+        "摺物（surimono）",
+        "木版印刷"
+      ],
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/77876",
+      "imageKey": "graphic-shunman-rotating-calendar-1795.jpg",
+      "width": 2400,
+      "height": 1801,
+      "rights": {
+        "label": "CC0 / Met Open Access",
+        "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+        "credit": "Kubo Shunman, Moveable rotating calendar mounted on elaborate wave-base with rabbit crest, 1795. The Metropolitan Museum of Art, Purchase, Marjorie H. Holden Gift, 2012, 2012.248.5",
+        "usage": "馆方 Open Access 公有领域图像（主图 DP-14464-005，4000×3002 像素）。本地文件为等比缩小至 2400×1801 并重新编码为 JPEG，未裁切、未调色。"
+      },
+      "observation": "横长的浅黄纸面分三段：左侧是几行手写体的墨字，中间是一个悬挂小环的黄色圆盘，立在蓝灰色卷浪形底座和彩色台座上，右侧是一位坐着的人物，穿黄绿色和服，伸手用折扇指向圆盘，旁边是一大片竖排小字。圆盘边缘环排着一圈汉字，盘面上开有三个小窗，分别露出红色、白色和带文字的纸片。右下角有一个红色圆印。",
+      "evidence": "已核对 Met 馆藏页：作者久保俊满（Japanese, 1757–1820），日期 1795, year of the rabbit，江户时代，媒介为 woodblock print (surimono)，墨与色，画面尺寸 13.7×27.9 cm，馆藏号 2012.248.5，Purchase, Marjorie H. Holden Gift, 2012。馆方说明称这是一幅图画历（egoyomi），画一位讲述者讲解“浑天仪”（kontenki，一类浑天仪或星盘），原本由环架构成的仪器在这里被巧妙地换成可转动的历盘。图中日文我未逐字释读，历日信息只依馆方说明。Met 记录 isPublicDomain 为 true。",
+      "analysis": {
+        "structure": "画面把三类内容并排：左边的诗文、中间的历盘、右边讲解人和说明文字。圆盘居中并有垂直吊环和台座，形成视觉中心；讲解人的手臂与折扇把视线从文字带到盘面。盘上的窗口露出来的是各月信息，不是连续的时间轴。",
+        "borrow": "可借用“用一个可操作的物体代替抽象说明”的做法：让核心信息落在一个单独的、被突出的形体上，旁边的人物和文字围着它服务。镂窗读取的方式也适合把大量数据收进一个紧凑的圆盘。",
+        "application": "适合做年历、节气卡、活动日程或纸质互动小册：用转盘加小窗呈现“当前月份”的信息。借用时应保留原物是纸质摺物、带诗文与说明的语境，不宜把它当作通用的日历模板。"
+      },
+      "writing": {
+        "author": "droid",
+        "generatedAt": "2026-11-03T02:18:14.413Z",
+        "inputHash": "d2f51c3e279f9fa86c1d16d885a0ef68770bdf9025ac325ddcf54af26998176a",
+        "referenceSources": [
+          "https://www.metmuseum.org/art/collection/search/77876",
+          "https://collectionapi.metmuseum.org/public/collection/v1/objects/77876",
+          "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "https://images.metmuseum.org/CRDImages/as/original/DP-14464-005.jpg"
+        ]
+      },
+      "addedAt": "2026-11-03T02:43:07.763Z"
+    },
+    {
       "id": "photo-dovizielli-spanish-steps",
       "title": "罗马西班牙广场与阶梯",
       "titleOriginal": "[Spanish Steps, Rome]",
@@ -2120,6 +2216,19 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-11-03",
+      "date": "2026-11-03",
+      "featuredIds": [
+        "ts-stream-time",
+        "ts-muzaffari-astrolabe-1291",
+        "graphic-shunman-rotating-calendar-1795"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-11-03T02:43:07.763Z",
+      "queueId": "queue-instruments-of-time"
+    },
+    {
       "id": "daily-2026-11-02",
       "date": "2026-11-02",
       "featuredIds": [
@@ -2295,5 +2404,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-11-02T00:02:14.883Z"
+  "latestSuccess": "2026-11-03T02:43:07.763Z"
 }
