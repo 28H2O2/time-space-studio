@@ -11,6 +11,11 @@ on:
         options:
           - test
           - latest
+      title:
+        description: Optional theme line for "latest" (the theme is not kept in the library)
+        required: false
+        default: ''
+        type: string
 
 permissions:
   contents: read
@@ -26,6 +31,7 @@ jobs:
     timeout-minutes: 5
     env:
       MODE: ${{ inputs.mode }}
+      ISSUE_TITLE: ${{ inputs.title }}
       FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
       FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
       FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
@@ -37,4 +43,4 @@ jobs:
         with:
           node-version: '22'
       - name: Send message
-        run: node scripts/feishu-notify.mjs "--$MODE"
+        run: node scripts/feishu-notify.mjs "--$MODE" --title "$ISSUE_TITLE"

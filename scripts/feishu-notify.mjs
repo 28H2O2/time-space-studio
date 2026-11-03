@@ -6,6 +6,19 @@ import { fileURLToPath } from 'node:url';
 
 const SITE = 'https://time-space-studio.vercel.app';
 
+const CATEGORY = { 'time-space': '时空与关系', graphic: '平面设计', art: '艺术作品' };
+const REPO = 'https://github.com/28H2O2/time-space-studio';
+
+const clip = (value, max) => {
+  const text = String(value).replace(/\s+/g, ' ').trim();
+  if (text.length <= max) return text;
+  const head = text.slice(0, max - 1);
+  // Prefer ending at a clause boundary over cutting a word in half.
+  const boundary = Math.max(...[...'，,；;、/'].map(mark => head.lastIndexOf(mark)));
+  return `${(boundary > max * 0.4 ? head.slice(0, boundary) : head).trimEnd()}…`;
+};
+const firstSentence = value => String(value).split(/(?<=[。！？])/)[0];
+
 export function buildMessage(library, { title = '', site = SITE } = {}) {
   const batch = library.batches[0];
   assert(batch, 'No published issue to announce');
@@ -14,10 +27,24 @@ export function buildMessage(library, { title = '', site = SITE } = {}) {
     assert(work, `Unknown featured work: ${id}`);
     return work;
   });
+  const text = (value, style) => ({ tag: 'text', text: value, ...(style && { style }) });
+  const link = (label, href) => ({ tag: 'a', text: label, href });
   const lines = [];
-  if (title) lines.push([{ tag: 'text', text: `本期主题：${title}` }]);
-  works.forEach((work, index) => lines.push([{ tag: 'text', text: `${index + 1}. ${work.title}\n    ${work.creator} · ${work.year}` }]));
-  lines.push([{ tag: 'a', text: '打开今日选图', href: site }]);
+  if (title) lines.push([text(`本期主题：${title}`, ['bold'])]);
+  works.forEach((work, index) => {
+    lines.push([text(`${index + 1}. ${work.title}`, ['bold'])]);
+    lines.push([text(`${work.creator} · ${work.year} · ${CATEGORY[work.category] || work.category}`)]);
+    lines.push([text(`看点：${clip(firstSentence(work.analysis.structure), 90)}`)]);
+    lines.push([text(`图像：${clip(work.rights.credit, 110)}`)]);
+    lines.push([
+      text('相关链接：'),
+      link('网站详情', `${site}/?view=today&work=${encodeURIComponent(work.id)}`), text(' · '),
+      link('原始出处', work.sourceUrl), text(' · '),
+      link('图片许可', work.rights.url),
+    ]);
+  });
+  lines.push([text('每件作品的来源核验与许可说明见网站详情页的“来源与使用说明”。')]);
+  lines.push([link('打开今日选图', site), text(' · '), link('项目仓库', REPO)]);
   return {
     batchId: batch.id,
     content: { zh_cn: { title: `时空图像研究室 · ${batch.date} 每日选图`, content: lines } },
