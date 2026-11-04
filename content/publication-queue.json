@@ -795,6 +795,167 @@
           "addedAt": "2026-11-03T02:20:56.605Z"
         }
       ]
+    },
+    {
+      "id": "queue-three-forms-of-flowers",
+      "notBefore": "2026-11-11",
+      "title": "花的三种形态",
+      "approvedBy": "codex",
+      "approvedAt": "2026-11-04T03:49:47.945Z",
+      "featuredIds": [
+        "art-redoute-cabbage-rose",
+        "graphic-textile-with-flora",
+        "art-tiffany-flower-form-vase"
+      ],
+      "artworks": [
+        {
+          "id": "art-redoute-cabbage-rose",
+          "title": "百叶蔷薇：留白中的单枝植物",
+          "titleOriginal": "Cabbage Rose (Rosa Centifolia Simplex)",
+          "creator": "Pierre-Joseph Redouté",
+          "year": "1817–1824",
+          "category": "art",
+          "methods": [
+            "植物写生",
+            "水彩层染",
+            "单枝构图",
+            "留白"
+          ],
+          "topics": [
+            "花卉",
+            "植物图像",
+            "形态观察"
+          ],
+          "sourceUrl": "https://www.clevelandart.org/art/1959.14",
+          "imageKey": "art-redoute-cabbage-rose.jpg",
+          "rights": {
+            "label": "CC0 1.0 / Cleveland Museum of Art Open Access",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Pierre-Joseph Redouté, Cabbage Rose (Rosa Centifolia Simplex), 1817–24. Cleveland Museum of Art; Gift in the name of Warren H. Corning from his wife and children, 1959.14.",
+            "usage": "从馆方 CC0 full TIFF 转为 JPEG，保留 3963 × 5765 原始像素尺寸及嵌入色彩配置；未裁切、未调色，JPEG quality 98、无色度抽样。用于队列作品展示与评论。"
+          },
+          "observation": "浅米色底面上是一枝带刺的蔷薇。开放的粉色花朵位于中上部，花心呈黄色；右侧有一枚粉色花苞，另外几枚花苞尚被绿色萼片包裹。下方数组锯齿叶沿细长枝条展开，叶脉清晰，页面四周尤其上方留有大片空白，左下角可见淡色署名。",
+          "evidence": "已打开 Cleveland Museum of Art 馆藏页，核对题名、作者 Pierre-Joseph Redouté、年代 1817–24、材质为羊皮纸上的水彩及馆藏号 1959.14。馆藏页明确允许复制、修改与分发，馆方 API 135597 的 share_license_status 为 CC0；同时查阅开放政策与 CC0 说明。已实际查看从 full TIFF 转出的整张图，未见水印、色卡或尺标。不把画面中的花苞与盛花解读为有时间间隔的连续记录。",
+          "analysis": {
+            "structure": "一根主枝把花、芽和叶组织成可循着观看的分叉关系。花朵的粉色与叶片的绿色分离了视觉层级，空白使叶缘、刺和细梗仍能辨认；这些部位共享一个画面，并未按时间先后分格。",
+            "borrow": "可借用单一主干与少量侧枝的构图，把核心对象及其局部差异放在同一视野内，并留出足够空白显示轮廓。",
+            "application": "适用于植物图鉴、材料样本页或产品部件说明。需要讲述生长过程时，应另加日期与顺序，不能仅凭同枝上的不同形态充当时间证据。"
+          },
+          "width": 3963,
+          "height": 5765,
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-04T03:49:47.945Z",
+            "inputHash": "1437d3f747ae0c0820d0d61ae026bfe14cabc3ab635136d5880b9985b77e48fc",
+            "referenceSources": [
+              "https://www.clevelandart.org/art/1959.14",
+              "https://www.clevelandart.org/open-access",
+              "https://creativecommons.org/publicdomain/zero/1.0/",
+              "https://openaccess-api.clevelandart.org/api/artworks/135597",
+              "https://openaccess-cdn.clevelandart.org/1959.14/1959.14_full.tif"
+            ]
+          },
+          "addedAt": "2026-11-04T03:49:47.945Z"
+        },
+        {
+          "id": "graphic-textile-with-flora",
+          "title": "花卉织物：卷叶围出的重复单元",
+          "titleOriginal": "Textile with Flora",
+          "creator": "未知（意大利或西班牙）",
+          "year": "约16世纪",
+          "category": "graphic",
+          "methods": [
+            "织物纹样",
+            "镜像构成",
+            "重复单元",
+            "金属线对比"
+          ],
+          "topics": [
+            "花卉",
+            "装饰纹样",
+            "织物"
+          ],
+          "sourceUrl": "https://www.clevelandart.org/art/1954.321",
+          "imageKey": "graphic-textile-with-flora.jpg",
+          "rights": {
+            "label": "CC0 1.0 / Cleveland Museum of Art Open Access",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Unknown maker, Italy or Spain, Textile with Flora, c. 1500s. Cleveland Museum of Art; Purchase from the J. H. Wade Fund, 1954.321.",
+            "usage": "从馆方 CC0 full TIFF 转为 JPEG，保留 5087 × 7611 原始像素尺寸及嵌入色彩配置；未裁切、未调色。为符合单图小于 20 MB，使用 JPEG quality 83、无色度抽样，保留两侧织边与完整残片。用于队列作品展示与评论。"
+          },
+          "observation": "纵长织物上布满红色、浅银色与黄褐色交错的花叶纹。大型卷曲叶片斜向围合，开口花形与成束的花枝上下交替，若干单元左右近似对称。两侧保留窄条绿色织边，上下边缘可见不齐的线头，细密织纹贯穿整个表面。",
+          "evidence": "已打开 Cleveland Museum of Art 馆藏页，核对题名、约1500s的年代、意大利或西班牙的地域归属、丝与亚麻及银线材质、90.8 × 59.4 cm 尺寸和馆藏号 1954.321。作者未署名，明确记为未知；馆方只推测用途可能是墙饰或长袍，不据此作确定归类。馆藏页允许复制、修改与分发，API 131743 标为 CC0，并提供 full TIFF。已实际查看整张转换图，织边和花叶图案完整，无水印、色卡或尺标。",
+          "analysis": {
+            "structure": "卷叶形成连续的斜向框架，花束填入框架内部，较小的卷须补足间隙。局部近似对称与上下错位共同维持重复节奏；边缘截断的纹样说明图案可以超出这块残片继续延展。",
+            "borrow": "可先设计具有方向的卷叶框架，再在框架内安排主花与次级填充纹，让大轮廓和细部各自承担一种尺度的节奏。",
+            "application": "适用于包装、书籍环衬和织物图案。制作连续纹样时应单独检查拼接边界，不直接把残片照片的破损边缘当成重复单元；银线的材料反光也不能仅用固定灰色完全复现。"
+          },
+          "width": 5087,
+          "height": 7611,
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-04T03:49:47.945Z",
+            "inputHash": "a03abb2bfad0067ac22f3a787873e9df6de7a9f8a760e0b7f2b67bc068230281",
+            "referenceSources": [
+              "https://www.clevelandart.org/art/1954.321",
+              "https://www.clevelandart.org/open-access",
+              "https://creativecommons.org/publicdomain/zero/1.0/",
+              "https://openaccess-api.clevelandart.org/api/artworks/131743",
+              "https://openaccess-cdn.clevelandart.org/1954.321/1954.321_full.tif"
+            ]
+          },
+          "addedAt": "2026-11-04T03:49:47.945Z"
+        },
+        {
+          "id": "art-tiffany-flower-form-vase",
+          "title": "花形玻璃瓶：从细茎到波浪瓶口",
+          "titleOriginal": "Vase",
+          "creator": "Louis Comfort Tiffany（设计） / Tiffany Studios（制作）",
+          "year": "约1905–1910",
+          "category": "art",
+          "methods": [
+            "花形器物",
+            "曲面渐变",
+            "虹彩玻璃",
+            "轮廓呼应"
+          ],
+          "topics": [
+            "花卉",
+            "玻璃工艺",
+            "新艺术"
+          ],
+          "sourceUrl": "https://www.clevelandart.org/art/1975.46",
+          "imageKey": "art-tiffany-flower-form-vase.jpg",
+          "rights": {
+            "label": "CC0 1.0 / Cleveland Museum of Art Open Access",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Louis Comfort Tiffany (designer), Tiffany Studios (maker), Vase, c. 1905–10. Cleveland Museum of Art; Gift of Dr. and Mrs. Shattuck W. Hartwell, Sr. in memory of Lavinia Austen and William Henry Gemmell, 1975.46.",
+            "usage": "从馆方 CC0 full TIFF 转为 JPEG，保留 3616 × 5026 原始像素尺寸及嵌入色彩配置；未裁切、未调色，JPEG quality 98、无色度抽样。保留馆方器物摄影的中性背景与投影，用于队列作品展示与评论。"
+          },
+          "observation": "玻璃瓶由低圆足、细长茎部和向上张开的喇叭状瓶身组成，瓶口边缘起伏。瓶身以金黄、浅绿为主，数道红褐色线条沿外壁向上分叉，瓶口内侧和底足可见蓝紫色虹彩。器物独立置于黑灰渐变背景中，右侧地面留有投影。",
+          "evidence": "已打开 Cleveland Museum of Art 馆藏页，核对设计者 Louis Comfort Tiffany 与制作者 Tiffany Studios 的不同角色、约1905–10的年代、Favrile glass 材质、高33 cm及馆藏号 1975.46。馆方将此类器物说明为花形玻璃设计，但未在该页确定具体花种，本记录不另作物种认定。馆藏页允许复制、修改与分发，API 148319 标为 CC0。已实际查看由 full TIFF 转出的图片，器物轮廓完整，未见水印、馆方色卡或尺标。",
+          "analysis": {
+            "structure": "花的形态在这里成为器物的体积：细茎托起逐渐扩张的杯状瓶身，波浪边缘强调张开的开口。表面的细线沿着扩张方向上升，与整体轮廓相互呼应，而非把平面花纹简单贴在圆柱上。",
+            "borrow": "可借用从支撑到展开的连续曲线，让器形、开口和表面线条共同表达一种形态，并用材料的反光补充颜色层次。",
+            "application": "适用于容器造型、灯具或立体展示设计。应分别验证支撑稳定性、开口功能和观看角度；单张照片中的虹彩与高光依赖照明，不能视为在所有角度都固定的表面色块。"
+          },
+          "width": 3616,
+          "height": 5026,
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-04T03:49:47.945Z",
+            "inputHash": "77e9c880b9c0d8a7e100476026e4afd082d9be6a8dfc80f6e0e474071d73bdca",
+            "referenceSources": [
+              "https://www.clevelandart.org/art/1975.46",
+              "https://www.clevelandart.org/open-access",
+              "https://creativecommons.org/publicdomain/zero/1.0/",
+              "https://openaccess-api.clevelandart.org/api/artworks/148319",
+              "https://openaccess-cdn.clevelandart.org/1975.46/1975.46_full.tif"
+            ]
+          },
+          "addedAt": "2026-11-04T03:49:47.945Z"
+        }
+      ]
     }
   ]
 }
