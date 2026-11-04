@@ -1,6 +1,104 @@
 {
   "artworks": [
     {
+      "id": "art-avercamp-winter-skaters",
+      "title": "冰上景观：村口运河上的人群",
+      "titleOriginal": "Winterlandschap met schaatsers / Winter Landscape with Ice Skaters",
+      "creator": "Hendrick Avercamp",
+      "year": "约1608",
+      "category": "art",
+      "methods": [
+        "高视点俯瞰",
+        "前景—远景纵深",
+        "人群散点",
+        "冷色天空与暖色建筑"
+      ],
+      "topics": [
+        "冬季",
+        "冰面活动",
+        "村镇空间",
+        "尺度与人流"
+      ],
+      "sourceUrl": "https://www.rijksmuseum.nl/en/collection/object/Winter-Landscape-with-Ice-Skaters--918895dc18da94e357c6763adda8882f",
+      "imageKey": "art-avercamp-winter-skaters.jpg",
+      "rights": {
+        "label": "Public Domain Mark 1.0（Rijksmuseum 标示）",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "credit": "Hendrick Avercamp, Winter Landscape with Ice Skaters, c. 1608, 木板油画, Rijksmuseum, Amsterdam, 馆藏号 SK-A-1718",
+        "usage": "馆方 IIIF 原图（6337×3674 px）等比缩小至 2400 px 宽并重存为 JPEG，未裁剪、未调色。馆方将该作品标为公有领域。"
+      },
+      "observation": "画面横向展开，低处是岸边的砖房、船和结冰的运河，左侧有带蓝绿色屋顶的教堂，远处冰面缩成细小的人影，地平线很高；天空占上方近一半，色调灰白偏暖。冰面中部到右下聚集大量穿深色衣服的人：有人滑冰，有人持杖击球，有人推雪橇或拖着物品，红色雪橇较醒目。左右各有一棵光秃的树框住画面，树枝上和天空中有零星的鸟，左下前景可见倒地的动物和乌鸦。",
+      "evidence": "已核对 Rijksmuseum 对象页与官方 Linked Art 记录（id.rijksmuseum.nl/200108163）：馆藏号 SK-A-1718；署名 Hendrick Avercamp（画面右侧木屋墙面有缩写签名）；年代 c. 1608；媒介为木板油画；支撑物 77.3 × 131.9 cm；图像许可标示为 Public Domain Mark 1.0。馆方荷兰文简介称此画因视点较高而成为严冬中人和动物活动的样本，数百人出现在冰上，多为消遣，也有人出于迫切需要而劳作。画中地点是否对应某个具体村镇，页面未说明，这里不作判断。",
+      "analysis": {
+        "structure": "高视点把岸边建筑、冰面和远处村镇压进同一张横向画面：近处用较大的人物与船只建立尺度，越往远处人影越小，冰面成为连接各处的开放平面。人群沿冰面分散而非排成一条路径，使不同活动同时可读；冷色天空、灰白冰面与房屋的暖色把空间层次分开。",
+        "borrow": "可借用“高视点 + 近大远小的人物尺度 + 一片可通行的开放平面”来组织信息：用前景细节提供可识别的单位，用远景的小点表示密度。也可借其用季节气候（冰、冷光、裸树）作为时间线索，而不必写文字说明。",
+        "application": "适合城市广场、水岸、园区的活动分布图或场景插画，展示同一时刻多种行为共存。注意这是绘画构图而非测绘：人数、位置和比例都为画面服务，不能当作真实人流统计。"
+      },
+      "width": 2400,
+      "height": 1391,
+      "writing": {
+        "author": "droid",
+        "generatedAt": "2026-11-03T02:19:49.306Z",
+        "inputHash": "bb54f79581f974af758710ae8f7fda674c0453ce339a1fa3b342b73f4cf37f8c",
+        "referenceSources": [
+          "https://www.rijksmuseum.nl/en/collection/object/Winter-Landscape-with-Ice-Skaters--918895dc18da94e357c6763adda8882f",
+          "https://id.rijksmuseum.nl/200108163",
+          "https://iiif.micr.io/aXnzA/full/max/0/default.jpg",
+          "https://data.rijksmuseum.nl/search/collection?objectNumber=SK-A-1718"
+        ]
+      },
+      "addedAt": "2026-11-04T03:37:29.036Z"
+    },
+    {
+      "id": "ts-anonymous-dam-square-panorama",
+      "title": "阿姆斯特丹水坝广场全景：三张照片拼成的广场",
+      "titleOriginal": "Panorama van de Dam te Amsterdam / Panorama of Dam Square in Amsterdam",
+      "creator": "佚名摄影师（anonymous）",
+      "year": "1899—1903",
+      "category": "time-space",
+      "methods": [
+        "多幅拼接",
+        "高机位",
+        "广场环形布局",
+        "人流与车辆"
+      ],
+      "topics": [
+        "城市广场",
+        "全景摄影",
+        "日常人流",
+        "有轨交通"
+      ],
+      "sourceUrl": "https://www.rijksmuseum.nl/en/collection/object/Panorama-of-Dam-Square-in-Amsterdam--9bd13ad02ec4e5ee33ced062b3e2b06b",
+      "imageKey": "ts-anonymous-dam-square-panorama.jpg",
+      "rights": {
+        "label": "Public Domain Mark 1.0（Rijksmuseum 标示）",
+        "url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "credit": "Anonymous, Panorama of Dam Square in Amsterdam, 1899-1903, 日光明胶银盐照片, Rijksmuseum, Amsterdam, 馆藏号 RP-F-F17849",
+        "usage": "馆方 IIIF 原图（6358×3232 px）等比缩小至 3000 px 宽并重存为 JPEG，未裁剪、未调色，保留卡纸衬底。馆方将该作品标为公有领域。"
+      },
+      "observation": "灰蓝色纹理卡纸上并排贴着三张照片，接缝处可见明显的竖向分界，相邻画面的建筑并不完全对齐。拍摄点较高，广场铺石地面呈大片留白，中央偏右立着带雕像的纪念碑，周围有圆形的路缘线和电车轨道的弧线。步行者零散分布，左侧人行道上有小群人和马车，右侧停着数辆带顶棚的车辆。远处是几层高的商业建筑，屋顶有“NATIONALE LEVENSVERZEKERINGBANK”字样的招牌。",
+      "evidence": "已核对 Rijksmuseum 对象页与官方 Linked Art 记录（id.rijksmuseum.nl/200325690）：馆藏号 RP-F-F17849；标题 Panorama of Dam Square in Amsterdam；摄影师 anonymous（荷兰）；年代 1899—1903；馆方技术记录为日光明胶银盐印相（daglichtgelatinezilverdruk），照片尺寸 78 × 183 mm，卡纸 106 × 213 mm；图像许可标示为 Public Domain Mark 1.0。三张照片是否同时拍摄、拼贴由谁完成，页面未说明，这里不作判断；招牌文字为画面可见内容。",
+      "analysis": {
+        "structure": "三张窄幅照片沿水平方向依次排开，用拼贴代替单张广角，让观看者在一个平面上看到整圈广场边缘。因为视点高，地面像一块舞台，步行者与车辆被地面的圆弧线和轨道线组织起来；接缝既是拼接痕迹，也提示这是在时间上略有先后的多次取景（是否同时拍摄页面未说明）。",
+        "borrow": "可借用“分段取景再并置”的方式处理比单一视角更宽的空间，并保留接缝来诚实标示每段的边界。也可借其高机位让地面线条、路缘与轨道成为空间骨架，人物点缀其上显示尺度。",
+        "application": "适合做街区或广场的现状记录、人流观察和使用方式对比；多段并置也适合展示同一场地在不同时刻的状态。注意单次画面只是一个瞬间，不能直接推断全天或全年的人流规律。"
+      },
+      "width": 3000,
+      "height": 1525,
+      "writing": {
+        "author": "droid",
+        "generatedAt": "2026-11-03T02:19:49.306Z",
+        "inputHash": "c4ee1046fd11f2459f2234d1606a260497bd5b348eeef1bd8367cfc379939ae9",
+        "referenceSources": [
+          "https://www.rijksmuseum.nl/en/collection/object/Panorama-of-Dam-Square-in-Amsterdam--9bd13ad02ec4e5ee33ced062b3e2b06b",
+          "https://id.rijksmuseum.nl/200325690",
+          "https://iiif.micr.io/UOqKQ/full/max/0/default.jpg",
+          "https://data.rijksmuseum.nl/search/collection?type=photograph&imageAvailable=true&title=panorama"
+        ]
+      },
+      "addedAt": "2026-11-04T03:37:29.036Z"
+    },
+    {
       "id": "ts-muzaffari-astrolabe-1291",
       "title": "穆扎法尔星盘：黄铜盘面上的天空与时间",
       "titleOriginal": "Astrolabe of ‘Umar ibn Yusuf ibn ‘Umar ibn ‘Ali ibn Rasul al-Muzaffari",
@@ -2216,6 +2314,19 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-11-04",
+      "date": "2026-11-04",
+      "featuredIds": [
+        "ts-london-1908",
+        "ts-anonymous-dam-square-panorama",
+        "art-avercamp-winter-skaters"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-11-04T03:37:29.036Z",
+      "queueId": "queue-city-and-ice"
+    },
+    {
       "id": "daily-2026-11-03",
       "date": "2026-11-03",
       "featuredIds": [
@@ -2404,5 +2515,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-11-03T02:43:07.763Z"
+  "latestSuccess": "2026-11-04T03:37:29.036Z"
 }
