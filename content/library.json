@@ -1,6 +1,100 @@
 {
   "artworks": [
     {
+      "id": "ts-durer-northern-sky-1515",
+      "title": "北天星图与十二黄道宫",
+      "titleOriginal": "Celestial Map of the Northern Sky with the Twelve Zodiac Signs（版面题字：Imagines coeli Septentrionales cum duodecim imaginibus zodiaci）",
+      "creator": "Albrecht Dürer（德国，1471—1528）",
+      "year": "1515",
+      "category": "time-space",
+      "methods": [
+        "天球投影",
+        "圆形星图",
+        "星座形象",
+        "黄道刻度环"
+      ],
+      "topics": [
+        "天文星图",
+        "黄道十二宫",
+        "木刻版画"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/106550",
+      "imageKey": "ts-durer-north-celestial-map.jpg",
+      "width": 1686,
+      "height": 2102,
+      "rights": {
+        "label": "CC0 Public Domain Designation（Art Institute of Chicago）",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "credit": "Albrecht Dürer, Celestial Map of the Northern Sky with the Twelve Zodiac Signs, 1515, woodcut; Art Institute of Chicago, Clarence Buckingham Collection, 1964.1065",
+        "usage": "采用馆方IIIF服务提供的JPEG（宽1686px），完整保留图像与纸边，未裁切或改色。馆方对该作品图像标示CC0公有领域。"
+      },
+      "observation": "方形木刻版框内是一个大圆：圆心附近挤着小熊、大熊、天龙等形象，圆周带有黑白相间的刻度环，几条直线从中心向外放射。人像与动物形象的躯体上布满带星点的小圆圈和数字，各星座旁有拉丁文名称，如Taurus、Aries、Pisces、Ursa maior、Virgo、Libra、Scorpio、Sagittarius。部分文字相对圆心倒置或斜置。四个角各有一位手持天球的人物，旁注Aratus Cilix、Ptolemeus Aegyptius、M. Manilius Romanus、Azophi Arabus。顶部是哥特体拉丁题字。",
+      "evidence": "核对Art Institute of Chicago作品页（artic.edu/artworks/106550）及其公开API字段：作者Albrecht Dürer（德国，1471—1528），日期1515，媒介为象牙色laid paper上的黑色木刻，版面43.2×43 cm、纸张58.4×46.3 cm，馆藏号1964.1065，Clarence Buckingham Collection，is_public_domain为真，页面图像署名为CC0 Public Domain Designation。馆方说明称该图与南天图并为赠送给皇帝马克西米利安一位人文主义顾问的一组作品，画面如同从太空观看天空，并被后人多次复制用于制作球面。已读取下载图像，题字、四角人名、刻度环与馆方记录一致。图中星点的具体星表来源、刻版者分工本页未写，故不下判断。",
+      "analysis": {
+        "structure": "以天球北极为中心把球面压到平面：星座形象沿放射线与同心圆摆开，外圈刻度环承担黄道角度读数，星点用小圆圈加数字标出。读者在图中读到的是天空方位与相邻关系，不是日期或事件先后；形象大小为叙事服务，并不与星体亮度或距离成比例。",
+        "borrow": "可借用“中心极点＋刻度环＋放射线”的圆形坐标骨架，让每个对象既有图形身份又有可查的位置读数；四角的注记人物把图的出处和权威交代在边缘，不压住主体。",
+        "application": "适合做环形排布的方向图、季节或周期面板、以某个中心对象为参照的关系图。用形象代替点时要保留一层可读的刻度或编号，否则图像虽生动，位置就无法查证。"
+      },
+      "writing": {
+        "author": "droid",
+        "generatedAt": "2026-11-03T02:18:09.868Z",
+        "inputHash": "06cd247c2789591b94f208c929548ef000f61b97223b61e4692f0d2b4c6d2c99",
+        "referenceSources": [
+          "https://www.artic.edu/artworks/106550",
+          "https://api.artic.edu/api/v1/artworks/106550",
+          "https://www.artic.edu/iiif/2/8d78cb88-9377-3e24-c62c-9bcc16ac3920/full/1686,/0/default.jpg"
+        ]
+      },
+      "addedAt": "2026-11-06T03:05:05.398Z"
+    },
+    {
+      "id": "graphic-katagami-mallows",
+      "title": "锦葵纹型纸",
+      "titleOriginal": "Stencil with Design of Mallows",
+      "creator": "日本（作者未知）",
+      "year": "19世纪晚期",
+      "category": "graphic",
+      "methods": [
+        "镂空型纸",
+        "叶形重叠",
+        "深浅块面与线描对照",
+        "丝网加固"
+      ],
+      "topics": [
+        "纹样",
+        "染织型纸",
+        "满地花叶"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/60674",
+      "imageKey": "graphic-katagami-mallows.jpg",
+      "width": 1686,
+      "height": 1239,
+      "rights": {
+        "label": "CC0 Public Domain Designation（Art Institute of Chicago）",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "credit": "Japan, Stencil with Design of Mallows, late 19th century, mulberry paper treated with persimmon juice, with silk web reinforcement; Art Institute of Chicago, Clarence Buckingham Collection, 1928.447",
+        "usage": "采用馆方IIIF服务提供的JPEG（宽1686px），完整保留图像与纸边，未裁切或改色。馆方对该作品图像标示CC0公有领域。"
+      },
+      "observation": "棕色纸框中间开出一块矩形窗口，窗口内布满圆形裂叶，叶面有放射状叶脉。叶子大致分两种：一种是实心深色块，叶脉被刻成白色细缝；另一种只留细线轮廓，内部镂空。深色叶片成簇，约三处较集中，周围分布线描叶片，叶子相互叠压，之间点缀小簇毛状短刻线。窗口里隐约可见一层细网格，图的边缘处有磨损或破损。",
+      "evidence": "核对Art Institute of Chicago作品页（artic.edu/artworks/60674）及公开API字段：标题Stencil with Design of Mallows，产地日本，作者标示为“Japan”（未署个人），日期Late 19th century（1850—1899），媒介为涂柿渍的桑皮纸并有丝网加固，馆藏号1928.447，Clarence Buckingham Collection，来源记录为Kate Sturges Buckingham（1858—1937）于1928年5月11日捐赠，is_public_domain为真，页面标示CC0 Public Domain Designation。尺寸、具体产地与工坊页面未载。已读取下载图像；本图为型纸实物，所见是单张纸上的刻痕，不能由此判断它在布上重复的排布方式。",
+      "analysis": {
+        "structure": "靠“实心叶块”和“只留轮廓的叶”两种密度，在同一平面里制造聚散：深色簇是视觉重心，线描叶填充其间。叶子互相叠压，没有留下清晰的格点，疏密起伏依靠叶团的大小与间距，而非规则格栅。",
+        "borrow": "可借用同一母题两种处理（实心与线描）形成的层次，以及用丝网等“看不见的支撑”保持细刻线连续的做法。型纸刻痕必须相连，这一制作限制也限定了形状。",
+        "application": "适合做满铺的背景纹理、包装或界面底纹：用两到三种密度的同一元素控制疏密，使内容区仍有空白可读。需要无缝平铺时，仍要另外检查边缘衔接，本页没有显示这一点。"
+      },
+      "writing": {
+        "author": "droid",
+        "generatedAt": "2026-11-03T02:18:09.868Z",
+        "inputHash": "387fb6cafbeddddd39f48a158f4a9fd7690f6fa8d7e6050ab2a78119b03c075c",
+        "referenceSources": [
+          "https://www.artic.edu/artworks/60674",
+          "https://api.artic.edu/api/v1/artworks/60674",
+          "https://www.artic.edu/iiif/2/9b6a6782-a9e2-c3e7-bebe-76fd8dacabc2/full/1686,/0/default.jpg"
+        ]
+      },
+      "addedAt": "2026-11-06T03:05:05.398Z"
+    },
+    {
       "id": "ts-delano-chicago-rail-yard-night",
       "title": "芝加哥铁路编组场之夜：灯笼留下的光迹",
       "titleOriginal": "Chicago, Illinois. One of the yards of the Chicago and Northwestern Railroad at night. The light streaks are caused by lantern of men going in and out of the yard office",
@@ -2412,6 +2506,19 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-11-06",
+      "date": "2026-11-06",
+      "featuredIds": [
+        "ts-quin-alexander",
+        "ts-durer-northern-sky-1515",
+        "graphic-katagami-mallows"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-11-06T03:05:05.398Z",
+      "queueId": "queue-empire-sky-and-pattern"
+    },
+    {
       "id": "daily-2026-11-05",
       "date": "2026-11-05",
       "featuredIds": [
@@ -2626,5 +2733,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-11-05T03:06:18.876Z"
+  "latestSuccess": "2026-11-06T03:05:05.398Z"
 }
