@@ -40,6 +40,22 @@ export interface Artwork {
   addedAt: string;
 }
 
+export interface Reference {
+  id: string;
+  title: string;
+  originalTitle: string;
+  creator: string;
+  year: string;
+  category: ArtworkCategory;
+  medium: string;
+  methods: string[];
+  url: string;
+  summary: string;
+  borrow: string;
+  question: string;
+  relation: string;
+}
+
 export interface Note {
   artworkId: string;
   favorite: boolean;

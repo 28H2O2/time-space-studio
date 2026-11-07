@@ -2,9 +2,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { Plus, Minus, Maximize2, Move } from 'lucide-react';
 import type { Artwork } from './lib/types';
-import c from './lib/copy.json';
+import { useLang } from './lib/lang';
 export const imagePath = (a: Artwork) => `/media/${encodeURIComponent(a.imageKey)}`;
 export default function ImageViewer({ artwork }: { artwork: Artwork }) {
+  const { c } = useLang();
   const box = useRef<HTMLDivElement>(null);
   const drag = useRef<{ x: number; y: number; left: number; top: number } | null>(null);
   const [zoom, setZoom] = useState(1);

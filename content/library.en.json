@@ -1,0 +1,1211 @@
+{
+  "version": 1,
+  "artworks": {
+    "ts-muzaffari-astrolabe-1291": {
+      "title": "Muzaffari Astrolabe: Sky and Time on a Brass Plate",
+      "creator": "‘Umar ibn Yusuf al-Muzaffari (Rasulid prince, as named in the inscription)",
+      "year": "1291 (AH 690)",
+      "methods": [
+        "Concentric scales",
+        "Rotating overlays",
+        "Planar celestial projection"
+      ],
+      "topics": [
+        "Astrolabe",
+        "Astronomical instruments",
+        "Timekeeping and positioning",
+        "Medieval Yemen"
+      ],
+      "evidence": "I checked the Met collection page: title, maker's inscription (Yemini, reigned 1295–96), date dated 690 AH/1291 CE, place of origin Yemen, material cast and hammered brass with piercing, engraving and silver inlay, accession number 91.1.535a–h, and credit line Bequest of Edward C. Moore, 1891. The page says the inscription attributes the piece to the Rasulid prince ‘Umar ibn Yusuf in the years before his accession, and that a treatise by him preserved in Cairo describes this instrument. The Met Open Access API marks isPublicDomain as true. I did not read the Arabic text on the plate character by character.",
+      "analysis": {
+        "structure": "The outer scale ring is for reading angles, the rotating rete in the middle marks the positions of stars, and the plates beneath carry grids tied to geographic latitude. Because the layers are stacked, turning one layer changes how sky and earth correspond, so this is a computable diagram rather than a static illustration.",
+        "borrow": "Borrow the structure of a fixed base with rotating overlays: put stable references in the lower layer, movable variables in the upper layers, and read the result from how they overlap. Placing the scale ring at the edge lets precise reading happen there and leaves the center free for complex figures.",
+        "application": "Suited to interactive timelines, schedules or comparison charts: fix the baseline and make the adjustable layers into sliders or dials. Note that an astrolabe's plates depend on a specific latitude and must be changed when the latitude changes, so one plate should not be treated as valid for every situation."
+      },
+      "rights": {
+        "usage": "Image in the public domain under the museum's Open Access policy (main image DP170386, 3000×4000 pixels). The local file is proportionally reduced to 1800×2400 and re-encoded as JPEG, without cropping or color adjustment."
+      }
+    },
+    "graphic-shunman-rotating-calendar-1795": {
+      "title": "Rotating Picture Calendar: A Monthly Calendar Disc on a Wave Base",
+      "creator": "Kubo Shunman",
+      "year": "1795 (year of the rabbit)",
+      "methods": [
+        "Picture calendar (egoyomi)",
+        "Windowed disc",
+        "Text and image side by side"
+      ],
+      "topics": [
+        "Calendars",
+        "Calendrical knowledge",
+        "Surimono",
+        "Woodblock printing"
+      ],
+      "evidence": "I checked the Met collection page: artist Kubo Shunman (Japanese, 1757–1820), date 1795, year of the rabbit, Edo period, medium woodblock print (surimono), ink and color, image size 13.7×27.9 cm, accession number 2012.248.5, Purchase, Marjorie H. Holden Gift, 2012. The museum's description says this is a picture calendar (egoyomi) showing a storyteller explaining a \"celestial globe\" (kontenki, a kind of armillary sphere or astrolabe), in which the instrument, originally built of rings, is cleverly replaced by a rotating calendar disc. I did not read the Japanese text in the image character by character; the calendar information relies only on the museum's description. The Met record lists isPublicDomain as true.",
+      "analysis": {
+        "structure": "The picture places three kinds of content side by side: poems on the left, the calendar disc in the middle, and the explainer with his explanatory text on the right. The disc sits at the center with a vertical hanging ring and a stand, forming the visual focus; the explainer's arm and folding fan lead the eye from the text to the disc. The windows on the disc reveal information for individual months, not a continuous timeline.",
+        "borrow": "Borrow the practice of replacing abstract explanation with an object that can be operated: let the core information rest on a single, emphasized form, with the figures and text beside it serving it. Reading through cut-out windows also suits packing a lot of data into a compact disc.",
+        "application": "Suited to year calendars, solar-term cards, event schedules or interactive paper booklets: use a rotating disc with small windows to show information for the \"current month.\" When borrowing, keep the original context of a folded paper object with poems and explanation, and do not treat it as a generic calendar template."
+      },
+      "rights": {
+        "usage": "Image in the public domain under the museum's Open Access policy (main image DP-14464-005, 4000×3002 pixels). The local file is proportionally reduced to 2400×1801 and re-encoded as JPEG, without cropping or color adjustment."
+      }
+    },
+    "photo-dovizielli-spanish-steps": {
+      "title": "The Piazza di Spagna and Spanish Steps, Rome",
+      "year": "ca. 1855",
+      "methods": [
+        "Architectural photography",
+        "Perspective",
+        "Light and shade"
+      ],
+      "topics": [
+        "Urban space",
+        "Public places",
+        "Historical photography"
+      ],
+      "evidence": "Metropolitan Museum of Art accession number 834929, which lists the photographer, ca. 1855, albumen silver print from a glass negative, and Public Domain; the image comes from the museum's open access resources.",
+      "analysis": {
+        "structure": "The horizontal lines of the steps rise in layers, the obelisk and twin towers gather the gaze along the central axis, and the buildings at left and right with the foreground shadows form a framing device.",
+        "borrow": "Use repeated horizontal lines and one clear vertical axis to organize a complex space, and keep a few figures or objects as a reference for scale.",
+        "application": "When drawing site hierarchies or entrance routes, first mark the sight lines, steps and building edges, then add figures and activities selectively."
+      },
+      "rights": {
+        "label": "Public domain / CC0",
+        "credit": "The Metropolitan Museum of Art, Gift of W. Bruce and Delaney H. Lundberg, 2019",
+        "usage": "Uses a digital image of a public domain work from the museum's open access program, with the collection and source credited."
+      }
+    },
+    "graphic-gregg-be-kind-books": {
+      "title": "Be Kind to Books Club: An Invitation to Read, Built from Placards",
+      "methods": [
+        "Type hierarchy",
+        "Silhouetted crowds"
+      ],
+      "topics": [
+        "Reading promotion",
+        "Public posters",
+        "Screen printing"
+      ],
+      "evidence": "The LOC records the creator as Arlington Gregg, the date as between 1936 and 1940, and the medium as color screenprint; the catalog note describes a WPA poster of children holding a book club sign. The publication range is kept here, and no specific year is assumed. I checked the collection record, the digital image, and the Rights & Access for this record.",
+      "analysis": {
+        "structure": "The tilt of the signs and the upward posture of the crowd create one unified reading direction. Large red lettering sets the first level, supplementary blue text sets the second, and the question at the bottom turns viewing into an invitation to take part.",
+        "borrow": "Put the title inside an object the characters are handling, so the text becomes part of the scene; arrange reading order through type size, color and position rather than making every sentence equally bold.",
+        "application": "Suited to reading events, club recruitment and public campaigns. The main message, supporting note and call to action should each have a place, and a legible keyword for the theme should remain when scaled down to a phone card."
+      },
+      "rights": {
+        "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      }
+    },
+    "ts-hergesheimer-virginia-1861": {
+      "title": "Map of Virginia Showing the Distribution of Its Enslaved Population: Proportion and Base Table",
+      "creator": "Drawn by Edwin Hergesheimer / published by Henry S. Graham",
+      "year": "1861 (based on the 1860 census)",
+      "methods": [
+        "Graduated color",
+        "Chart and table cross-checking"
+      ],
+      "topics": [
+        "Statistical maps",
+        "Historical population",
+        "History of slavery"
+      ],
+      "evidence": "The LOC bibliographic record gives publication in 1861, based on the 1860 census, with a county-by-county population table and a Virginia/Kanawha comparison table; the original map notes that counties below one tenth are not shaded. The gray scale expresses the share of the enslaved population and must not be read as total population. I checked the collection record, the digital image, and the Rights & Access for this record.",
+      "analysis": {
+        "structure": "The map shows spatial distribution, while the table keeps the denominators and absolute counts; county names and values provide an entry point for cross-checking the two. The area of an administrative unit affects its visual weight even though it does not represent population size.",
+        "borrow": "When a map shows proportions, also supply checkable numerators, denominators and the data year; do not let a dark county suggest that it necessarily contains more people.",
+        "application": "Suited to studying statistical mapping and its historical context. The background of slavery and census classification must be kept; the people in these records cannot be abstracted into purely decorative texture, and contemporary administrative areas cannot be substituted directly for historical boundaries."
+      },
+      "rights": {
+        "credit": "Drawn by Edwin Hergesheimer / published by Henry S. Graham / Library of Congress, Geography and Map Division / 2010586922",
+        "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      }
+    },
+    "ts-world-time-zones-2006": {
+      "title": "World Standard Time Zones: Regular Grid and Actual Boundaries",
+      "creator": "Central Intelligence Agency",
+      "methods": [
+        "Places and states",
+        "Rules and exceptions"
+      ],
+      "topics": [
+        "Time zones",
+        "World maps",
+        "Time conversion"
+      ],
+      "evidence": "The LOC records this map as the CIA's 2006 edition, number 803248AI (R02183) 4-06; the original marks the UTC reference and a note on date changes. This map is used only as a historical graphic design reference and does not represent current time zones, boundaries or daylight saving rules. I checked the collection record, the digital image, and the Rights & Access for this record.",
+      "analysis": {
+        "structure": "A regular vertical grid is set against irregular actual zones, tying abstract hour differences to concrete geographic extents. Numeric labels handle precise reading and fill colors help identify zones; neither can substitute for the other.",
+        "borrow": "First show an explainable baseline rule, then explicitly mark the regions that deviate from it; with numbers and graphics shown together, readers can move from the overview to checking details.",
+        "application": "Useful for understanding how to organize information in interfaces for time across regions. Actual scheduling should use a live-maintained time zone database and specific dates; today's time differences cannot be read from this 2006 map."
+      },
+      "rights": {
+        "credit": "Central Intelligence Agency / Library of Congress, Geography and Map Division / 2006629909",
+        "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      }
+    },
+    "graphic-hirt-national-parks-wildlife": {
+      "title": "National Parks Preserve Wild Life: Bighorn Sheep on the Rocks",
+      "methods": [
+        "Silhouette layering",
+        "Diagonal composition"
+      ],
+      "topics": [
+        "Public posters",
+        "Nature conservation",
+        "Screen printing"
+      ],
+      "evidence": "The LOC lists the designer as J. Hirt, published between 1936 and 1939, medium color screenprint; the collection note confirms two bighorn sheep. This version uses ppmsca.23061, which is labeled as a digitization of the original, and not the other color copy-photograph version. I checked the collection record, the digital image, and the Rights & Access for this record.",
+      "analysis": {
+        "structure": "The rising rock pushes the center of gravity toward the animals, and the empty sky makes the curved horns and silhouettes clear. The dark area below carries both foreground weight and a base for the text.",
+        "borrow": "Let a physical element in the picture double as the area that holds text, reducing the need for a separately added title box; use a few tonal levels to separate distance, subject and foreground.",
+        "application": "Suited to nature education, exhibitions or travel posters. When borrowing the layering and empty space, recompose according to the real content rather than treating the animal silhouette as a decorative symbol that can be swapped freely."
+      },
+      "rights": {
+        "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      }
+    },
+    "art-hiroshige-kameido-triptych": {
+      "title": "Panorama of the Plum Garden at Kameido: A Garden Route Across Three Sheets",
+      "creator": "Andō Hiroshige",
+      "methods": [
+        "Continuous space",
+        "Long-format narrative"
+      ],
+      "topics": [
+        "Ukiyo-e",
+        "Garden outings",
+        "Triptychs"
+      ],
+      "evidence": "The LOC records this work as from Famous Places in the Eastern Capital (Toto meisho), dated between 1836 and 1842, in the form of a color woodblock triptych. This version uses the museum's preview of the whole triptych; the catalog note says the plum garden was open to the public, and crowds entering and strolling can be seen in the picture. I checked the collection record, the digital image, and the Rights & Access for this record.",
+      "analysis": {
+        "structure": "The garden path links the three physical sheets into one continuous space, figures keep a similar scale, and the eye can move slowly along the route. Horizontal bands of cloud create intervals, but the seams do not cut the main route.",
+        "borrow": "When designing spreads or horizontally scrolling narratives, let the key path cross the divisions, and keep continuity through repeated figure scale and plant texture.",
+        "application": "Suited to exhibition scrolls, park introductions or horizontal web pages. A triptych is a spatial extension, not three different moments; for a time-based narrative, explicit time markers must be added."
+      },
+      "rights": {
+        "credit": "Andō Hiroshige / Library of Congress, Prints and Photographs Division / 2008661242",
+        "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      }
+    },
+    "ts-parsons-san-francisco-1878": {
+      "title": "Bird's-Eye View of San Francisco from the Bay",
+      "methods": [
+        "Bird's-eye space",
+        "Places and states"
+      ],
+      "topics": [
+        "Cities",
+        "Harbors",
+        "Historical maps"
+      ],
+      "evidence": "The LOC records the author Charles R. Parsons, the publisher Currier & Ives, and a copyright year of 1878; the catalog specifically notes that this is a perspective map not drawn to scale, with an index of locations. It is neither an aerial photograph nor a plan map from which distances can be measured. I checked the collection record, the digital image, and the Rights & Access for this record.",
+      "analysis": {
+        "structure": "The bay, wharves, street grid and hills form continuous layers from front to back, so the harbor and the city's hinterland are related within a single viewpoint. Building density and street direction give clues for locating things, but perspective alters scale.",
+        "borrow": "When introducing a large place, first let viewers understand the entrance, the internal routes and the distant boundary; move dense names to an index area instead of labeling each one on the main picture.",
+        "application": "Suited to guide illustrations of parks, exhibition areas or historical cities. To support actual wayfinding, add a plan and distances, and do not treat block lengths compressed by perspective as real measurements."
+      },
+      "rights": {
+        "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      }
+    },
+    "art-hokusai-sunshu-ejiri": {
+      "title": "Ejiri in Suruga Province: Drawing the Wind with Scattered Objects",
+      "creator": "Katsushika Hokusai",
+      "year": "1832 or 1833",
+      "methods": [
+        "Directional cues",
+        "Motion versus stillness"
+      ],
+      "topics": [
+        "Ukiyo-e",
+        "Wind",
+        "Instants"
+      ],
+      "evidence": "The LOC records the work as Sunshū ejiri from Thirty-six Views of Mount Fuji, dated 1832 or 1833; the collection note mentions travelers in the wind, hats, papers and distant Mount Fuji. This version uses the library's digital image of this impression, and not a later reprint as a substitute. I checked the collection record, the digital image, and the Rights & Access for this record.",
+      "analysis": {
+        "structure": "The wind itself is invisible, so the picture gives several directional clues through bent trees, stooping figures and flying sheets of paper. The stable outline of the distant mountain contrasts with the action in the foreground, concentrating the sense of the moment near the viewer.",
+        "borrow": "To show an invisible force, draw its shared effect on different objects; a few clues that agree in direction but differ in scale are often more narrative than an explicit arrow.",
+        "application": "Suited to illustration, motion storyboards and the design of states of movement. The scattered papers in a still image are multiple objects in one picture and should not automatically be read as a time sequence of a single object."
+      },
+      "rights": {
+        "credit": "Katsushika Hokusai / Library of Congress, Prints and Photographs Division / 2009615396",
+        "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      }
+    },
+    "ts-maury-atlantic-trade-winds-1851": {
+      "title": "Atlantic Trade Winds Chart: Wind Belts Within a Grid",
+      "creator": "Matthew Fontaine Maury; compiled by E. J. De Haven / related U.S. Navy bodies",
+      "methods": [
+        "Grid coding",
+        "Banded zones"
+      ],
+      "topics": [
+        "Meteorology",
+        "Navigation at sea",
+        "Statistical graphics"
+      ],
+      "evidence": "The LOC records this chart as the Atlantic trade winds chart in Series B of Maury's Wind and Current Charts, published in 1851; the signatures on the chart list M. F. Maury and the compiler E. J. De Haven. The color bands represent wind zones; because the atlas title contains \"current,\" this sheet must not be read as showing ocean current paths. I checked the collection record, the digital image, and the Rights & Access for this record.",
+      "analysis": {
+        "structure": "Large color bands provide the first level of regional judgment, and the small numbers in the grid provide the second level of detail. The picture does not use the usual land outline as its protagonist but puts the boundaries and changes of the wind zones in the foreground.",
+        "borrow": "For dense observational data, first give readers a recognizable level of zoning, then offer grid-level close reading; keep a legend panel that states what the cells, color bands and numbers each mean.",
+        "application": "Can be borrowed for periodic environmental data or charts of operating ranges. Before reuse, the coordinates and statistical definitions must be rebuilt; horizontal position cannot be taken directly as continuous dates, nor band width as wind speed."
+      },
+      "rights": {
+        "credit": "Matthew Fontaine Maury; compiled by E. J. De Haven / related U.S. Navy bodies / Library of Congress, Geography and Map Division / 2009575918",
+        "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      }
+    },
+    "ts-china-annual-isotherms-1878": {
+      "title": "Annual Mean Isotherms of China and Surrounding Areas",
+      "creator": "Royal Asiatic Society, North China Branch (publishing body; individual cartographer not verified)",
+      "year": "ca. 1878",
+      "methods": [
+        "Isolines",
+        "Multivariable overlay"
+      ],
+      "topics": [
+        "Climate",
+        "East Asia",
+        "Historical scientific diagrams"
+      ],
+      "evidence": "The LOC catalogs the whole set as Isothermal lines of [months] : [China], with the publication date given in square brackets as 1878. This entry covers the first sheet, cs000001, which the title in the image explicitly marks as the annual mean chart; the note below the image distinguishes red atmospheric temperature from black land and sea information, and explains that the figures in parentheses are Fahrenheit. I checked the collection record, the digital image, and the Rights & Access for this record.",
+      "analysis": {
+        "structure": "The geographic base map carries continuous fields of different kinds: red isotherms cross boundaries, while black ocean current and terrain information maintains a separate layer of reading. The annual mean and the month notes beside the lines should not be merged into one time basis.",
+        "borrow": "When several variables are overlaid on one map, divide the work between color and line style, and state units, statistical period and symbol meanings in the legend. Do not rely on color differences alone and make readers guess.",
+        "application": "Suited to studying how layers are organized in environmental maps. This is historical material and cannot serve as contemporary climate data; to compare months, consult the other monthly sheets in the same set and unify the basis."
+      },
+      "rights": {
+        "credit": "Royal Asiatic Society, North China Branch (publishing body; individual cartographer not verified) / Library of Congress, Geography and Map Division / 2007627808",
+        "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      }
+    },
+    "graphic-welsh-visit-zoo": {
+      "title": "Visit the Zoo: Two Penguins in Black and White Forms",
+      "year": "1936 or 1937",
+      "methods": [
+        "Positive and negative shapes",
+        "Separate text and image zones"
+      ],
+      "topics": [
+        "Public posters",
+        "Animals",
+        "Woodcut"
+      ],
+      "evidence": "The LOC records the creator as Louise Welsh, the publication date as 1936 or 1937, and the medium as color woodcut; the collection note describes two penguins. The date range is kept here, and the 1937 stamp on the back is not treated as the definite date of creation. I checked the collection record, the digital image, and the Rights & Access for this record.",
+      "analysis": {
+        "structure": "An upright animal and a reclining one set up one vertical and one horizontal center of weight, with the outlines shifting between a few color blocks. The image draws attention, and the short line below states the action directly.",
+        "borrow": "Use two different postures to set a rhythm, and keep the main title short. Check whether the outline is still recognizable when reduced before adding texture.",
+        "application": "Can be used for exhibitions, nature education or event posters. The limited-color printing and the organization of outlines can be borrowed; the current digital file comes from the library's reproduction, so the paper color and blackness should not be taken directly as exact color values of the original."
+      },
+      "rights": {
+        "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      }
+    },
+    "ts-magnus-telegraph-1858": {
+      "title": "Telegraph Map of America and Europe: Lines, Clocks and Communication",
+      "methods": [
+        "Networks and direction",
+        "Multi-view narrative"
+      ],
+      "topics": [
+        "Communication",
+        "Transoceanic links",
+        "Time comparison"
+      ],
+      "evidence": "The LOC bibliographic record Created / Published explicitly gives 1858, with the publisher Charles Magnus & Co.; the bibliographic year is used, not the incomplete date value in the API. The original shows cable markers, several clock faces and a message heading. I checked the collection record, the digital image, and the Rights & Access for this record.",
+      "analysis": {
+        "structure": "A transoceanic communication event is broken into several viewpoints: geographic connection, city times, ships and the message text. The central clock face forms a visual point of convergence, but the circular arrangement of the cities is not their geographic position.",
+        "borrow": "Arrange several complementary views for a complex event: the map answers where, the clock faces answer how times compare, and the original text answers what was transmitted. Use one clear visual center to organize them.",
+        "application": "Suited to cross-time-zone collaboration or topics in the history of communication. Distinguish the schematic arrangement of cities, the actual places on the map and the time the message was sent; decorative connecting lines cannot be taken as an exact network topology."
+      },
+      "rights": {
+        "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      }
+    },
+    "ts-ensign-eastern-railroads-1856": {
+      "title": "Railroad Map of the Eastern United States: Overview and Enlarged New England",
+      "methods": [
+        "Networks and direction",
+        "Multi-scale comparison"
+      ],
+      "topics": [
+        "Railways",
+        "Historical maps",
+        "Information hierarchy"
+      ],
+      "evidence": "The Library of Congress catalog lists the publisher as Ensign, Bridgman & Fanning and the date as 1856; the description explicitly lists an enlarged New England map and an illustration of a waterfall. Railroad numbers on the map correspond to the name table at the side, and there is no train timetable axis. I checked the collection record, the digital image, and the Rights & Access for this record.",
+      "analysis": {
+        "structure": "Placing a regional overview and a local enlargement on one sheet lets readers first locate relationships across states and then examine the areas dense with lines. Pale areas express state territories and the black line network expresses connections; the two layers share the geographic base map.",
+        "borrow": "When local information is too dense, give it its own larger scale and keep colors and place names consistent with the overview; the overall map need not carry all the detail.",
+        "application": "Can be used for park guides, transport networks or service coverage maps. Line connectivity only shows spatial relationships; frequency of departures, running times or the present state of a line cannot be inferred from it."
+      },
+      "rights": {
+        "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      }
+    },
+    "contemporary-ocean-2025": {
+      "title": "Perpetual Ocean 2: Western Boundary Currents",
+      "methods": [
+        "Continuous trajectory",
+        "Three-dimensional flow field"
+      ],
+      "topics": [
+        "Contemporary Notes",
+        "Ocean",
+        "Animated visualization"
+      ],
+      "evidence": "The official release date is 2025-02-27. Based on ECCO-2 model output for 2021–2023; this image is the beauty version, and its blue-and-white coloring must not be interpreted as temperature. I checked the download on the original site and the NASA SVS public-domain statement.",
+      "analysis": {
+        "structure": "The globe provides a real geographic reference, and dense blue-and-white streamlines make the otherwise invisible ocean currents visible. The still frame highlights the eddies and main current bands; the passage of time must be seen in the animation on the original site.",
+        "borrow": "Use the continuity, density and light-dark variation of lines to express motion, without putting a card around each path segment. Keep the spatial base map subdued so the traces of activity become the visual subject.",
+        "application": "Suited to studying how traffic, crowd or goods flows are shown. This preview uses an aesthetic color scheme, so the colors cannot be read as temperature, and speed cannot be judged from a single still frame."
+      },
+      "rights": {
+        "label": "Public domain · NASA SVS",
+        "usage": "The official static preview is cached unmodified under the NASA SVS public-domain usage statement; the full animation can be viewed on the original site. Motion speed cannot be read from this frame alone."
+      }
+    },
+    "contemporary-openmoji-map": {
+      "title": "OpenMoji: World Map Symbol",
+      "creator": "Benedikt Groß, Daniel Utz and OpenMoji contributors / HfG Schwäbisch Gmünd",
+      "year": "2018–2026 (ongoing project)",
+      "methods": [
+        "Symbol system",
+        "Places and states"
+      ],
+      "topics": [
+        "Contemporary Notes",
+        "Icons",
+        "Open design"
+      ],
+      "evidence": "The official repository states that the project began in 2018 and has been updated through 2026, with the graphics under CC BY-SA 4.0. This item is a single world map symbol, not a complete geographic map; the project's years have not been taken as the first creation date of this icon.",
+      "analysis": {
+        "structure": "A light blue ocean and yellow-green land are enclosed by a uniform thick black outline, and the complex continents are reduced to a few easily recognized curves. The transparent background lets the symbol enter different pages; the image itself carries no time information.",
+        "borrow": "Borrow the consistent stroke, rounded forms and limited colors to build one family of symbols for places, vehicles, people and states. Make sure the outline is recognizable first, then decide how much information color carries.",
+        "application": "Suited to small legends for relocation maps or travel notes. It identifies the concept of a map and cannot stand in for accurate geography; on a real route map, distance and direction still need to be explained separately."
+      },
+      "rights": {
+        "usage": "The original 618px PNG is cached unmodified under the project's graphics license; the image remains under CC BY-SA 4.0. The small size is the original size of the official icon resource and has not been enlarged to fill in pixels."
+      }
+    },
+    "contemporary-stripes-2025": {
+      "title": "Global Climate Stripes: 1850–2025",
+      "year": "From 2018; data updated through 2025",
+      "methods": [
+        "Time slices",
+        "Color coding"
+      ],
+      "topics": [
+        "Contemporary Notes",
+        "Climate",
+        "Minimal graphics"
+      ],
+      "evidence": "The author's website, in its current application data, explicitly gives GLOBE, 1850–2025, and the MO.png download path; the FAQ states that each stripe represents one year and that the image is under CC BY 4.0. The year range is the data range, not a claim that the work was created in 1850.",
+      "analysis": {
+        "structure": "Years are laid out from left to right, each carried by a vertical stripe of equal width holding that year's temperature. Axes and text are removed, so the shift between blue and red lets the long-term trend reach the eye before any specific reading.",
+        "borrow": "Borrow equal-width time units and a single visual variable to compress a long record into one rhythmic band of color. Where precise reading is needed, add years and a color scale alongside.",
+        "application": "Suited to yearly overviews, personal habit records, or travel-weather logs. Color must carry a consistent meaning; this is a time series, not geographic distance, and individual yearly values cannot be read directly from it."
+      },
+      "rights": {
+        "usage": "Following the CC BY 4.0 statement in the author's website FAQ: credit and the link to the original site are retained, the original image is cached locally, and it is unmodified."
+      }
+    },
+    "art-wang-hui-kangxi-scroll3-detail": {
+      "title": "The Kangxi Emperor's Southern Inspection Tour, Scroll Three: Ji'nan to Mount Tai (Mount Tai Detail)",
+      "creator": "Wang Hui and assistants",
+      "year": "1698 (museum dating)",
+      "methods": [
+        "Continuous-space storytelling",
+        "Path guidance",
+        "Landmark anchors",
+        "Scale contrast"
+      ],
+      "topics": [
+        "Handscrolls",
+        "Travel narrative",
+        "Viewing order"
+      ],
+      "evidence": "The museum asks that the full scroll be viewed from right to left. It says Wang Hui composed the work from maps and prints, did not visit Mount Tai in person, and linked specific locations with imagined landscape. The time here is therefore narrative, travel, and viewing order, not a quantitative timeline with readable minutes or dates; travel duration cannot be calculated from the spacing of figures, and the work should not be treated as a surveyed map.",
+      "analysis": {
+        "structure": "The Mount Tai detail makes the mountain the subject: a procession of figures follows the road to the mountain gate, and winding mountain paths then connect tiers of buildings. Small figures and vermilion roofs serve as anchors for the eye. There is no measurable timeline here.",
+        "borrow": "Borrow the continuous path, repeated landmarks, and contrast of scale so that the eye pauses stage by stage along the route; density and occlusion can also set the reading rhythm.",
+        "application": "Suited to travel stories, place memory, and exhibition guides. Viewing order and narrative progression do not equal actual travel time, and the image should not be treated as a surveyed map."
+      },
+      "rights": {
+        "label": "Public Domain / CC0 (The Met Open Access)",
+        "usage": "The Met object page is marked Public Domain, the public API returns isPublicDomain=true, and the Open Access policy provides it under CC0. This file is the Mount Tai detail supplied by the museum, not a local crop and not the full scroll; the local download is unmodified."
+      }
+    },
+    "ts-ibry-paris-lyon-1878": {
+      "title": "Paris–Lyon Train Schedule Chart (Ibry Method)",
+      "creator": "Charles Ibry (method); Étienne-Jules Marey (publication)",
+      "methods": [
+        "Time-distance axes",
+        "Continuous trajectory",
+        "Shared time scale",
+        "Dwell segments"
+      ],
+      "topics": [
+        "Transport timetables",
+        "Speed of movement",
+        "Passing and stopping"
+      ],
+      "evidence": "The text on p. 21 of the 1885 Marey edition states that station spacing is proportional to kilometers, each hour is divided into 10-minute cells, and the 24 hours start at 6 o'clock. This chart shows the relationship between quantitative clock times and route mileage; a larger absolute slope means higher speed, and a horizontal segment means a stop. Crossing lines only indicate the same line position at the same time, not an actual collision and not a social connection.",
+      "analysis": {
+        "structure": "The horizontal axis runs from 6 a.m. to 6 a.m. the next day, and the vertical axis arranges places by station distance along the line; diagonal lines connect a train's positions at different times, and short horizontal segments indicate stops. Crossing lines do not mean a collision occurred.",
+        "borrow": "Borrow the shared time scale, distance-based positions, and continuous trajectories to compare speed, stops, and direction of travel on one plane, with a light grid to aid reading.",
+        "application": "Suited to commute comparison, transport scheduling, and planning mobile resources. If the vertical axis is only categories rather than real distance, slope can no longer be interpreted as speed."
+      },
+      "rights": {
+        "label": "Public Domain (as marked on the Commons file page)",
+        "credit": "Charles Ibry (method); Étienne-Jules Marey, La Méthode Graphique, 1878, p.20, fig.7; Wikimedia Commons (uploaded by Falcorian)",
+        "usage": "The selected image's file page is marked public domain (the author died in 1904; published in 1878). The local PNG is byte-identical to the download source and unmodified. The distinction between Ibry's method and Marey's publication should be kept; it should not be written as Marey's own invention."
+      }
+    },
+    "ts-priestley-history-1769": {
+      "title": "A New Chart of History",
+      "methods": [
+        "Parallel time bands",
+        "Shared time scale",
+        "Regional layering",
+        "Direct labeling"
+      ],
+      "topics": [
+        "Historical time charts",
+        "Dynastic and regime change",
+        "Simultaneity"
+      ],
+      "evidence": "Commons lists the work and publication year as 1769; the imprint on the original chart agrees. Unlike the already included A Chart of Biography, the subject of this chart is the continuity and consolidation of polities within regions, whereas the earlier work's subject is the life spans of individuals. The vertical regional bands are generalized divisions and should not be taken as a map drawn to true land area.",
+      "analysis": {
+        "structure": "A shared horizontal time scale, with generalized regions layered vertically and polity names written within continuous boundaries; the merging and splitting of large areas can be compared across layers. It expresses historical time and is not a geographic map scaled by land area.",
+        "borrow": "Borrow the unified scale, direct labeling, and boundaries continuous across lanes so that parallel histories and changes of affiliation appear on one screen; even in black and white, outlines can establish hierarchy.",
+        "application": "Suited to organizing institutional histories, regional affiliation, or state changes across several places; list the historical sources separately so that generalized boundaries are not mistaken for precise fact."
+      },
+      "rights": {
+        "label": "Public Domain (as marked on the Commons file page)",
+        "credit": "Joseph Priestley, A New Chart of History, 1769; J. Johnson, London; Wikimedia Commons (black-and-white derivative scan uploaded by Sette-quattro)",
+        "usage": "Uses the selected file that Commons has marked as public domain. The author died in 1804 and the original was published in 1769. The local download is unmodified. Do not apply the CC BY-NC-SA terms of the separate Rumsey collection image to this file; if the Rumsey image is used instead, the source, credit, and license must be changed accordingly."
+      }
+    },
+    "ts-adams-synchronology": {
+      "title": "Adams' Synchronological Chart of Universal History (Page 9)",
+      "methods": [
+        "Continuous trajectory",
+        "Parallel time bands",
+        "Mixed text and image layout",
+        "Close-up reading"
+      ],
+      "topics": [
+        "Historical time charts",
+        "World history",
+        "Simultaneity"
+      ],
+      "evidence": "Rumsey item 6000.010 is page 9 of the 1881 edition; the series was first published in 1871, and the full work is a scroll-style synchronological history chart. This image is a single page scanned separately by the library and was not cropped by this project.",
+      "analysis": {
+        "structure": "The lower part of the sheet advances left to right along a horizontal time scale, densely stacking polity color bands with rulers and years embedded; the upper part arranges illustrations of figures and buildings and thematic lists such as European battles on the same sheet.",
+        "borrow": "The lower part uses multicolor bands aligned to the time scale to carry continuous successions of polities, while the upper space flexibly arranges thematic lists and illustrations, layering the time spine and supplementary material on one surface.",
+        "application": "Suited to historical scrolls showing many polities in parallel, cross-regional comparisons of contemporaneous developments, and complex compilations of historical material that need both a main timeline and thematic appendices."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (library image)",
+        "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      }
+    },
+    "ts-bacon-routes": {
+      "title": "Bacon's Chart of the World's Commercial Routes and Isochronic Regions",
+      "year": "c. 1910",
+      "methods": [
+        "Networks and direction",
+        "Isochronic zones",
+        "Route time labels",
+        "Multi-center comparison"
+      ],
+      "topics": [
+        "Time geography",
+        "World transport",
+        "Shipping"
+      ],
+      "evidence": "Rumsey item 15259.002, published c. 1910 (library estimate), 149×75 cm. Three isochronic charts show travel times from London, Melbourne, and New York; the main map also shows shipping routes and communication facilities.",
+      "analysis": {
+        "structure": "The main map lays sea routes over a light world base map, with a time-distance table at the top and, along the bottom, three small isochronic maps of continuous color zones centered on London, Melbourne, and New York.",
+        "borrow": "The main map presents a concrete network with route labels, supplemented by multi-center small maps that use isochronic color bands to compare reach from different origins, balancing specific paths with overall time cost.",
+        "application": "Suited to expressing global shipping networks, comparing travel times from multiple hubs, and showing how transport conditions affect spatial accessibility."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (library image)",
+        "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      }
+    },
+    "ts-carey-europe": {
+      "title": "Chronological Table of Major European Events (1789–1815)",
+      "methods": [
+        "Time slices",
+        "Places and states",
+        "Time columns",
+        "Regional row alignment",
+        "Pale background coding"
+      ],
+      "topics": [
+        "Historical time charts",
+        "Europe",
+        "Time slices"
+      ],
+      "evidence": "Rumsey item 1642.003 is an 1820 American edition of the atlas, with authors listed as M. Lavoisne and Mathew Carey. This page compares events in Europe from 1789 to 1815 and is a matrix of time and country categories.",
+      "analysis": {
+        "structure": "A matrix structure with no geographic base map: horizontal columns at the top divide six time periods, European countries are listed vertically, and event text fills the cells, with light background colors coded across columns.",
+        "borrow": "Allow row boundaries to rise and fall with the volume of text in the cells, then use light color blocks continuous across columns to link the same polity or stage of a situation.",
+        "application": "Suited to comparing, within a dense period of upheaval, the simultaneous developments and phase changes of several countries or departments across time slices."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (library image)",
+        "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      }
+    },
+    "ts-carey-persia": {
+      "title": "Chronological Chart of the Turkish Empire and the Modern Persian Lineages",
+      "methods": [
+        "Networks and direction",
+        "Genealogical links",
+        "Parallel panels",
+        "Text and image columns"
+      ],
+      "topics": [
+        "Historical time charts",
+        "Ottoman",
+        "Persia",
+        "Central Asia"
+      ],
+      "evidence": "Rumsey item 1642.062, 1820 Philadelphia edition; the title covers the Ottomans from 1299 and Persia from 1206 to 1815; printed by T.H. Palmer, revised from the 1817 London edition. The relationship lines are not a time axis drawn to scale.",
+      "analysis": {
+        "structure": "The center sets the Ottoman lineage alongside those of Genghis Khan, Timur, and others, with pink, yellow, and green backgrounds distinguishing sections; thin polylines and black dots connect names and dates, and long columns of text flank both sides.",
+        "borrow": "Use colored blocks to group a complex network, connect nodes with thin polylines, and arrange long explanatory text around the periphery of the main diagram.",
+        "application": "Suited to showing the transmission relationships among several families, schools, or institutions, and comparing their background accounts on the same page."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (library image)",
+        "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      }
+    },
+    "ts-london-1908": {
+      "title": "London Underground Railways Network Map",
+      "year": "c. 1908",
+      "methods": [
+        "Networks and direction",
+        "Historical maps",
+        "Color-coded lines",
+        "Subdued base map",
+        "Nodes and lines"
+      ],
+      "topics": [
+        "Transport networks",
+        "Metro",
+        "Spatial topology"
+      ],
+      "evidence": "Rumsey item 11614.002, dated c. 1908, pocket map 22×27 cm. This side is a geographic transport network and contains no time axis; timetable and fare information is on the other side and has not been mistakenly counted into this map.",
+      "analysis": {
+        "structure": "City streets are rendered as a light gray base map, overlaid with thick colored lines that keep the real geographic curves and large round dots for stations; station names are placed along the lines, a legend sits at the upper left, and highly saturated advertisements surround the edges.",
+        "borrow": "Reduce the visual weight of the environmental base map, and use high-contrast color coding and enlarged nodes to separate a complex network from the background while keeping true geographic orientation.",
+        "application": "Suited to thematic maps of urban rail, bus trunk lines, or underground pipe networks that need to balance the relative positions of surface streets with network transfer relationships."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (library image)",
+        "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      }
+    },
+    "ts-minard-cotton": {
+      "title": "Map of European Raw Cotton Imports in 1858, 1864, and 1865",
+      "methods": [
+        "Time slices",
+        "Networks and direction",
+        "Small multiples",
+        "Proportional flow bands",
+        "Same color across years"
+      ],
+      "topics": [
+        "Continuous flow",
+        "Trade",
+        "Time slices"
+      ],
+      "evidence": "LOC item 99463789 and the library's June 2021 feature article confirm that the chart was drawn in 1866 and compares European cotton imports in 1858, 1864, and 1865; the original notes that 1 mm of width represents 5000 tons.",
+      "analysis": {
+        "structure": "Three maps with the same coastline outline sit side by side, with the legend and quantity table gathered along the top edge; transport bands in blue, orange, and other colors repeat across the maps, and their thickness changes markedly with each year's import volume.",
+        "borrow": "Place small multiples on the same base map side by side, fix the color coding of producing regions, and convert quantities for different years proportionally by flow-band width directly.",
+        "application": "Suited to comparing cross-regional trade flows, supply-chain shifts, or sudden changes in traffic volume across multiple time slices."
+      },
+      "rights": {
+        "label": "Library states free to use and reuse",
+        "usage": "The Rights & Access statement of the source item says it is free to use and reuse; used on a personal learning site. The preview image supplied in the library's article is used, keeping the whole image and its original colors."
+      }
+    },
+    "ts-minard-cotton-1862": {
+      "title": "Map of European Raw Cotton Imports in 1858 and 1861",
+      "methods": [
+        "Time slices",
+        "Networks and direction",
+        "Two-moment comparison",
+        "Proportional flow bands",
+        "Map beside line chart"
+      ],
+      "topics": [
+        "Continuous flow",
+        "Trade",
+        "Time slices"
+      ],
+      "evidence": "The Created / Published field of LOC item 2004626057 gives 1862, and notes two hand-colored maps on the same sheet, along with a line chart and statistics. The 1858 in the auto-generated citation is a data year and was not used as the publication year.",
+      "analysis": {
+        "structure": "Two maps with the same layout sit side by side on one sheet; over very fine base-map outlines, colored flow bands whose width follows quantity converge from the producing regions on Europe; a multi-line statistical chart is attached at the upper left, and the legend and notes are at the upper right.",
+        "borrow": "Weaken the geographic base-map lines and combine two-time-point flow maps with a line chart on one page, balancing spatial paths with numerical trends.",
+        "application": "Suited to presenting a comparison of goods flows at two key points while adding continuous change in quantity over a longer period."
+      },
+      "rights": {
+        "label": "Library states free to use and reuse",
+        "usage": "The Rights & Access statement of the source item says it is free to use and reuse; used on a personal learning site. The preview image supplied in the library's article is used, keeping the whole image and its original colors."
+      }
+    },
+    "ts-minard-migration": {
+      "title": "Map of Global Population Migration and Labor Movement in 1858",
+      "methods": [
+        "Networks and direction",
+        "Proportional flow bands",
+        "Color by origin",
+        "World routes"
+      ],
+      "topics": [
+        "Continuous flow",
+        "Migration",
+        "Colonial history"
+      ],
+      "evidence": "The publication field of LOC item 98687134 gives 1862, and the original title records flows in 1858; the library's article explains that it also covers enslaved and indentured labor, so not all the flows can be called voluntary migration. The map shows aggregated flows for a single year, not person-by-person, moment-by-moment trajectories.",
+      "analysis": {
+        "structure": "Thin black lines outline the world, and wide colored bands across the oceans connect points of departure with destinations such as the Americas and Australia; a legend at the upper right distinguishes regions of origin by color block, and numbers are written directly within the bands, covering migrants, enslaved people, and indentured laborers.",
+        "borrow": "Weaken base-map detail, distinguish origins by different hues, and use band width together with lettering inside the bands to convey both transoceanic routes and single-year aggregate quantities, keeping the eye on the main flows.",
+        "application": "Suited to presenting the route distribution and relative scale of intercontinental population transfer, forced-labor shipment, or bulk goods allocation within a single year or a fixed period."
+      },
+      "rights": {
+        "label": "Library states free to use and reuse",
+        "usage": "The Rights & Access statement of the source item says it is free to use and reuse; used on a personal learning site. The preview image supplied in the library's article is used, keeping the whole image and its original colors."
+      }
+    },
+    "ts-ogilby-bristol": {
+      "title": "Strip Road Map from London to Bristol (Plate 1)",
+      "methods": [
+        "Networks and direction",
+        "Historical maps",
+        "Route strips",
+        "Distance sequence",
+        "Local direction calibration"
+      ],
+      "topics": [
+        "Transport networks",
+        "Journeys",
+        "Spatial sequence"
+      ],
+      "evidence": "Rumsey item 9735.055, a route map from Britannia, 1675. It organizes space by a linear route and mileage and supplies the order of a journey, but has no clock-time encoding.",
+      "analysis": {
+        "structure": "The continuous road is split into seven vertical scrolls read from bottom to top, with the road centered and continuous mileage marked, only the rivers, villages, and hills along the way drawn, and a separate compass of varying direction placed within each strip.",
+        "borrow": "Break from a uniform north-up orientation: straighten a winding long path into parallel strips and use local compasses to restore true direction, enlarging detail along the route within a compact layout.",
+        "application": "Suited to long-distance road guides, hiking routes, riverside surveys, or any linear spatial guide with a clear order of sequence."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (library image)",
+        "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      }
+    },
+    "ts-peutinger": {
+      "title": "The Peutinger Road Map (Plate 1)",
+      "creator": "Petrus Bertius (atlas editor); Marcus Welser, Conrad Peutinger (as listed by the library)",
+      "methods": [
+        "Networks and direction",
+        "Historical maps",
+        "Route topology",
+        "Geographic compression",
+        "Pictorial landmarks"
+      ],
+      "topics": [
+        "Transport networks",
+        "Ancient Rome",
+        "Historical geography"
+      ],
+      "evidence": "Rumsey item 11296.096 lists the plate as 1619, while some publication data for the whole volume gives 1618. This page is one of the early printed versions in the Peutinger route-map tradition, not an original from the Roman era; this image has no explicit time axis.",
+      "analysis": {
+        "structure": "Vertical geographic scale is heavily compressed and land is stretched horizontally, with bodies of water reduced to dark winding bands; thin lines string together place names and numbers into a horizontal road network, larger settlements are marked with castle icons, and large lettering for region names spans the network.",
+        "borrow": "Abandon true geometry and area proportion, and through extreme spatial distortion squeeze two-dimensional geography into a linear corridor, concentrating on the order of connections between nodes, their spacing, and the ranking of landmarks.",
+        "application": "Suited to expressing long-distance post-road networks, the node topology of trunk corridors, or route systems where only the order of stops and the distances between sections matter."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (library image)",
+        "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      }
+    },
+    "ts-priestley-biography": {
+      "title": "A Chart of Biography",
+      "methods": [
+        "Continuous trajectory",
+        "Horizontal timeline",
+        "Lifespan bars",
+        "Category lanes"
+      ],
+      "topics": [
+        "Historical time charts",
+        "People",
+        "Simultaneity"
+      ],
+      "evidence": "Rumsey item 15812.001 lists 1765 and Joseph Priestley; the chart places historical figures side by side by their life spans. The vertical axis here is the category of person, not a geographic coordinate.",
+      "analysis": {
+        "structure": "Horizontal time scales repeat along the top and bottom edges, horizontal lanes are drawn vertically by category such as poets and mathematicians, and within them horizontal line segments mark each person's birth-to-death span.",
+        "borrow": "Use the length of plain line segments in place of lengthy written biographies, and keep the large empty areas of the early periods so that spatial density directly reflects the distribution of records, moving decoration into the empty areas.",
+        "application": "Suited to comparing the active periods of people in different fields, generational overlap, and clustering within the same period."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (library image)",
+        "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      }
+    },
+    "ts-quin-323": {
+      "title": "Historical Map of Alexander's Empire in 323 BC",
+      "creator": "Edward Quin; Sidney Hall (engraver)",
+      "year": "1830 (plate of 1828)",
+      "methods": [
+        "Historical maps",
+        "Time slices",
+        "Historical time slices",
+        "Masked boundaries",
+        "Selective coloring"
+      ],
+      "topics": [
+        "Historical geography",
+        "Alexander the Great",
+        "Central Asia"
+      ],
+      "evidence": "Rumsey item 2839.005, the fifth period in the 1830 Historical Atlas; the plate is dated June 1828 and engraved by Sidney Hall. The cloud curtain shows the extent of the known world as set by the author, not regions that were actually uninhabited.",
+      "analysis": {
+        "structure": "Most of the rectangular grid is covered by a black cloud curtain, with only the lower left corner revealing a map from the Mediterranean to Asia; the empire's extent is filled in bright pink, and the edge of the curtain forms multiple gray-white halos.",
+        "borrow": "Darken the background with a large dark mask, and open a window only over the key area, filled with highly saturated color, to create a strong visual focus.",
+        "application": "Suited to showing the range of geographic knowledge at a particular historical moment, focusing on a local region, or telling a spatial story revealed in stages."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (library image)",
+        "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      }
+    },
+    "ts-quin-alexander": {
+      "title": "Period Six: The Partition of Alexander's Empire, 301 BC",
+      "creator": "Edward Quin; W. Hughes (drawer and engraver)",
+      "year": "c. 1856",
+      "methods": [
+        "Historical maps",
+        "Time slices",
+        "Historical time slices",
+        "Political zone colors",
+        "Separated legend"
+      ],
+      "topics": [
+        "Historical geography",
+        "Alexander the Great",
+        "Territorial change"
+      ],
+      "evidence": "Rumsey item 0743.021, authors Quin and Hughes, published c. 1856, inferred from the text. The title refers to the breakup of the empire in 301 BC; it belongs to a different edition from the 1830 atlas and should not be treated as a strict before-and-after comparison on an identical projection.",
+      "analysis": {
+        "structure": "Within a semicircular frame a large area is left blank, and a map with lines of latitude and longitude shows through a cloud ring at the lower left; light blue, pink, yellow, and other colors distinguish polities, and color legends are placed on either side of the title.",
+        "borrow": "Within a fixed frame and cloud-ring mask, divide polities with multiple color blocks, and split the legend onto both sides of the title to balance the layout.",
+        "application": "Suited to presenting the breakup of polities in a single year, territorial fragmentation, or the spheres of influence of several powers that split from one parent body."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (library image)",
+        "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      }
+    },
+    "ts-railway-1917": {
+      "title": "Working Timetable of the Austrian Imperial-Royal Northwest Railway",
+      "creator": "K.k. Österreichische Staatsbahnen",
+      "methods": [
+        "Continuous trajectory",
+        "Time-distance axes",
+        "Slope as movement",
+        "Line-style hierarchy"
+      ],
+      "topics": [
+        "Continuous trajectory",
+        "Train diagrams",
+        "Transport times"
+      ],
+      "evidence": "Rumsey entry 15644.000, the Nordwestbahn timetable of 1 June 1917, paper 100×75 cm. The horizontal axis is the time of day and the vertical axis the stations along the line, making it a true time-space diagram.",
+      "analysis": {
+        "structure": "The horizontal axis is divided into an hourly grid and the stations are listed on the left and right sides. Crossing diagonal lines of varying weight, traced in red and blue, connect stations to times; a branch-line map and legend are attached at the bottom.",
+        "borrow": "A two-dimensional orthogonal grid combines spatial position with time. The slope of a line expresses speed, short horizontal segments mark stops, and line style and colour distinguish classes of service.",
+        "application": "Suited to showing the scheduling of many runs of a vehicle, the points where two-way traffic meets, and the continuous space-time trajectory of an object on a fixed route."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (collection image)",
+        "usage": "The original was published before 1929, and the entry offers Download 1. Under the library's licence it is used for personal, non-commercial study; credit the author, the collection and CC BY-NC-SA 3.0. The image was only scaled down proportionally and converted to JPEG, with no cropping or colour adjustment; any adaptation of the image remains under the same licence.",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries"
+      }
+    },
+    "ts-stream-time": {
+      "title": "The Stream of Time: An Illustration of World History",
+      "methods": [
+        "Continuous trajectory",
+        "River metaphor",
+        "Vertical timeline",
+        "Branching and merging"
+      ],
+      "topics": [
+        "Historical time charts",
+        "History of civilizations",
+        "Parallel histories"
+      ],
+      "evidence": "Rumsey entry 11291.002 is the second edition of 1804, a hand-coloured time chart, 130×70 cm. The river is a metaphor for organising history; its width cannot be read directly as a modern statistical area or population.",
+      "analysis": {
+        "structure": "Vertical chronological scales run down both sides, and several coloured ribbon-like channels flow from top to bottom, with names written directly along each river. Forks and confluences organise the relationships between polities.",
+        "borrow": "Ribbon-like flow, changing thickness, and merging and splitting express the continuity, division and absorption of many actors, without relying on precise statistical values.",
+        "application": "Suited to showing the origins, development, divergence and convergence of several parallel traditions, institutions or polities over a long span."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (collection image)",
+        "usage": "The original was published before 1929, and the entry offers Download 1. Under the library's licence it is used for personal, non-commercial study; credit the author, the collection and CC BY-NC-SA 3.0. The image was only scaled down proportionally and converted to JPEG, with no cropping or colour adjustment; any adaptation of the image remains under the same licence.",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries"
+      }
+    },
+    "ts-temple-time": {
+      "title": "The Temple of Time: A Historical Chart",
+      "methods": [
+        "Continuous trajectory",
+        "Perspective timeline",
+        "Architectural metaphor",
+        "Layered annotation"
+      ],
+      "topics": [
+        "Historical time charts",
+        "History of civilizations",
+        "Information space"
+      ],
+      "evidence": "Rumsey entry 13233.002 records the author as Emma Willard, 1846, 68×96 cm. The chronological system in the chart, with the Creation as its distant end, reflects the religious view of history in the original.",
+      "analysis": {
+        "structure": "History is organised as a perspective colonnade converging toward the far end: the ceiling is divided into columns by field of human activity, the shafts of the columns carry names and dates, and the floor is laid with branching bands of empires.",
+        "borrow": "Architectural components are broken down into containers for different dimensions, and perspective, wide near and narrow far, naturally compresses the scale of antiquity while enlarging the detail of recent times.",
+        "application": "Suited to presenting categories of people, dating nodes and the course of polities together, in long-span subjects where recent information is far denser than early information."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (collection image)",
+        "usage": "The original was published before 1929, and the entry offers Download 1. Under the library's licence it is used for personal, non-commercial study; credit the author, the collection and CC BY-NC-SA 3.0. The image was only scaled down proportionally and converted to JPEG, with no cropping or colour adjustment; any adaptation of the image remains under the same licence.",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries"
+      }
+    },
+    "ts-turkestan": {
+      "title": "Map of Turkestan (Asia Sheet 54)",
+      "methods": [
+        "Historical maps",
+        "Sparse geographic base",
+        "Boundary coloring",
+        "Type-size distinction"
+      ],
+      "topics": [
+        "Historical geography",
+        "Central Asia",
+        "Uzbekistan"
+      ],
+      "evidence": "Rumsey entry 2212.086 is sheet 54 of Asia in Vandermaelen's Atlas Universel of 1827, covering parts of present-day Turkmenistan and Uzbekistan. The map itself has no time axis; it is a historical-geographic cross-section, and not a confirmed Uzbek museum display panel.",
+      "analysis": {
+        "structure": "The sheet leaves large areas blank. Fine black lines draw rivers, roads and small place names along them, green and yellow are applied only along the edges of boundaries, and names spanning regions are set in widely letter-spaced capitals.",
+        "borrow": "It keeps large areas of base map blank, applies narrow bands of colour only along boundaries, and uses differences in letter-spacing and type size to distinguish region-wide names from local strongholds.",
+        "application": "Suited to drawing a spatial base map for regions with sparse data, highlighting water systems, routes and broad regional affiliation without distraction from background fill."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (collection image)",
+        "usage": "The original was published before 1929, and the entry offers Download 1. Under the library's licence it is used for personal, non-commercial study; credit the author, the collection and CC BY-NC-SA 3.0. The image was only scaled down proportionally and converted to JPEG, with no cropping or colour adjustment; any adaptation of the image remains under the same licence.",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries"
+      }
+    },
+    "ts-willard-nations": {
+      "title": "The Picture of Nations: A Perspective Sketch of the Progress of Empires",
+      "methods": [
+        "Continuous trajectory",
+        "Perspective timeline",
+        "Banded flows",
+        "Marginal event index"
+      ],
+      "topics": [
+        "Historical time charts",
+        "History of civilizations",
+        "Time scales"
+      ],
+      "evidence": "Rumsey entry 4545.001 records the 1836 edition, with the plate registered in 1835, author Emma Willard, 43×28 cm; it belongs to the atlas accompanying her Universal History. The Creation as starting point and the ranking of civilizations are ideas of the original.",
+      "analysis": {
+        "structure": "A central band of history widens from a narrow top toward the bottom, with empires marked inside by dark bands of varying thickness that absorb one another; centuries, years and an index of events line the slanting edges on the left and right.",
+        "borrow": "The main line of development is placed in the central perspective band, specific events are moved out to the slanting side edges as an index, and the visual spacing of time is stretched differently according to near and far.",
+        "application": "Suited to historical processes in which the evolution of the main structure coexists with specific events at the margins, and where early scales need to be compressed."
+      },
+      "rights": {
+        "label": "CC BY-NC-SA 3.0 (collection image)",
+        "usage": "The original was published before 1929, and the entry offers Download 1. Under the library's licence it is used for personal, non-commercial study; credit the author, the collection and CC BY-NC-SA 3.0. The image was only scaled down proportionally and converted to JPEG, with no cropping or colour adjustment; any adaptation of the image remains under the same licence.",
+        "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries"
+      }
+    },
+    "art-hiroshige-mishima": {
+      "title": "Mishima: Morning Mist (Fifty-three Stations of the Tokaido)",
+      "methods": [
+        "Value layering",
+        "Local detail",
+        "Spatial whitespace"
+      ],
+      "topics": [
+        "Woodblock prints",
+        "Travel",
+        "Space in mist"
+      ],
+      "evidence": "The Art Institute of Chicago's official collection API (work 10926) confirms the title, artist/region, date, medium and is_public_domain=true; the image-use policy confirms CC0. Official record: https://api.artic.edu/api/v1/artworks/10926 . Visual observations are based on the official full-colour previews, which I downloaded and viewed one by one.",
+      "analysis": {
+        "structure": "In the lower centre foreground, the figures, palanquin and horses have clear outlines and darker colour; the buildings, torii gate and figures behind are simplified layer by layer into pale grey silhouettes, with much of the ground left blank and dark trees on the right pressing on the corner.",
+        "borrow": "Decreasing tonal value and weakening outlines treat the background, keeping local detail and colour only in the foreground, so depth opens up without complex perspective lines.",
+        "application": "Suited to expressing the layered stripping away of primary and secondary information, spatial fall-off from near to far, or the relation between a core subject and its surrounding environment."
+      },
+      "rights": {
+        "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      }
+    },
+    "art-hokusai-wave": {
+      "title": "Under the Wave off Kanagawa (Thirty-Six Views of Mount Fuji)",
+      "methods": [
+        "Arc enclosure",
+        "Scale contrast",
+        "Repeated contours"
+      ],
+      "topics": [
+        "Woodblock prints",
+        "Direction of motion",
+        "Near and far"
+      ],
+      "evidence": "The Art Institute of Chicago's official collection API (work 24645) confirms the title, artist/region, date, medium and is_public_domain=true; the image-use policy confirms CC0. Official record: https://api.artic.edu/api/v1/artworks/24645 . Visual observations are based on the official full-colour previews, which I downloaded and viewed one by one.",
+      "analysis": {
+        "structure": "A huge wave on the left curves to the right and encloses the picture, its crest covered with repeated claw-like outlines; three slender boats are set between the trough and the wave face, and a small distant mountain peak sits beneath the arc of the wave, meeting a large area of blank sky.",
+        "borrow": "A large-scale foreground arc frames a small distant target, and densely repeated edge outlines together with large blank areas widen the contrast between near and far, and between motion and stillness.",
+        "application": "Suited to expressing a single dominant force enclosing a local individual, vast disparities in scale, or a dynamic process with a clear direction."
+      },
+      "rights": {
+        "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      }
+    },
+    "art-kandinsky-cannons": {
+      "title": "Improvisation No. 30 (Cannons)",
+      "methods": [
+        "Lines over planes",
+        "Interlocking directions",
+        "Color-block contrast"
+      ],
+      "topics": [
+        "Abstract painting",
+        "Paths",
+        "Visual density"
+      ],
+      "evidence": "The Art Institute of Chicago's official collection API (work 8991) confirms the title, artist/region, date, medium and is_public_domain=true; the image-use policy confirms CC0. Official record: https://api.artic.edu/api/v1/artworks/8991 . Visual observations are based on the official full-colour previews, which I downloaded and viewed one by one.",
+      "analysis": {
+        "structure": "It abandons a unified horizontal grid: irregular blocks of blue, yellow and red overlap with black lines, diagonal lines radiate in many directions from the centre, and two dark wheel-like shapes and a long diagonal line are fixed in the lower right corner.",
+        "borrow": "Lines detach from the edges of colour blocks and interweave independently, juxtaposing locally figurative shapes with broken lines and curves extending in many directions, which creates visual centres of uneven density.",
+        "application": "Suited to expressing non-grid multidirectional paths, conflicting directions or overlays, and to presenting composite layers of information whose boundaries do not fully coincide, with local high-density focal points."
+      },
+      "rights": {
+        "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      }
+    },
+    "art-mondrian-lozenge": {
+      "title": "Lozenge Composition with Yellow, Black, Blue, Red, and Gray",
+      "methods": [
+        "Orthogonal division",
+        "Asymmetric balance",
+        "Edge cropping"
+      ],
+      "topics": [
+        "Abstract painting",
+        "Grids",
+        "Spatial zoning"
+      ],
+      "evidence": "The Art Institute of Chicago's official collection API (work 109819) confirms the title, artist/region, date, medium and is_public_domain=true; the image-use policy confirms CC0. Official record: https://api.artic.edu/api/v1/artworks/109819 . Visual observations are based on the official full-colour previews, which I downloaded and viewed one by one.",
+      "analysis": {
+        "structure": "The canvas is rotated into a lozenge, and the interior is divided orthogonally by horizontal and vertical black lines. Large pale areas are paired with a few blocks of yellow, blue, black and a local patch of red, and some lines and blocks are cut off directly at the diagonal edges.",
+        "borrow": "Combining a diagonal frame with an orthogonal grid that is out of register, and cutting blocks and lines at the slanted edge, creates asymmetric visual tension extending beyond the picture.",
+        "application": "Suited to expressing the relation between a local sample and the whole grid, the weighting of asymmetric panels, or layout divisions that break out of the usual rectangular frame."
+      },
+      "rights": {
+        "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      }
+    },
+    "art-muybridge-locomotion": {
+      "title": "Animal Locomotion, Plate 758",
+      "methods": [
+        "Sequential frames",
+        "Uniform background",
+        "Sequential numbering"
+      ],
+      "topics": [
+        "Photography",
+        "Action sequences",
+        "Time slices"
+      ],
+      "evidence": "The Art Institute of Chicago's official collection API (work 195560) confirms the title, artist/region, date, medium and is_public_domain=true; the image-use policy confirms CC0. Official record: https://api.artic.edu/api/v1/artworks/195560 . Visual observations are based on the official full-colour previews, which I downloaded and viewed one by one.",
+      "analysis": {
+        "structure": "Twenty-four frames are arranged in three rows, with sequence numbers marked at the bottom. Each frame has a dark square grid as its ground, and a white bird in flight shows its two wings opening and closing continuously across adjacent frames.",
+        "borrow": "A fixed dark grid background and equal-sized frames in sequence strip away environmental distraction, letting viewers directly compare the small displacements and differences in form between adjacent frames.",
+        "application": "Suited to expressing the staged breakdown of a continuous action, the evolution of form within a fixed frame of reference, or frame-by-frame comparison of a multi-step process."
+      },
+      "rights": {
+        "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      }
+    },
+    "art-seurat-grande-jatte": {
+      "title": "A Sunday on La Grande Jatte",
+      "methods": [
+        "Repeated shapes",
+        "Light and dark bands",
+        "Human scale"
+      ],
+      "topics": [
+        "Painting",
+        "Crowds",
+        "Spatial layering"
+      ],
+      "evidence": "The Art Institute of Chicago's official collection API (work 27992) confirms the title, artist/region, date, medium and is_public_domain=true; the image-use policy confirms CC0. Official record: https://api.artic.edu/api/v1/artworks/27992 . Visual observations are based on the official full-colour previews, which I downloaded and viewed one by one.",
+      "analysis": {
+        "structure": "The crowd on the bank is scattered large near and small far, with large areas of shadow alternating with bright grass; tree trunks, bodies and parasol handles form a vertical sequence, and the curved outlines of parasols and hats recur.",
+        "borrow": "Large areas of light and dark divide the ground into layers, vertical shapes and repeated arcs unify scattered individuals, and a gradient of sizes establishes depth.",
+        "application": "Suited to organising group images or distribution maps with many figures and nodes, keeping order among dense elements while clearly presenting spatial depth and local clustering."
+      },
+      "rights": {
+        "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      }
+    },
+    "graphic-divan-japonais": {
+      "title": "Divan Japonais Poster",
+      "methods": [
+        "Large color-block silhouettes",
+        "Diagonal composition lines",
+        "Interleaved text and image"
+      ],
+      "topics": [
+        "Posters",
+        "Viewing direction",
+        "Foreground and background"
+      ],
+      "evidence": "The Art Institute of Chicago's official collection API (work 67166) confirms the title, artist/region, date, medium and is_public_domain=true; the image-use policy confirms CC0. Official record: https://api.artic.edu/api/v1/artworks/67166 . Visual observations are based on the official full-colour previews, which I downloaded and viewed one by one.",
+      "analysis": {
+        "structure": "The black dress and hat of the woman in the foreground join into a large dark outline, behind which the man on the right, the musicians and the stage figures are arranged in depth; the diagonals of the stage edge and instruments run through the background, a large title spans the top, and small handwritten lettering gives the address and signature.",
+        "borrow": "A large dark foreground silhouette anchors the gaze, diagonal lines divide the middle and rear layers, and handwritten lettering in different sizes is interspersed directly in the blank spaces.",
+        "application": "Suited to event posters or performance visuals, handling front-to-back occlusion in multi-figure scenes, guiding the viewer's gaze, and distinguishing the hierarchy of title and secondary information."
+      },
+      "rights": {
+        "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      }
+    },
+    "graphic-illuminated-leaf": {
+      "title": "Illuminated Manuscript Leaf",
+      "methods": [
+        "Single-column text",
+        "Local emphasis",
+        "Wide margins"
+      ],
+      "topics": [
+        "Manuscripts",
+        "Reading rhythm",
+        "Type hierarchy"
+      ],
+      "evidence": "The Art Institute of Chicago's official collection API (work 72884) confirms the title, artist/region, date, medium and is_public_domain=true; the image-use policy confirms CC0. Official record: https://api.artic.edu/api/v1/artworks/72884 . Visual observations are based on the official full-colour previews, which I downloaded and viewed one by one.",
+      "analysis": {
+        "structure": "A single column of dark handwritten text is centred, with wide blank margins all around; blue and gold capital letters with fine red and purple line decoration are scattered directly within the lines of the body text.",
+        "borrow": "With no separate border or large title, wide margins alone hold the text block steady, and local colour and fine line decoration embedded within continuous text create visible reading nodes.",
+        "application": "Suited to presenting the reading rhythm of long continuous text, solving the problem of gently signalling local emphasis and visual pauses within the text without interrupting the single-column reading flow."
+      },
+      "rights": {
+        "credit": "Anonymous (Italy), Illuminated Manuscript Leaf, c. 1450. Art Institute of Chicago, Gift of Ernest F. Detterer. 1917.235.1.",
+        "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      }
+    },
+    "graphic-morris-cray": {
+      "title": "Cray Printed Textile Pattern",
+      "methods": [
+        "Repeating units",
+        "Curved connections",
+        "Density layering"
+      ],
+      "topics": [
+        "Textile patterns",
+        "Rhythm",
+        "Repetition"
+      ],
+      "evidence": "The Art Institute of Chicago's official collection API (work 47661) confirms the title, artist/region, date, medium and is_public_domain=true; the image-use policy confirms CC0. Official record: https://api.artic.edu/api/v1/artworks/47661 . Visual observations are based on the official full-colour previews, which I downloaded and viewed one by one.",
+      "analysis": {
+        "structure": "On a long dark blue ground, large red-pink flower heads and pale curving stems repeat and extend diagonally, avoiding a strictly horizontal and vertical grid; the gaps between stems are filled with smaller leaves and flowers, forming two layers of density.",
+        "borrow": "Diagonal S-shaped main stems string together large-scale repeated motifs, and small-scale secondary patterns fill the gaps in the ground colour, so the periodically repeating layout shows no hard grid boundaries.",
+        "application": "Suited to designing long background panels, wrapping paper or textile patterns, handling rhythmic variation in repeat units, visual continuity, and the balance of detail density between near and far layers."
+      },
+      "rights": {
+        "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      }
+    },
+    "graphic-palais-de-glace": {
+      "title": "Palais de Glace Poster",
+      "methods": [
+        "Primary and secondary figures",
+        "Dynamic curves",
+        "Title rhythm"
+      ],
+      "topics": [
+        "Posters",
+        "Movement",
+        "Spatial layering"
+      ],
+      "evidence": "The Art Institute of Chicago's official collection API (work 218856) confirms the title, artist/region, date, medium and is_public_domain=true; the image-use policy confirms CC0. Official record: https://api.artic.edu/api/v1/artworks/218856 . Visual observations are based on the official full-colour previews, which I downloaded and viewed one by one.",
+      "analysis": {
+        "structure": "The image centres on a highly saturated skater in the foreground; the figures behind recede into the background through blue-grey tones and decreasing size, and two groups of large dark blue lettering, above and below, wrap around the main figure.",
+        "borrow": "Warm-cool colour contrast and scaling of figures directly separate foreground from background; the height and slant of the title lettering are adjusted slightly to follow the motion of the main figure, fitting into the gaps around it.",
+        "application": "Suited to scenes in which a single focal point coexists with a group in the background, or to visual themes that must show a clear hierarchy of primary and secondary elements and a dynamic rhythm within limited space."
+      },
+      "rights": {
+        "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      }
+    },
+    "graphic-utamaro-birds": {
+      "title": "Myriad Birds: A Kyoka Competition, Double-Page Illustration",
+      "methods": [
+        "Spread composition",
+        "Whitespace",
+        "Separated text and image"
+      ],
+      "topics": [
+        "Book layout",
+        "Plants and animals",
+        "Spatial balance"
+      ],
+      "evidence": "The Art Institute of Chicago's official collection API (work 187515) confirms the title, artist/region, date, medium and is_public_domain=true; the image-use policy confirms CC0. Official record: https://api.artic.edu/api/v1/artworks/187515 . Visual observations are based on the official full-colour previews, which I downloaded and viewed one by one.",
+      "analysis": {
+        "structure": "On the facing pages, vertical text is concentrated in the upper left, two large water birds are placed in the lower half of the right side, and a small bird perches on a branch at the upper left; a curved branch spans the central gutter, leaving a large blank area at the lower left.",
+        "borrow": "An arc element crossing the gutter links the left and right pages, the text block and the main image are placed diagonally apart, and a large blank area on one side is kept to balance visual weight.",
+        "application": "Suited to double-page spreads in albums, poetry-and-picture collections or natural-history plates, solving the problems of the binding splitting the picture across a spread, crowding of text and image on one page, and the spatial balance of large and small objects."
+      },
+      "rights": {
+        "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      }
+    },
+    "graphic-zodiaque": {
+      "title": "Zodiaque (La Plume) Calendar Poster",
+      "methods": [
+        "Ring zones",
+        "Fine border ornament",
+        "Primary and secondary scale"
+      ],
+      "topics": [
+        "Posters",
+        "Calendar systems",
+        "Type hierarchy"
+      ],
+      "evidence": "The Art Institute of Chicago's official collection API (work 111986) confirms the title, artist/region, date, medium and is_public_domain=true; the image-use policy confirms CC0. Official record: https://api.artic.edu/api/v1/artworks/111986 . Visual observations are based on the official full-colour previews, which I downloaded and viewed one by one.",
+      "analysis": {
+        "structure": "Inside a large central ring is a profile of a face, the outer ring is divided into sections holding the twelve zodiac signs, and curling hair crosses the boundary of the ring; the magazine title sits at the top, and the twelve months are set in narrow small columns at the bottom, so the image and the calendar text differ greatly in area.",
+        "borrow": "Sections in the outer band of a concentric ring hold a sequence of figures, the main subject is allowed to break the frame locally, and dense practical text is compressed into a narrow column at the bottom to give way to the main visual.",
+        "application": "Suited to calendars, magazine covers or twelve-node thematic images, solving the problem of scale and hierarchy when a decorative main image and fine sequential information share a layout."
+      },
+      "rights": {
+        "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      }
+    }
+  }
+}

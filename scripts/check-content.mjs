@@ -1,12 +1,16 @@
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import assert from 'node:assert/strict';
-import { text, url, validateLibrary } from './content-validation.mjs';
+import { text, url, validateLibrary, validateTranslations } from './content-validation.mjs';
 const data = JSON.parse(readFileSync(new URL('../content/library.json', import.meta.url)));
 const media = new URL('../public/media/', import.meta.url);
 const { ids, images, batches } = validateLibrary(data, a => readFileSync(new URL(a.imageKey, media)));
 assert.deepEqual(readdirSync(media).sort(), [...images].sort(), 'Unreferenced media is not allowed in the public folder');
 const references = JSON.parse(readFileSync(new URL('../src/lib/contemporary-references.json',import.meta.url)));
 assert(references.every(r => url(r.url) && text(r.title) && text(r.summary)));
+const english = JSON.parse(readFileSync(new URL('../content/library.en.json', import.meta.url)));
+const englishReferences = JSON.parse(readFileSync(new URL('../src/lib/contemporary-references.en.json', import.meta.url)));
+const { untranslated } = validateTranslations(data.artworks, english, references, englishReferences);
+if (untranslated.length) console.warn(`English text pending for ${untranslated.length} artwork(s); the English site shows Chinese for them: ${untranslated.join(', ')}`);
 // Scan only files that belong in the public source tree. Never print matching secret values.
 const root = new URL('../',import.meta.url);
 function scan(dir) {

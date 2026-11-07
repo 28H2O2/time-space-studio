@@ -3,21 +3,22 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowRight, ArrowUpRight, Bookmark, Check, Plus, X } from 'lucide-react';
 import type { Artwork, Note } from './lib/types';
 import ImageViewer from './image-viewer';
-import c from './lib/copy.json';
-export const categories = { 'time-space': c.timeSpace, graphic: c.graphic, art: c.art };
-export const shortDate = (date: string) => date ? new Date(date).toLocaleDateString('zh-CN', { timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit' }) : '—';
+import { useLang, categoryLabels } from './lib/lang';
+import { formatDate } from './lib/i18n';
 export default function ArtworkDetail({ artwork, note, compared, externallySaving, onClose, onCompare, onSave }: { artwork: Artwork; note: Note; compared: boolean; externallySaving: boolean; onClose: () => void; onCompare: () => void; onSave: (note: Note) => Promise<void> }) {
+  const { lang, c } = useLang();
+  const categories = categoryLabels(c);
   const dialog = useRef<HTMLDivElement>(null);
   const closeRef = useRef(onClose); closeRef.current = onClose;
   const [draft, setDraft] = useState<Note>(note);
-  const [tags, setTags] = useState(note.tags.join('，'));
+  const [tags, setTags] = useState(note.tags.join(c.listSeparator));
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
   const dirty = useRef(false);
   const draftKey = 'studio-draft-' + artwork.id;
   const busy = saving || externallySaving;
   function change(next: Note, nextTags = tags) { dirty.current = true; setDraft(next); setTags(nextTags); setSaved(false); try { sessionStorage.setItem(draftKey, JSON.stringify({ note: next, tags: nextTags })); } catch { /* Saving remains available through localStorage. */ } }
-  useEffect(() => { try { const raw = sessionStorage.getItem(draftKey); if (raw) { const cached = JSON.parse(raw); if (cached.note?.artworkId === artwork.id) { setDraft(cached.note); setTags(cached.tags || ''); dirty.current = true; return; } } } catch {} if (!dirty.current) { setDraft(note); setTags(note.tags.join('，')); } }, [artwork.id, note.updatedAt]);
+  useEffect(() => { try { const raw = sessionStorage.getItem(draftKey); if (raw) { const cached = JSON.parse(raw); if (cached.note?.artworkId === artwork.id) { setDraft(cached.note); setTags(cached.tags || ''); dirty.current = true; return; } } } catch {} if (!dirty.current) { setDraft(note); setTags(note.tags.join(c.listSeparator)); } }, [artwork.id, note.updatedAt]);
   useEffect(() => {
     const previous = document.activeElement as HTMLElement; document.body.style.overflow = 'hidden'; dialog.current?.focus();
     const keydown = (event: KeyboardEvent) => {
@@ -50,11 +51,11 @@ export default function ArtworkDetail({ artwork, note, compared, externallySavin
       <details className="provenance"><summary>{c.rights}</summary><p>{artwork.rights.label}</p><p>{artwork.rights.usage}</p>{artwork.rights.url && <a href={artwork.rights.url} target="_blank" rel="noreferrer">{c.rights} ↗</a>}<p>{artwork.evidence}</p></details>
       <details className="provenance"><summary>{c.writing}</summary>
         {artwork.writing.author ? <>
-          <p>{artwork.writing.author === 'codex' ? 'Codex' : artwork.writing.author} 撰写 · <time dateTime={artwork.writing.generatedAt}>{artwork.writing.generatedAt}</time></p>
-          <p>输入 SHA-256：{artwork.writing.inputHash}</p>
-          {artwork.writing.referenceSources.map((url, index) => <p key={url}><a href={url} target="_blank" rel="noreferrer">参考来源 {index + 1} ↗</a></p>)}
-        </> : <p>{artwork.writing.model} · {shortDate(artwork.writing.generatedAt)}</p>}
-        <p>{c.dateLabel}：{shortDate(artwork.addedAt)}</p>
+          <p>{c.writtenBy.replace('{author}', artwork.writing.author === 'codex' ? 'Codex' : artwork.writing.author)} · <time dateTime={artwork.writing.generatedAt}>{artwork.writing.generatedAt}</time></p>
+          <p>{c.inputHash}{c.colon}{artwork.writing.inputHash}</p>
+          {artwork.writing.referenceSources.map((url, index) => <p key={url}><a href={url} target="_blank" rel="noreferrer">{c.referenceSource} {index + 1} ↗</a></p>)}
+        </> : <p>{artwork.writing.model} · {formatDate(artwork.writing.generatedAt, lang)}</p>}
+        <p>{c.dateLabel}{c.colon}{formatDate(artwork.addedAt, lang)}</p>
       </details>
       {artwork.sourceUrl && <a className="source-link" href={artwork.sourceUrl} target="_blank" rel="noreferrer">{c.viewSource}<ArrowUpRight size={17} /></a>}
     </aside></div>

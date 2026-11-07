@@ -38,6 +38,35 @@ export function validateArtworks(artworks, readImage) {
   return { ids, images };
 }
 
+const textList = value => Array.isArray(value) && value.length > 0 && value.every(text);
+const textFields = (entry, keys, label) => { for (const key of keys) assert(entry[key] === undefined || text(entry[key]), `Empty English ${key}: ${label}`); };
+
+// English entries are a sidecar keyed by artwork id. A work without one falls back
+// to its Chinese text, so a missing entry is reported rather than rejected: the
+// daily publisher adds works that are translated afterwards.
+export function validateTranslations(artworks, overlay, references, referenceOverlay) {
+  assert(overlay?.version === 1 && overlay.artworks && typeof overlay.artworks === 'object', 'Invalid English library');
+  const ids = new Set(artworks.map(a => a.id));
+  for (const [id, entry] of Object.entries(overlay.artworks)) {
+    assert(ids.has(id), `English entry for unknown artwork: ${id}`);
+    textFields(entry, ['title', 'creator', 'year', 'evidence'], id);
+    for (const key of ['methods', 'topics']) assert(entry[key] === undefined || textList(entry[key]), `Empty English ${key}: ${id}`);
+    textFields(entry.analysis ?? {}, ['structure', 'borrow', 'application'], id);
+    textFields(entry.rights ?? {}, ['label', 'credit', 'usage'], id);
+    // Method filters work on the translated terms, so partial arrays would mix languages.
+    for (const key of ['methods', 'topics']) assert(entry[key] === undefined || entry[key].length === artworks.find(a => a.id === id)[key].length, `English ${key} must match the original count: ${id}`);
+  }
+  const referenceIds = new Set(references.map(r => r.id));
+  for (const id of Object.keys(referenceOverlay)) assert(referenceIds.has(id), `English entry for unknown reference: ${id}`);
+  for (const r of references) {
+    const entry = referenceOverlay[r.id];
+    assert(entry, `Missing English reference: ${r.id}`);
+    for (const key of ['title', 'summary', 'borrow', 'question', 'relation', 'medium']) assert(text(entry[key]), `Missing English ${key}: ${r.id}`);
+    assert(textList(entry.methods) && entry.methods.length === r.methods.length, `English methods must match the original count: ${r.id}`);
+  }
+  return { untranslated: artworks.map(a => a.id).filter(id => !overlay.artworks[id]) };
+}
+
 export function validateLibrary(data, readImage) {
   const { ids, images } = validateArtworks(data.artworks, readImage);
   assert(Array.isArray(data.batches) && data.batches.length);

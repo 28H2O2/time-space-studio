@@ -1,0 +1,113 @@
+{
+  "searching-for-birds": {
+    "title": "Drawing search data as birds, nests and seasons",
+    "medium": "Interactive storytelling · Illustration",
+    "summary": "Uses birds, eggs and nests to organize search data on nearly seven hundred bird species, while keeping seasonal curves, comparison charts and geographic views. The illustrations take part in the data encoding and also serve as reading navigation.",
+    "borrow": "See how one subject switches between maps, curves and figurative shapes, and which information stays comparable throughout. It can be borrowed for travel, migration or personal activity records.",
+    "question": "If you replace your path nodes with meaningful objects, can time and quantity still be read accurately?",
+    "relation": "Contains real time and geographic information; some layouts use metaphor.",
+    "methods": [
+      "Time slices",
+      "Seasonal cycles",
+      "Data illustration"
+    ]
+  },
+  "design-doha-2026": {
+    "title": "Letting two scripts grow into a connecting network",
+    "creator": "Samar Maakaroun and team / Pentagram",
+    "medium": "Bilingual typography · Motion visuals",
+    "summary": "Arabic and English together form the visual system, with extended letterform strokes linking the elements. The project has been announced; the corresponding biennial is scheduled to open in November 2026.",
+    "borrow": "Observe how type doubles as connecting lines, and how weight, distance and white space build hierarchy. Suited to bilingual charts, relationship-diagram titles and multi-site guides.",
+    "question": "If you remove the added arrows, can you express relationships through the position and strokes of the lettering?",
+    "relation": "Expresses connection; it is not a timeline, nor a measurable map.",
+    "methods": [
+      "Networks and direction",
+      "Type system"
+    ]
+  },
+  "ldf-2026": {
+    "title": "Using one frame to organize a whole city's design events",
+    "creator": "Domenic Lippa and team / Pentagram",
+    "medium": "Event visuals · Wayfinding",
+    "summary": "A set of event visuals and wayfinding built around Framing LDF. Red and relatively restrained type provide a shared display frame for different works.",
+    "borrow": "Compare how the same system changes across sizes and images. This method can be used for a research collection: fix the positions of the index, date and title, and let the works themselves determine the color of the page.",
+    "question": "If all the images were replaced, which layout rules would still make people recognize this as your collection?",
+    "relation": "Organizes events and spatial identification; the image frame itself does not encode time.",
+    "methods": [
+      "Places and states",
+      "Layout system"
+    ]
+  },
+  "urban-wildlife-atlas": {
+    "title": "Seeing the geography of animals in a built city",
+    "medium": "Interactive map · Urban ecology",
+    "summary": "Places New York's built environment, natural landscapes and species observations on one map. The case includes observation records since 2020 and uses individual species stories to explain habitat relationships.",
+    "borrow": "See how the base map, observation points and explanatory text divide the work. It can be borrowed to record buildings, trees or museums on a trip, keeping their locations while avoiding cramming all information into one legend.",
+    "question": "Which information needs to stay visible, and which is better shown only after a place is selected?",
+    "relation": "Real geography; the records cover a time range, so each location should not be taken as a state at the same moment.",
+    "methods": [
+      "Places and states",
+      "Geographic layering"
+    ]
+  },
+  "hudhud-maps": {
+    "title": "Putting lanes, turns and metro into one modern base map",
+    "medium": "Transit map · Navigation",
+    "summary": "Navigation cartography for Riyadh, offering light, dark and satellite-hybrid modes, with refined detail for lanes, turns, place categories, metro and real-time road conditions.",
+    "borrow": "First see how a map separates stable geography from temporary states, then compare the hierarchy under different base colors. It transfers to your relocation map: places stay fixed while vehicle and task states update.",
+    "question": "Once you split places, routes and real-time states into three layers, how many large color blocks can your map do without?",
+    "relation": "Real geography and real-time state; road connections do not equal proportional travel time.",
+    "methods": [
+      "Networks and direction",
+      "Places and states"
+    ]
+  },
+  "uncoded-gestures": {
+    "title": "Linking the present and historical photos through body posture",
+    "medium": "Archive · Participatory installation",
+    "summary": "The installation matches a viewer's current body posture with postures in historical photos and presents them side by side. The connection across eras comes from similarity of bodily form, not from a continuous chronology.",
+    "borrow": "Try organizing historical material around the same movement, the same place or the same object. It suits then-and-now comparisons on trips, and also reminds you that similar form does not prove the same meaning.",
+    "question": "Besides ordering by year, what other shared thread could string your historical material together?",
+    "relation": "A comparison of similarity across time; a match is not causation or identification.",
+    "methods": [
+      "Time slices",
+      "Juxtaposed comparison"
+    ]
+  },
+  "data-critters": {
+    "title": "Turning real-time data into accumulating traces on paper",
+    "medium": "Mechanical installation · Data physicalization",
+    "summary": "A mechanical installation converts online activity into ink traces that keep being laid down, letting digital behavior accumulate in physical space. The original site also shows prototypes, mapping experiments and changes after audience participation.",
+    "borrow": "See how time is perceived through the layering of traces. It can be used for activity logs, repeated commutes or habit records; to read specific quantities, you also need to set clear units and a legend separately.",
+    "question": "Can a line only represent a single movement? Could it also record pauses, repetition or hesitation?",
+    "relation": "Activity accumulates over time into spatial traces; it is not a precise geographic route map.",
+    "methods": [
+      "Continuous trajectory",
+      "Accumulated traces"
+    ]
+  },
+  "elemental-flows": {
+    "title": "One flow rule, different visual personalities",
+    "medium": "Generative art · Data art",
+    "summary": "A series of works based on a shared flow algorithm. The author brings data on trees, rainfall, air quality and sunlight into different works, then adjusts parameters to form each one's expression.",
+    "borrow": "Compare which rules stay constant and which parameters vary across the works. Suited to building a style for your own series of charts: keep the line behavior, and adjust density, rhythm and color by subject.",
+    "question": "Can your personal style be written as three drawing rules, rather than just a set of colors?",
+    "relation": "Data takes part in generating the shapes; the curves should not be taken directly as real movement trajectories.",
+    "methods": [
+      "Continuous trajectory",
+      "Generative rules"
+    ]
+  },
+  "unsupervised": {
+    "title": "Making an archive a constantly changing space for viewing",
+    "medium": "Generative imagery · Immersive art",
+    "summary": "A generative imagery project that uses a modern art museum's collection archive as material. The work turns the archive into continuously changing shapes and colors, focusing on the viewing experience and data aesthetics.",
+    "borrow": "Watch the speed of change, the pauses and the sense of space in the original site's video. It can be borrowed for chart transitions or feature openings; when facts need explaining, still provide a separate static structure that can be checked.",
+    "question": "Which changes help understanding, and which only make the picture more attractive?",
+    "relation": "Generative process and experiential time; not a precise timeline of the collection's history.",
+    "methods": [
+      "Generative rules",
+      "Dynamic space"
+    ]
+  }
+}

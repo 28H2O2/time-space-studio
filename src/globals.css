@@ -40,6 +40,8 @@ input,textarea,select{min-width:0}
 .site-header nav button.current:after{content:'';position:absolute;height:3px;background:var(--ink);left:0;right:0;bottom:-1px}
 .count-dot{font:13px Georgia,serif;margin-left:6px;color:var(--accent)}
 .private-label{margin-bottom:16px;font-size:13px;color:var(--muted);display:flex;align-items:center;gap:6px;white-space:nowrap}
+.lang-toggle{margin-bottom:15px;display:flex;align-items:center;gap:6px;padding:5px 11px;border:1px solid var(--ink);border-radius:999px;font-size:13px;line-height:1.4;white-space:nowrap}
+.lang-toggle:hover,.lang-toggle:focus-visible{background:var(--ink);color:var(--paper)}
 main{min-height:70vh}
 .page-heading{padding:44px 0 32px;display:flex;justify-content:space-between;align-items:flex-end;gap:24px}
 .eyebrow{font-size:13px;letter-spacing:1.7px;display:flex;align-items:center;gap:22px;color:var(--muted);font-variant-numeric:tabular-nums}
@@ -232,9 +234,10 @@ input[type=checkbox]{accent-color:var(--ink)}
 }
 
 @media(max-width:760px){.studio-shell{padding:0 22px}
-.site-header{flex-wrap:wrap;gap:0;min-height:0;padding-top:23px}
-.wordmark{width:100%;padding-bottom:10px;margin-bottom:0}
-.wordmark strong{font-size:22px}
+.site-header{flex-wrap:wrap;gap:0;min-height:0;padding-top:23px;position:relative}
+.lang-toggle{position:absolute;top:23px;right:0;margin:0}
+.wordmark{width:100%;padding-bottom:10px;margin-bottom:0;padding-right:92px}
+.wordmark strong{font-size:22px;white-space:normal}
 .wordmark small{font-size:12px}
 .brand-symbol{width:38px;height:38px}
 .site-header nav{width:100%;justify-content:space-between;gap:12px;height:auto}

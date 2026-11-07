@@ -5,6 +5,9 @@
 - `content/library.json`：`artworks` 是作品全集，`batches` 是往期选图（最新在前），`latestSuccess` 等于最新期的 `createdAt`。该时间表示内容入库时间，实际部署成功时间以 Vercel 为准。
 - `public/media/`：只放 `artworks.imageKey` 引用的 JPG / PNG，每张小于 20 MB。避免覆盖旧图；新图用新的稳定文件名。图像会进入公开仓库历史。
 - `src/lib/contemporary-references.json`：只提供原站阅读入口的作品，不计入每日三张图。
+- `content/library.en.json`：英文版文字，以作品 ID 为键，只放需要翻译的字段：`title`、`creator`、`year`、`methods`、`topics`、`evidence`、`analysis`，以及含中文的 `rights` 字段（`label`、`credit`、`usage`）。缺少某个字段或整条记录时，英文界面回退到中文原文，所以新作品不翻译也不会出错；`npm run check` 会列出尚无英文的作品。`methods` 与 `topics` 的数量必须与中文记录一致，筛选才不会混用两种语言。每日自动发布只写入中文记录，英文需随后补充。
+- `src/lib/contemporary-references.en.json`：原站条目的英文版，以条目 ID 为键，每条都必须有，否则检查失败。
+- `src/lib/copy.zh.json` / `src/lib/copy.en.json`：界面文字，两份的键必须一致（测试会核对）。
 - `src/lib/types.ts`：完整字段类型；新增作品可参照现有的 `contemporary-ocean-2025` 记录。
 
 ## 一期更新

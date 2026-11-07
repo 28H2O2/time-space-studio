@@ -35,12 +35,16 @@ export function mergeRecords(current: Records, incoming: Records): Records {
   result.rules = [...rules.values()].sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt));
   return result;
 }
-export function recordsMarkdown(records: Records, artworks: Artwork[]): string {
-  const titles = new Map(artworks.map(a => [a.id, a.title]));
-  return ['# 时空图像研究室 · 我的笔记', '', ...Object.values(records.notes).flatMap(n => [`## ${titles.get(n.artworkId) || n.artworkId}`, '', `作品 ID：${n.artworkId}`, `收藏：${n.favorite ? '是' : '否'} · 判断：${({like:'喜欢',dislike:'不喜欢',neutral:'暂不判断'})[n.preference]}`, `标签：${n.tags.join('、')}`, `更新时间：${n.updatedAt}`, '', n.note, '']), '# 方法笔记', '', ...records.rules.flatMap(r => [r.text, '', `关联作品：${r.exampleIds.map(id => titles.get(id) || id).join(' / ')}`, `记录 ID：${r.id} · 创建时间：${r.createdAt}`, ''])].join('\n');
+const markdownLabels = {
+  zh: { title: '# 时空图像研究室 · 我的笔记', id: '作品 ID', favorite: '收藏', yes: '是', no: '否', judgment: '判断', preference: { like: '喜欢', dislike: '不喜欢', neutral: '暂不判断' }, tags: '标签', tagSeparator: '、', updated: '更新时间', rules: '# 方法笔记', related: '关联作品', recordId: '记录 ID', created: '创建时间', colon: '：' },
+  en: { title: '# Time-Space Image Lab · My notes', id: 'Work ID', favorite: 'Saved', yes: 'yes', no: 'no', judgment: 'Judgment', preference: { like: 'Like', dislike: 'Dislike', neutral: 'Undecided' }, tags: 'Tags', tagSeparator: ', ', updated: 'Updated', rules: '# Method notes', related: 'Related works', recordId: 'Record ID', created: 'Created', colon: ': ' },
+};
+export function recordsMarkdown(records: Records, artworks: Artwork[], lang: 'zh' | 'en' = 'zh'): string {
+  const titles = new Map(artworks.map(a => [a.id, a.title])), t = markdownLabels[lang];
+  return [t.title, '', ...Object.values(records.notes).flatMap(n => [`## ${titles.get(n.artworkId) || n.artworkId}`, '', `${t.id}${t.colon}${n.artworkId}`, `${t.favorite}${t.colon}${n.favorite ? t.yes : t.no} · ${t.judgment}${t.colon}${t.preference[n.preference]}`, `${t.tags}${t.colon}${n.tags.join(t.tagSeparator)}`, `${t.updated}${t.colon}${n.updatedAt}`, '', n.note, '']), t.rules, '', ...records.rules.flatMap(r => [r.text, '', `${t.related}${t.colon}${r.exampleIds.map(id => titles.get(id) || id).join(' / ')}`, `${t.recordId}${t.colon}${r.id} · ${t.created}${t.colon}${r.createdAt}`, ''])].join('\n');
 }
-export function downloadRecords(records: Records, artworks: Artwork[], format: 'json' | 'markdown') {
-  const blob = new Blob([format === 'json' ? JSON.stringify({ ...records, exportedAt: new Date().toISOString() }, null, 2) : recordsMarkdown(records, artworks)], { type: format === 'json' ? 'application/json' : 'text/markdown;charset=utf-8' });
+export function downloadRecords(records: Records, artworks: Artwork[], format: 'json' | 'markdown', lang: 'zh' | 'en' = 'zh') {
+  const blob = new Blob([format === 'json' ? JSON.stringify({ ...records, exportedAt: new Date().toISOString() }, null, 2) : recordsMarkdown(records, artworks, lang)], { type: format === 'json' ? 'application/json' : 'text/markdown;charset=utf-8' });
   const url = URL.createObjectURL(blob), a = document.createElement('a');
   a.href = url; a.download = `time-space-notes-${new Date().toISOString().slice(0, 10)}.${format === 'json' ? 'json' : 'md'}`;
   a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
