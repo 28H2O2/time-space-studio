@@ -897,6 +897,166 @@
           "addedAt": "2026-11-06T05:22:39.910Z"
         }
       ]
+    },
+    {
+      "id": "queue-bird-forms",
+      "notBefore": "2026-11-14",
+      "title": "鸟形的三种转译",
+      "approvedBy": "codex",
+      "approvedAt": "2026-11-07T05:09:07.360Z",
+      "featuredIds": [
+        "art-havell-american-flamingo",
+        "art-egypt-horus-falcon",
+        "graphic-beardsley-peacock-skirt"
+      ],
+      "artworks": [
+        {
+          "id": "art-havell-american-flamingo",
+          "title": "美洲火烈鸟：弯颈与局部图",
+          "titleOriginal": "American Flamingo",
+          "creator": "Robert Havell, Jr.（版刻、印制与着色）；据 John James Audubon 原作",
+          "year": "1838",
+          "category": "art",
+          "methods": [
+            "弯曲轮廓",
+            "手工着色",
+            "局部拆解",
+            "图号与释文"
+          ],
+          "topics": [
+            "鸟类图谱",
+            "形态观察",
+            "整身与局部"
+          ],
+          "sourceUrl": "https://www.nga.gov/artworks/32572-american-flamingo",
+          "imageKey": "art-havell-american-flamingo.jpg",
+          "width": 2791,
+          "height": 4096,
+          "rights": {
+            "label": "CC0（National Gallery of Art Open Access）",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Robert Havell, Jr., after John James Audubon, American Flamingo, 1838, hand-colored engraving and aquatint on Whatman wove paper. Gift of Mrs. Walter B. James, 1945.8.431. Courtesy National Gallery of Art, Washington.",
+            "usage": "采用馆方 Download 链接所供整页 JPEG（2791×4096 px，2,227,964 字节），原始字节保存，未裁剪、未调色。IIIF info 标注底图 5101×7486 px；full/full 与显式请求宽度 5101 均实际返回 2791×4096，记录下载文件的真实尺寸。"
+          },
+          "observation": "一只玫红色火烈鸟占据大半张纸，长颈从高处躯干弯向左下，黑尖喙接近水面。两条细腿一斜一直，脚掌踩在深色岩岸上；远处有数只小鸟与浅蓝水面。纸页上方另排着喙、舌和蹼足的细线局部图，带数字；下沿有题名、署名与编号释文，纸边可见泛黄和磨损。",
+          "evidence": "已打开 NGA 作品页 32572，核对主要作者 Robert Havell, Jr.、原作作者 John James Audubon、1838 年、手工着色雕版与飞尘蚀刻、馆藏号 1945.8.431，属于《美洲鸟类》第 CCCCXXXI 图。作品页明确标注图像免费且属公有领域，开放政策说明以 CC0 提供。已核对 IIIF info、下载链接及显式原尺寸请求，并实际查看入队图像；观察依据本次图片，不把馆方视觉描述代作读图。",
+          "analysis": {
+            "structure": "整身像以一条长曲线把躯干、颈部和喙连起来，细腿撑开下方空间。上方局部图脱离景物，以编号对应下沿释文，让同一页同时容纳姿态和器官细节。",
+            "borrow": "讲解复杂形体时，先给出完整轮廓，再把难以看清的部位拆到空白处，用编号把局部与文字接上。主体和局部图可采用不同的着色密度。",
+            "application": "适合自然教育图版或产品结构说明，兼顾整体辨认和局部阅读。画面是绘制与版刻后的图谱，姿态和色彩不能替代现场行为记录。"
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-07T05:09:07.360Z",
+            "inputHash": "2b94e8918079402ff7671793ef31924aa20bfde974dfb91a10362920dfa1bd17",
+            "referenceSources": [
+              "https://www.nga.gov/artworks/32572-american-flamingo",
+              "https://www.nga.gov/terms-and-notices",
+              "https://api.nga.gov/iiif/bd772828-3571-450c-a79e-bb547c8ec9c1/info.json",
+              "https://api.nga.gov/iiif/bd772828-3571-450c-a79e-bb547c8ec9c1/full/full/0/default.jpg",
+              "https://api.nga.gov/iiif/bd772828-3571-450c-a79e-bb547c8ec9c1/full/5101,/0/default.jpg"
+            ]
+          },
+          "addedAt": "2026-11-07T05:09:07.360Z"
+        },
+        {
+          "id": "art-egypt-horus-falcon",
+          "title": "荷鲁斯隼：青铜中的直立鸟形",
+          "titleOriginal": "Horus Falcon",
+          "creator": "未知（古埃及；馆方列为晚期、第26王朝或以后）",
+          "year": "公元前664—30年，或公元前664—330年（馆方并列断代）",
+          "category": "art",
+          "methods": [
+            "实心铸造",
+            "轮廓简化",
+            "对称姿态",
+            "体块与底座"
+          ],
+          "topics": [
+            "鸟形雕塑",
+            "古埃及",
+            "立体造型"
+          ],
+          "sourceUrl": "https://www.clevelandart.org/art/1940.615",
+          "imageKey": "art-egypt-horus-falcon.png",
+          "width": 1345,
+          "height": 1226,
+          "rights": {
+            "label": "CC0（Cleveland Museum of Art）",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Unknown maker, Egypt, Horus Falcon, 664–30 BCE OR 664–330 BCE, bronze, solid cast. The Cleveland Museum of Art, Bequest of James Parmelee, 1940.615.",
+            "usage": "下载馆方主视图最高分辨率 TIFF（1345×1226 px），保持像素尺寸与 ICC 配置无损转存 PNG（1,809,997 字节）。未裁剪、未调色；保留器物表面现状及摄影背景。"
+          },
+          "observation": "一只深褐、灰绿相间的金属鸟立在薄矩形底座上，头部圆钝，喙向前勾，折叠的翼贴着身体两侧。两足落在底座前部，长尾斜向后下方支撑出三角形空隙。表面有斑驳的浅色痕迹与不平整处；照片用灰色背景，底座下方有投影。",
+          "evidence": "已打开 Cleveland Museum of Art 藏品页 1940.615 与官方 API 119791，核对实心铸造青铜、整体 4.6×1.4×3.3 cm、Bequest of James Parmelee。馆方未列个人作者，年代原文为“664–30 BCE OR 664–330 BCE”，此处保留两种断代。藏品页明确允许复制、修改与分发，API 的 share_license_status 为 CC0，开放政策涵盖高分辨率图像。已核对主视图 full TIFF 的尺寸并实际查看转换后的 PNG；馆方关于王权象征的说明属于历史解释，不混入可见事实。",
+          "analysis": {
+            "structure": "翼与身体合成紧凑体块，头、胸、足保持直立方向。脚、底座和向后伸的尾巴把重心落到下方；少量眼喙细节就足以让轮廓读作一只隼。",
+            "borrow": "把对象转为小尺寸立体造型时，可先保住头、躯干和支撑点的比例，再决定哪些表面细节可以省略。用体块的转折区分部位。",
+            "application": "适合小型雕塑或实体符号的造型练习，比较轮廓、体积和站立关系。照片中的高光与阴影来自拍摄照明，不能据此判断原物的全部表面细节。"
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-07T05:09:07.360Z",
+            "inputHash": "4c0228c5c5782deb203f4b36c0f9ae19254e6706fbd330da05a8a4aa1e9c5510",
+            "referenceSources": [
+              "https://www.clevelandart.org/art/1940.615",
+              "https://openaccess-api.clevelandart.org/api/artworks/119791",
+              "https://www.clevelandart.org/open-access",
+              "https://openaccess-cdn.clevelandart.org/1940.615/1940.615_full.tif"
+            ]
+          },
+          "addedAt": "2026-11-07T05:09:07.360Z"
+        },
+        {
+          "id": "graphic-beardsley-peacock-skirt",
+          "title": "孔雀裙：羽纹变成衣饰",
+          "titleOriginal": "The Peacock Skirt from A Portfolio of Aubrey Beardsley's drawings illustrating \"Salome\" by Oscar Wilde",
+          "creator": "Aubrey Beardsley；John Lane 出版",
+          "year": "1907（本件印本）",
+          "category": "graphic",
+          "methods": [
+            "黑白线版印刷",
+            "正负形",
+            "重复羽纹",
+            "疏密对照"
+          ],
+          "topics": [
+            "书籍插图",
+            "鸟与衣饰",
+            "装饰纹样"
+          ],
+          "sourceUrl": "https://artmuseum.princeton.edu/art/collections/objects/87565",
+          "imageKey": "graphic-beardsley-peacock-skirt.jpg",
+          "width": 5452,
+          "height": 7112,
+          "rights": {
+            "label": "Public Domain（Princeton University Art Museum）",
+            "url": "https://artmuseum.princeton.edu/art/our-collections/image-use-and-access",
+            "credit": "Aubrey Beardsley; published by John Lane, The Peacock Skirt from A Portfolio of Aubrey Beardsley's drawings illustrating \"Salome\" by Oscar Wilde, 1907, line block print. Museum Collection, x1939-83 e. Image courtesy of the Princeton University Art Museum.",
+            "usage": "采用藏品页 Maximum Available 链接的整页 JPEG（5452×7112 px，4,985,711 字节），与 IIIF manifest 及 info 标注的主视图尺寸一致；原始字节保存，未裁剪、未调色。依馆方公有领域图像政策使用，不另标为 CC0。"
+          },
+          "observation": "浅色纸上，两个人物在画面上部靠近，左侧人物的大裙摆向下展开，占据下半幅。裙摆底部是大片黑色，叠着白线描出的羽状弧线与点纹；左上有孔雀形象和细密点群。衣饰中央留出大片空白，细长曲线从头饰延伸到裙面，四周用双线矩形收边。",
+          "evidence": "已打开 Princeton University Art Museum 藏品页 87565，核对 Aubrey Beardsley、出版者 John Lane、1907 年印本、line block print、馆藏号 x1939-83 e，图像约 22.8×16.3 cm。页面下载区明确说明该图属于公有领域、可下载使用；Image Use and Access 政策允许自由使用公有领域高分辨率图片，无需审批，并要求提供馆方图像署名。已核对 IIIF manifest 和 info，下载 Maximum Available 主视图并实际查看；未把其他机构不同印本的年代或材质移用于本件。",
+          "analysis": {
+            "structure": "裙摆的大黑块稳住下方，细密羽纹从黑白交界处层层展开。两个人物与孔雀挤在上方，裙面留白则把这些密集区域隔开，形成清楚的阅读节奏。",
+            "borrow": "把动物特征转为装饰时，可提取羽片的弧线、重复节奏和疏密，而不必照搬整只鸟。先确定黑块与留白的面积，再加细线和点。",
+            "application": "适合书籍插图、单色印刷或服饰图案草图，研究纹样怎样沿形体展开。这里讨论印刷图像的组织，不把画中的衣饰当成已制作服装的记录。"
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-07T05:09:07.360Z",
+            "inputHash": "17dfc4db379a761f3fe618078eb2c3e15429c9f97cf5edc4a3e2619d38482625",
+            "referenceSources": [
+              "https://artmuseum.princeton.edu/art/collections/objects/87565",
+              "https://artmuseum.princeton.edu/art/our-collections/image-use-and-access",
+              "https://data.artmuseum.princeton.edu/iiif/objects/87565",
+              "https://media.artmuseum.princeton.edu/iiif/3/collection/PUAMANX22_1608/info.json",
+              "https://media.artmuseum.princeton.edu/iiif/3/collection/PUAMANX22_1608/full/max/0/default.jpg"
+            ]
+          },
+          "addedAt": "2026-11-07T05:09:07.360Z"
+        }
+      ]
     }
   ]
 }
