@@ -6,11 +6,12 @@ import { validateTranslations } from '../scripts/content-validation.mjs';
 const read = path => JSON.parse(readFileSync(new URL(path, import.meta.url), 'utf8'));
 const hasChinese = value => /[\u4e00-\u9fff]/.test(JSON.stringify(value));
 
-test('English content covers the library and the contemporary references with no Chinese left', () => {
+// Daily publishing adds Chinese-only works, so full coverage of the library is
+// reported by `npm run check` as a notice instead of being asserted here.
+test('English content is valid, consistent with the library and has no Chinese left', () => {
   const library = read('../content/library.json'), english = read('../content/library.en.json');
   const references = read('../src/lib/contemporary-references.json'), englishReferences = read('../src/lib/contemporary-references.en.json');
-  const { untranslated } = validateTranslations(library.artworks, english, references, englishReferences);
-  assert.deepEqual(untranslated, []);
+  validateTranslations(library.artworks, english, references, englishReferences);
   assert.equal(hasChinese(english), false);
   assert.equal(hasChinese(englishReferences), false);
 });

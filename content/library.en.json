@@ -1,6 +1,214 @@
 {
   "version": 1,
   "artworks": {
+    "ts-voyager-pale-blue-dot": {
+      "title": "Pale Blue Dot: Earth as photographed by Voyager 1",
+      "creator": "NASA/JPL-Caltech (Voyager 1 narrow-angle camera)",
+      "year": "1990-02-14 (taken); 1996-09-12 (added to Photojournal)",
+      "methods": [
+        "Scale contrast",
+        "White space and a single-point marker",
+        "Distance compression"
+      ],
+      "topics": [
+        "Space exploration",
+        "Earth",
+        "Distance and viewpoint"
+      ],
+      "evidence": "I checked the NASA Photojournal page PIA00452. It describes a narrow-angle color image taken by Voyager 1 on 14 February 1990 from about 6 billion kilometers (3.7 billion miles) away, part of the 60-frame mosaic known as the \"Family Portrait\" of the solar system. The vantage point was about 32 degrees above the ecliptic plane; Earth is only 0.12 pixel across in the narrow-angle camera; Earth happens to fall within a ray of scattered light caused by the proximity to the Sun; the color is composed from violet, blue and green filters; background features are artifacts of enlargement. The credit is NASA/JPL-Caltech, and the page shows a release date of 09/12/1996. The basis for use is the JPL Image Use Policy. The image itself contains no distance or time information; those figures come from the page text. I did not verify the exact hour and minute of the exposure.",
+      "analysis": {
+        "structure": "The image uses a large, nearly empty dark background as \"space\", while the actual subject is smaller than a single pixel and can be found only by its color and its position inside a band of light. The band is scattered light and an enlargement artifact, as the page explains; it is not an astronomical structure and does not indicate direction or distance.",
+        "borrow": "The proportion contrast of placing one tiny marker in a vast area of white space can be borrowed: first let readers feel the emptiness, then let them find the target, so that the sense of distance arises during the search. As the institution does, artifacts should also be accounted for separately from the subject.",
+        "application": "Suited to narratives and exhibition guides that express scale, distance, isolation or \"looking back from afar\". A still image alone cannot convey distance, angle or time, so it needs text or a scale diagram; and the background light band should not be treated as a data structure."
+      },
+      "rights": {
+        "label": "NASA/JPL-Caltech · JPL Image Use Policy (free to use without permission; credit required)",
+        "usage": "Downloaded the original JPEG file (453×614 pixels) provided on the NASA Photojournal PIA00452 page, uncropped, uncolor-corrected and unscaled. The page credits NASA/JPL-Caltech and lists no third-party copyright. Do not imply endorsement of any product by NASA, JPL or Caltech; the NASA logo is not used."
+      }
+    },
+    "art-anon-life-on-the-river": {
+      "title": "Life on the River: A river handscroll attributed to Ma Yuan",
+      "creator": "Unknown (museum: Formerly attributed to Ma Yuan)",
+      "year": "18th century (museum dating)",
+      "methods": [
+        "Horizontal handscroll unrolling",
+        "Foreground, middle ground and distance layers",
+        "Grouped narrative",
+        "Empty water surface"
+      ],
+      "topics": [
+        "Handscrolls",
+        "Daily life on the river",
+        "Non-Western painting traditions"
+      ],
+      "evidence": "I checked the National Museum of Asian Art object page F1909.239. The title is Life on the river, 18th century, China, ink and color on silk, 18.6 cm high × 173.9 cm wide. The museum says it was formerly attributed to Ma Yuan, that a spurious signature of Ma Yuan appears beneath a tree trunk, and that the actual artist is unknown. Provenance: Loon Gu Sai (Beijing) — Charles Lang Freer (purchased 1909) — entered the Freer Gallery in 1920; the terms are marked CC0 1.0. The museum's description calls it a \"virtual anthology\" of typical Chinese river imagery and stock characters. I used the IIIF manifest to confirm that canvas 009 is the whole scroll. The museum page gives no transcription of the four-character title slip or the inscription, so I do not attempt to read them; I also did not verify whether the groups of figures in the painting have any temporal order.",
+      "analysis": {
+        "structure": "The scroll unfolds horizontally, with a stretch of bank, an expanse of water and a group of small boats appearing in turn. Reeds and trees in the foreground block off the near ground, the middle ground is water and boats, and the distance is only low mountain silhouettes, so three layers of depth are stacked in one horizontal band. The museum calls the figure scenes an \"anthology\" of typical images, so the sections from left to right are juxtaposed rather than successive moments of one event.",
+        "borrow": "The rhythm of \"grouping plus white space\" can be borrowed: divide content into small clusters and leave blank space or repeated elements (such as reeds) between them, so that readers pause and then continue as they move sideways. Foreground occlusion and fading in the distance can also create depth in a long, narrow format.",
+        "application": "Suited to horizontal timelines, route guides and narrative segmentation on long pages. Note that this painting is not a map and no specific moment or travel duration can be read from it; its \"time\" is only the viewing order and the simultaneous juxtaposition of everyday scenes."
+      },
+      "rights": {
+        "label": "CC0 1.0 (Smithsonian Open Access / National Museum of Asian Art)",
+        "usage": "The museum object page is marked CC0. The image is the whole scroll output at 4096 pixels wide from the museum's IIIF service (FS-F1909.239_009, original 10240×890), proportionally reduced on the server only, uncropped and uncolor-corrected; it includes the mounting border on the right and the title slip."
+      }
+    },
+    "ts-durer-northern-sky-1515": {
+      "title": "Northern Sky Chart with the Twelve Zodiac Signs",
+      "creator": "Albrecht Dürer (German, 1471—1528)",
+      "methods": [
+        "Celestial sphere projection",
+        "Circular star chart",
+        "Constellation figures",
+        "Graduated ecliptic ring"
+      ],
+      "topics": [
+        "Astronomical star charts",
+        "The twelve zodiac signs",
+        "Woodcut prints"
+      ],
+      "evidence": "I checked the Art Institute of Chicago artwork page (artic.edu/artworks/106550) and its public API fields: artist Albrecht Dürer (German, 1471—1528), date 1515, medium black woodcut on ivory laid paper, image 43.2×43 cm, sheet 58.4×46.3 cm, accession number 1964.1065, Clarence Buckingham Collection, is_public_domain true, and the page image is credited as CC0 Public Domain Designation. The museum's description says this chart and the southern-sky chart were a pair presented to a humanist adviser of Emperor Maximilian, that the image looks as if the sky were viewed from space, and that it was later copied many times to make globes. I read the downloaded image; the inscription, the names in the four corners and the graduated ring agree with the museum record. This page does not state the star catalogue source for the individual stars or the division of labor among those who cut the block, so I make no judgment on them.",
+      "analysis": {
+        "structure": "It flattens the sphere onto a plane centered on the celestial north pole: constellation figures are arranged along radial lines and concentric circles, the outer graduated ring carries the ecliptic angle readings, and stars are marked by small circles with numbers. What the reader gets from the chart is sky position and adjacency, not dates or the order of events; the size of the figures serves the narrative and is not proportional to the brightness or distance of the stars.",
+        "borrow": "The circular coordinate skeleton of \"central pole + graduated ring + radial lines\" can be borrowed, giving each object both a graphic identity and a position reading that can be looked up; the annotating figures in the four corners place the chart's source and authority at the edges without overpowering the main image.",
+        "application": "Suited to ring-shaped direction diagrams, season or cycle panels, and relationship diagrams that take a central object as reference. When figures replace points, keep a readable layer of scale or numbering; otherwise the image is lively but positions cannot be verified."
+      },
+      "rights": {
+        "label": "CC0 Public Domain Designation (Art Institute of Chicago)",
+        "usage": "Uses the JPEG provided by the museum's IIIF service (1686 px wide), keeping the full image and paper edges, uncropped and uncolor-corrected. The museum marks the image of this work as CC0 public domain."
+      }
+    },
+    "graphic-katagami-mallows": {
+      "title": "Mallow Pattern Stencil",
+      "creator": "Japan (artist unknown)",
+      "year": "Late 19th century",
+      "methods": [
+        "Cut-out stencil",
+        "Overlapping leaf shapes",
+        "Contrast of dark blocks and line drawing",
+        "Silk-gauze reinforcement"
+      ],
+      "topics": [
+        "Patterns",
+        "Textile dyeing stencils",
+        "All-over leaf and flower designs"
+      ],
+      "evidence": "I checked the Art Institute of Chicago artwork page (artic.edu/artworks/60674) and its public API fields: title Stencil with Design of Mallows, place of origin Japan, the artist given as \"Japan\" (no individual named), date Late 19th century (1850—1899), medium mulberry paper treated with persimmon juice, with silk web reinforcement, accession number 1928.447, Clarence Buckingham Collection, provenance recorded as a gift of Kate Sturges Buckingham (1858—1937) on 11 May 1928, is_public_domain true, and the page is marked CC0 Public Domain Designation. Dimensions, the specific place of origin and the workshop are not given on the page. I read the downloaded image; this is the physical stencil, and what is seen are cuts in a single sheet of paper, so the way it repeats on cloth cannot be judged from it.",
+      "analysis": {
+        "structure": "Two densities, \"solid leaf blocks\" and \"leaves with only the outline kept\", create gathering and dispersal on the same plane: dark clusters are the visual center of gravity, and line-drawn leaves fill the spaces between. The leaves overlap one another and leave no clear grid points; the rise and fall of density depends on the size and spacing of the leaf clusters rather than on a regular lattice.",
+        "borrow": "The layering created by treating one motif in two ways (solid and line drawing) can be borrowed, as can the use of \"invisible support\" such as silk gauze to keep fine cut lines continuous. The stencil's cuts must stay connected, and this production constraint also limits the shapes.",
+        "application": "Suited to all-over background textures, packaging or interface patterns: use two or three densities of the same element to control sparseness, so that the content area still has blank space to read. If seamless tiling is needed, the edge joins must still be checked separately; this page does not show them."
+      },
+      "rights": {
+        "label": "CC0 Public Domain Designation (Art Institute of Chicago)",
+        "usage": "Uses the JPEG provided by the museum's IIIF service (1686 px wide), keeping the full image and paper edges, uncropped and uncolor-corrected. The museum marks the image of this work as CC0 public domain."
+      }
+    },
+    "ts-delano-chicago-rail-yard-night": {
+      "title": "Chicago Rail Yard at Night: Light trails left by lanterns",
+      "year": "December 1942",
+      "methods": [
+        "Long-exposure light trails",
+        "Perspective depth",
+        "Foreground signal lamps and distant tracks",
+        "Night lighting"
+      ],
+      "topics": [
+        "Railroad yards",
+        "Night labor",
+        "Spatial depth",
+        "Traces of time"
+      ],
+      "evidence": "I verified the Library of Congress Prints & Photographs online catalog entry 2017836467: photographer Delano, Jack, 1914-1997; date 1942 Dec.; title (including the statement that the light streaks were made by the lanterns of people going in and out of the dispatcher's office); reproduction number LC-USW3-012681-D; call number LC-USW3- 012681-D [P&P] LOT 220; part of the FSA/OWI black-and-white negatives; Rights Advisory: No known restrictions. I downloaded and read the reduced JPEG, and the image matches the entry's title. The cause of the light trails comes from the LOC title and is not this site's own inference; the exposure time is unknown.",
+      "analysis": {
+        "structure": "Stationary tracks, buildings and cars form a stable spatial scene, and near signal lamps and distant lights stretch out depth; the curved light trails are traces of time accumulated on the same negative, showing that people's movement was not instantaneous.",
+        "borrow": "Overlay a \"fixed scene\" and \"the trails left by motion\" in one image: keep the background sharp to carry position, and let the light trails alone carry the process. Near-large, far-small depth can suggest scale, while the light trails suggest the thickness of time.",
+        "application": "Suited to expressing the range and time period of activity of people, equipment or information within a fixed site, such as night operations in a switching yard or logistics center. Note that light trails show only movement paths; speed, order or number of people cannot be read from them."
+      },
+      "rights": {
+        "label": "No known restrictions (Library of Congress Rights Advisory)",
+        "usage": "The LOC entry's rights advisory is No known restrictions, and it links to the rights statement for FSA/OWI black-and-white images. The local JPEG was proportionally reduced from the TIFF master provided by LOC to 2000 pixels on the long side and converted to JPEG, uncropped and uncolor-corrected, with the negative edges and numbers retained. LOC states that the digital file derives from an intermediary roll film."
+      }
+    },
+    "art-delaunay-la-tour": {
+      "title": "La Tour: Delaunay's folded Eiffel Tower",
+      "creator": "Robert Delaunay (French, 1885–1941)",
+      "methods": [
+        "Lithographs",
+        "Geometric facets",
+        "Tilted perspective",
+        "Juxtaposed multiple viewpoints"
+      ],
+      "topics": [
+        "Paris cityscape",
+        "Tower and neighborhoods",
+        "Folded space",
+        "Modernism"
+      ],
+      "evidence": "I verified the Cleveland Museum of Art collection page 1989.59: artist Robert Delaunay (French, 1885–1941); title La Tour; date 1926; medium lithograph; catalogue number Loyer and Perusseaux 3; credit line John L. Severance Fund, 1989.59; the page is marked Public Domain. The open access API for the same record shows share_license_status as CC0 and gives a print-size file. I read the downloaded image, which agrees with the museum's description. The museum page gives no statement of the artist's intent, so this entry makes no inference on that basis; I did not attempt to read the handwriting along the lower edge.",
+      "analysis": {
+        "structure": "The tower is at the center, buildings on both sides lean inward, and the sky and neighborhoods are cut into fragments in different directions; within the same image the tower body, arch and buildings appear at different angles, producing the impression of space being stretched and folded.",
+        "borrow": "Organize the image with a central landmark flanked by tilted masses, letting the viewing angle move among the tower top, the arch and the neighborhoods; geometric fragments can juxtapose several parts of the same object without following a single vanishing point.",
+        "application": "Suited to expressing multiple viewing positions at one place, scale contrasts, or a composite of urban memory. This is an artist's subjective composition, not a geographic survey, and cannot be used to read distance or proportion."
+      },
+      "rights": {
+        "label": "CC0 / Public Domain (Cleveland Museum of Art Open Access)",
+        "usage": "The collection page is marked Public Domain, and the work may be copied, modified and distributed; the open access API marks it CC0. The local JPEG was proportionally reduced from the museum's print-size file (2533×3400) to 2400 pixels on the long side, uncropped and uncolor-corrected."
+      }
+    },
+    "art-avercamp-winter-skaters": {
+      "title": "Ice Scene: Crowds on the canal at the village edge",
+      "year": "c. 1608",
+      "methods": [
+        "High viewpoint overview",
+        "Foreground-to-distance depth",
+        "Scattered crowds",
+        "Cool sky and warm buildings"
+      ],
+      "topics": [
+        "Winter",
+        "Activities on the ice",
+        "Village space",
+        "Scale and crowds"
+      ],
+      "evidence": "I checked the Rijksmuseum object page and the official Linked Art record (id.rijksmuseum.nl/200108163): accession number SK-A-1718; signed Hendrick Avercamp (an abbreviated signature appears on the wall of the wooden house on the right of the image); date c. 1608; medium oil on panel; support 77.3 × 131.9 cm; the image license is marked Public Domain Mark 1.0. The museum's Dutch-language description says that, because of its high viewpoint, the painting became a showcase of people and animals active in a hard winter, with hundreds of people on the ice, mostly for leisure but some working out of urgent need. Whether the place in the painting corresponds to a specific village or town is not stated on the page, and I make no judgment on it here.",
+      "analysis": {
+        "structure": "The high viewpoint compresses shoreline buildings, ice and the distant village into one horizontal picture: larger figures and boats in the foreground establish scale, figures become smaller farther away, and the ice becomes an open plane connecting every part. The crowd is scattered across the ice rather than lined up along one path, so different activities can be read at the same time; the cool sky, the gray-white ice and the warm color of the houses separate the layers of space.",
+        "borrow": "\"High viewpoint + near-large, far-small figure scale + an open traversable plane\" can be borrowed to organize information: use foreground detail to provide recognizable units and small dots in the distance to indicate density. The season and climate (ice, cold light, bare trees) can also serve as time cues without any written explanation.",
+        "application": "Suited to activity-distribution maps or scene illustrations of city squares, waterfronts and campuses, showing many behaviors coexisting at one moment. Note that this is a painted composition, not a survey: the number, position and proportion of people serve the picture and cannot be used as real crowd statistics."
+      },
+      "rights": {
+        "label": "Public Domain Mark 1.0 (as marked by the Rijksmuseum)",
+        "credit": "Hendrick Avercamp, Winter Landscape with Ice Skaters, c. 1608, oil on panel, Rijksmuseum, Amsterdam, accession number SK-A-1718",
+        "usage": "The museum's IIIF original image (6337×3674 px) was proportionally reduced to 2400 px wide and re-saved as JPEG, uncropped and uncolor-corrected. The museum marks the work as public domain."
+      }
+    },
+    "ts-anonymous-dam-square-panorama": {
+      "title": "Panorama of Dam Square, Amsterdam: A square made from three photographs",
+      "creator": "Anonymous photographer",
+      "methods": [
+        "Multi-image stitching",
+        "High camera position",
+        "Circular layout of the square",
+        "Crowds and vehicles"
+      ],
+      "topics": [
+        "City squares",
+        "Panoramic photography",
+        "Everyday crowds",
+        "Tram transport"
+      ],
+      "evidence": "I checked the Rijksmuseum object page and the official Linked Art record (id.rijksmuseum.nl/200325690): accession number RP-F-F17849; title Panorama of Dam Square in Amsterdam; photographer anonymous (Dutch); date 1899—1903; the museum's technical record is daylight gelatin silver print (daglichtgelatinezilverdruk), photograph size 78 × 183 mm, card mount 106 × 213 mm; the image license is marked Public Domain Mark 1.0. Whether the three photographs were taken at the same time and who made the assemblage are not stated on the page, and I make no judgment on them here; the lettering on signs is visible content in the image.",
+      "analysis": {
+        "structure": "Three narrow photographs are laid out in sequence horizontally, using collage in place of a single wide-angle shot so that the viewer sees the whole ring of the square's edge on one plane. Because the viewpoint is high, the ground looks like a stage, and pedestrians and vehicles are organized by the curved lines on the ground and the track lines; the seams are both traces of stitching and a hint that these are multiple exposures taken slightly apart in time (whether they were taken simultaneously is not stated on the page).",
+        "borrow": "The approach of \"shooting in segments and then juxtaposing\" can be borrowed to handle space wider than a single viewpoint, keeping the seams to honestly mark the boundary of each segment. Its high camera position can also be borrowed, letting ground lines, curbs and tracks form the spatial skeleton, with figures dotted on them to show scale.",
+        "application": "Suited to documenting the current state of a neighborhood or square, observing crowds, and comparing ways of use; juxtaposing several segments also suits showing the same site at different moments. Note that a single image is only one instant and cannot be used to infer crowd patterns over a whole day or year."
+      },
+      "rights": {
+        "label": "Public Domain Mark 1.0 (as marked by the Rijksmuseum)",
+        "credit": "Anonymous, Panorama of Dam Square in Amsterdam, 1899-1903, daylight gelatin silver print, Rijksmuseum, Amsterdam, accession number RP-F-F17849",
+        "usage": "The museum's IIIF original image (6358×3232 px) was proportionally reduced to 3000 px wide and re-saved as JPEG, uncropped and uncolor-corrected, with the card mount backing retained. The museum marks the work as public domain."
+      }
+    },
     "ts-muzaffari-astrolabe-1291": {
       "title": "Muzaffari Astrolabe: Sky and Time on a Brass Plate",
       "creator": "‘Umar ibn Yusuf al-Muzaffari (Rasulid prince, as named in the inscription)",
