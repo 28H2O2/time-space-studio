@@ -900,6 +900,162 @@
           "addedAt": "2026-11-07T05:09:07.360Z"
         }
       ]
+    },
+    {
+      "id": "queue-bridge-spans",
+      "notBefore": "2026-11-15",
+      "title": "桥的跨度",
+      "approvedBy": "codex",
+      "approvedAt": "2026-11-08T05:08:55.376Z",
+      "featuredIds": [
+        "ts-berry-brooklyn-bridge-plan-1985",
+        "photo-highsmith-brooklyn-bridge",
+        "art-monet-waterloo-sunset-1904"
+      ],
+      "artworks": [
+        {
+          "id": "ts-berry-brooklyn-bridge-plan-1985",
+          "title": "布鲁克林大桥：平面、立面与曼哈顿桥塔详图",
+          "titleOriginal": "Plan, elevation, detail at Manhattan tower — Brooklyn Bridge",
+          "creator": "Paul Berry / Historic American Engineering Record（HAER）",
+          "year": "1985（测绘图）；桥梁建于1869—1883",
+          "category": "time-space",
+          "methods": [
+            "平立面对齐",
+            "局部放大",
+            "尺寸标注"
+          ],
+          "topics": [
+            "桥梁结构",
+            "两岸连接",
+            "工程记录"
+          ],
+          "sourceUrl": "https://www.loc.gov/pictures/item/ny1234.sheet.00001a/",
+          "imageKey": "ts-berry-brooklyn-bridge-plan-1985.png",
+          "width": 14484,
+          "height": 9632,
+          "rights": {
+            "label": "Public Domain · LOC / HAER 政府测绘图",
+            "url": "https://guides.loc.gov/p-and-p-rights-and-restrictions/rights#114_habs.html",
+            "credit": "Paul Berry, delineator, 1985 / Library of Congress, Prints & Photographs Division, HAER NY,31-NEYO,90- (sheet 1 of 1)",
+            "usage": "下载馆方最高分辨率TIFF，保持14484×9632像素及原始黑白图面，无损转为PNG；未裁切或改色。LOC权利说明将为美国政府制作的原始测绘图列为公有领域；本图题签为HAER及Paul Berry，未见外部版权标记。"
+          },
+          "observation": "横幅黑白图上方是两岸街道与桥面的平面图，中间是与之对齐的桥梁立面，标出桥塔、主跨和引桥。左下放大曼哈顿桥塔的两个方向，旁边有尺寸线和构件注释；右下排列说明文字。右侧题签写有Paul Berry和1985。",
+          "evidence": "已打开LOC单张记录及母版图：作者Paul Berry，日期1985，题名为平面、立面和曼哈顿桥塔详图，编号HAER NY,31-NEYO,90-，全套共一张。已读取馆方权利页及该页引用的公开CSV中114_habs.html条目，确认原始政府测绘图的公有领域依据。图中的1869—1883指桥梁建造年代，不能代替制图日期。",
+          "analysis": {
+            "structure": "平面图交代桥与两岸街道的连接，立面图沿相同的横向位置展示跨度与高差，桥塔详图再用较大比例说明局部。这里的距离和标高来自测绘标注，画面不表示施工时间顺序。",
+            "borrow": "可把总览与侧视图沿同一组关键节点对齐，让读者上下对照；局部放大另标比例，避免把不同尺度混读。尺寸文字应贴近对应的线段。",
+            "application": "适合讲解跨河通道、建筑剖面或设备结构。用于历史研究时需保留1985的记录日期；不能把图面直接当作当前桥梁状态或工程施工依据。"
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-08T05:08:55.376Z",
+            "inputHash": "591474bd8e87b60a3d4b3c699eb87f73549809f7d1d229854d11ea7ee0c66eb6",
+            "referenceSources": [
+              "https://www.loc.gov/pictures/item/ny1234.sheet.00001a/",
+              "https://guides.loc.gov/p-and-p-rights-and-restrictions/rights#114_habs.html",
+              "https://guides.loc.gov/ld.php?content_id=76336558",
+              "https://cdn.loc.gov/master/pnp/habshaer/ny/ny1200/ny1234/sheet/00001a.tif"
+            ]
+          },
+          "addedAt": "2026-11-08T05:08:55.376Z"
+        },
+        {
+          "id": "photo-highsmith-brooklyn-bridge",
+          "title": "走向布鲁克林大桥的桥塔",
+          "titleOriginal": "Brooklyn Bridge, New York, New York",
+          "creator": "Carol M. Highsmith",
+          "year": "1980—2006之间（馆方断代；具体年份未知）",
+          "category": "time-space",
+          "methods": [
+            "步行视角",
+            "透视汇聚",
+            "缆索重复"
+          ],
+          "topics": [
+            "桥面空间",
+            "步行尺度",
+            "悬索与桥塔"
+          ],
+          "sourceUrl": "https://www.loc.gov/item/2011632099/",
+          "imageKey": "photo-highsmith-brooklyn-bridge.jpg",
+          "width": 5404,
+          "height": 6886,
+          "rights": {
+            "label": "Public Domain · Carol M. Highsmith / LOC",
+            "url": "https://guides.loc.gov/p-and-p-rights-and-restrictions/rights#482_high.html",
+            "credit": "Library of Congress, Prints & Photographs Division, photograph by Carol M. Highsmith, LC-DIG-highsm-13905",
+            "usage": "采用馆方IIIF服务的全尺寸JPEG（5404×6886），与馆方原始图像尺寸一致；未裁切、缩放或改色。LOC馆藏页注明无已知发表限制，Highsmith专项权利说明确认其照片为公有领域；不改标为CC0。"
+          },
+          "observation": "竖幅彩色照片中，木板步道从前景伸向中央石桥塔，两侧栏杆和悬索逐渐向内汇聚。桥塔有两个尖拱开口，顶端挂着美国国旗；步道远处有人和自行车，左侧近景竖着路灯，蓝天占据上半幅。",
+          "evidence": "已打开LOC条目：摄影者Carol M. Highsmith，拍摄日期著录为1980至2006之间，原件为彩色透明片，数字图像由摄影者提供，复制号LC-DIG-highsm-13905。已核对馆方IIIF尺寸并查看下载图；专项权利页引用的CSV中482_high.html说明Highsmith已声明其照片为公有领域。具体拍摄年份未核实。",
+          "analysis": {
+            "structure": "栏杆和缆索把视线引向桥塔，近处路灯与远处行人提供不同距离的尺度参照。照片沿桥轴线观察，能呈现行走空间的深度，但看不到整座桥的跨度。",
+            "borrow": "展示长通道时，可保留一段近景地面，把连续构件作为深度线索，再用远处人物提示尺度。无需在画面上加箭头，透视本身就能引导视线。",
+            "application": "适合步行路线、公共空间或建筑入口的图像叙述。透视中的尺寸会随距离缩小，不能用照片上的长度直接比较实际跨度；拍摄年代也只能保留馆方给出的范围。"
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-08T05:08:55.376Z",
+            "inputHash": "c2d646e6e1c3d5a361c16259f186e91f15607017969f3b4abb26d7648430ee00",
+            "referenceSources": [
+              "https://www.loc.gov/item/2011632099/",
+              "https://guides.loc.gov/p-and-p-rights-and-restrictions/rights#482_high.html",
+              "https://guides.loc.gov/ld.php?content_id=76336558",
+              "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:13900:13905/info.json",
+              "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:13900:13905/full/full/0/default.jpg"
+            ]
+          },
+          "addedAt": "2026-11-08T05:08:55.376Z"
+        },
+        {
+          "id": "art-monet-waterloo-sunset-1904",
+          "title": "日落时的伦敦滑铁卢桥",
+          "titleOriginal": "Waterloo Bridge, London, at Sunset",
+          "creator": "克洛德·莫奈（Claude Monet）",
+          "year": "1904",
+          "category": "art",
+          "methods": [
+            "冷暖色交叠",
+            "重复桥拱",
+            "水面反射"
+          ],
+          "topics": [
+            "桥与河面",
+            "光色",
+            "空间层次"
+          ],
+          "sourceUrl": "https://www.nga.gov/artworks/61378-waterloo-bridge-london-sunset",
+          "imageKey": "art-monet-waterloo-sunset-1904.jpg",
+          "width": 4096,
+          "height": 2886,
+          "rights": {
+            "label": "Public Domain · NGA Open Access（CC0）",
+            "url": "https://www.nga.gov/terms-and-notices#open-access-policy",
+            "credit": "Claude Monet, 1904 / Collection of Mr. and Mrs. Paul Mellon, 1983.1.28 / Courtesy National Gallery of Art, Washington",
+            "usage": "采用馆藏页Download链接返回的完整JPEG（4096×2886），未裁切或改色。IIIF信息声明母版为18666×13152，但full及显式18666宽请求均返回相同的4096×2886文件，本次保留下载服务实际提供的最高完整图。作品页标记公有领域，NGA开放图像政策采用CC0。"
+          },
+          "observation": "横幅画面以浅蓝、青绿为底，粉红与淡橙色桥面斜跨中央偏下，几个桥拱在水面上重复出现。河面色块与桥身颜色互相交错，远岸建筑只剩淡淡的竖向轮廓，右下角可见紫色签名。",
+          "evidence": "已打开NGA馆藏页与开放图像政策：作者Claude Monet，1904年，布面油画，65.5×92.7厘米，馆藏号1983.1.28，Collection of Mr. and Mrs. Paul Mellon。作品页明确标记其媒体为公有领域，政策将符合条件的数字图像以CC0提供。已打开下载图并核对实际像素；不把题名中的日落当作精确拍摄时刻或气象记录。",
+          "analysis": {
+            "structure": "桥拱的重复轮廓把连续河面分成几段，粉橙桥身与青蓝水面相互映照。远处轮廓变淡，近处水面笔触较多，空间深度主要依靠色彩和清晰度变化。",
+            "borrow": "表达横向连接时，可以用少量重复形状维持连续性，再让连接物的颜色进入周围背景，使主体与环境产生呼应。最远处减少细节，保留清楚的前后层次。",
+            "application": "适合研究河岸景观、画面配色或展览视觉中的层次安排。它提供的是绘画中的观看方式，桥拱数量和色彩都不宜用作结构测量或水质判断。"
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-08T05:08:55.376Z",
+            "inputHash": "91b62363d9342a1de892f97845e91f6fc69fe60c40a39ad6062aef15b5da605e",
+            "referenceSources": [
+              "https://www.nga.gov/artworks/61378-waterloo-bridge-london-sunset",
+              "https://www.nga.gov/terms-and-notices",
+              "https://api.nga.gov/iiif/e5c0853d-e3ac-49c2-884e-c0ac3b0af597/info.json",
+              "https://api.nga.gov/iiif/e5c0853d-e3ac-49c2-884e-c0ac3b0af597/full/full/0/default.jpg?attachment_filename=waterloo_bridge_london_at_sunset_1983.1.28.jpg"
+            ]
+          },
+          "addedAt": "2026-11-08T05:08:55.376Z"
+        }
+      ]
     }
   ]
 }
