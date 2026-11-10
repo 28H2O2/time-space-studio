@@ -901,6 +901,161 @@
           "addedAt": "2026-11-08T05:08:55.376Z"
         }
       ]
+    },
+    {
+      "id": "queue-sunlight-and-shadow",
+      "notBefore": "2026-11-16",
+      "title": "日影与晨光",
+      "approvedBy": "codex",
+      "featuredIds": [
+        "ts-beringer-diptych-sundial",
+        "photo-emerson-winter-sunrise",
+        "art-lorrain-sunrise"
+      ],
+      "artworks": [
+        {
+          "id": "ts-beringer-diptych-sundial",
+          "title": "贝林格的便携折叠日晷",
+          "titleOriginal": "Portable diptych sundial",
+          "creator": "David Beringer",
+          "year": "约1780—1821",
+          "category": "time-space",
+          "methods": [
+            "折叠双面",
+            "放射刻度",
+            "线晷与罗盘"
+          ],
+          "topics": [
+            "日影计时",
+            "便携仪器",
+            "方向与时间"
+          ],
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/204833",
+          "imageKey": "ts-beringer-diptych-sundial.jpg",
+          "width": 1808,
+          "height": 1980,
+          "rights": {
+            "label": "Public Domain · The Met Open Access（CC0）",
+            "url": "https://www.metmuseum.org/policies/image-resources",
+            "credit": "David Beringer, Portable diptych sundial, ca. 1780–1821. The Metropolitan Museum of Art, Gift of Mrs. Paul R. Hays, in memory of Jacques B. Rice, 1968, 68.36.",
+            "usage": "采用馆方 API primaryImage 指向的 original JPEG（1808×1980），保留原始字节、完整器物及拍摄背景，未裁切、缩放或改色。藏品页标记公有领域，依馆方 CC0 开放图像政策使用。"
+          },
+          "observation": "黑白照片中，木制小盒的两块板面展开成直角，斜线连接上下两面。竖板上，小时数字沿向外展开的直线排列，中央竖列数字旁有一排孔，花边围住纸面；横板中央嵌着圆形罗盘，边缘也印有刻度。盒的前缘可见金属扣，背景没有馆方标尺或标签。",
+          "evidence": "已打开 Met 藏品页 204833，核对制作者 David Beringer、纽伦堡、约1780—1821年、果木与纸、馆藏号68.36及捐赠署名；日期保留馆方范围。页面标记 Public Domain，官方 API 的 isPublicDomain 为 true；已读取图像使用政策中的 CC0 条款。已下载并查看 API 提供的最高分辨率主图；照片未展示实际阳光投影，不能从中读出拍摄时刻。",
+          "analysis": {
+            "structure": "上下板面、斜拉线和罗盘把计时所需的角度、刻度与方向放在同一件小器物中。放射线让时刻对应到纸面位置，装饰边框则把读数区域与木盒边缘隔开。",
+            "borrow": "设计便携工具时，可让展开后的结构承担定位作用，把读数标记紧靠对应部件；将用于设置的数字与日常读取的数字分开，减少混读。",
+            "application": "适合用于日晷原理展陈或折叠仪器的界面研究。实物读时还需正确设置方向与纬度，日影对应的太阳时也不能直接当作统一的标准时；本张照片不足以检验仪器精度。"
+          },
+          "writing": {
+            "author": "codex",
+            "referenceSources": [
+              "https://www.metmuseum.org/art/collection/search/204833",
+              "https://collectionapi.metmuseum.org/public/collection/v1/objects/204833",
+              "https://www.metmuseum.org/policies/image-resources",
+              "https://images.metmuseum.org/CRDImages/es/original/188801.jpg"
+            ],
+            "generatedAt": "2026-11-10T05:12:11.686Z",
+            "inputHash": "51a4b563e6caebe38ed60f739125c43bfacd6d9406cd34ee09d99e5232268aa7"
+          },
+          "addedAt": "2026-11-10T05:12:11.686Z"
+        },
+        {
+          "id": "photo-emerson-winter-sunrise",
+          "title": "冬日的日出：雾中的牧场",
+          "titleOriginal": "A Winter's Sunrise",
+          "creator": "Peter Henry Emerson",
+          "year": "1891年以前拍摄；1895年出版",
+          "category": "art",
+          "methods": [
+            "照相凹版",
+            "明暗递减",
+            "近景纹理"
+          ],
+          "topics": [
+            "晨光",
+            "冬日牧场",
+            "雾与距离"
+          ],
+          "sourceUrl": "https://www.clevelandart.org/art/2025.17",
+          "imageKey": "photo-emerson-winter-sunrise.jpg",
+          "width": 7032,
+          "height": 4136,
+          "rights": {
+            "label": "CC0 · Cleveland Museum of Art Open Access",
+            "url": "https://www.clevelandart.org/open-access",
+            "credit": "Peter Henry Emerson, A Winter's Sunrise, before 1891, published 1895, photogravure, from Marsh Leaves. The Cleveland Museum of Art, Mr. and Mrs. Roger J. Lerch in Memory of Carl J. Lerch and Winifred J. Lerch Endowment, 2025.17.",
+            "usage": "采用馆方最高分辨率 TIFF 母版（7032×4136），以原始像素尺寸转为 JPEG（quality 98、4:4:4，19,079,721字节）；保留整张纸面，未裁切、缩放或调色。藏品页允许复制、修改与分发，API 标记 CC0，依馆方开放图像政策使用。"
+          },
+          "observation": "横幅印相的四周留着浅色纸边。近景草叶密集，左侧木栅栏形成几道深色横线；两只低头的动物位于中景偏右。远处树木与地面逐渐融入灰雾，右上方有一轮浅色太阳，附近横着几条较深的云带。",
+          "evidence": "已打开 Cleveland 藏品页2025.17及官方 API 记录687266，核对 Peter Henry Emerson、《Marsh Leaves》系列、photogravure、1891年以前拍摄及1895年出版。页面说明图像可自由复制、修改和分发，API 的 share_license_status 为 CC0；已读取馆方开放政策。已实际查看图像，保留纸边和印相区域。具体拍摄日期、时刻与曝光参数未知，未根据画面补造。",
+          "analysis": {
+            "structure": "近处草叶与栅栏保留深色细节，远处树影则变浅、变疏，空间深度由清晰度和明暗差异展开。太阳并不强烈，周围大片灰调使它成为一个柔和的亮点。",
+            "borrow": "表现雾中距离时，可以逐层降低对比度，让最清楚的纹理留在前景；主体不必总是最亮的部分，一段深色栅栏也能先把视线引入画面。",
+            "application": "适合研究摄影印刷的灰阶层次，或为冬日景观叙述安排远近。题名提供日出的语境，画面本身不能确定钟点、能见度数值或天气测量结果。"
+          },
+          "writing": {
+            "author": "codex",
+            "referenceSources": [
+              "https://www.clevelandart.org/art/2025.17",
+              "https://openaccess-api.clevelandart.org/api/artworks/687266",
+              "https://www.clevelandart.org/open-access",
+              "https://openaccess-cdn.clevelandart.org/2025.17/2025.17_full.tif"
+            ],
+            "generatedAt": "2026-11-10T05:12:11.686Z",
+            "inputHash": "5daebe1ef068d6b25f4a4c04612fbb5a33e9d14205b63d4e3086f86163c2ebdf"
+          },
+          "addedAt": "2026-11-10T05:12:11.686Z"
+        },
+        {
+          "id": "art-lorrain-sunrise",
+          "title": "洛兰的《日出》",
+          "titleOriginal": "Sunrise",
+          "creator": "克洛德·洛兰（Claude Lorrain / Claude Gellée）",
+          "year": "可能作于1646—1647",
+          "category": "art",
+          "methods": [
+            "布面油画",
+            "逆光树丛",
+            "远景亮带"
+          ],
+          "topics": [
+            "晨光",
+            "理想风景",
+            "明暗与空间"
+          ],
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/435907",
+          "imageKey": "art-lorrain-sunrise.jpg",
+          "width": 4000,
+          "height": 3054,
+          "rights": {
+            "label": "Public Domain · The Met Open Access（CC0）",
+            "url": "https://www.metmuseum.org/policies/image-resources",
+            "credit": "Claude Lorrain (Claude Gellée), Sunrise, possibly 1646–47, oil on canvas. The Metropolitan Museum of Art, Fletcher Fund, 1947, 47.12.",
+            "usage": "采用馆方 API primaryImage 指向的 original JPEG（4000×3054），保留原始字节和完整画面，未裁切、缩放或改色。藏品页标记公有领域，依馆方 CC0 开放图像政策使用。"
+          },
+          "observation": "前景的人物和牲畜横过浅水，左侧人物举着细杆。中央树丛与右侧高树形成深色轮廓，树干之间露出山坡和建筑。左侧远景向低矮地平线打开，暖色亮带托住蓝灰天空，云边带着金黄色，大片近景保持暗褐色。",
+          "evidence": "已打开 Met 藏品页435907及官方 API，核对作者 Claude Lorrain、题名 Sunrise、可能作于1646—1647、布面油画、102.9×134厘米、馆藏号47.12及 Fletcher Fund, 1947。馆方说明前景和中景色调已经变暗；不把现有暗部全部解释为原初光照。页面标记 Public Domain，API 的 isPublicDomain 为 true，已读取 CC0 图像政策并查看原始主图。",
+          "analysis": {
+            "structure": "画面把最亮处留给地平线和云边，较暗的树木分隔近景与远方。人物与牲畜沿底部横向移动，高树则把视线带回天空，使晨光同时成为空间深度的线索。",
+            "borrow": "组织逆光风景时，可在深色轮廓之间留出通往远处的开口，再用一条较窄的亮带联系天空与地面。前景的人物保持较小尺度，能让环境占据主要篇幅。",
+            "application": "适合研究展览配色、风景绘画和场景构图中的光线层次。题名中的日出属于绘画叙述，不能据此推算具体时间或太阳方位；复制品中的暗部还受作品保存状态影响。"
+          },
+          "writing": {
+            "author": "codex",
+            "referenceSources": [
+              "https://www.metmuseum.org/art/collection/search/435907",
+              "https://collectionapi.metmuseum.org/public/collection/v1/objects/435907",
+              "https://www.metmuseum.org/policies/image-resources",
+              "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-013.jpg"
+            ],
+            "generatedAt": "2026-11-10T05:12:11.686Z",
+            "inputHash": "4693eab3ace1e37ab3611ddeae72d215578ec45d22b38ecc8ee61b4b1ae50d38"
+          },
+          "addedAt": "2026-11-10T05:12:11.686Z"
+        }
+      ],
+      "approvedAt": "2026-11-10T05:12:11.686Z"
     }
   ]
 }
