@@ -901,6 +901,166 @@
         }
       ],
       "approvedAt": "2026-11-10T05:12:11.686Z"
+    },
+    {
+      "id": "queue-books-and-readers",
+      "notBefore": "2026-11-17",
+      "title": "书与读者",
+      "approvedBy": "codex",
+      "approvedAt": "2026-11-11T05:11:03.786Z",
+      "featuredIds": [
+        "art-morisot-reading-1873",
+        "photo-hill-adamson-couple-reading",
+        "graphic-wpa-march-reading"
+      ],
+      "artworks": [
+        {
+          "id": "art-morisot-reading-1873",
+          "title": "阅读：草地上的书页与白裙",
+          "titleOriginal": "Reading",
+          "creator": "Berthe Morisot",
+          "year": "1873",
+          "category": "art",
+          "methods": [
+            "视线引导",
+            "明暗对比",
+            "松散笔触",
+            "近远分层"
+          ],
+          "topics": [
+            "阅读",
+            "人物与环境",
+            "印象派"
+          ],
+          "sourceUrl": "https://www.clevelandart.org/art/1950.89",
+          "imageKey": "art-morisot-reading-1873.jpg",
+          "width": 13576,
+          "height": 8679,
+          "rights": {
+            "label": "CC0 1.0 / Cleveland Museum of Art Open Access",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Berthe Morisot, Reading, 1873, oil on canvas. The Cleveland Museum of Art, Gift of the Hanna Fund, 1950.89.",
+            "usage": "下载馆方最高分辨率 full TIFF，保留 13576 × 8679 原始像素和嵌入 ICC 配置转为 JPEG；未裁切、未调色。为符合单图小于 20 MB，使用 quality 70、无色度抽样与优化编码，文件 19,221,647 字节。用于队列作品展示与评论。"
+          },
+          "observation": "白裙女子坐在草地上的红白织物上，低头看着膝前摊开的蓝封面书。深绿色草地衬出裙子的亮色，左下角斜放着一把蓝绿色阳伞，右侧有展开的浅色扇子。裙面与草地上散布短小色点和笔触；上方远处可见道路、一辆马车和横向延伸的田野，右下角留有署名。",
+          "evidence": "已打开 Cleveland Museum of Art 作品网页及官方 API 128072，核对作者 Berthe Morisot、1873 年、布面油画、未装框尺寸 46 × 71.8 cm 和馆藏号 1950.89。馆方说明模特为作者的姐姐 Edma；画面观察本身不用于推断人物身份。作品网页标示 Public Domain 并允许复制、修改和分发，API 的 share_license_status 为 CC0，另核对馆方开放政策与 CC0 说明。已实际打开由 full TIFF 转出的整张 JPEG，书、人物与远景完整，未见水印、色卡或尺标。",
+          "analysis": {
+            "structure": "人物的低头姿态把注意力引向两手之间的书，白裙又将这个小动作从深绿背景中托出。阳伞与扇子分落两侧，远处道路和马车提供另一层尺度，使阅读者既有清晰轮廓，又处于开阔的户外环境中。",
+            "borrow": "可用较大的明亮轮廓承托一个细小动作，让脸、手和物件的方向共同指向叙事中心；环境只保留足以交代地点和距离的线索。",
+            "application": "适合阅读活动插画或人物专题版面。缩小展示时应检查书页与双手是否仍可辨认，并保留部分环境；不能仅从低头姿态判断人物的情绪或所读内容。"
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-11T05:11:03.786Z",
+            "inputHash": "055815f580b51ce79fb68b1991935483ccfbac1d248581dc1143b8849164408a",
+            "referenceSources": [
+              "https://www.clevelandart.org/art/1950.89",
+              "https://openaccess-api.clevelandart.org/api/artworks/128072",
+              "https://www.clevelandart.org/open-access",
+              "https://creativecommons.org/publicdomain/zero/1.0/",
+              "https://openaccess-cdn.clevelandart.org/1950.89/1950.89_full.tif"
+            ]
+          },
+          "addedAt": "2026-11-11T05:11:03.786Z"
+        },
+        {
+          "id": "photo-hill-adamson-couple-reading",
+          "title": "相邻而坐：女子阅读的早期摄影",
+          "titleOriginal": "Couple Seated, Woman Reading",
+          "creator": "Hill and Adamson（David Octavius Hill / Robert Adamson）",
+          "year": "1843–1847",
+          "category": "time-space",
+          "methods": [
+            "人物并置",
+            "姿态对照",
+            "亮部引导",
+            "盐纸印相"
+          ],
+          "topics": [
+            "阅读",
+            "人物关系",
+            "早期摄影"
+          ],
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/268375",
+          "imageKey": "photo-hill-adamson-couple-reading.jpg",
+          "width": 3960,
+          "height": 2771,
+          "rights": {
+            "label": "Public Domain / CC0（The Metropolitan Museum of Art Open Access）",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Hill and Adamson (David Octavius Hill and Robert Adamson), Couple Seated, Woman Reading, 1843–47, salted paper print from paper negative. The Metropolitan Museum of Art, Harris Brisbane Dick Fund, 1937, 37.98.1.107.",
+            "usage": "下载馆方 API primaryImage 指向的 original JPEG，3960 × 2771 px、2,217,773 字节；按原始字节保存，未裁切、缩放、调色或重新编码。保留历史照片纸边及原有表面痕迹，用于队列作品展示与评论。"
+          },
+          "observation": "横幅褐色调照片中，两个人并排坐在深色背景前。左侧女子低头，双手持着一本斜向展开的书，浅色上衣与膝前花纹织物较亮；右侧男子穿深色上衣、格纹长裤，一只手托着侧脸。两人之间有一只圆形带纹理的器物。图像边缘较浅，纸面可见斑点与细痕，面部和衣物的细节带有柔化效果。",
+          "evidence": "已打开 The Metropolitan Museum of Art 作品页 268375 及官方 API，核对摄影工作室 Hill and Adamson、两位摄影者 David Octavius Hill 与 Robert Adamson、1843–47 年、纸负片制作的盐纸照片、馆藏号 37.98.1.107 和 Harris Brisbane Dick Fund, 1937 的入藏署名。作品页明确标示 Public Domain，API 的 isPublicDomain=true；馆方图像政策将开放藏品图像置于 CC0。已实际打开 original JPEG，全图无馆方水印、色卡或尺标。人物姓名、两人的具体关系和拍摄地点未在本条来源中确认，不作补充。",
+          "analysis": {
+            "structure": "两个人相邻而坐，却由不同动作区分：女子的低头与书页相接，男子的手和侧脸形成另一个支点。浅色衣服、脸和书页从深背景中浮出，使观者可以沿亮部比较两人的姿态；同框并不证明两人正在共读。",
+            "borrow": "表现人物关系时，可以保留相近的座位与取景距离，再通过手势、身体朝向和所持物件交代各自的活动，不必让所有人物重复同一种动作。",
+            "application": "适合双人肖像、访谈配图或阅读场景的构图研究。照片记录了摆在镜头前的姿态，不能据此认定自然抓拍、共同阅读或人物之间的情感；印相的褐色和柔化也不等同于现场光色。"
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-11T05:11:03.786Z",
+            "inputHash": "2c21e8f4491bc6d1a616b56c67b08cbfc5cb1934a5aae8babb9cb5f9e82d5fdc",
+            "referenceSources": [
+              "https://www.metmuseum.org/art/collection/search/268375",
+              "https://collectionapi.metmuseum.org/public/collection/v1/objects/268375",
+              "https://www.metmuseum.org/policies/image-resources",
+              "https://creativecommons.org/publicdomain/zero/1.0/",
+              "https://images.metmuseum.org/CRDImages/ph/original/DP140542.jpg"
+            ]
+          },
+          "addedAt": "2026-11-11T05:11:03.786Z"
+        },
+        {
+          "id": "graphic-wpa-march-reading",
+          "title": "三月读书：飞散书本围出的阅读邀请",
+          "titleOriginal": "In March read the books you've always meant to read",
+          "creator": "设计者未知；Illinois Art Project（制作），Federal Art Project（赞助）",
+          "year": "1936–1941",
+          "category": "graphic",
+          "methods": [
+            "限色丝网印刷",
+            "斜向排列",
+            "图文分区",
+            "字号对比"
+          ],
+          "topics": [
+            "阅读推广",
+            "海报",
+            "公共图书馆"
+          ],
+          "sourceUrl": "https://www.loc.gov/item/98507722/",
+          "imageKey": "graphic-wpa-march-reading.jpg",
+          "width": 2751,
+          "height": 4096,
+          "rights": {
+            "label": "Public Domain（WPA 海报）；LOC 标注 No known restrictions on publication",
+            "url": "https://blogs.loc.gov/families/2020/11/childrens-book-week-2020/",
+            "credit": "Unknown designer, Illinois Art Project, In March read the books you've always meant to read, Chicago, between 1936 and 1941. Federal Art Project, sponsor. Library of Congress, Prints & Photographs Division, WPA Poster Collection, LC-USZC2-5175; LCCN 98507722.",
+            "usage": "下载馆方最高分辨率 TIFF（彩色胶片复制片的数字图像），保留 2751 × 4096 原始像素转为 JPEG，quality 98、无色度抽样，9,707,165 字节；源文件未嵌入 ICC。未裁切、未调色，保留海报边缘和复制片黑边，用于队列作品展示与评论。"
+          },
+          "observation": "纵向海报上部为灰绿色底，中央偏右是一位穿深蓝衣服、围红色长围巾的人物，怀中抱着一本浅色书。周围的书本朝不同方向倾斜，封面可读到 SCOTT、DUMAS、DICKENS、AUSTEN、TOLSTOI 等名字。下方黑底文字区用大号 MARCH 和两行较小的浅色大写字发出读书邀请，最底部有红色制作署名。海报四周保留深色复制片边框。",
+          "evidence": "已打开并读取 Library of Congress 官方作品目录的 JSON 入口（98507722/?fo=json），核对题名、Chicago 的 Illinois Art Project、1936 至 1941 年的年代范围、彩色丝网印刷和 Federal Art Project 的 sponsor 角色；目录未列个人设计者，记为未知。目录的背面日期戳 Mar 25 1941 不被当作确定创作日期。目录 rights_advisory 为 No known restrictions on publication，unrestricted=true；另打开国会图书馆官方文章《Children’s Book Week: Book Posters to Celebrate the Joy of Reading》，其中明确说明 WPA 海报集合属于公有领域。已实际打开最高分辨率 TIFF 转出的整张 JPEG，海报文字与署名完整，无水印、馆方色卡或尺标。",
+          "analysis": {
+            "structure": "人物、围巾和倾斜的书本占据上方，书的方形轮廓与人物衣服的大块蓝色构成对照。下方用稳定的黑色矩形承托文字，先让大号月份被看见，再读到具体号召；飞散的书本与紧凑的文字区形成不同节奏。",
+            "borrow": "可把活动海报分为吸引注意的图像区和便于阅读的文字区，用少量重复物件建立动势，再通过字号与明暗区别时间和行动要求。",
+            "application": "适合图书馆活动海报或阅读清单封面。借用构图时应替换成真实活动时间和可执行的指引，并检查小尺寸下的文字；漂浮书本是图形安排，不能当作书籍的实际空间或阅读顺序。"
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-11T05:11:03.786Z",
+            "inputHash": "4cf389ce6b77bb48633566ada9ebf938dd3e10c818e61d17454f313edf45637c",
+            "referenceSources": [
+              "https://www.loc.gov/item/98507722/",
+              "https://www.loc.gov/item/98507722/?fo=json",
+              "https://blogs.loc.gov/families/2020/11/childrens-book-week-2020/",
+              "https://tile.loc.gov/storage-services/master/pnp/cph/3f00000/3f05000/3f05100/3f05175u.tif"
+            ]
+          },
+          "addedAt": "2026-11-11T05:11:03.786Z"
+        }
+      ]
     }
   ]
 }
