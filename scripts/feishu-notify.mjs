@@ -8,6 +8,18 @@ const SITE = 'https://time-space-studio.vercel.app';
 const REPO = 'https://github.com/28H2O2/time-space-studio';
 const API = 'https://open.feishu.cn';
 
+// Feishu accepts images up to 10 MB / 12000 px. Generate a bounded preview in memory;
+// keep the source media intact and retain transparency for PNGs.
+export async function prepareFeishuImage(bytes, filename) {
+  const { default: sharp } = await import('sharp');
+  const png = filename.toLowerCase().endsWith('.png');
+  const edge = png ? 1600 : 2400;
+  const pipeline = sharp(bytes).rotate().resize({ width: edge, height: edge, fit: 'inside', withoutEnlargement: true });
+  const preview = await (png ? pipeline.png({ compressionLevel: 9 }) : pipeline.jpeg({ quality: 88 })).toBuffer();
+  assert(preview.length > 0 && preview.length < 10_000_000, 'Feishu preview must be smaller than 10 MB');
+  return preview;
+}
+
 const CATEGORY = {
   'time-space': { label: '时空与关系', color: 'blue' },
   graphic: { label: '平面设计', color: 'orange' },
@@ -180,7 +192,7 @@ export async function announce({ appId, appSecret, chatId, base, fetchImpl = fet
     const work = library.artworks.find(a => a.id === id);
     try {
       assert(work, `Unknown featured work: ${id}`);
-      images[id] = await uploadImage({ token, base, fetchImpl, bytes: readImage(work), filename: work.imageKey });
+      images[id] = await uploadImage({ token, base, fetchImpl, bytes: await readImage(work), filename: work.imageKey });
     } catch (error) {
       if (requireImages) throw error;
       log(`::warning::Image for ${id} was not attached: ${error.message}`);
@@ -253,7 +265,7 @@ async function main(argv, env) {
   const mediaDir = fileURLToPath(new URL('../public/media/', import.meta.url));
   const { batchId, attached, sent } = await announce({
     ...cfg, library, title, requireImages: argv.includes('--require-images'),
-    readImage: work => readFileSync(join(mediaDir, work.imageKey)),
+    readImage: work => prepareFeishuImage(readFileSync(join(mediaDir, work.imageKey)), work.imageKey),
   });
   console.log(`Feishu notification sent for ${batchId}: ${sent} card(s), ${attached} picture(s).`);
 }

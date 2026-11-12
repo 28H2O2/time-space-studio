@@ -1,6 +1,32 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { announce, buildMessages, sendMessage, tenantToken } from '../scripts/feishu-notify.mjs';
+import { announce, buildMessages, prepareFeishuImage, sendMessage, tenantToken } from '../scripts/feishu-notify.mjs';
+import sharp from 'sharp';
+
+test('oversized uploads become bounded previews without cropping or mutating source bytes', async () => {
+  const original = await sharp({ create: { width: 3000, height: 1500, channels: 3, background: '#a47e4f' } }).png({ compressionLevel: 0 }).toBuffer();
+  assert(original.length > 10_000_000);
+  const copy = Buffer.from(original);
+  const preview = await prepareFeishuImage(original, 'painting.png');
+  const metadata = await sharp(preview).metadata();
+  assert.equal(metadata.width, 1600);
+  assert.equal(metadata.height, 800);
+  assert(preview.length < 10_000_000);
+  assert.deepEqual(original, copy);
+  const jpeg = await sharp(await prepareFeishuImage(original, 'painting.jpg')).metadata();
+  assert.equal(jpeg.format, 'jpeg');
+  assert.equal(jpeg.width, 2400);
+  assert.equal(jpeg.height, 1200);
+});
+
+test('small PNG previews retain transparency and are never enlarged; invalid input fails', async () => {
+  const original = await sharp({ create: { width: 40, height: 20, channels: 4, background: '#00000000' } }).png().toBuffer();
+  const metadata = await sharp(await prepareFeishuImage(original, 'small.png')).metadata();
+  assert.equal(metadata.width, 40);
+  assert.equal(metadata.height, 20);
+  assert.equal(metadata.hasAlpha, true);
+  await assert.rejects(prepareFeishuImage(Buffer.from('not an image'), 'invalid.jpg'));
+});
 
 const work = (id, title, creator, year, category) => ({
   id, title, creator, year, category, imageKey: `${id}.jpg`, sourceUrl: `https://museum.example/${id}`,
