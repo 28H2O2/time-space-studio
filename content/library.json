@@ -47,7 +47,18 @@
           "https://openaccess-cdn.clevelandart.org/1959.14/1959.14_full.tif"
         ]
       },
-      "addedAt": "2026-11-12T00:03:25.295Z"
+      "addedAt": "2026-11-12T00:03:25.295Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "克利夫兰艺术博物馆",
+          "region": "美国克利夫兰",
+          "sourceUrl": "https://www.clevelandart.org/art/1959.14",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA"
+        }
+      }
     },
     {
       "id": "graphic-textile-with-flora",
@@ -96,7 +107,18 @@
           "https://openaccess-cdn.clevelandart.org/1954.321/1954.321_full.tif"
         ]
       },
-      "addedAt": "2026-11-12T00:03:25.295Z"
+      "addedAt": "2026-11-12T00:03:25.295Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "克利夫兰艺术博物馆",
+          "region": "美国克利夫兰",
+          "sourceUrl": "https://www.clevelandart.org/art/1954.321",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA"
+        }
+      }
     },
     {
       "id": "art-tiffany-flower-form-vase",
@@ -145,7 +167,18 @@
           "https://openaccess-cdn.clevelandart.org/1975.46/1975.46_full.tif"
         ]
       },
-      "addedAt": "2026-11-12T00:03:25.295Z"
+      "addedAt": "2026-11-12T00:03:25.295Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "克利夫兰艺术博物馆",
+          "region": "美国克利夫兰",
+          "sourceUrl": "https://www.clevelandart.org/art/1975.46",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA"
+        }
+      }
     },
     {
       "id": "ts-rouen-book-of-hours-may",
@@ -192,7 +225,18 @@
           "https://openaccess-cdn.clevelandart.org/2011.65.a/2011.65.a_print.jpg"
         ]
       },
-      "addedAt": "2026-11-11T00:02:43.082Z"
+      "addedAt": "2026-11-11T00:02:43.082Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "克利夫兰艺术博物馆",
+          "region": "美国克利夫兰",
+          "sourceUrl": "https://clevelandart.org/art/2011.65.a",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA"
+        }
+      }
     },
     {
       "id": "graphic-schwitters-merz3-plate1",
@@ -239,7 +283,19 @@
           "https://openaccess-cdn.clevelandart.org/1995.4/1995.4_print.jpg"
         ]
       },
-      "addedAt": "2026-11-11T00:02:43.082Z"
+      "addedAt": "2026-11-11T00:02:43.082Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "克利夫兰艺术博物馆",
+          "region": "美国克利夫兰",
+          "sourceUrl": "https://clevelandart.org/art/1995.4",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "art-cotman-boats-storm",
@@ -286,7 +342,18 @@
           "https://images.metmuseum.org/CRDImages/dp/original/DP873397.jpg"
         ]
       },
-      "addedAt": "2026-11-11T00:02:43.082Z"
+      "addedAt": "2026-11-11T00:02:43.082Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "大都会艺术博物馆",
+          "region": "美国纽约",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/746834",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, USA"
+        }
+      }
     },
     {
       "id": "ts-edo-shozu-1682",
@@ -333,7 +400,30 @@
           "https://tile.loc.gov/image-services/iiif/service:gmd:gmd7:g7964:g7964t:ct002119/full/pct:25/0/default.jpg"
         ]
       },
-      "addedAt": "2026-11-10T00:02:32.396Z"
+      "addedAt": "2026-11-10T00:02:32.396Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 地理与地图部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/80691955/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "edo",
+            "name": "江户",
+            "region": "日本 · 今东京",
+            "note": "历史地籍图，范围与地块边界不等同于今天的东京。",
+            "sourceUrl": "https://www.loc.gov/item/80691955/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-fairchild-new-york-harbor-1934",
@@ -380,7 +470,30 @@
           "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c19000/3c19900/3c19975v.jpg"
         ]
       },
-      "addedAt": "2026-11-10T00:02:32.396Z"
+      "addedAt": "2026-11-10T00:02:32.396Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 版画与摄影部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/98505923/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA"
+        },
+        "depicted": [
+          {
+            "id": "new-york-harbor",
+            "name": "纽约港",
+            "region": "美国纽约",
+            "note": "地图指向港区，不表示飞机的拍摄位置。",
+            "mapQuery": "New York Harbor, New York, USA",
+            "sourceUrl": "https://www.loc.gov/item/98505923/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "art-balke-north-cape-moonlight",
@@ -427,7 +540,30 @@
           "https://images.metmuseum.org/CRDImages/ep/original/DP-1740-001_cropped.jpg"
         ]
       },
-      "addedAt": "2026-11-10T00:02:32.396Z"
+      "addedAt": "2026-11-10T00:02:32.396Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "大都会艺术博物馆",
+          "region": "美国纽约",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/441379",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, USA"
+        },
+        "depicted": [
+          {
+            "id": "north-cape",
+            "name": "北角",
+            "region": "挪威",
+            "note": "画家曾于1832年到访，1848年绘成此画；地图仅标示北角地区。",
+            "mapQuery": "North Cape, Nordkapp, Norway",
+            "sourceUrl": "https://www.metmuseum.org/art/collection/search/441379",
+            "checkedAt": "2026-11-12",
+            "verification": "source"
+          }
+        ]
+      }
     },
     {
       "id": "ts-nightingale-army-east-mortality-1858",
@@ -475,7 +611,19 @@
           "https://iiif.wellcomecollection.org/image/b20387118_0522.jp2/full/2400,/0/default.jpg"
         ]
       },
-      "addedAt": "2026-11-08T00:03:31.567Z"
+      "addedAt": "2026-11-08T00:03:31.567Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "惠康收藏馆",
+          "region": "英国伦敦",
+          "sourceUrl": "https://wellcomecollection.org/works/jxwtskzc",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "Wellcome Collection, London, UK",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "ts-walters-cosmography-year-seasons",
@@ -523,7 +671,18 @@
           "https://art.thewalters.org/images/art/CPS_W.73.8R_Fp_DD.jpg"
         ]
       },
-      "addedAt": "2026-11-08T00:03:31.567Z"
+      "addedAt": "2026-11-08T00:03:31.567Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "沃尔特斯艺术博物馆",
+          "region": "美国巴尔的摩",
+          "sourceUrl": "https://art.thewalters.org/object/W.73.8R/",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "The Walters Art Museum, Baltimore, USA"
+        }
+      }
     },
     {
       "id": "graphic-schiele-secession-49-1918",
@@ -570,7 +729,19 @@
           "https://sammlung.wienmuseum.at/images/objects/226732/938324_full.jpg"
         ]
       },
-      "addedAt": "2026-11-08T00:03:31.567Z"
+      "addedAt": "2026-11-08T00:03:31.567Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "维也纳博物馆",
+          "region": "奥地利维也纳",
+          "sourceUrl": "https://sammlung.wienmuseum.at/objekt/226732-plakat-fuer-die-49-ausstellung-der-secession/",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "Wien Museum, Vienna, Austria",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "ts-voyager-pale-blue-dot",

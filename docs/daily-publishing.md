@@ -80,6 +80,8 @@ GitHub 自带令牌推送不会再次触发普通 `push` 工作流，因此本�
 
 手动入口：Actions 中的 **Feishu notification**。`test` 发送连通性测试消息，`latest` 重新播报最新一期；主题没有保存在内容库里，需要主题行时在 `title` 输入框填写。卡片版式可用 `node scripts/feishu-notify.mjs --dry-run` 在本机预览 JSON（图片用占位 key）。
 
+作品卡在作者与年代下方增加浅灰底地点区：收藏地和画中地点纵向排列，机构／地点名称突出显示，地域与地图链接另起一行。版画使用“此印本藏于”；多个画中地点共用标签。地图只根据已核实的 `mapQuery` 生成，没有地点时整块省略。历史范围、想象景观等限定说明完整保留，不因卡片摘要截断。来源与核验日期继续在网站详情及内容记录中维护；收藏地不表示正在展出。地点文字更新会改变消息去重键，可用 `latest` 发送修订版，不消费发布队列。
+
 ## 官方参考
 
 - [GITHUB_TOKEN 对后续工作流触发的影响](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)

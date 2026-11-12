@@ -39,6 +39,31 @@ const card = (header, elements) => ({
   body: { direction: 'vertical', padding: '12px', elements },
 });
 
+// A single full-width panel stays legible on mobile, including long institution names.
+// Preserve qualifiers in full: truncating a note could turn an approximate location into a claim.
+function locationPanel(locations) {
+  const elements = [];
+  function group(label, places) {
+    if (!places?.length) return;
+    elements.push(markdown(`<font color='grey'>📍 ${label}</font>`, { margin: elements.length ? '10px 0px 0px 0px' : '0px' }));
+    for (const place of places) {
+      const map = place.mapQuery?.trim()
+        ? `[地图 ↗](https://www.google.com/maps/search/?${new URLSearchParams({ api: '1', query: place.mapQuery })})`
+        : '';
+      const region = place.region ? safe(place.region) : '';
+      const lines = [`**${safe(place.name)}**`, [region, map].filter(Boolean).join('　')];
+      if (place.note) lines.push(`<font color='grey'>${safe(place.note)}</font>`);
+      elements.push(markdown(lines.filter(Boolean).join('\n'), { margin: '2px 0px 0px 0px' }));
+    }
+  }
+  if (locations?.collection) group(locations.collection.isImpression ? '此印本藏于' : '收藏地', [locations.collection]);
+  group('画中地点', locations?.depicted);
+  return elements.length ? [{
+    tag: 'column_set', flex_mode: 'none', margin: '8px 0px',
+    columns: [{ tag: 'column', width: 'weighted', weight: 1, background_style: 'grey-50', padding: '12px', elements }],
+  }] : [];
+}
+
 // `images` maps a work id to the image_key Feishu returned for its uploaded picture.
 // Returns one overview card followed by one card per work, in the order they should be sent.
 export function buildMessages(library, { title = '', site = SITE, images = {} } = {}) {
@@ -74,6 +99,7 @@ export function buildMessages(library, { title = '', site = SITE, images = {} } 
         ...(images[work.id] ? [{ tag: 'img', img_key: images[work.id], alt: plain(work.title), corner_radius: '8px', scale_type: 'fit_horizontal', preview: true, margin: '0px 0px 8px 0px' }] : []),
         markdown(`**${safe(work.title)}**`, { text_size: 'heading' }),
         markdown(`<font color='grey'>${safe(work.creator)} · ${safe(work.year)}</font>`),
+        ...locationPanel(work.locations),
         markdown(`**看点**　${safe(clip(firstSentence(work.analysis.structure), 90))}`, { margin: '8px 0px 0px 0px' }),
         markdown(`图像：${safe(clip(work.rights.credit, 110))}`, { text_size: 'notation', margin: '4px 0px 8px 0px' }),
         buttons([

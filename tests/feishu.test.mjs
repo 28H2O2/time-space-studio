@@ -90,6 +90,52 @@ test('long fields are shortened to one readable line', () => {
   assert(!text.includes('长'.repeat(100)) && !text.includes('馆'.repeat(120)));
 });
 
+const location = (extra = {}) => ({ id: 'museum', name: '某艺术博物馆', region: '美国纽约', sourceUrl: 'https://museum.example/location', checkedAt: '2026-11-12', verification: 'source', ...extra });
+const panels = card => card.body.elements.filter(e => e.tag === 'column_set' && e.columns.some(c => c.background_style === 'grey-50'));
+
+test('locations use a full-width panel, with collection and depicted places kept distinct', () => {
+  const data = structuredClone(library);
+  data.artworks[0].locations = { collection: location({ isImpression: true, mapQuery: 'Museum & Library, New York, USA' }), depicted: [location({ id: 'sea', name: '神奈川近海', region: '日本', note: '约略海域，未确定精确观景位置。' }), location({ id: 'mountain', name: '富士山', region: '日本', mapQuery: 'Mount Fuji, Japan' })] };
+  const panel = panels(buildMessages(data).cards[1])[0];
+  assert.equal(panel.columns.length, 1);
+  assert.equal(panel.columns[0].width, 'weighted');
+  const text = panel.columns[0].elements.map(e => e.content).join('\n');
+  assert(text.includes('此印本藏于') && text.includes('画中地点'));
+  assert.equal(text.split('画中地点').length - 1, 1);
+  assert(text.includes('约略海域，未确定精确观景位置。'));
+  assert(text.indexOf('某艺术博物馆') < text.indexOf('神奈川近海'));
+  const links = [...text.matchAll(/\[地图 ↗\]\(([^)]+)\)/g)].map(m => new URL(m[1]));
+  assert.deepEqual(links.map(u => u.searchParams.get('query')), ['Museum & Library, New York, USA', 'Mount Fuji, Japan']);
+  assert(links.every(u => u.origin === 'https://www.google.com' && u.searchParams.get('api') === '1'));
+  assert(!text.includes('verification') && !text.includes('2026-11-12'));
+});
+
+test('missing locations stay invisible; either location kind can appear without a map', () => {
+  const data = structuredClone(library);
+  data.artworks[0].locations = { collection: location() };
+  data.artworks[1].locations = { depicted: [location({ name: '历史范围', region: undefined })] };
+  const { cards } = buildMessages(data);
+  assert.equal(panels(cards[1]).length, 1);
+  assert.equal(panels(cards[2]).length, 1);
+  assert.equal(panels(cards[3]).length, 0);
+  assert(!JSON.stringify(panels(cards[1])).includes('画中地点'));
+  assert(!JSON.stringify(panels(cards[2])).includes('收藏地'));
+  assert(!JSON.stringify(cards).includes('maps/search'));
+});
+
+test('long location names and qualifiers are preserved, with markdown and URLs escaped', () => {
+  const data = structuredClone(library);
+  const name = '很长的馆藏机构名称'.repeat(20) + '<机构>[*馆*]';
+  const note = '这段历史范围说明不能截断。'.repeat(20);
+  const mapQuery = '中国山东 & Museum #1 (East) / café?';
+  data.artworks[0].locations = { collection: location({ name, note, mapQuery }) };
+  const text = JSON.stringify(panels(buildMessages(data).cards[1]));
+  assert(text.includes('很长的馆藏机构名称'.repeat(20)) && text.includes(note));
+  assert(text.includes('＜机构＞［＊馆＊］'));
+  const url = new URL(text.match(/\[地图 ↗\]\(([^)]+)\)/)[1]);
+  assert.equal(url.searchParams.get('query'), mapQuery);
+});
+
 test('sends a card to the chat with a bearer token and a stable dedupe uuid', async () => {
   const { impl, calls } = fakeFetch([
     { match: 'tenant_access_token', body: { code: 0, tenant_access_token: 't-secret-token' } },
@@ -200,6 +246,22 @@ test('a corrected message is not suppressed by the duplicate filter of the earli
     ]);
     await announce(announceArgs(impl));
     uuids.push(JSON.parse(calls.at(-2).init.body).uuid);
+  }
+  assert.notEqual(uuids[0], uuids[1]);
+});
+
+test('a location update changes the send key so a revised card is not silently discarded', async () => {
+  const uuids = [];
+  for (const name of ['原收藏地', '修订收藏地']) {
+    const data = structuredClone(library);
+    data.artworks[0].locations = { collection: location({ name }) };
+    const { impl, calls } = fakeFetch([
+      tokenOk,
+      { match: 'im/v1/images', body: { code: 0, data: { image_key: 'stable-key' } } },
+      { match: 'im/v1/messages', body: { code: 0, data: { message_id: 'om' } } },
+    ]);
+    await announce({ ...announceArgs(impl), library: data });
+    uuids.push(JSON.parse(calls.filter(c => c.url.includes('im/v1/messages'))[1].init.body).uuid);
   }
   assert.notEqual(uuids[0], uuids[1]);
 });

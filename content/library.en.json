@@ -1936,6 +1936,123 @@
           "region": "Chicago, USA"
         }
       }
+    },
+    "art-redoute-cabbage-rose": {
+      "locations": {
+        "collection": {
+          "name": "Cleveland Museum of Art",
+          "region": "Cleveland, USA"
+        }
+      }
+    },
+    "graphic-textile-with-flora": {
+      "locations": {
+        "collection": {
+          "name": "Cleveland Museum of Art",
+          "region": "Cleveland, USA"
+        }
+      }
+    },
+    "art-tiffany-flower-form-vase": {
+      "locations": {
+        "collection": {
+          "name": "Cleveland Museum of Art",
+          "region": "Cleveland, USA"
+        }
+      }
+    },
+    "ts-rouen-book-of-hours-may": {
+      "locations": {
+        "collection": {
+          "name": "Cleveland Museum of Art",
+          "region": "Cleveland, USA"
+        }
+      }
+    },
+    "graphic-schwitters-merz3-plate1": {
+      "locations": {
+        "collection": {
+          "name": "Cleveland Museum of Art",
+          "region": "Cleveland, USA"
+        }
+      }
+    },
+    "art-cotman-boats-storm": {
+      "locations": {
+        "collection": {
+          "name": "The Metropolitan Museum of Art",
+          "region": "New York, USA"
+        }
+      }
+    },
+    "ts-edo-shozu-1682": {
+      "locations": {
+        "collection": {
+          "name": "Library of Congress · Geography and Map Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "edo": {
+            "name": "Edo",
+            "region": "Present-day Tokyo, Japan",
+            "note": "A historical cadastral map; its extent and property boundaries differ from modern Tokyo."
+          }
+        }
+      }
+    },
+    "ts-fairchild-new-york-harbor-1934": {
+      "locations": {
+        "collection": {
+          "name": "Library of Congress · Prints and Photographs Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "new-york-harbor": {
+            "name": "New York Harbor",
+            "region": "New York, USA",
+            "note": "The map points to the harbor, not the position of the aircraft."
+          }
+        }
+      }
+    },
+    "art-balke-north-cape-moonlight": {
+      "locations": {
+        "collection": {
+          "name": "The Metropolitan Museum of Art",
+          "region": "New York, USA"
+        },
+        "depicted": {
+          "north-cape": {
+            "name": "North Cape",
+            "region": "Norway",
+            "note": "The artist visited in 1832 and painted this work in 1848; the map identifies the cape area only."
+          }
+        }
+      }
+    },
+    "ts-nightingale-army-east-mortality-1858": {
+      "locations": {
+        "collection": {
+          "name": "Wellcome Collection",
+          "region": "London, UK"
+        }
+      }
+    },
+    "ts-walters-cosmography-year-seasons": {
+      "locations": {
+        "collection": {
+          "name": "The Walters Art Museum",
+          "region": "Baltimore, USA"
+        }
+      }
+    },
+    "graphic-schiele-secession-49-1918": {
+      "locations": {
+        "collection": {
+          "name": "Wien Museum",
+          "region": "Vienna, Austria"
+        }
+      }
     }
   }
 }
