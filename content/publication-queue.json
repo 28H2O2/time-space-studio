@@ -900,6 +900,233 @@
           "addedAt": "2026-11-11T05:11:03.786Z"
         }
       ]
+    },
+    {
+      "id": "queue-stairs-and-levels",
+      "notBefore": "2026-11-18",
+      "title": "阶梯与高差",
+      "approvedBy": "codex",
+      "approvedAt": "2026-11-12T05:13:30.947Z",
+      "featuredIds": [
+        "photo-talbot-the-ladder",
+        "art-piranesi-zigzag-staircase",
+        "art-van-gogh-stairway-auvers"
+      ],
+      "artworks": [
+        {
+          "id": "photo-talbot-the-ladder",
+          "title": "梯子：门洞之间的三个人",
+          "titleOriginal": "The Ladder",
+          "creator": "William Henry Fox Talbot",
+          "year": "1844年4月",
+          "category": "time-space",
+          "methods": [
+            "连接两层",
+            "人物尺度",
+            "投影分离",
+            "正面构图"
+          ],
+          "topics": [
+            "早期摄影",
+            "垂直连接",
+            "建筑与人物"
+          ],
+          "sourceUrl": "https://www.getty.edu/art/collection/object/107R3B",
+          "locations": {
+            "collection": {
+              "id": "j-paul-getty-museum",
+              "name": "J. Paul Getty Museum",
+              "region": "美国，加利福尼亚州，洛杉矶",
+              "note": "本图对应Getty馆藏盐纸照片84.XZ.571.3.2；不是大英图书馆或科学博物馆所藏的另一印本。收藏信息不表示正在展出。",
+              "sourceUrl": "https://www.getty.edu/art/collection/object/107R3B",
+              "checkedAt": "2026-11-12",
+              "verification": "source",
+              "mapQuery": "J. Paul Getty Museum, 1200 Getty Center Drive, Los Angeles, United States",
+              "isImpression": true
+            },
+            "depicted": [
+              {
+                "id": "lacock-abbey-stableyard",
+                "name": "拉科克修道院马厩院",
+                "region": "英国，英格兰，威尔特郡，拉科克",
+                "note": "依据大英图书馆同构图《The Ladder》印本的明确场景描述定位；Getty页的Reading是制作地字段，未用作画中地点依据。地图指向修道院整体，未核实梯子所靠门洞的现代精确位置。",
+                "sourceUrl": "https://searcharchives.bl.uk/catalog/041-003305167",
+                "checkedAt": "2026-11-12",
+                "verification": "source",
+                "mapQuery": "Lacock Abbey, Lacock, Wiltshire, United Kingdom"
+              }
+            ]
+          },
+          "imageKey": "photo-talbot-the-ladder.jpg",
+          "rights": {
+            "label": "CC0（Getty Open Content）",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "William Henry Fox Talbot, The Ladder, April 1844, salted paper print. The J. Paul Getty Museum, Los Angeles, 84.XZ.571.3.2. Digital image courtesy of Getty's Open Content Program.",
+            "usage": "从Getty作品页对应的IIIF服务下载原尺寸8887×7016 px JPEG；保留完整装裱纸边和右下角原有手写编号，未裁剪、未调色。用于选图展示与原创短评。"
+          },
+          "observation": "浅褐色照片中，一架梯子从地面斜靠到上层矩形门洞，梯身和投影分开落在墙面上。两人站在梯脚两侧，另一人站在上层门洞内。底层拱门、上层方门与梯子集中在中央，藤蔓覆盖两侧墙面。图像四周保留宽装裱纸边，右下有手写14；未见水印或色卡。",
+          "evidence": "已打开Getty具体作品页，核对馆藏号84.XZ.571.3.2、作者、1844年4月、盐纸照片及页面结构化资料的CC0许可；另核对馆方提供给Google Arts & Culture的对象记录及Getty Open Content政策。原图取自该页绑定的IIIF图像43573acc-b72c-44af-8486-bd8f738a304f，info.json确认原尺寸8887×7016。已实际打开本次下载文件查看。收藏地对应Getty这一印本。画中地点另查大英图书馆Talbot Photo 16(33)：描述同样的三人、梯子、上层门洞和马厩院，并列为《自然的画笔》第14图；据其明确记录定位拉科克修道院，而非将Getty的Reading制作地字段当作场景。科学博物馆同题印本记录亦指向Lacock Abbey。",
+          "analysis": {
+            "structure": "梯子把地面与上层门洞连成一条路径，三个人的位置让高差有了身体尺度。梯身与投影分开，又帮助辨认墙面和梯子之间的距离。",
+            "borrow": "表现不同高度的连接时，可以先给出两端，再用人物或小物体标出尺度；让连接物与背景有可辨认的间隔。",
+            "application": "用于剖面图、楼层连通示意或设备安装说明。若要作为可执行路线，还需补充真实尺寸和方向，不能从这张正面照片推算坡度。"
+          },
+          "width": 8887,
+          "height": 7016,
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-12T05:13:30.947Z",
+            "inputHash": "c2e98b467d619476deb7fa18e27d0ea4273f3e4195a276d2179c849429b8dbf4",
+            "referenceSources": [
+              "https://www.getty.edu/art/collection/object/107R3B",
+              "https://artsandculture.google.com/asset/the-ladder-william-henry-fox-talbot/SgFl1vNwbaHydA?hl=en",
+              "https://www.getty.edu/projects/open-content-program/",
+              "https://creativecommons.org/publicdomain/zero/1.0/",
+              "https://searcharchives.bl.uk/catalog/041-003305167",
+              "https://collection.sciencemuseumgroup.org.uk/objects/co8237756/the-ladder",
+              "https://media.getty.edu/iiif/image/43573acc-b72c-44af-8486-bd8f738a304f/info.json",
+              "https://media.getty.edu/iiif/image/43573acc-b72c-44af-8486-bd8f738a304f/full/max/0/default.jpg"
+            ]
+          },
+          "addedAt": "2026-11-12T05:13:30.947Z"
+        },
+        {
+          "id": "art-piranesi-zigzag-staircase",
+          "title": "监狱：柱廊间的折返楼梯",
+          "titleOriginal": "The Prisons: A Perspective of Colonnades with Zig-Zag Staircase",
+          "creator": "Giovanni Battista Piranesi",
+          "year": "1745—1750",
+          "category": "time-space",
+          "methods": [
+            "折返路径",
+            "层间遮挡",
+            "人物尺度",
+            "排线明暗"
+          ],
+          "topics": [
+            "建筑想象",
+            "空间层次",
+            "蚀刻版画"
+          ],
+          "sourceUrl": "https://www.clevelandart.org/art/1941.26.12",
+          "locations": {
+            "collection": {
+              "id": "cleveland-museum-of-art",
+              "name": "Cleveland Museum of Art",
+              "region": "美国，俄亥俄州，克利夫兰",
+              "note": "本图对应馆藏号1941.26.12这一蚀刻印本，馆方列版次状态H. I/III；不能以《监狱》其他印本的馆藏替代。收藏信息不表示正在展出。",
+              "sourceUrl": "https://www.clevelandart.org/art/1941.26.12",
+              "checkedAt": "2026-11-12",
+              "verification": "source",
+              "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, United States",
+              "isImpression": true
+            }
+          },
+          "imageKey": "art-piranesi-zigzag-staircase.jpg",
+          "rights": {
+            "label": "CC0（Cleveland Museum of Art）",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Giovanni Battista Piranesi, The Prisons: A Perspective of Colonnades with Zig-Zag Staircase, 1745–50, etching, state H. I/III. The Cleveland Museum of Art, Dudley P. Allen Fund, 1941.26.12.",
+            "usage": "从馆方开放服务下载最高分辨率TIFF（6249×4825 px），保持像素尺寸转换为JPEG，保留ICC色彩配置；未裁剪、未调色。完整保留纸边。用于选图展示与原创短评。"
+          },
+          "observation": "黑褐色排线组成石柱、拱券和多段楼梯。前景楼梯从下方向左侧平台延伸，中部另一段阶梯斜向右上；栏杆、柱脚与拱洞互相遮挡。上方木梁交叉，右侧垂下绳索，几处小人站在平台或墙边。纸张边缘和中间折痕可见；未见馆方水印或色卡。",
+          "evidence": "已打开Cleveland Museum of Art作品页和官方API记录120426，核对作者、1745–50、蚀刻媒介、馆藏号1941.26.12、版次状态H. I/III及Dudley P. Allen Fund。作品页允许复制与修改，API的share_license_status为CC0，并提供6249×4825 TIFF；另查馆方开放政策和CC0页面。已实际查看由该原图转换的JPEG，画面为柱廊与折返楼梯。收藏地对应此馆这一印本。主动核验画中地点：本作属于《监狱》系列，馆方同组1941.26.8说明该系列描绘想象监狱而非对真实监狱的观察；未找到本作可对应的现实地点，故省略locations.depicted和地图，不将罗马或意大利制作背景充作场景。",
+          "analysis": {
+            "structure": "楼梯反复转向，又被石柱和拱券截住，视线必须在前后层之间跳转。小人物提供尺度，但画面没有给出一条能够完整核对的通行路线。",
+            "borrow": "用重复斜线和遮挡表现多层空间时，应区分制造空间感与说明连通关系。前者可以保留暧昧，后者需要明确每段路径的起点和终点。",
+            "application": "可作为多层关卡、展览动线草图的构图参考。转成导航图时，应另绘实际连通节点，避免让视觉上交叉的楼梯被误读为相通。"
+          },
+          "width": 6249,
+          "height": 4825,
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-12T05:13:30.947Z",
+            "inputHash": "8348d3636b83cee8c572f888166ce2c01416e36c04a8bf98101173f0e337212c",
+            "referenceSources": [
+              "https://www.clevelandart.org/art/1941.26.12",
+              "https://openaccess-api.clevelandart.org/api/artworks/120426",
+              "https://www.clevelandart.org/open-access",
+              "https://creativecommons.org/publicdomain/zero/1.0/",
+              "https://www.clevelandart.org/art/1941.26.8",
+              "https://openaccess-cdn.clevelandart.org/1941.26.12/1941.26.12_full.tif"
+            ]
+          },
+          "addedAt": "2026-11-12T05:13:30.947Z"
+        },
+        {
+          "id": "art-van-gogh-stairway-auvers",
+          "title": "奥维尔的阶梯：街路中的高差",
+          "titleOriginal": "Stairway at Auvers",
+          "creator": "Vincent van Gogh",
+          "year": "1890年5月下旬至6月中旬",
+          "category": "art",
+          "methods": [
+            "弯曲道路",
+            "阶梯转向",
+            "色彩分区",
+            "人物尺度"
+          ],
+          "topics": [
+            "村镇空间",
+            "油画",
+            "道路与高差"
+          ],
+          "sourceUrl": "https://www.slam.org/collection/objects/33826/",
+          "locations": {
+            "collection": {
+              "id": "saint-louis-art-museum",
+              "name": "Saint Louis Art Museum",
+              "region": "美国，密苏里州，圣路易斯",
+              "note": "本图对应馆藏油画1:1935（Museum Purchase）；来源页的收藏沿革记载馆方于1934年购入。收藏信息不表示当前展厅状态。",
+              "sourceUrl": "https://www.slam.org/collection/objects/33826/",
+              "checkedAt": "2026-11-12",
+              "verification": "source",
+              "mapQuery": "Saint Louis Art Museum, One Fine Arts Drive, St. Louis, United States"
+            },
+            "depicted": [
+              {
+                "id": "auvers-sur-oise",
+                "name": "瓦兹河畔奥维尔",
+                "region": "法国，法兰西岛大区",
+                "note": "馆方对象记录明确在depicts字段列出Auvers-sur-Oise。此处只标示村镇范围，未据画面或题名认定现代具体街名、阶梯地址或作画机位。",
+                "sourceUrl": "https://www.slam.org/collection/objects/33826/",
+                "checkedAt": "2026-11-12",
+                "verification": "source",
+                "mapQuery": "Auvers-sur-Oise, Île-de-France, France"
+              }
+            ]
+          },
+          "imageKey": "art-van-gogh-stairway-auvers.jpg",
+          "rights": {
+            "label": "公有领域（Saint Louis Art Museum）",
+            "url": "https://www.slam.org/public-domain-and-open-access/",
+            "credit": "Vincent van Gogh, Stairway at Auvers, late May–mid June 1890, oil on canvas. Saint Louis Art Museum, Museum Purchase, 1:1935.",
+            "usage": "从馆方当前作品页的Download链接下载原始JPEG（6000×4240 px），未裁剪、未调色或重新编码。用于选图展示与原创短评。"
+          },
+          "observation": "蓝绿色和黄色短笔触覆盖村路、树叶及墙面。浅色道路从前景向中央收拢，阶梯随后转向右上，通往上方房屋之间。中央两位深衣人物背向观者，左下另有两位浅衣人物，阶梯上还有一位持杖者。深色栏杆沿阶梯弯折，天空只在上缘露出少量蓝色；未见水印、色卡或装饰画框。",
+          "evidence": "已打开Saint Louis Art Museum具体作品页，核对Vincent van Gogh、late May-mid June 1890、布面油画、馆藏号1:1935与Museum Purchase。作品页标注Public Domain，已打开其公有领域说明及Terms of Use；条款B允许无限制下载和使用公有领域内容。当前页Download指向CloudFront文件11935dig_o2.jpg，本次直接下载该文件并实际打开查看，尺寸6000×4240，文件小于20 MB。另打开可追溯至同一馆藏的Commons文件页，发现其日期写July 1890，与馆方当前记录不同；本条采用馆方较新的具体日期，不沿用Commons日期。收藏沿革明确记载本画1934年由馆方购入；画中地点采用对象记录独立的depicts字段所列Auvers-sur-Oise，不以made in字段或画家居住地推断，未核实具体街道。",
+          "analysis": {
+            "structure": "道路先向画面深处收拢，再接上向右上方升起的阶梯。深色栏杆让阶梯边界保持连续，人物把平面道路和高处通道放进同一尺度中。",
+            "borrow": "需要表现路线转向并抬升时，可以让道路、阶梯和栏杆接续出现，再用不同位置的人物说明各段的比例。色彩和笔触可以强调走势，但不能代替高程数据。",
+            "application": "用于步行路线插图或山地聚落的空间速写。实际导航需另附台阶数量、坡度和无障碍替代路径，避免把绘画中的弯曲当作可量测的道路几何。"
+          },
+          "width": 6000,
+          "height": 4240,
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-12T05:13:30.947Z",
+            "inputHash": "a988dfdd97ca5e9f1f0539f996d6ee0b11c570179af594c28e6ecf61762ded84",
+            "referenceSources": [
+              "https://www.slam.org/collection/objects/33826/",
+              "https://www.slam.org/public-domain-and-open-access/",
+              "https://www.slam.org/terms-of-use/",
+              "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Stairway_at_Auvers_-_1-1935_-_Saint_Louis_Art_Museum.jpg",
+              "https://d23gjylftzdlen.cloudfront.net/db_photo/d9710/u152297107/11935dig_o2.jpg"
+            ]
+          },
+          "addedAt": "2026-11-12T05:13:30.947Z"
+        }
+      ]
     }
   ]
 }
