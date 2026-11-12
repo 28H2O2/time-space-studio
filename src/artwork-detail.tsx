@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowRight, ArrowUpRight, Bookmark, Check, Plus, X } from 'lucide-react';
 import type { Artwork, Note } from './lib/types';
 import ImageViewer from './image-viewer';
+import ArtworkLocations from './artwork-locations';
 import { useLang, categoryLabels } from './lib/lang';
 import { formatDate } from './lib/i18n';
 export default function ArtworkDetail({ artwork, note, compared, externallySaving, onClose, onCompare, onSave }: { artwork: Artwork; note: Note; compared: boolean; externallySaving: boolean; onClose: () => void; onCompare: () => void; onSave: (note: Note) => Promise<void> }) {
@@ -41,6 +42,7 @@ export default function ArtworkDetail({ artwork, note, compared, externallySavin
     <div className="detail-top"><span>{categories[artwork.category]}<span className="separator">/</span>{artwork.year}</span><button className="icon-button" aria-label={c.close} onClick={onClose}><X size={22} /></button></div>
     <div className="detail-body"><section className="detail-visual"><ImageViewer artwork={artwork} /><div className="detail-credit">{artwork.rights.credit}</div></section><aside className="detail-text">
       <h1 id="detail-title">{artwork.title}</h1><p className="original-title">{artwork.titleOriginal}</p><p className="creator-line">{artwork.creator}<span> · {artwork.year}</span></p>
+      <ArtworkLocations locations={artwork.locations} />
       <div className="tag-row">{artwork.methods.map(m => <span key={m}>{m}</span>)}</div>
       <div className="analysis-block">{(['structure', 'borrow', 'application'] as const).map(key => <section key={key}><h2>{c[key]}</h2><p>{artwork.analysis[key]}</p></section>)}</div>
       <div className="detail-actions">{<button className={`text-button ${draft.favorite ? 'selected' : ''}`} disabled={busy} onClick={() => { const next = { ...draft, favorite: !draft.favorite }; setDraft(next); void save(next); }}><Bookmark size={15} fill={draft.favorite ? 'currentColor' : 'none'} />{draft.favorite ? c.favorited : c.favorite}</button>}<button className="text-button" onClick={onCompare}>{compared ? <Check size={16} /> : <Plus size={16} />}{compared ? c.removeCompare : c.addCompare}</button></div>

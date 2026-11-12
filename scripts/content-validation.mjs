@@ -7,6 +7,52 @@ export const text = value => typeof value === 'string' && value.trim().length > 
 export const url = value => { try { return new URL(value).protocol === 'https:'; } catch { return false; } };
 export const sha256 = bytes => createHash('sha256').update(bytes).digest('hex');
 
+const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
+export function validateLocations(locations, id) {
+  if (locations === undefined) return;
+  assert(object(locations), `Invalid locations: ${id}`);
+  const places = [];
+  if (locations.collection !== undefined) {
+    assert(object(locations.collection), `Invalid collection location: ${id}`);
+    assert(locations.collection.isImpression === undefined || typeof locations.collection.isImpression === 'boolean', `Invalid impression flag: ${id}`);
+    places.push(locations.collection);
+  }
+  if (locations.depicted !== undefined) {
+    assert(Array.isArray(locations.depicted) && locations.depicted.length > 0, `Invalid depicted locations: ${id}`);
+    assert(new Set(locations.depicted.map(p => p?.id)).size === locations.depicted.length, `Duplicate depicted location: ${id}`);
+    places.push(...locations.depicted);
+  }
+  assert(places.length > 0, `Empty locations: ${id}`);
+  for (const place of places) {
+    assert(object(place) && typeof place.id === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(place.id) && text(place.name), `Invalid location name or id: ${id}`);
+    for (const key of ['region', 'note', 'mapQuery']) assert(place[key] === undefined || text(place[key]), `Empty location ${key}: ${id}`);
+    assert(url(place.sourceUrl), `Invalid location source: ${id}`);
+    assert(isDay(place.checkedAt), `Invalid location check date: ${id}`);
+    assert(['source', 'catalogue-record'].includes(place.verification), `Invalid location verification: ${id}`);
+  }
+}
+
+function validateLocationTranslations(locations, overlay, id) {
+  if (overlay === undefined) return;
+  assert(object(overlay) && locations, `Invalid English locations: ${id}`);
+  assert(Object.keys(overlay).every(k => ['collection', 'depicted'].includes(k)), `Unknown English location field: ${id}`);
+  const checkText = entry => {
+    assert(object(entry) && Object.keys(entry).every(k => ['name', 'region', 'note'].includes(k)), `English locations may only translate text: ${id}`);
+    for (const value of Object.values(entry)) assert(text(value), `Empty English location text: ${id}`);
+  };
+  if (overlay.collection !== undefined) {
+    assert(locations.collection, `English collection without base location: ${id}`);
+    checkText(overlay.collection);
+  }
+  if (overlay.depicted !== undefined) {
+    assert(object(overlay.depicted), `Invalid English depicted locations: ${id}`);
+    for (const [placeId, entry] of Object.entries(overlay.depicted)) {
+      assert(locations.depicted?.some(p => p.id === placeId), `Unknown English depicted location: ${id}/${placeId}`);
+      checkText(entry);
+    }
+  }
+}
+
 export function validateArtworks(artworks, readImage) {
   assert(Array.isArray(artworks) && artworks.length > 0);
   const ids = new Set(), images = new Set(), hashes = new Set();
@@ -16,6 +62,7 @@ export function validateArtworks(artworks, readImage) {
     assert(['time-space', 'graphic', 'art'].includes(a.category), `Invalid category: ${a.id}`);
     for (const key of ['title', 'titleOriginal', 'creator', 'year', 'observation', 'evidence']) assert(text(a[key]), `Missing ${key}: ${a.id}`);
     assert(url(a.sourceUrl), `Invalid source: ${a.id}`);
+    validateLocations(a.locations, a.id);
     for (const key of ['methods', 'topics']) assert(Array.isArray(a[key]) && a[key].length && a[key].every(text), `Missing ${key}: ${a.id}`);
     for (const key of ['structure', 'borrow', 'application']) assert(text(a.analysis?.[key]), `Missing analysis: ${a.id}`);
     for (const key of ['label', 'credit', 'usage']) assert(text(a.rights?.[key]), `Missing rights: ${a.id}`);
@@ -53,6 +100,7 @@ export function validateTranslations(artworks, overlay, references, referenceOve
     for (const key of ['methods', 'topics']) assert(entry[key] === undefined || textList(entry[key]), `Empty English ${key}: ${id}`);
     textFields(entry.analysis ?? {}, ['structure', 'borrow', 'application'], id);
     textFields(entry.rights ?? {}, ['label', 'credit', 'usage'], id);
+    validateLocationTranslations(artworks.find(a => a.id === id).locations, entry.locations, id);
     // Method filters work on the translated terms, so partial arrays would mix languages.
     for (const key of ['methods', 'topics']) assert(entry[key] === undefined || entry[key].length === artworks.find(a => a.id === id)[key].length, `English ${key} must match the original count: ${id}`);
   }

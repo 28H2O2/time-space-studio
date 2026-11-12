@@ -616,7 +616,20 @@
           "https://www.jpl.nasa.gov/jpl-image-use-policy/"
         ]
       },
-      "addedAt": "2026-11-07T00:02:35.286Z"
+      "addedAt": "2026-11-07T00:02:35.286Z",
+      "locations": {
+        "depicted": [
+          {
+            "id": "earth",
+            "name": "地球",
+            "region": "太阳系",
+            "note": "旅行者1号从太空拍摄，不对应地面的拍摄地点。",
+            "sourceUrl": "https://science.nasa.gov/photojournal/solar-system-portrait-earth-as-pale-blue-dot/",
+            "checkedAt": "2026-11-12",
+            "verification": "source"
+          }
+        ]
+      }
     },
     {
       "id": "art-anon-life-on-the-river",
@@ -664,7 +677,18 @@
           "https://www.si.edu/openaccess"
         ]
       },
-      "addedAt": "2026-11-07T00:02:35.286Z"
+      "addedAt": "2026-11-07T00:02:35.286Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "弗利尔美术馆（史密森尼国立亚洲艺术博物馆）",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://asia.si.edu/object/F1909.239/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Freer Gallery of Art, Washington, DC, USA"
+        }
+      }
     },
     {
       "id": "ts-durer-northern-sky-1515",
@@ -711,7 +735,19 @@
           "https://www.artic.edu/iiif/2/8d78cb88-9377-3e24-c62c-9bcc16ac3920/full/1686,/0/default.jpg"
         ]
       },
-      "addedAt": "2026-11-06T03:05:05.398Z"
+      "addedAt": "2026-11-06T03:05:05.398Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://www.artic.edu/artworks/106550",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "graphic-katagami-mallows",
@@ -758,7 +794,18 @@
           "https://www.artic.edu/iiif/2/9b6a6782-a9e2-c3e7-bebe-76fd8dacabc2/full/1686,/0/default.jpg"
         ]
       },
-      "addedAt": "2026-11-06T03:05:05.398Z"
+      "addedAt": "2026-11-06T03:05:05.398Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://www.artic.edu/artworks/60674",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA"
+        }
+      }
     },
     {
       "id": "ts-delano-chicago-rail-yard-night",
@@ -807,7 +854,29 @@
           "https://tile.loc.gov/storage-services/master/pnp/fsa/8d11000/8d11200/8d11258u.tif"
         ]
       },
-      "addedAt": "2026-11-05T03:06:18.876Z"
+      "addedAt": "2026-11-05T03:06:18.876Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 版画与摄影部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/pictures/item/2017836467/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA"
+        },
+        "depicted": [
+          {
+            "id": "chicago-yard",
+            "name": "芝加哥铁路编组场",
+            "region": "美国伊利诺伊州",
+            "note": "未核实可对应现代地图的具体场址。",
+            "sourceUrl": "https://www.loc.gov/pictures/item/2017836467/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "art-delaunay-la-tour",
@@ -856,7 +925,19 @@
           "https://openaccess-cdn.clevelandart.org/1989.59/1989.59_print.jpg"
         ]
       },
-      "addedAt": "2026-11-05T03:06:18.876Z"
+      "addedAt": "2026-11-05T03:06:18.876Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "克利夫兰艺术博物馆",
+          "region": "美国克利夫兰",
+          "sourceUrl": "https://www.clevelandart.org/art/1989.59",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "art-avercamp-winter-skaters",
@@ -905,7 +986,18 @@
           "https://data.rijksmuseum.nl/search/collection?objectNumber=SK-A-1718"
         ]
       },
-      "addedAt": "2026-11-04T03:37:29.036Z"
+      "addedAt": "2026-11-04T03:37:29.036Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "荷兰国立博物馆",
+          "region": "荷兰阿姆斯特丹",
+          "sourceUrl": "https://www.rijksmuseum.nl/en/collection/object/Winter-Landscape-with-Ice-Skaters--918895dc18da94e357c6763adda8882f",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Rijksmuseum, Amsterdam, Netherlands"
+        }
+      }
     },
     {
       "id": "ts-anonymous-dam-square-panorama",
@@ -954,7 +1046,29 @@
           "https://data.rijksmuseum.nl/search/collection?type=photograph&imageAvailable=true&title=panorama"
         ]
       },
-      "addedAt": "2026-11-04T03:37:29.036Z"
+      "addedAt": "2026-11-04T03:37:29.036Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "荷兰国立博物馆",
+          "region": "荷兰阿姆斯特丹",
+          "sourceUrl": "https://www.rijksmuseum.nl/en/collection/object/Panorama-of-Dam-Square-in-Amsterdam--9bd13ad02ec4e5ee33ced062b3e2b06b",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "Rijksmuseum, Amsterdam, Netherlands"
+        },
+        "depicted": [
+          {
+            "id": "dam-square",
+            "name": "水坝广场",
+            "region": "荷兰阿姆斯特丹",
+            "sourceUrl": "https://www.rijksmuseum.nl/en/collection/object/Panorama-of-Dam-Square-in-Amsterdam--9bd13ad02ec4e5ee33ced062b3e2b06b",
+            "checkedAt": "2026-11-12",
+            "verification": "source",
+            "mapQuery": "Dam Square, Amsterdam, Netherlands"
+          }
+        ]
+      }
     },
     {
       "id": "ts-muzaffari-astrolabe-1291",
@@ -1002,7 +1116,18 @@
           "https://images.metmuseum.org/CRDImages/is/original/DP170386.jpg"
         ]
       },
-      "addedAt": "2026-11-03T02:43:07.763Z"
+      "addedAt": "2026-11-03T02:43:07.763Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "大都会艺术博物馆",
+          "region": "美国纽约",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/444408",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, USA"
+        }
+      }
     },
     {
       "id": "graphic-shunman-rotating-calendar-1795",
@@ -1050,7 +1175,19 @@
           "https://images.metmuseum.org/CRDImages/as/original/DP-14464-005.jpg"
         ]
       },
-      "addedAt": "2026-11-03T02:43:07.763Z"
+      "addedAt": "2026-11-03T02:43:07.763Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "大都会艺术博物馆",
+          "region": "美国纽约",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/77876",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "photo-dovizielli-spanish-steps",
@@ -1095,7 +1232,29 @@
           "https://www.metmuseum.org/policies/image-resources"
         ]
       },
-      "addedAt": "2026-10-31T00:01:47.629Z"
+      "addedAt": "2026-10-31T00:01:47.629Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "大都会艺术博物馆",
+          "region": "美国纽约",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/834929",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, USA"
+        },
+        "depicted": [
+          {
+            "id": "piazza-di-spagna",
+            "name": "西班牙广场与西班牙阶梯",
+            "region": "意大利罗马",
+            "sourceUrl": "https://www.metmuseum.org/art/collection/search/834929",
+            "checkedAt": "2026-11-12",
+            "verification": "source",
+            "mapQuery": "Spanish Steps, Piazza di Spagna, Rome, Italy"
+          }
+        ]
+      }
     },
     {
       "id": "graphic-gregg-be-kind-books",
@@ -1140,7 +1299,19 @@
           "https://tile.loc.gov/storage-services/service/pnp/ppmsca/31200/31267v.jpg"
         ]
       },
-      "addedAt": "2026-10-26T03:00:15.372Z"
+      "addedAt": "2026-10-26T03:00:15.372Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 版画与摄影部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/2011645392/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "ts-hergesheimer-virginia-1861",
@@ -1185,7 +1356,30 @@
           "https://tile.loc.gov/image-services/iiif/service:gmd:gmd388:g3881:g3881e:cw1047000/full/pct:25/0/default.jpg"
         ]
       },
-      "addedAt": "2026-10-26T03:00:15.372Z"
+      "addedAt": "2026-10-26T03:00:15.372Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 地理与地图部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/2010586922/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "virginia",
+            "name": "弗吉尼亚州",
+            "region": "美国，1860年统计范围",
+            "note": "采用历史州界，不等同今天的弗吉尼亚州范围。",
+            "sourceUrl": "https://www.loc.gov/item/2010586922/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-world-time-zones-2006",
@@ -1230,7 +1424,29 @@
           "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3201:g3201b:ct001924/full/pct:25/0/default.jpg"
         ]
       },
-      "addedAt": "2026-10-26T03:00:15.372Z"
+      "addedAt": "2026-10-26T03:00:15.372Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 地理与地图部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/2006629909/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "world",
+            "name": "全球",
+            "note": "2006年版时区与边界，不代表现行规则。",
+            "sourceUrl": "https://www.loc.gov/item/2006629909/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "graphic-hirt-national-parks-wildlife",
@@ -1275,7 +1491,19 @@
           "https://tile.loc.gov/storage-services/service/pnp/ppmsca/23000/23061v.jpg"
         ]
       },
-      "addedAt": "2026-10-26T03:00:15.372Z"
+      "addedAt": "2026-10-26T03:00:15.372Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 版画与摄影部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/98518597/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "art-hiroshige-kameido-triptych",
@@ -1320,7 +1548,30 @@
           "https://tile.loc.gov/storage-services/service/pnp/jpd/02700/02758v.jpg"
         ]
       },
-      "addedAt": "2026-10-26T03:00:15.372Z"
+      "addedAt": "2026-10-26T03:00:15.372Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 版画与摄影部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/2008661242/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "kameido",
+            "name": "龟户梅屋敷",
+            "region": "日本江户（今东京）",
+            "note": "历史梅园，未确认现代精确位置。",
+            "sourceUrl": "https://www.loc.gov/item/2008661242/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-parsons-san-francisco-1878",
@@ -1365,7 +1616,31 @@
           "https://tile.loc.gov/image-services/iiif/service:gmd:gmd436:g4364:g4364s:pm000371/full/pct:25/0/default.jpg"
         ]
       },
-      "addedAt": "2026-10-26T03:00:15.372Z"
+      "addedAt": "2026-10-26T03:00:15.372Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 地理与地图部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/75693104/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "san-francisco",
+            "name": "旧金山",
+            "region": "美国加利福尼亚州",
+            "note": "1878年的透视鸟瞰图，不按比例绘制。",
+            "sourceUrl": "https://www.loc.gov/item/75693104/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record",
+            "mapQuery": "San Francisco, California, USA"
+          }
+        ]
+      }
     },
     {
       "id": "art-hokusai-sunshu-ejiri",
@@ -1410,7 +1685,30 @@
           "https://tile.loc.gov/storage-services/service/pnp/jpd/00400/00406v.jpg"
         ]
       },
-      "addedAt": "2026-10-26T03:00:15.372Z"
+      "addedAt": "2026-10-26T03:00:15.372Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 版画与摄影部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/2009615396/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "ejiri",
+            "name": "骏州江尻",
+            "region": "日本",
+            "note": "历史地名；画中远景为富士山，未确定精确观景点。",
+            "sourceUrl": "https://www.loc.gov/item/2009615396/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-maury-atlantic-trade-winds-1851",
@@ -1455,7 +1753,29 @@
           "https://tile.loc.gov/image-services/iiif/service:gmd:gmd9:g9101:g9101c:ct009511/full/pct:25/0/default.jpg"
         ]
       },
-      "addedAt": "2026-10-26T03:00:15.372Z"
+      "addedAt": "2026-10-26T03:00:15.372Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 地理与地图部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/2009575918/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "atlantic",
+            "name": "大西洋",
+            "note": "所绘范围为大西洋信风区。",
+            "sourceUrl": "https://www.loc.gov/item/2009575918/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-china-annual-isotherms-1878",
@@ -1500,7 +1820,29 @@
           "https://tile.loc.gov/image-services/iiif/service:gmd:gmdsetmaps:20:07:62:78:08:2007627808:cs000001/full/pct:25/0/default.jpg"
         ]
       },
-      "addedAt": "2026-10-26T03:00:15.372Z"
+      "addedAt": "2026-10-26T03:00:15.372Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 地理与地图部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/2007627808/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "china",
+            "name": "中国及周边地区",
+            "note": "历史气候图的覆盖范围。",
+            "sourceUrl": "https://www.loc.gov/item/2007627808/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "graphic-welsh-visit-zoo",
@@ -1545,7 +1887,19 @@
           "https://tile.loc.gov/storage-services/service/pnp/cph/3f00000/3f05000/3f05600/3f05606v.jpg"
         ]
       },
-      "addedAt": "2026-10-26T03:00:15.372Z"
+      "addedAt": "2026-10-26T03:00:15.372Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 版画与摄影部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/98518441/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "ts-magnus-telegraph-1858",
@@ -1590,7 +1944,29 @@
           "https://tile.loc.gov/image-services/iiif/service:gmd:gmd3:g3201:g3201p:ct000465/full/pct:25/0/default.jpg"
         ]
       },
-      "addedAt": "2026-10-26T03:00:15.372Z"
+      "addedAt": "2026-10-26T03:00:15.372Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 地理与地图部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/99466769/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "atlantic-cable",
+            "name": "美洲与欧洲之间的大西洋",
+            "note": "电报联系的示意范围，不是可用于导航的精确线路。",
+            "sourceUrl": "https://www.loc.gov/item/99466769/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-ensign-eastern-railroads-1856",
@@ -1635,7 +2011,29 @@
           "https://tile.loc.gov/image-services/iiif/service:gmd:gmd371:g3716:g3716p:rr000850/full/pct:25/0/default.jpg"
         ]
       },
-      "addedAt": "2026-10-26T03:00:15.372Z"
+      "addedAt": "2026-10-26T03:00:15.372Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 地理与地图部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/98688360/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "eastern-us",
+            "name": "美国东部与新英格兰",
+            "note": "1856年铁路图的覆盖范围。",
+            "sourceUrl": "https://www.loc.gov/item/98688360/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "contemporary-ocean-2025",
@@ -1679,7 +2077,19 @@
           "https://svs.gsfc.nasa.gov/help/"
         ]
       },
-      "addedAt": "2026-10-22T11:57:32.179538+00:00"
+      "addedAt": "2026-10-22T11:57:32.179538+00:00",
+      "locations": {
+        "depicted": [
+          {
+            "id": "oceans",
+            "name": "全球海洋",
+            "note": "海流模型可视化；原作展示黑潮、厄加勒斯流和墨西哥湾流。",
+            "sourceUrl": "https://svs.gsfc.nasa.gov/5425/",
+            "checkedAt": "2026-11-12",
+            "verification": "source"
+          }
+        ]
+      }
     },
     {
       "id": "contemporary-openmoji-map",
@@ -1814,7 +2224,30 @@
           "https://www.metmuseum.org/hubs/open-access"
         ]
       },
-      "addedAt": "2026-10-22T09:14:40Z"
+      "addedAt": "2026-10-22T09:14:40Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "大都会艺术博物馆",
+          "region": "美国纽约",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/49156",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, USA"
+        },
+        "depicted": [
+          {
+            "id": "mount-tai",
+            "name": "泰山",
+            "region": "中国山东",
+            "note": "全卷描绘济南至泰山；本站展示泰山段。部分连接山水为想象景观。",
+            "sourceUrl": "https://www.metmuseum.org/art/collection/search/49156",
+            "checkedAt": "2026-11-12",
+            "verification": "source",
+            "mapQuery": "Mount Tai, Shandong, China"
+          }
+        ]
+      }
     },
     {
       "id": "ts-ibry-paris-lyon-1878",
@@ -1862,7 +2295,20 @@
           "https://fr.wikisource.org/wiki/Page:Marey_-_La_m%C3%A9thode_graphique,_1885.djvu/49"
         ]
       },
-      "addedAt": "2026-10-22T09:14:40Z"
+      "addedAt": "2026-10-22T09:14:40Z",
+      "locations": {
+        "depicted": [
+          {
+            "id": "paris-lyon",
+            "name": "巴黎—里昂铁路沿线",
+            "region": "法国",
+            "note": "历史列车运行图，位置按沿线里程组织；不作为现代线路导航。",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ibry's_Visual_Train_Schedule.png",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-priestley-history-1769",
@@ -1952,7 +2398,19 @@
         "generatedAt": "2026-10-22T04:33:00.767499+00:00",
         "inputHash": "b8a383859d805bfeefd2fe4ccb2b338d87e9a0886e2d6145c6457d65efa1aae8"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~226109~5505931:Page-9--Adams--Synchronological-Cha",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "ts-bacon-routes",
@@ -1994,7 +2452,29 @@
         "generatedAt": "2026-10-22T04:30:16.343736+00:00",
         "inputHash": "8f7464b9ba5fcfb1d24a1b399061a469d1399d32a3cb4b086dff17a80234a8da"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~345960~90113417:Bacon-s-Library-&-Commercial-Route-",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "world",
+            "name": "全球",
+            "note": "主图为世界航线；附图比较从伦敦、墨尔本和纽约出发的旅行时间。",
+            "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~345960~90113417:Bacon-s-Library-&-Commercial-Route-",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-carey-europe",
@@ -2037,7 +2517,29 @@
         "generatedAt": "2026-10-22T04:29:43.829057+00:00",
         "inputHash": "fe225ed7a6bf971c59b4ebca2f9d81647cfa718034494a684392e5f0ab764fd9"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~35421~1200340",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "europe",
+            "name": "欧洲",
+            "note": "1789—1815年事件的区域背景；图表中的国家栏不是地理坐标。",
+            "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~35421~1200340",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-carey-persia",
@@ -2080,7 +2582,29 @@
         "generatedAt": "2026-10-22T04:29:59.265145+00:00",
         "inputHash": "9aacf41ec87761a717ab753a4534214722dc52617d44ea381466ad40c87b13e9"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~35480~1200399",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "ottoman-persia",
+            "name": "奥斯曼帝国与波斯",
+            "note": "历史政权范围；不对应现代国界。",
+            "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~35480~1200399",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-london-1908",
@@ -2123,7 +2647,31 @@
         "generatedAt": "2026-10-22T04:30:16.343736+00:00",
         "inputHash": "8f7464b9ba5fcfb1d24a1b399061a469d1399d32a3cb4b086dff17a80234a8da"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~299515~90070496:London-underground-railways--Partin",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "london",
+            "name": "伦敦",
+            "region": "英国",
+            "note": "约1908年的地下铁道网络，不代表今天的运营线路。",
+            "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~299515~90070496:London-underground-railways--Partin",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record",
+            "mapQuery": "London, United Kingdom"
+          }
+        ]
+      }
     },
     {
       "id": "ts-minard-cotton",
@@ -2166,7 +2714,29 @@
         "generatedAt": "2026-10-22T04:29:59.265145+00:00",
         "inputHash": "9aacf41ec87761a717ab753a4534214722dc52617d44ea381466ad40c87b13e9"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 地理与地图部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/99463789/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "europe-cotton",
+            "name": "欧洲及原棉供应地区",
+            "note": "图示1858、1864与1865年的贸易流量。",
+            "sourceUrl": "https://www.loc.gov/item/99463789/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-minard-cotton-1862",
@@ -2209,7 +2779,29 @@
         "generatedAt": "2026-10-22T04:29:59.265145+00:00",
         "inputHash": "9aacf41ec87761a717ab753a4534214722dc52617d44ea381466ad40c87b13e9"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 地理与地图部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/2004626057/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "europe-cotton",
+            "name": "欧洲及原棉供应地区",
+            "note": "图示1858与1861年的贸易流量。",
+            "sourceUrl": "https://www.loc.gov/item/2004626057/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-minard-migration",
@@ -2251,7 +2843,29 @@
         "generatedAt": "2026-10-22T04:33:00.767499+00:00",
         "inputHash": "b8a383859d805bfeefd2fe4ccb2b338d87e9a0886e2d6145c6457d65efa1aae8"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国会图书馆 · 地理与地图部",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.loc.gov/item/98687134/",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "world",
+            "name": "全球",
+            "note": "图示1858年的跨地区人口与劳工流动，包含奴役和契约劳工。",
+            "sourceUrl": "https://www.loc.gov/item/98687134/",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-ogilby-bristol",
@@ -2294,7 +2908,30 @@
         "generatedAt": "2026-10-22T04:30:16.343736+00:00",
         "inputHash": "8f7464b9ba5fcfb1d24a1b399061a469d1399d32a3cb4b086dff17a80234a8da"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~278387~90051189:Road-from-London-to-the-City-of-Bri",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "london-bristol",
+            "name": "伦敦至布里斯托尔道路",
+            "region": "英国英格兰",
+            "note": "本站收录第一图版；历史条带图不能直接用作现代导航。",
+            "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~278387~90051189:Road-from-London-to-the-City-of-Bri",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-peutinger",
@@ -2337,7 +2974,19 @@
         "generatedAt": "2026-10-22T04:30:16.343736+00:00",
         "inputHash": "8f7464b9ba5fcfb1d24a1b399061a469d1399d32a3cb4b086dff17a80234a8da"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~284870~90057377:Scheda-prior---Tabula-Peutingeriana",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "ts-priestley-biography",
@@ -2379,7 +3028,19 @@
         "generatedAt": "2026-10-22T04:29:43.829057+00:00",
         "inputHash": "fe225ed7a6bf971c59b4ebca2f9d81647cfa718034494a684392e5f0ab764fd9"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~356169~90123069:A-Chart-of-Biography",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "ts-quin-323",
@@ -2422,7 +3083,29 @@
         "generatedAt": "2026-10-22T04:29:59.265145+00:00",
         "inputHash": "9aacf41ec87761a717ab753a4534214722dc52617d44ea381466ad40c87b13e9"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~695~70057",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "alexander-empire",
+            "name": "亚历山大帝国",
+            "note": "历史地图表现公元前323年的世界；不对应现代国界。",
+            "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~695~70057",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-quin-alexander",
@@ -2465,7 +3148,29 @@
         "generatedAt": "2026-10-22T04:29:59.265145+00:00",
         "inputHash": "9aacf41ec87761a717ab753a4534214722dc52617d44ea381466ad40c87b13e9"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~299604~90070624:Sixth-period---B-C--301--The-Partit",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "alexander-successors",
+            "name": "亚历山大帝国分裂后的诸地区",
+            "note": "图示公元前301年的历史范围，不对应现代国界。",
+            "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~299604~90070624:Sixth-period---B-C--301--The-Partit",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-railway-1917",
@@ -2507,7 +3212,19 @@
         "generatedAt": "2026-10-22T04:30:16.343736+00:00",
         "inputHash": "8f7464b9ba5fcfb1d24a1b399061a469d1399d32a3cb4b086dff17a80234a8da"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~352850~90120084",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "ts-stream-time",
@@ -2549,7 +3266,19 @@
         "generatedAt": "2026-10-22T04:29:43.829057+00:00",
         "inputHash": "fe225ed7a6bf971c59b4ebca2f9d81647cfa718034494a684392e5f0ab764fd9"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~291110~90062688:Der-Strom-der-Zeiten-oder-bildliche",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "ts-temple-time",
@@ -2591,7 +3320,19 @@
         "generatedAt": "2026-10-22T04:29:43.829057+00:00",
         "inputHash": "fe225ed7a6bf971c59b4ebca2f9d81647cfa718034494a684392e5f0ab764fd9"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~315043~90083688:The-Temple-of-Time",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "ts-turkestan",
@@ -2633,7 +3374,30 @@
         "generatedAt": "2026-10-22T04:29:59.265145+00:00",
         "inputHash": "9aacf41ec87761a717ab753a4534214722dc52617d44ea381466ad40c87b13e9"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~25120~990010:Turkestan--Asie-54-",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "turkestan",
+            "name": "突厥斯坦",
+            "region": "中亚",
+            "note": "本图覆盖今土库曼斯坦与乌兹别克斯坦的部分地区；采用历史地名与边界。",
+            "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~25120~990010:Turkestan--Asie-54-",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "ts-willard-nations",
@@ -2675,7 +3439,19 @@
         "generatedAt": "2026-10-22T04:29:43.829057+00:00",
         "inputHash": "fe225ed7a6bf971c59b4ebca2f9d81647cfa718034494a684392e5f0ab764fd9"
       },
-      "addedAt": "2026-10-22T04:33:25.663456+00:00"
+      "addedAt": "2026-10-22T04:33:25.663456+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "斯坦福大学图书馆 · 大卫·拉姆齐地图中心",
+          "region": "美国加利福尼亚州斯坦福",
+          "sourceUrl": "https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~29401~1130446:Picture-of-nations-",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "David Rumsey Map Center, Green Library, 557 Escondido Mall, Stanford, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "art-hiroshige-mishima",
@@ -2716,7 +3492,30 @@
         "generatedAt": "2026-10-22T04:20:02.391056+00:00",
         "inputHash": "2396b66f4fafca4c2fb2c6fab53336283bb34fa32e94a0a6b00d50ce378cd47c"
       },
-      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+      "addedAt": "2026-10-22T04:22:12.877313+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://www.artic.edu/artworks/10926",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "mishima",
+            "name": "三岛宿",
+            "region": "日本东海道",
+            "note": "历史宿场题材，未确定画中精确位置。",
+            "sourceUrl": "https://www.artic.edu/artworks/10926",
+            "checkedAt": "2026-11-12",
+            "verification": "catalogue-record"
+          }
+        ]
+      }
     },
     {
       "id": "art-hokusai-wave",
@@ -2757,7 +3556,40 @@
         "generatedAt": "2026-10-22T04:20:02.391056+00:00",
         "inputHash": "2396b66f4fafca4c2fb2c6fab53336283bb34fa32e94a0a6b00d50ce378cd47c"
       },
-      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+      "addedAt": "2026-10-22T04:22:12.877313+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://api.artic.edu/api/v1/artworks/24645",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "kanagawa",
+            "name": "神奈川近海",
+            "region": "日本",
+            "note": "题名所指海域，未确定精确观景位置。",
+            "sourceUrl": "https://api.artic.edu/api/v1/artworks/24645",
+            "checkedAt": "2026-11-12",
+            "verification": "source"
+          },
+          {
+            "id": "fuji",
+            "name": "富士山",
+            "region": "日本",
+            "note": "画面远景中的山峰。",
+            "sourceUrl": "https://api.artic.edu/api/v1/artworks/24645",
+            "checkedAt": "2026-11-12",
+            "verification": "source",
+            "mapQuery": "Mount Fuji, Japan"
+          }
+        ]
+      }
     },
     {
       "id": "art-kandinsky-cannons",
@@ -2798,7 +3630,18 @@
         "generatedAt": "2026-10-22T04:20:04.511977+00:00",
         "inputHash": "0fe008dbf5e2da33a29f717a3ee21c6c83b4368460c4d313c43acda359f7ed74"
       },
-      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+      "addedAt": "2026-10-22T04:22:12.877313+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://www.artic.edu/artworks/8991",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA"
+        }
+      }
     },
     {
       "id": "art-mondrian-lozenge",
@@ -2839,7 +3682,18 @@
         "generatedAt": "2026-10-22T04:20:02.391056+00:00",
         "inputHash": "2396b66f4fafca4c2fb2c6fab53336283bb34fa32e94a0a6b00d50ce378cd47c"
       },
-      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+      "addedAt": "2026-10-22T04:22:12.877313+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://www.artic.edu/artworks/109819",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA"
+        }
+      }
     },
     {
       "id": "art-muybridge-locomotion",
@@ -2880,7 +3734,19 @@
         "generatedAt": "2026-10-22T04:20:02.391056+00:00",
         "inputHash": "2396b66f4fafca4c2fb2c6fab53336283bb34fa32e94a0a6b00d50ce378cd47c"
       },
-      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+      "addedAt": "2026-10-22T04:22:12.877313+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://www.artic.edu/artworks/195560",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "art-seurat-grande-jatte",
@@ -2921,7 +3787,29 @@
         "generatedAt": "2026-10-22T04:21:21.825894+00:00",
         "inputHash": "af3ee4a7ad1c1f94996db1d654c74db9e5983f47c94bc5d04b16532c969882e3"
       },
-      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+      "addedAt": "2026-10-22T04:22:12.877313+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://api.artic.edu/api/v1/artworks/27992",
+          "checkedAt": "2026-11-12",
+          "verification": "source",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA"
+        },
+        "depicted": [
+          {
+            "id": "grande-jatte",
+            "name": "大碗岛（塞纳河）",
+            "region": "法国巴黎近郊",
+            "sourceUrl": "https://api.artic.edu/api/v1/artworks/27992",
+            "checkedAt": "2026-11-12",
+            "verification": "source",
+            "mapQuery": "Ile de la Jatte, Paris, France"
+          }
+        ]
+      }
     },
     {
       "id": "graphic-divan-japonais",
@@ -2962,7 +3850,19 @@
         "generatedAt": "2026-10-22T04:21:21.825894+00:00",
         "inputHash": "af3ee4a7ad1c1f94996db1d654c74db9e5983f47c94bc5d04b16532c969882e3"
       },
-      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+      "addedAt": "2026-10-22T04:22:12.877313+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://www.artic.edu/artworks/67166",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "graphic-illuminated-leaf",
@@ -3003,7 +3903,18 @@
         "generatedAt": "2026-10-22T04:21:21.825894+00:00",
         "inputHash": "af3ee4a7ad1c1f94996db1d654c74db9e5983f47c94bc5d04b16532c969882e3"
       },
-      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+      "addedAt": "2026-10-22T04:22:12.877313+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://www.artic.edu/artworks/72884",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA"
+        }
+      }
     },
     {
       "id": "graphic-morris-cray",
@@ -3044,7 +3955,18 @@
         "generatedAt": "2026-10-22T04:20:06.370275+00:00",
         "inputHash": "ae53ca4b620c38764eac2ceef75bc20218265a3964a565cbb22327c5409098f5"
       },
-      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+      "addedAt": "2026-10-22T04:22:12.877313+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://www.artic.edu/artworks/47661",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA"
+        }
+      }
     },
     {
       "id": "graphic-palais-de-glace",
@@ -3085,7 +4007,19 @@
         "generatedAt": "2026-10-22T04:20:04.511977+00:00",
         "inputHash": "0fe008dbf5e2da33a29f717a3ee21c6c83b4368460c4d313c43acda359f7ed74"
       },
-      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+      "addedAt": "2026-10-22T04:22:12.877313+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://www.artic.edu/artworks/218856",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "graphic-utamaro-birds",
@@ -3126,7 +4060,19 @@
         "generatedAt": "2026-10-22T04:20:06.370275+00:00",
         "inputHash": "ae53ca4b620c38764eac2ceef75bc20218265a3964a565cbb22327c5409098f5"
       },
-      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+      "addedAt": "2026-10-22T04:22:12.877313+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://www.artic.edu/artworks/187515",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA",
+          "isImpression": true
+        }
+      }
     },
     {
       "id": "graphic-zodiaque",
@@ -3167,7 +4113,19 @@
         "generatedAt": "2026-10-22T04:20:06.370275+00:00",
         "inputHash": "ae53ca4b620c38764eac2ceef75bc20218265a3964a565cbb22327c5409098f5"
       },
-      "addedAt": "2026-10-22T04:22:12.877313+00:00"
+      "addedAt": "2026-10-22T04:22:12.877313+00:00",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://www.artic.edu/artworks/111986",
+          "checkedAt": "2026-11-12",
+          "verification": "catalogue-record",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA",
+          "isImpression": true
+        }
+      }
     }
   ],
   "batches": [

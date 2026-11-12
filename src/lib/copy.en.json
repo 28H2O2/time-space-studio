@@ -117,5 +117,10 @@
   "observationQuestion": "A question to ask",
   "viewOnOriginalSite": "See the work on the creator's site",
   "noReferences": "No external entries match the current filters.",
-  "referencesCredit": "Selection and reading prompts: Codex · sources checked on 2026-10-22. The suggestions are reading exercises for this site, not the creators' own statements."
+  "referencesCredit": "Selection and reading prompts: Codex · sources checked on 2026-10-22. The suggestions are reading exercises for this site, not the creators' own statements.",
+  "collectionLocation": "Collection",
+  "impressionLocation": "This impression is held at",
+  "depictedLocation": "Depicted location",
+  "viewMap": "Map",
+  "locationSource": "View location source"
 }

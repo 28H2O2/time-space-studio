@@ -1,4 +1,5 @@
 import type { Artwork } from './types.ts';
+import { localizeLocations, type LocationOverlay } from './locations.ts';
 
 export type Lang = 'zh' | 'en';
 export const LANG_KEY = 'time-space-studio:lang';
@@ -22,6 +23,7 @@ export interface ArtworkOverlay {
   evidence?: string;
   analysis?: Partial<Artwork['analysis']>;
   rights?: Partial<Artwork['rights']>;
+  locations?: LocationOverlay;
 }
 export type Overlays = Record<string, ArtworkOverlay>;
 
@@ -42,6 +44,7 @@ export function localizeArtworks(artworks: Artwork[], overlays: Overlays | null)
       evidence: o.evidence ?? a.evidence,
       analysis: { ...a.analysis, ...o.analysis },
       rights: { ...a.rights, ...o.rights },
+      locations: localizeLocations(a.locations, o.locations),
     };
   });
 }

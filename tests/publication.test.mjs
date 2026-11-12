@@ -106,9 +106,11 @@ test('rehearsal prepares the next future issue without mutating its input', () =
 test('new artwork ingestion preserves writing provenance and uses actual ingestion time', () => {
   const { library, queue } = fixtures();
   const added = artwork('brand-new'); queue.issues[0].artworks.push(added); queue.issues[0].featuredIds[0] = added.id;
+  added.locations = { collection: { id: 'museum', name: 'Museum', sourceUrl: 'https://example.org/object/1', checkedAt: '2026-10-26', verification: 'source' }, depicted: [{ id: 'city', name: 'City', sourceUrl: 'https://example.org/object/1', checkedAt: '2026-10-26', verification: 'source', mapQuery: 'City, Country' }] };
   const plan = planPublication(library, queue, now);
   assert.equal(plan.library.artworks[0].addedAt, now.toISOString());
   assert.deepEqual(plan.library.artworks[0].writing, added.writing);
+  assert.deepEqual(plan.library.artworks[0].locations, added.locations);
 });
 test('duplicate image bytes are rejected even under distinct IDs and filenames', () => {
   const bytes = Buffer.alloc(150, 1); bytes[0] = 255; bytes[1] = 216;

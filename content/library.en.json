@@ -24,6 +24,15 @@
       "rights": {
         "label": "NASA/JPL-Caltech · JPL Image Use Policy (free to use without permission; credit required)",
         "usage": "Downloaded the original JPEG file (453×614 pixels) provided on the NASA Photojournal PIA00452 page, uncropped, uncolor-corrected and unscaled. The page credits NASA/JPL-Caltech and lists no third-party copyright. Do not imply endorsement of any product by NASA, JPL or Caltech; the NASA logo is not used."
+      },
+      "locations": {
+        "depicted": {
+          "earth": {
+            "name": "Earth",
+            "region": "Solar System",
+            "note": "Photographed from space by Voyager 1; there is no ground-level viewpoint."
+          }
+        }
       }
     },
     "art-anon-life-on-the-river": {
@@ -50,6 +59,12 @@
       "rights": {
         "label": "CC0 1.0 (Smithsonian Open Access / National Museum of Asian Art)",
         "usage": "The museum object page is marked CC0. The image is the whole scroll output at 4096 pixels wide from the museum's IIIF service (FS-F1909.239_009, original 10240×890), proportionally reduced on the server only, uncropped and uncolor-corrected; it includes the mounting border on the right and the title slip."
+      },
+      "locations": {
+        "collection": {
+          "name": "Freer Gallery of Art, Smithsonian National Museum of Asian Art",
+          "region": "Washington, DC, USA"
+        }
       }
     },
     "ts-durer-northern-sky-1515": {
@@ -75,6 +90,12 @@
       "rights": {
         "label": "CC0 Public Domain Designation (Art Institute of Chicago)",
         "usage": "Uses the JPEG provided by the museum's IIIF service (1686 px wide), keeping the full image and paper edges, uncropped and uncolor-corrected. The museum marks the image of this work as CC0 public domain."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        }
       }
     },
     "graphic-katagami-mallows": {
@@ -101,6 +122,12 @@
       "rights": {
         "label": "CC0 Public Domain Designation (Art Institute of Chicago)",
         "usage": "Uses the JPEG provided by the museum's IIIF service (1686 px wide), keeping the full image and paper edges, uncropped and uncolor-corrected. The museum marks the image of this work as CC0 public domain."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        }
       }
     },
     "ts-delano-chicago-rail-yard-night": {
@@ -127,6 +154,19 @@
       "rights": {
         "label": "No known restrictions (Library of Congress Rights Advisory)",
         "usage": "The LOC entry's rights advisory is No known restrictions, and it links to the rights statement for FSA/OWI black-and-white images. The local JPEG was proportionally reduced from the TIFF master provided by LOC to 2000 pixels on the long side and converted to JPEG, uncropped and uncolor-corrected, with the negative edges and numbers retained. LOC states that the digital file derives from an intermediary roll film."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Prints and Photographs Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "chicago-yard": {
+            "name": "Railroad yard in Chicago",
+            "region": "Illinois, USA",
+            "note": "The precise yard site has not been matched to a modern map."
+          }
+        }
       }
     },
     "art-delaunay-la-tour": {
@@ -153,6 +193,12 @@
       "rights": {
         "label": "CC0 / Public Domain (Cleveland Museum of Art Open Access)",
         "usage": "The collection page is marked Public Domain, and the work may be copied, modified and distributed; the open access API marks it CC0. The local JPEG was proportionally reduced from the museum's print-size file (2533×3400) to 2400 pixels on the long side, uncropped and uncolor-corrected."
+      },
+      "locations": {
+        "collection": {
+          "name": "Cleveland Museum of Art",
+          "region": "Cleveland, USA"
+        }
       }
     },
     "art-avercamp-winter-skaters": {
@@ -180,6 +226,12 @@
         "label": "Public Domain Mark 1.0 (as marked by the Rijksmuseum)",
         "credit": "Hendrick Avercamp, Winter Landscape with Ice Skaters, c. 1608, oil on panel, Rijksmuseum, Amsterdam, accession number SK-A-1718",
         "usage": "The museum's IIIF original image (6337×3674 px) was proportionally reduced to 2400 px wide and re-saved as JPEG, uncropped and uncolor-corrected. The museum marks the work as public domain."
+      },
+      "locations": {
+        "collection": {
+          "name": "Rijksmuseum",
+          "region": "Amsterdam, Netherlands"
+        }
       }
     },
     "ts-anonymous-dam-square-panorama": {
@@ -207,6 +259,18 @@
         "label": "Public Domain Mark 1.0 (as marked by the Rijksmuseum)",
         "credit": "Anonymous, Panorama of Dam Square in Amsterdam, 1899-1903, daylight gelatin silver print, Rijksmuseum, Amsterdam, accession number RP-F-F17849",
         "usage": "The museum's IIIF original image (6358×3232 px) was proportionally reduced to 3000 px wide and re-saved as JPEG, uncropped and uncolor-corrected, with the card mount backing retained. The museum marks the work as public domain."
+      },
+      "locations": {
+        "collection": {
+          "name": "Rijksmuseum",
+          "region": "Amsterdam, Netherlands"
+        },
+        "depicted": {
+          "dam-square": {
+            "name": "Dam Square",
+            "region": "Amsterdam, Netherlands"
+          }
+        }
       }
     },
     "ts-muzaffari-astrolabe-1291": {
@@ -232,6 +296,12 @@
       },
       "rights": {
         "usage": "Image in the public domain under the museum's Open Access policy (main image DP170386, 3000×4000 pixels). The local file is proportionally reduced to 1800×2400 and re-encoded as JPEG, without cropping or color adjustment."
+      },
+      "locations": {
+        "collection": {
+          "name": "The Metropolitan Museum of Art",
+          "region": "New York, USA"
+        }
       }
     },
     "graphic-shunman-rotating-calendar-1795": {
@@ -257,6 +327,12 @@
       },
       "rights": {
         "usage": "Image in the public domain under the museum's Open Access policy (main image DP-14464-005, 4000×3002 pixels). The local file is proportionally reduced to 2400×1801 and re-encoded as JPEG, without cropping or color adjustment."
+      },
+      "locations": {
+        "collection": {
+          "name": "The Metropolitan Museum of Art",
+          "region": "New York, USA"
+        }
       }
     },
     "photo-dovizielli-spanish-steps": {
@@ -282,6 +358,18 @@
         "label": "Public domain / CC0",
         "credit": "The Metropolitan Museum of Art, Gift of W. Bruce and Delaney H. Lundberg, 2019",
         "usage": "Uses a digital image of a public domain work from the museum's open access program, with the collection and source credited."
+      },
+      "locations": {
+        "collection": {
+          "name": "The Metropolitan Museum of Art",
+          "region": "New York, USA"
+        },
+        "depicted": {
+          "piazza-di-spagna": {
+            "name": "Piazza di Spagna and the Spanish Steps",
+            "region": "Rome, Italy"
+          }
+        }
       }
     },
     "graphic-gregg-be-kind-books": {
@@ -303,6 +391,12 @@
       },
       "rights": {
         "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Prints and Photographs Division",
+          "region": "Washington, DC, USA"
+        }
       }
     },
     "ts-hergesheimer-virginia-1861": {
@@ -327,6 +421,19 @@
       "rights": {
         "credit": "Drawn by Edwin Hergesheimer / published by Henry S. Graham / Library of Congress, Geography and Map Division / 2010586922",
         "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Geography and Map Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "virginia": {
+            "name": "Virginia",
+            "region": "United States, 1860 census geography",
+            "note": "Historical state boundaries do not match present-day Virginia."
+          }
+        }
       }
     },
     "ts-world-time-zones-2006": {
@@ -350,6 +457,18 @@
       "rights": {
         "credit": "Central Intelligence Agency / Library of Congress, Geography and Map Division / 2006629909",
         "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Geography and Map Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "world": {
+            "name": "World",
+            "note": "Time zones and boundaries from the 2006 edition, not current rules."
+          }
+        }
       }
     },
     "graphic-hirt-national-parks-wildlife": {
@@ -371,6 +490,12 @@
       },
       "rights": {
         "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Prints and Photographs Division",
+          "region": "Washington, DC, USA"
+        }
       }
     },
     "art-hiroshige-kameido-triptych": {
@@ -394,6 +519,19 @@
       "rights": {
         "credit": "Andō Hiroshige / Library of Congress, Prints and Photographs Division / 2008661242",
         "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Prints and Photographs Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "kameido": {
+            "name": "Kameido plum garden",
+            "region": "Edo (present-day Tokyo), Japan",
+            "note": "A historical garden; its precise modern location has not been verified."
+          }
+        }
       }
     },
     "ts-parsons-san-francisco-1878": {
@@ -415,6 +553,19 @@
       },
       "rights": {
         "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Geography and Map Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "san-francisco": {
+            "name": "San Francisco",
+            "region": "California, USA",
+            "note": "An 1878 perspective view, not drawn to scale."
+          }
+        }
       }
     },
     "art-hokusai-sunshu-ejiri": {
@@ -439,6 +590,19 @@
       "rights": {
         "credit": "Katsushika Hokusai / Library of Congress, Prints and Photographs Division / 2009615396",
         "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Prints and Photographs Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "ejiri": {
+            "name": "Ejiri in Suruga Province",
+            "region": "Japan",
+            "note": "A historical place name; Mount Fuji appears in the distance. The exact viewpoint is unverified."
+          }
+        }
       }
     },
     "ts-maury-atlantic-trade-winds-1851": {
@@ -462,6 +626,18 @@
       "rights": {
         "credit": "Matthew Fontaine Maury; compiled by E. J. De Haven / related U.S. Navy bodies / Library of Congress, Geography and Map Division / 2009575918",
         "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Geography and Map Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "atlantic": {
+            "name": "Atlantic Ocean",
+            "note": "The chart depicts Atlantic trade-wind regions."
+          }
+        }
       }
     },
     "ts-china-annual-isotherms-1878": {
@@ -486,6 +662,18 @@
       "rights": {
         "credit": "Royal Asiatic Society, North China Branch (publishing body; individual cartographer not verified) / Library of Congress, Geography and Map Division / 2007627808",
         "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Geography and Map Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "china": {
+            "name": "China and surrounding regions",
+            "note": "The coverage of a historical climate map."
+          }
+        }
       }
     },
     "graphic-welsh-visit-zoo": {
@@ -508,6 +696,12 @@
       },
       "rights": {
         "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Prints and Photographs Division",
+          "region": "Washington, DC, USA"
+        }
       }
     },
     "ts-magnus-telegraph-1858": {
@@ -529,6 +723,18 @@
       },
       "rights": {
         "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Geography and Map Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "atlantic-cable": {
+            "name": "The Atlantic between the Americas and Europe",
+            "note": "A schematic setting for telegraph connections, not a precise navigable route."
+          }
+        }
       }
     },
     "ts-ensign-eastern-railroads-1856": {
@@ -550,6 +756,18 @@
       },
       "rights": {
         "usage": "Uses the JPEG digital image supplied by the library, with the image and the edges of the original kept intact, without cropping or color change. Used for image study and commentary with a clear source; the rights basis is this record's collection note, and it is not relabeled as CC0."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Geography and Map Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "eastern-us": {
+            "name": "Eastern United States and New England",
+            "note": "The area covered by the 1856 railroad map."
+          }
+        }
       }
     },
     "contemporary-ocean-2025": {
@@ -572,6 +790,14 @@
       "rights": {
         "label": "Public domain · NASA SVS",
         "usage": "The official static preview is cached unmodified under the NASA SVS public-domain usage statement; the full animation can be viewed on the original site. Motion speed cannot be read from this frame alone."
+      },
+      "locations": {
+        "depicted": {
+          "oceans": {
+            "name": "World oceans",
+            "note": "An ocean-current model visualization; the original sequence features the Kuroshio, Agulhas Current and Gulf Stream."
+          }
+        }
       }
     },
     "contemporary-openmoji-map": {
@@ -643,6 +869,19 @@
       "rights": {
         "label": "Public Domain / CC0 (The Met Open Access)",
         "usage": "The Met object page is marked Public Domain, the public API returns isPublicDomain=true, and the Open Access policy provides it under CC0. This file is the Mount Tai detail supplied by the museum, not a local crop and not the full scroll; the local download is unmodified."
+      },
+      "locations": {
+        "collection": {
+          "name": "The Metropolitan Museum of Art",
+          "region": "New York, USA"
+        },
+        "depicted": {
+          "mount-tai": {
+            "name": "Mount Tai",
+            "region": "Shandong, China",
+            "note": "The full scroll depicts the journey from Ji’nan to Mount Tai; this image shows the Mount Tai section. Some connecting landscapes are imaginary."
+          }
+        }
       }
     },
     "ts-ibry-paris-lyon-1878": {
@@ -669,6 +908,15 @@
         "label": "Public Domain (as marked on the Commons file page)",
         "credit": "Charles Ibry (method); Étienne-Jules Marey, La Méthode Graphique, 1878, p.20, fig.7; Wikimedia Commons (uploaded by Falcorian)",
         "usage": "The selected image's file page is marked public domain (the author died in 1904; published in 1878). The local PNG is byte-identical to the download source and unmodified. The distinction between Ibry's method and Marey's publication should be kept; it should not be written as Marey's own invention."
+      },
+      "locations": {
+        "depicted": {
+          "paris-lyon": {
+            "name": "Paris–Lyon railway corridor",
+            "region": "France",
+            "note": "A historical train diagram arranged by distance along the line, not a guide to the modern route."
+          }
+        }
       }
     },
     "ts-priestley-history-1769": {
@@ -718,6 +966,12 @@
       "rights": {
         "label": "CC BY-NC-SA 3.0 (library image)",
         "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        }
       }
     },
     "ts-bacon-routes": {
@@ -743,6 +997,18 @@
       "rights": {
         "label": "CC BY-NC-SA 3.0 (library image)",
         "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        },
+        "depicted": {
+          "world": {
+            "name": "World",
+            "note": "The main map shows world routes; inset maps compare travel times from London, Melbourne and New York."
+          }
+        }
       }
     },
     "ts-carey-europe": {
@@ -768,6 +1034,18 @@
       "rights": {
         "label": "CC BY-NC-SA 3.0 (library image)",
         "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        },
+        "depicted": {
+          "europe": {
+            "name": "Europe",
+            "note": "The regional setting of events from 1789 to 1815; country columns are not geographic coordinates."
+          }
+        }
       }
     },
     "ts-carey-persia": {
@@ -793,6 +1071,18 @@
       "rights": {
         "label": "CC BY-NC-SA 3.0 (library image)",
         "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        },
+        "depicted": {
+          "ottoman-persia": {
+            "name": "Ottoman Empire and Persia",
+            "note": "Historical polities, not present-day national borders."
+          }
+        }
       }
     },
     "ts-london-1908": {
@@ -819,6 +1109,19 @@
       "rights": {
         "label": "CC BY-NC-SA 3.0 (library image)",
         "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        },
+        "depicted": {
+          "london": {
+            "name": "London",
+            "region": "United Kingdom",
+            "note": "The underground railway network around 1908, not present-day services."
+          }
+        }
       }
     },
     "ts-minard-cotton": {
@@ -844,6 +1147,18 @@
       "rights": {
         "label": "Library states free to use and reuse",
         "usage": "The Rights & Access statement of the source item says it is free to use and reuse; used on a personal learning site. The preview image supplied in the library's article is used, keeping the whole image and its original colors."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Geography and Map Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "europe-cotton": {
+            "name": "Europe and cotton-supplying regions",
+            "note": "Trade flows for 1858, 1864 and 1865."
+          }
+        }
       }
     },
     "ts-minard-cotton-1862": {
@@ -869,6 +1184,18 @@
       "rights": {
         "label": "Library states free to use and reuse",
         "usage": "The Rights & Access statement of the source item says it is free to use and reuse; used on a personal learning site. The preview image supplied in the library's article is used, keeping the whole image and its original colors."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Geography and Map Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "europe-cotton": {
+            "name": "Europe and cotton-supplying regions",
+            "note": "Trade flows for 1858 and 1861."
+          }
+        }
       }
     },
     "ts-minard-migration": {
@@ -893,6 +1220,18 @@
       "rights": {
         "label": "Library states free to use and reuse",
         "usage": "The Rights & Access statement of the source item says it is free to use and reuse; used on a personal learning site. The preview image supplied in the library's article is used, keeping the whole image and its original colors."
+      },
+      "locations": {
+        "collection": {
+          "name": "Library of Congress, Geography and Map Division",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "world": {
+            "name": "World",
+            "note": "Interregional population and labor flows in 1858, including enslaved and indentured labor."
+          }
+        }
       }
     },
     "ts-ogilby-bristol": {
@@ -918,6 +1257,19 @@
       "rights": {
         "label": "CC BY-NC-SA 3.0 (library image)",
         "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        },
+        "depicted": {
+          "london-bristol": {
+            "name": "Road from London to Bristol",
+            "region": "England, United Kingdom",
+            "note": "This image is the first plate; the historical strip map is not suitable for modern navigation."
+          }
+        }
       }
     },
     "ts-peutinger": {
@@ -944,6 +1296,12 @@
       "rights": {
         "label": "CC BY-NC-SA 3.0 (library image)",
         "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        }
       }
     },
     "ts-priestley-biography": {
@@ -968,6 +1326,12 @@
       "rights": {
         "label": "CC BY-NC-SA 3.0 (library image)",
         "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        }
       }
     },
     "ts-quin-323": {
@@ -995,6 +1359,18 @@
       "rights": {
         "label": "CC BY-NC-SA 3.0 (library image)",
         "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        },
+        "depicted": {
+          "alexander-empire": {
+            "name": "Alexander’s empire",
+            "note": "A historical map representing the world in 323 BCE, not modern national borders."
+          }
+        }
       }
     },
     "ts-quin-alexander": {
@@ -1022,6 +1398,18 @@
       "rights": {
         "label": "CC BY-NC-SA 3.0 (library image)",
         "usage": "The original was published before 1929, and the item offers Download 1. Under the library's license it is used for personal, non-commercial study; the author, collection, and CC BY-NC-SA 3.0 are credited. The image was only proportionally reduced and converted to JPEG, without cropping or color adjustment; adaptations of the image remain subject to the same license."
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        },
+        "depicted": {
+          "alexander-successors": {
+            "name": "Regions after the division of Alexander’s empire",
+            "note": "Historical regions in 301 BCE, not modern national borders."
+          }
+        }
       }
     },
     "ts-railway-1917": {
@@ -1048,6 +1436,12 @@
         "label": "CC BY-NC-SA 3.0 (collection image)",
         "usage": "The original was published before 1929, and the entry offers Download 1. Under the library's licence it is used for personal, non-commercial study; credit the author, the collection and CC BY-NC-SA 3.0. The image was only scaled down proportionally and converted to JPEG, with no cropping or colour adjustment; any adaptation of the image remains under the same licence.",
         "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries"
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        }
       }
     },
     "ts-stream-time": {
@@ -1073,6 +1467,12 @@
         "label": "CC BY-NC-SA 3.0 (collection image)",
         "usage": "The original was published before 1929, and the entry offers Download 1. Under the library's licence it is used for personal, non-commercial study; credit the author, the collection and CC BY-NC-SA 3.0. The image was only scaled down proportionally and converted to JPEG, with no cropping or colour adjustment; any adaptation of the image remains under the same licence.",
         "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries"
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        }
       }
     },
     "ts-temple-time": {
@@ -1098,6 +1498,12 @@
         "label": "CC BY-NC-SA 3.0 (collection image)",
         "usage": "The original was published before 1929, and the entry offers Download 1. Under the library's licence it is used for personal, non-commercial study; credit the author, the collection and CC BY-NC-SA 3.0. The image was only scaled down proportionally and converted to JPEG, with no cropping or colour adjustment; any adaptation of the image remains under the same licence.",
         "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries"
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        }
       }
     },
     "ts-turkestan": {
@@ -1123,6 +1529,19 @@
         "label": "CC BY-NC-SA 3.0 (collection image)",
         "usage": "The original was published before 1929, and the entry offers Download 1. Under the library's licence it is used for personal, non-commercial study; credit the author, the collection and CC BY-NC-SA 3.0. The image was only scaled down proportionally and converted to JPEG, with no cropping or colour adjustment; any adaptation of the image remains under the same licence.",
         "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries"
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        },
+        "depicted": {
+          "turkestan": {
+            "name": "Turkestan",
+            "region": "Central Asia",
+            "note": "This sheet covers parts of present-day Turkmenistan and Uzbekistan, using historical names and boundaries."
+          }
+        }
       }
     },
     "ts-willard-nations": {
@@ -1148,6 +1567,12 @@
         "label": "CC BY-NC-SA 3.0 (collection image)",
         "usage": "The original was published before 1929, and the entry offers Download 1. Under the library's licence it is used for personal, non-commercial study; credit the author, the collection and CC BY-NC-SA 3.0. The image was only scaled down proportionally and converted to JPEG, with no cropping or colour adjustment; any adaptation of the image remains under the same licence.",
         "credit": "David Rumsey Map Collection, David Rumsey Map Center, Stanford University Libraries"
+      },
+      "locations": {
+        "collection": {
+          "name": "David Rumsey Map Center, Stanford University Libraries",
+          "region": "Stanford, California, USA"
+        }
       }
     },
     "art-hiroshige-mishima": {
@@ -1170,6 +1595,19 @@
       },
       "rights": {
         "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        },
+        "depicted": {
+          "mishima": {
+            "name": "Mishima station",
+            "region": "Tokaido Road, Japan",
+            "note": "A historical post-station scene; the exact depicted viewpoint is unverified."
+          }
+        }
       }
     },
     "art-hokusai-wave": {
@@ -1192,6 +1630,24 @@
       },
       "rights": {
         "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        },
+        "depicted": {
+          "kanagawa": {
+            "name": "Off Kanagawa",
+            "region": "Japan",
+            "note": "The area named in the title; the exact viewpoint is unverified."
+          },
+          "fuji": {
+            "name": "Mount Fuji",
+            "region": "Japan",
+            "note": "The mountain in the distance."
+          }
+        }
       }
     },
     "art-kandinsky-cannons": {
@@ -1214,6 +1670,12 @@
       },
       "rights": {
         "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        }
       }
     },
     "art-mondrian-lozenge": {
@@ -1236,6 +1698,12 @@
       },
       "rights": {
         "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        }
       }
     },
     "art-muybridge-locomotion": {
@@ -1258,6 +1726,12 @@
       },
       "rights": {
         "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        }
       }
     },
     "art-seurat-grande-jatte": {
@@ -1280,6 +1754,18 @@
       },
       "rights": {
         "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        },
+        "depicted": {
+          "grande-jatte": {
+            "name": "La Grande Jatte, River Seine",
+            "region": "Near Paris, France"
+          }
+        }
       }
     },
     "graphic-divan-japonais": {
@@ -1302,6 +1788,12 @@
       },
       "rights": {
         "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        }
       }
     },
     "graphic-illuminated-leaf": {
@@ -1325,6 +1817,12 @@
       "rights": {
         "credit": "Anonymous (Italy), Illuminated Manuscript Leaf, c. 1450. Art Institute of Chicago, Gift of Ernest F. Detterer. 1917.235.1.",
         "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        }
       }
     },
     "graphic-morris-cray": {
@@ -1347,6 +1845,12 @@
       },
       "rights": {
         "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        }
       }
     },
     "graphic-palais-de-glace": {
@@ -1369,6 +1873,12 @@
       },
       "rights": {
         "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        }
       }
     },
     "graphic-utamaro-birds": {
@@ -1391,6 +1901,12 @@
       },
       "rights": {
         "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        }
       }
     },
     "graphic-zodiaque": {
@@ -1413,6 +1929,12 @@
       },
       "rights": {
         "usage": "The museum marks this as a public-domain image provided under CC0, and it may be used for display on this site; keep the author, work and collection credits."
+      },
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        }
       }
     }
   }

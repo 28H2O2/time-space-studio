@@ -19,6 +19,23 @@ export type WritingProvenance = {
   referenceSources: string[];
 };
 
+export interface ArtworkLocation {
+  id: string;
+  name: string;
+  region?: string;
+  note?: string;
+  sourceUrl: string;
+  checkedAt: string;
+  // A catalogue-record review uses the existing evidence/credit, not a fresh source fetch.
+  verification: 'source' | 'catalogue-record';
+  mapQuery?: string;
+}
+
+export interface ArtworkLocations {
+  collection?: ArtworkLocation & { isImpression?: boolean };
+  depicted?: ArtworkLocation[];
+}
+
 export interface Artwork {
   id: string;
   title: string;
@@ -29,6 +46,7 @@ export interface Artwork {
   methods: string[];
   topics: string[];
   sourceUrl: string;
+  locations?: ArtworkLocations;
   imageKey: string;
   width: number;
   height: number;

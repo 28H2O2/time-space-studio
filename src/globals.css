@@ -185,6 +185,17 @@ input[type=checkbox]{accent-color:var(--ink)}
 .original-title{font:14px/1.6 Georgia,serif;color:var(--muted);margin:0 0 16px}
 .creator-line{font-size:14px;line-height:1.7;margin:0 0 18px}
 .creator-line>span{color:var(--muted)}
+.artwork-locations{margin:0 0 20px;font-size:15px;line-height:1.75}
+.artwork-location+.artwork-location{margin-top:10px}
+.artwork-location dt{display:flex;align-items:baseline;gap:6px;font-weight:500}
+.artwork-location dt svg{flex-shrink:0;align-self:center}
+.artwork-location dd{margin:2px 0 0 22px;overflow-wrap:anywhere}
+.artwork-location dd+dd{margin-top:8px}
+.location-name{text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.location-name:hover{text-decoration-color:currentColor}
+.location-map{display:inline-flex;align-items:center;gap:2px;margin-left:12px;min-height:28px;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.location-note{margin:3px 0 0;color:var(--muted);font-size:14px;line-height:1.75}
+.artwork-locations a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .tag-row{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}
 .tag-row>span{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:4px 6px;line-height:1.3}
 .analysis-block{border-top:1px solid var(--line);margin:20px 0 10px;padding-top:6px}

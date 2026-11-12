@@ -10,6 +10,17 @@
 - `src/lib/copy.zh.json` / `src/lib/copy.en.json`：界面文字，两份的键必须一致（测试会核对）。
 - `src/lib/types.ts`：完整字段类型；新增作品可参照现有的 `contemporary-ocean-2025` 记录。
 
+## 地点资料
+
+作品可选填 `locations.collection`（收藏地）和 `locations.depicted`（画中地点数组）。仅在详情页展示；缺项不显示。每个地点包含稳定 `id`、`name`、`sourceUrl`、`checkedAt`（YYYY-MM-DD）和 `verification`；可选 `region`、`note`、`mapQuery`。收藏地的 `isImpression: true` 表示本站所用印本，界面显示“此印本藏于”。
+
+- `verification: "source"` 表示本轮实际查阅了支持该地点的一手资料；`"catalogue-record"` 表示复核本站已有 `evidence` 和 `rights.credit` 中的具体馆藏记录。`checkedAt` 是这次复核日期，不代表官网一定在当天可访问，也不表示正在展出。不要只按来源域名推断收藏地。
+- 收藏地对应图片所代表的实物或印本；图片托管站、制作地、出版地和作者籍贯不能替代收藏地或画中地点。数字作品无需填实体收藏地。未核实的地点直接省略，不填“未知”占位。
+- 画中地点可记录多个地点或地区范围。历史地名、约略范围和想象景观保留限定说明；无法对应现代地点时省略 `mapQuery`。地图、图表可以注明所绘地区，抽象图形和纹样不推断具体地点。
+- `mapQuery` 使用明确的“地点名、城市、国家”，需要时加地址；前端统一编码为 Google Maps 搜索链接。它表示查询目标，不是精确拍摄机位，也不保证当前可参观。地点名称链接到资料来源，旁边的“地图”单独跳转。
+- 英文文件增加 `locations.collection: { name?, region?, note? }` 和 `locations.depicted: { "地点id": { name?, region?, note? } }`。只覆盖文字，缺译按字段回退；不翻译或覆盖来源、地图查询词、核验日期及印本标记。地点 ID 保持稳定，不能用数组位置关联译文。
+- 新入队作品遵守相同规则；地点可缺省，兼容旧队列。`npm run check` 会校验已发布作品、队列和英文地点字段。修改地点不改历史短评的写作来源或入库时间。
+
 ## 一期更新
 
 每日定时发布优先使用已审核队列，格式、排期与恢复步骤见 [每日自动发布说明](daily-publishing.md)。下列核验要求同样适用于入队作品；已有但未被每日推荐的作品可直接引用稳定 ID，无需重复收录。

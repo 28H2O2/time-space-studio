@@ -117,5 +117,10 @@
   "observationQuestion": "观察问题",
   "viewOnOriginalSite": "在作者原站看作品",
   "noReferences": "当前筛选下没有原站条目。",
-  "referencesCredit": "选题与阅读提示：Codex · 来源核验于 2026-10-22。建议是本站的读图练习，不代表作者自述。"
+  "referencesCredit": "选题与阅读提示：Codex · 来源核验于 2026-10-22。建议是本站的读图练习，不代表作者自述。",
+  "collectionLocation": "收藏地",
+  "impressionLocation": "此印本藏于",
+  "depictedLocation": "画中地点",
+  "viewMap": "地图",
+  "locationSource": "查看地点来源"
 }
