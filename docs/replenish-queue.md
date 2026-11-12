@@ -23,14 +23,15 @@
 3. **图片**：下载获准使用的最高清图，每张小于 20 MB，放入 `content/queue-media/`，新文件名稳定且与 `imageKey` 一致；不覆盖旧图。**必须真的打开每张图看过**，确认画面与记录相符、没有水印或馆方色卡等杂物、分辨率可用；有问题就换。
 4. **查重**：对照 `library.json`、队列和 `content/queue-media/`，ID、来源地址、图片字节都不能重复。已有但从未被推荐的作品可以直接引用 ID。
 5. **记录**：新作品写入该期 `artworks`，字段符合 `src/lib/types.ts`，`analysis.structure/borrow/application`、`observation`、`evidence`、`rights` 齐全；`writing.author` 与队列项的 `approvedBy` 填 `codex`，`approvedAt` 与 `writing` 时间用实际 ISO 时间，`inputHash` 按现有记录的方式重算。
-6. **验证**：运行 `npm run check` 和 `npm run build`，都通过才可提交。
+6. **地点**：逐件按 `docs/content-workflow.md` 的地点规则核验收藏地与画中地点，并将有依据的 `locations` 写入新作品记录。收藏地必须对应本图的实物或印本，版画标记 `isImpression`；记录支持资料、实际核验日期和核验方式，不把制作地或作者籍贯当作画中地点。可明确定位的现代地点填写 `mapQuery`；历史范围、想象景观等保留限定说明，无法对应现代位置时不加地图。查不到或不适用就省略，并在汇报里说明；不得为填满字段猜测地点。仅引用已有作品时保留其现有记录，缺项在汇报中说明，不越界修改已发布库。
+7. **呈现与验证**：网站详情和飞书作品卡共用上述地点数据，复用已有浅灰底纵向地点区、印本标签、地图链接和完整限定说明，不另写一套地点文案。上传预览由现有脚本等比例缩小，网站保留原图。运行 `npm run check` 和 `npm run build`，都通过才可提交。
 
 ## 提交与汇报
 
 - 只暂存 `content/publication-queue.json` 和 `content/queue-media/` 下的新图。不要改 `content/library.json`、`public/`、`src/` 或工作流。
 - 提交信息写明补了哪几期（日期和主题），推送到 `main`。推送被拒就 `git fetch origin && git rebase origin/main`，重新运行 `npm run check` 后再推一次；仍失败就停止并汇报，不要强制推送。
 - 严禁运行 `npm run publish:daily` 的非 dry-run 形式，不触发发布工作流，不修改密钥、部署或定时任务设置。
-- 用中文汇报：当前日期、补前和补后的队列期数及末期日期、每期主题和三件作品的来源链接、验证结果、提交号。做不到的地方如实写明，不要为了完成数量放宽核验。
+- 用中文汇报：当前日期、补前和补后的队列期数及末期日期、每期主题和三件作品的来源链接、收藏地／画中地点的补充数量及缺项原因、验证结果、提交号。做不到的地方如实写明，不要为了完成数量放宽核验。
 
 ## 人工干预
 

@@ -76,7 +76,9 @@ GitHub 自带令牌推送不会再次触发普通 `push` 工作流，因此本�
 
 可选的 `FEISHU_API_BASE`（默认 `https://open.feishu.cn`）只用于 Lark 国际版等其他域名，需使用 HTTPS。三个 Secret 未配置时，推送步骤会跳过。
 
-前提：应用已发布并启用机器人能力，已加入目标群，并有“以应用身份发消息”（`im:message:send_as_bot`）权限。卡片里的三张图片需要先上传到飞书，因此还需要“获取与上传图片或文件资源”（`im:resource`）权限；缺少该权限时图片会被略过，卡片仍会发出，运行日志里有 warning。手动工作流勾选 `require_images` 时，图片上传失败会在发送前直接报错，不会发出任何消息；发送过程中若某张卡失败，日志会写明已发出几张。查找 `chat_id` 时，在本机设置 `FEISHU_APP_ID` 和 `FEISHU_APP_SECRET` 后运行 `node scripts/feishu-notify.mjs --list-chats`；该模式在 GitHub Actions 中被禁用，因为本仓库公开，日志会暴露群名称。
+前提：应用已发布并启用机器人能力，已加入目标群，并有“以应用身份发消息”（`im:message:send_as_bot`）权限。卡片里的三张图片需要先上传到飞书，因此还需要“获取与上传图片或文件资源”（`im:resource`）权限。使用 `--require-images`（或手动工作流勾选 `require_images`）时，图片上传失败会在发送前直接报错，不会发出任何消息；发送过程中若某张卡失败，日志会写明已发出几张。查找 `chat_id` 时，在本机设置 `FEISHU_APP_ID` 和 `FEISHU_APP_SECRET` 后运行 `node scripts/feishu-notify.mjs --list-chats`；该模式在 GitHub Actions 中被禁用，因为本仓库公开，日志会暴露群名称。
+
+每日发布工作流固定带 `--require-images`，必须三张预览全部上传成功才开始发送；只有不带该参数的手动调用才允许缺图继续。发布兜底任务须分别核查网站上线与飞书发送结果：读取当期日志，确认 `4 card(s), 3 picture(s)`，报告发送失败、跳过或未确认，不能仅凭工作流总体成功认定飞书成功。对当天已经上线的期刊也检查对应发送记录；发现部分发送时报告已发送数量，不自动重发整期。日常通知继续复用地点卡片和预览脚本，不消耗额外期刊、不为检查重复发消息。
 
 手动入口：Actions 中的 **Feishu notification**。`test` 发送连通性测试消息，`latest` 重新播报最新一期；主题没有保存在内容库里，需要主题行时在 `title` 输入框填写。卡片版式可用 `node scripts/feishu-notify.mjs --dry-run` 在本机预览 JSON（图片用占位 key）。
 

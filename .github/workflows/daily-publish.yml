@@ -88,7 +88,7 @@ jobs:
           FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
           FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
           ISSUE_TITLE: ${{ steps.prepare.outputs.title }}
-        run: node scripts/feishu-notify.mjs --latest --title "$ISSUE_TITLE"
+        run: node scripts/feishu-notify.mjs --latest --title "$ISSUE_TITLE" --require-images
       - name: Save rehearsal build
         if: env.MODE == 'rehearse'
         uses: actions/upload-artifact@v4
