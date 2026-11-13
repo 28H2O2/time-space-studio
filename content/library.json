@@ -1,6 +1,103 @@
 {
   "artworks": [
     {
+      "id": "photo-le-gray-normandy-sun",
+      "title": "诺曼底的日光：海平线上的微小船影",
+      "titleOriginal": "An Effect of the Sun, Normandy",
+      "creator": "Gustave Le Gray",
+      "year": "约1856",
+      "category": "time-space",
+      "methods": [
+        "低地平线",
+        "明暗分区",
+        "倒影引导",
+        "船影尺度"
+      ],
+      "topics": [
+        "海景摄影",
+        "远近关系",
+        "光与水面"
+      ],
+      "sourceUrl": "https://www.clevelandart.org/art/1987.54",
+      "imageKey": "photo-le-gray-normandy-sun.jpg",
+      "width": 5000,
+      "height": 3832,
+      "rights": {
+        "label": "CC0（Cleveland Museum of Art）",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "credit": "Gustave Le Gray, An Effect of the Sun, Normandy, c. 1856, albumen print from wet collodion negative. The Cleveland Museum of Art, Andrew R. and Martha Holden Jennings Fund, 1987.54.",
+        "usage": "从馆方开放服务下载最高分辨率TIFF（5000×3832 px），保持像素尺寸转换为JPEG，保留ICC色彩配置；未裁剪、未调色。图像约5.98 MB。"
+      },
+      "observation": "天空占据画面大半，深色云块之间透出亮光。低处一道接近水平的海天分界线上有几处细小船影，中央偏右的两处较近。亮光从远方沿水面铺向前景，与下方深色滩岸交错。右下角有原作手写签名，四周保留窄纸边；没有馆方水印或色卡。",
+      "evidence": "已打开Cleveland Museum of Art作品页及官方API记录153753，核对作者Gustave Le Gray、年代c. 1856、媒介为湿版火棉胶负片制作的蛋白照片、馆藏号1987.54。作品页明确允许复制与修改，API的share_license_status为CC0，开放政策涵盖图像。已实际查看本次转换后的全图。馆方说明讨论了海与天空的组合印相；本条空间分析依据画面，不将其当作单次曝光的现场记录。",
+      "analysis": {
+        "structure": "低地平线把大面积云层与窄条海面分开，船影贴着分界线，给远处提供尺度。中央亮带又从远方延伸到近岸，使水平展开的景物有了纵深入口。",
+        "borrow": "在大面积环境中保留几个可辨认的小物体，再用一条连续明暗变化连接近景与远景，少量细节就能交代空间深度。",
+        "application": "适合海岸观察图或环境摄影版面，用船只和岸边纹理提示距离；画面明暗与印相有关，不能据此推算现场照度。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-11-06T05:22:39.910Z",
+        "inputHash": "bc18103390ddf9f9e453fd59aff52579ab008656ee66bddab3f480d255dcb129",
+        "referenceSources": [
+          "https://www.clevelandart.org/art/1987.54",
+          "https://openaccess-api.clevelandart.org/api/artworks/153753",
+          "https://www.clevelandart.org/open-access",
+          "https://openaccess-cdn.clevelandart.org/1987.54/1987.54_full.tif"
+        ]
+      },
+      "addedAt": "2026-11-13T00:02:46.948Z"
+    },
+    {
+      "id": "art-homer-herring-net",
+      "title": "鲱鱼网：小船与远处帆影",
+      "titleOriginal": "The Herring Net",
+      "creator": "Winslow Homer",
+      "year": "1885",
+      "category": "art",
+      "methods": [
+        "近景放大",
+        "斜向渔网",
+        "遮挡关系",
+        "远景弱对比"
+      ],
+      "topics": [
+        "海上劳动",
+        "人物协作",
+        "尺度"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/25865",
+      "imageKey": "art-homer-herring-net.jpg",
+      "width": 9953,
+      "height": 6124,
+      "rights": {
+        "label": "CC0 Public Domain Designation（Art Institute of Chicago）",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "credit": "Winslow Homer, The Herring Net, 1885, oil on canvas. The Art Institute of Chicago, Mr. and Mrs. Martin A. Ryerson Collection, 1937.1039.",
+        "usage": "采用馆方IIIF最大像素尺寸JPEG（9953×6124 px），约16.75 MB，原始字节保存，未裁剪、未缩放或调色。"
+      },
+      "observation": "两个人挤在近处小船上：右侧人物俯身提网，左侧人物背向观者。带着银亮鱼身的网从船舷斜伸到右下水面，前景有红褐色桶。灰绿色浪头在船身前后交叠，左右远方各有淡淡帆影；天空灰褐，人物衣服的暗部与鱼身亮色相邻。",
+      "evidence": "已打开Art Institute of Chicago作品页25865与官方API，确认Winslow Homer、1885、布面油画、76.5×122.9 cm、馆藏号1937.1039。网页标示CC0 Public Domain Designation，API的is_public_domain=true，馆方图像政策允许开放使用。IIIF info记录9953×6124 px，本次下载该尺寸并实际查看。馆方描述两人收取鲱鱼；其中一人是否为男孩，馆方只作可能性表述，这里不确定其年龄。",
+      "analysis": {
+        "structure": "小船和两个人占满近景，远处帆船缩成模糊轮廓。斜向渔网把人物的动作接到水面，船舷、浪峰与网彼此遮挡，形成几层相接的空间。",
+        "borrow": "表现协作时，让共同操作的物件穿过两人的活动范围，并把动作的结果放在前景；远处同类物体可用来衬托主体所处的尺度。",
+        "application": "适合工序插画或劳动场景叙事，交代手、工具、产物之间的关系。绘画中的船只位置服务于构图，不宜作为航行示意图。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-11-06T05:22:39.910Z",
+        "inputHash": "b5caaf28d46eb6b6f0f3d2ce1f2aa78deb75bb396c05c2ab02d6a6abb5fda277",
+        "referenceSources": [
+          "https://www.artic.edu/artworks/25865",
+          "https://api.artic.edu/api/v1/artworks/25865",
+          "https://www.artic.edu/image-licensing",
+          "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/info.json",
+          "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/9953,/0/default.jpg"
+        ]
+      },
+      "addedAt": "2026-11-13T00:02:46.948Z"
+    },
+    {
       "id": "art-redoute-cabbage-rose",
       "title": "百叶蔷薇：留白中的单枝植物",
       "titleOriginal": "Cabbage Rose (Rosa Centifolia Simplex)",
@@ -4301,6 +4398,19 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-11-13",
+      "date": "2026-11-13",
+      "featuredIds": [
+        "art-hokusai-wave",
+        "photo-le-gray-normandy-sun",
+        "art-homer-herring-net"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-11-13T00:02:46.948Z",
+      "queueId": "queue-sea-distance-and-scale"
+    },
+    {
       "id": "daily-2026-11-12",
       "date": "2026-11-12",
       "featuredIds": [
@@ -4593,5 +4703,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-11-12T00:03:25.295Z"
+  "latestSuccess": "2026-11-13T00:02:46.948Z"
 }
