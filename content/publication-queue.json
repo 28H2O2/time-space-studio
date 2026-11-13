@@ -1016,6 +1016,202 @@
           "addedAt": "2026-11-12T05:13:30.947Z"
         }
       ]
+    },
+    {
+      "id": "queue-music-form-and-sound",
+      "notBefore": "2026-11-19",
+      "title": "音乐的形与声",
+      "approvedBy": "codex",
+      "approvedAt": "2026-11-13T05:08:33.789Z",
+      "featuredIds": [
+        "art-brown-music-lesson",
+        "graphic-utamaro-tuning-shamisen",
+        "art-lute-tiorbino"
+      ],
+      "artworks": [
+        {
+          "id": "art-brown-music-lesson",
+          "title": "音乐课：横笛连接的两个人",
+          "titleOriginal": "The Music Lesson",
+          "creator": "John George Brown",
+          "year": "1870",
+          "category": "art",
+          "methods": [
+            "布面油画",
+            "手势交汇",
+            "横竖对照",
+            "室内层次"
+          ],
+          "topics": [
+            "音乐",
+            "人物关系",
+            "日常生活绘画"
+          ],
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/10240",
+          "imageKey": "art-brown-music-lesson.jpg",
+          "locations": {
+            "collection": {
+              "id": "metropolitan-museum-of-art",
+              "name": "大都会艺术博物馆",
+              "region": "纽约，美国",
+              "note": "本图对应馆藏油画21.115.3，1921年由Charles A. Fowler上校捐赠；收藏地不表示当前正在展出。",
+              "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10240",
+              "checkedAt": "2026-11-13",
+              "verification": "source",
+              "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, United States"
+            }
+          },
+          "rights": {
+            "label": "Public Domain / CC0（The Met Open Access）",
+            "url": "https://www.metmuseum.org/policies/image-resources",
+            "credit": "John George Brown, The Music Lesson, 1870, oil on canvas. The Metropolitan Museum of Art, Gift of Colonel Charles A. Fowler, 1921, 21.115.3.",
+            "usage": "采用馆方API primaryImage提供的original JPEG（3237×3821），保留原始字节和完整画边，未裁切、缩放、调色或重新编码；用于作品展示与评论。 文件3,013,225字节。"
+          },
+          "observation": "女子坐在画面中央偏右，将横笛举到嘴边；左侧男子向她倾身，一只手伸到笛身附近。两人的手和笛子集中在上身之间。右侧竖着一架金色竖琴，左侧有绿帘、百叶窗和盆栽；红色菱格墙面上挂着数幅画，地面铺红色地毯。画布四边和表面细裂纹均保留。",
+          "evidence": "已打开Met藏品页10240、官方API和图像政策，核对John George Brown、1870年、布面油画、61×50.8厘米、馆藏号21.115.3和捐赠署名。作品页标记Public Domain，API isPublicDomain=true，馆方政策以CC0开放此类图像。已实际查看完整original JPEG并完成严格解码；首次传输中断的残缺文件已用完整下载替换。API repository明确为纽约大都会艺术博物馆，收藏记录对应本图油画。网页将场景描述为中产家庭客厅，但未确认具体建筑或城市；API地理字段为空，故省略画中地点，不把作者履历或落款中的纽约当作场景证据。",
+          "analysis": {
+            "structure": "两个人的身体向中间靠近，手指沿横笛交汇，形成画面的动作中心。右侧高大的竖琴与笛子的横向走势相对，墙上画框和左侧窗帘将这个小范围的动作围在室内。",
+            "borrow": "表现共同操作时，可以让双方的手靠近同一件物品，再用背景中的另一种方向稳住构图。人物关系由身体距离和动作传达，细节不必平均分布。",
+            "application": "适合教学场景插画或双人活动版面，先检查手和工具在缩小后是否仍清楚。画中的亲近姿态可以用于构图分析，但不能据此确定人物身份、真实关系或实际演奏曲目。"
+          },
+          "width": 3237,
+          "height": 3821,
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-13T05:08:33.789Z",
+            "inputHash": "792606e5305ff14c9deda50ef1bf592389b04e1ad46d536449a983d67fd90216",
+            "referenceSources": [
+              "https://www.metmuseum.org/art/collection/search/10240",
+              "https://collectionapi.metmuseum.org/public/collection/v1/objects/10240",
+              "https://www.metmuseum.org/policies/image-resources",
+              "https://images.metmuseum.org/CRDImages/ad/original/DP156440.jpg"
+            ]
+          },
+          "addedAt": "2026-11-13T05:08:33.789Z"
+        },
+        {
+          "id": "graphic-utamaro-tuning-shamisen",
+          "title": "调弦：三味线琴头旁的手指",
+          "titleOriginal": "Turning a Shamisen (Shamisen no nejime), from the series \"Chanting to Shamisen by Young Women of Today (Tosei musume joruri)\"",
+          "creator": "喜多川歌麿（Kitagawa Utamaro）",
+          "year": "约1804–1806",
+          "category": "graphic",
+          "methods": [
+            "彩色木版画",
+            "半身取景",
+            "斜线引导",
+            "纹样对照"
+          ],
+          "topics": [
+            "调弦",
+            "三味线",
+            "人物与器物"
+          ],
+          "sourceUrl": "https://www.artic.edu/artworks/60315",
+          "imageKey": "graphic-utamaro-tuning-shamisen.jpg",
+          "locations": {
+            "collection": {
+              "id": "art-institute-of-chicago",
+              "name": "芝加哥艺术博物馆",
+              "region": "芝加哥，伊利诺伊州，美国",
+              "note": "本图为Clarence Buckingham Collection中的馆藏印本1928.323；来源记录载明Kate Sturges Buckingham于1928年购得并于同年5月11日赠予该馆，不代表当前展出。",
+              "sourceUrl": "https://www.artic.edu/artworks/60315",
+              "checkedAt": "2026-11-13",
+              "verification": "source",
+              "isImpression": true,
+              "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, United States"
+            }
+          },
+          "rights": {
+            "label": "CC0 Public Domain Designation（Art Institute of Chicago）",
+            "url": "https://www.artic.edu/open-access/open-access-images",
+            "credit": "Kitagawa Utamaro, Turning a Shamisen (Shamisen no nejime), from the series \"Chanting to Shamisen by Young Women of Today (Tosei musume joruri)\", c. 1804/06, color woodblock print; oban. The Art Institute of Chicago, Clarence Buckingham Collection, 1928.323.",
+            "usage": "使用馆方作品页下载按钮给出的IIIF full/!3000,3000原始JPEG，2036×3000像素，等于info.json记录的最大原图尺寸；原始字节保存，未裁切、缩放、调色或重编码，保留纸边及底部铅笔编号，用于作品展示与评论。 文件1,839,477字节。"
+          },
+          "observation": "女子低头看向斜伸的三味线琴颈，一只手握在红褐色琴头的弦轴旁。大片黑发与浅色面部相邻，发间插着细长发簪和红色饰物。衣服交叠着蓝灰格纹、花纹和橙色曲线，右侧浅色底上有竖排题字与署名；下方两块黑色面板前缘可见金黄色装饰。",
+          "evidence": "已通过系统curl打开馆方作品页60315、官方API、开放图像政策及IIIF info.json，核对喜多川歌麿、展示年代c.1804/06、彩色大判木版画、35.9×24.4厘米、Clarence Buckingham Collection和馆藏号1928.323。目录通用日期范围另为1799–1811，未把该范围当作确定制作年。作品页标记CC0 Public Domain Designation，API is_public_domain=true；政策明确允许自由使用该标记图像。已实际查看2036×3000完整图像，未见馆方水印、色卡或尺标。具体印本的入藏经过由作品页provenance及API对应记录确认。已检查两者的题名、说明、地理与主题字段：没有可定位场景，页面Japan注明为艺术家国籍，故不将日本或江户推作画中地点。",
+          "analysis": {
+            "structure": "琴颈从左下伸向右侧手指，低垂的脸与它形成相向的斜线。黑发成为上方的大块重色，格纹衣袖和浅色面部将视线逐步送到较小的弦轴动作。",
+            "borrow": "器物不必完整出现；保留能说明操作的局部，并让手势和视线指向同一点，可以在有限画幅里交代正在进行的活动。繁密纹样适合放在动作中心周围。",
+            "application": "适合乐器教学插图或手工操作专题，用局部特写展示手与部件的位置。若用于实际调弦教程，还需另补弦轴方向、音高等技术资料，不能从静态版画推断完整步骤。"
+          },
+          "width": 2036,
+          "height": 3000,
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-13T05:08:33.789Z",
+            "inputHash": "26a953798b2abc90f72c3fcbdd843f19944651e4047d7896fee314c96e686ac4",
+            "referenceSources": [
+              "https://www.artic.edu/artworks/60315",
+              "https://api.artic.edu/api/v1/artworks/60315",
+              "https://www.artic.edu/open-access/open-access-images",
+              "https://www.artic.edu/iiif/2/909d390d-28e8-1274-523a-6960f69075f4/info.json",
+              "https://www.artic.edu/iiif/2/909d390d-28e8-1274-523a-6960f69075f4/full/!3000,3000/0/default.jpg"
+            ]
+          },
+          "addedAt": "2026-11-13T05:08:33.789Z"
+        },
+        {
+          "id": "art-lute-tiorbino",
+          "title": "小型长颈鲁特琴：弦线与共鸣箱",
+          "titleOriginal": "Lute or Tiorbino",
+          "creator": "制作者未知（馆方归属意大利）",
+          "year": "约1620（馆方题名年代；文化栏另称可能制于17世纪中期，后经修理改动）",
+          "category": "art",
+          "methods": [
+            "木制乐器",
+            "弦线排列",
+            "长短比例",
+            "镂空音孔"
+          ],
+          "topics": [
+            "音乐器物",
+            "结构与装饰",
+            "鲁特琴"
+          ],
+          "sourceUrl": "https://www.clevelandart.org/art/1918.368",
+          "imageKey": "art-lute-tiorbino.jpg",
+          "locations": {
+            "collection": {
+              "id": "cleveland-museum-of-art",
+              "name": "克利夫兰艺术博物馆",
+              "region": "克利夫兰，俄亥俄州，美国",
+              "note": "本图对应实物1918.368，来自The Charles G. King Jr. collection，由Ralph King纪念Charles G. King Jr.而捐赠；并非借展品，收藏地不表示当前正在展出。",
+              "sourceUrl": "https://openaccess-api.clevelandart.org/api/artworks/98672",
+              "checkedAt": "2026-11-13",
+              "verification": "source",
+              "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, United States"
+            }
+          },
+          "rights": {
+            "label": "CC0（Cleveland Museum of Art Open Access）",
+            "url": "https://www.clevelandart.org/open-access",
+            "credit": "Unknown maker, Lute or Tiorbino, c. 1620 (catalogue title date; culture field gives probably mid-17th century, modified by later repair), wood. The Cleveland Museum of Art, The Charles G. King Jr. collection; Gift of Ralph King in memory of Charles G. King Jr., 1918.368.",
+            "usage": "下载馆方主图最高分辨率full TIFF（5891×5829），保持原始像素尺寸并保留ICC配置，转为JPEG（quality 98、4:4:4）；未裁切、缩放或调色，用于作品展示与评论。 文件15,857,713字节。"
+          },
+          "observation": "木制乐器从左下斜伸向右上。浅褐色梨形面板中央有圆形镂空音孔，细弦从下方深色琴桥伸过琴颈，通向前后两组弦轴。深色长颈与较宽的琴身形成明显比例差异，灰色背景上可见器物投影；琴身轮廓和琴头均完整保留。",
+          "evidence": "已打开Cleveland藏品页1918.368、官方API记录98672和开放政策，核对题名Lute or Tiorbino、木制、整体100.7×27.7厘米及捐赠记录；作者字段未列制作者，记为未知。馆方主标题日期c.1620，文化栏却称probably made in the mid-17th century, but modified by later repair，本条并列保留，不擅自消除差异。作品页允许复制、修改、分发，API share_license_status=CC0。已查看主图full TIFF按原始像素转换的完整JPEG，无馆方水印、色卡或尺标。API tombstone明确记载该馆和实物号，legal_status=accessioned且on_loan=false。已检查目录说明、产地、来源、find_spot与inscriptions字段：这是一件乐器的器物照片，不描绘可定位场景；意大利为制作归属，故省略画中地点。",
+          "analysis": {
+            "structure": "宽大的梨形共鸣箱与细长琴颈沿同一条斜线展开，琴弦把两部分连成连续表面。圆形音孔的细密纹样集中在琴身中央，与两侧平整木面形成局部疏密对照。",
+            "borrow": "展示细长器物时，可用斜向摆放让整体轮廓进入画幅，并保留一处清楚的结构交接。重复细线能连接不同部件，局部装饰则提供观察停顿。",
+            "application": "适合乐器图录或器物结构对照，先保留全貌，再补独立细节。该照片只能支持可见形态分析，无法据此确定当前弦的原装状态、可演奏性或实际音色。"
+          },
+          "width": 5891,
+          "height": 5829,
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-13T05:08:33.789Z",
+            "inputHash": "1d01556db718baac2e11b333c1b5197c734f9eb331e56957a07907be71bc8c63",
+            "referenceSources": [
+              "https://www.clevelandart.org/art/1918.368",
+              "https://openaccess-api.clevelandart.org/api/artworks/98672",
+              "https://www.clevelandart.org/open-access",
+              "https://openaccess-cdn.clevelandart.org/1918.368/1918.368_full.tif"
+            ]
+          },
+          "addedAt": "2026-11-13T05:08:33.789Z"
+        }
+      ]
     }
   ]
 }
