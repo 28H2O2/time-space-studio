@@ -1054,6 +1054,218 @@
           "addedAt": "2026-11-13T05:08:33.789Z"
         }
       ]
+    },
+    {
+      "id": "queue-letters-in-transit",
+      "notBefore": "2026-11-20",
+      "title": "书信的往返",
+      "approvedBy": "codex",
+      "approvedAt": "2026-11-14T05:13:02.206Z",
+      "featuredIds": [
+        "art-vermeer-lady-writing",
+        "graphic-cassatt-letter-rosenwald",
+        "photo-harris-ewing-mail-carrier"
+      ],
+      "artworks": [
+        {
+          "id": "art-vermeer-lady-writing",
+          "title": "写信的女子：落笔时的回望",
+          "titleOriginal": "A Lady Writing",
+          "creator": "Johannes Vermeer",
+          "year": "约1665",
+          "category": "art",
+          "methods": [
+            "明暗聚焦",
+            "视线转向",
+            "桌面斜线",
+            "材质对照"
+          ],
+          "topics": [
+            "书信",
+            "室内人物",
+            "观看关系"
+          ],
+          "sourceUrl": "https://www.nga.gov/artworks/46437-lady-writing",
+          "imageKey": "art-vermeer-lady-writing.jpg",
+          "rights": {
+            "label": "CC0（National Gallery of Art Open Access）",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Johannes Vermeer, A Lady Writing, c. 1665, oil on canvas. Gift of Harry Waldron Havemeyer and Horace Havemeyer, Jr., in memory of their father, Horace Havemeyer, 1962.10.1. Courtesy National Gallery of Art, Washington.",
+            "usage": "采用作品页 Download 所供 JPEG，3585×4096 px，3,049,766 字节，保存原始字节，未裁剪、未调色。IIIF info 列底图 25813×29494 px；full/full 实际返回最长边4096，显式原始宽度请求未获得更高分辨率的完整文件，不将底图尺寸写作下载尺寸。"
+          },
+          "observation": "女子坐在桌旁，身体朝左，脸转向画外，右手仍握着羽毛笔。黄色上衣、带黑点的白色毛边和蓝色桌布构成画面最亮的几块颜色。珠串横在桌面上，左侧有深色匣子；椅背与墙上大幅暗色画框围住人物，背景大片暗部保留了微弱纹理。",
+          "evidence": "本轮打开 NGA 作品页（规范地址访问超时后，经旧馆藏地址重定向读到同一作品页），核对 Vermeer、约1665年、布面油画、馆藏号1962.10.1和捐赠记录。作品页明确标注图像属公有领域，已读开放政策的CC0条款；下载并实际打开所存图像。收藏地由该实物的馆藏号及1962年入藏记录支持。检查作品页和馆方专题研究后，未找到可把室内场景对应到具体地址的证据；不以作者在代尔夫特的生平经历推断画中地点。",
+          "analysis": {
+            "structure": "明亮的脸、衣袖和手沿一条短斜线连接，笔尖把视线带回纸面。人物朝向书桌，目光却转向观者，让写作动作与画外观看同时发生。",
+            "borrow": "表现工作中的停顿时，可以保留手与工具的接触，只让头部转向。用局部明暗和少量亮色聚焦动作，背景仍可保留足够的空间线索。",
+            "application": "适合人物访谈配图或书写主题的视觉叙事，用一个尚未结束的动作提示时间。画中书信内容和收信对象没有可靠证据，不据此编写具体通信故事。"
+          },
+          "locations": {
+            "collection": {
+              "id": "national-gallery-of-art-washington",
+              "name": "美国国家美术馆",
+              "region": "美国，华盛顿哥伦比亚特区",
+              "sourceUrl": "https://www.nga.gov/artworks/46437-lady-writing",
+              "checkedAt": "2026-11-14",
+              "verification": "source",
+              "note": "对应布面油画实物1962.10.1；1962年捐赠入藏。收藏地不表示当前一定展出。",
+              "mapQuery": "National Gallery of Art, Washington, DC, USA"
+            }
+          },
+          "width": 3585,
+          "height": 4096,
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-14T05:13:02.206Z",
+            "inputHash": "c3f0ae125e0f7b6fed3a8ab17182085d8d6444ae37d6f0ad83228ab0cdb112c5",
+            "referenceSources": [
+              "https://www.nga.gov/artworks/46437-lady-writing",
+              "https://www.nga.gov/collection/art-object-page.46437.html",
+              "https://www.nga.gov/terms-and-notices",
+              "https://www.nga.gov/research/publications/dutch-paintings-seventeenth-century/dutch-paintings-seventeenth-century-lady-writing-c-1665",
+              "https://api.nga.gov/iiif/ea55879e-57f1-494d-9043-6dedb384bdc8/info.json",
+              "https://api.nga.gov/iiif/ea55879e-57f1-494d-9043-6dedb384bdc8/full/full/0/default.jpg",
+              "https://api.nga.gov/iiif/ea55879e-57f1-494d-9043-6dedb384bdc8/full/25813,/0/default.jpg"
+            ]
+          },
+          "addedAt": "2026-11-14T05:13:02.206Z"
+        },
+        {
+          "id": "graphic-cassatt-letter-rosenwald",
+          "title": "信：封缄时的色块与纹样",
+          "titleOriginal": "The Letter",
+          "creator": "Mary Cassatt",
+          "year": "1890—1891",
+          "category": "graphic",
+          "methods": [
+            "彩色干刻",
+            "软底蚀刻",
+            "飞尘蚀刻",
+            "平面纹样"
+          ],
+          "topics": [
+            "书信",
+            "封缄动作",
+            "色块与轮廓"
+          ],
+          "sourceUrl": "https://www.nga.gov/artworks/5938-letter",
+          "imageKey": "graphic-cassatt-letter-rosenwald.jpg",
+          "rights": {
+            "label": "CC0（National Gallery of Art Open Access）",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "credit": "Mary Cassatt, The Letter, 1890–1891, color drypoint, softground etching, and aquatint. Rosenwald Collection, 1943.3.2763. Courtesy National Gallery of Art, Washington.",
+            "usage": "采用该印本作品页 Download 所供完整纸页 JPEG，2658×4096 px，3,601,826 字节，原始字节保存，未裁剪、未调色。IIIF info 列底图4775×7357 px；full/full及显式宽度4775请求均实际返回2658×4096，使用可取得的最高尺寸。"
+          },
+          "observation": "女子低头把信封举到嘴边，双手分持两侧。蓝色衣袍铺着浅色花纹，粉色内衫用细线标出褶皱。背景布满疏密不一的枝叶和花朵，右侧高柜是一整片深褐色；斜向展开的蓝色桌面上另放着一张浅色纸。画边可见泛黄纸色和左下方手写署名。",
+          "evidence": "已打开 NGA 作品页5938，核对 Mary Cassatt、1890—1891年、彩色干刻/软底蚀刻/飞尘蚀刻、Rosenwald Collection及馆藏号1943.3.2763，目录列Mathews and Shapiro 1989 no.8 iv/iv。已打开馆方CC0政策并下载该页所链接图像，实际查看纸页、人物动作和署名。收藏地仅对应本图1943.3.2763印本，不套用其他馆藏或NGA其他印本的编号。检查此对象记录，未发现室内的具体地点依据；纹样及作者活动地均不能代替画中地点。",
+          "analysis": {
+            "structure": "手、信封和低垂的脸组成画面中心的小三角，周围的大色块把这一细小动作托出来。桌面斜线给出深度，衣料与墙纸的平面纹样又把空间拉回纸面。",
+            "borrow": "需要突出一个精细手势时，可以把肤色和纸张留浅，让它们被有色衣物包围。纹样负责区分表面，轮廓与斜线负责交代身体和家具的位置。",
+            "application": "可用于通信主题插画或手工操作说明，练习在繁密纹样中保持动作可读。不同印本的颜色与状态可能不同，比较时应注明所用馆藏印本。"
+          },
+          "locations": {
+            "collection": {
+              "id": "national-gallery-of-art-washington",
+              "name": "美国国家美术馆",
+              "region": "美国，华盛顿哥伦比亚特区",
+              "sourceUrl": "https://www.nga.gov/artworks/5938-letter",
+              "checkedAt": "2026-11-14",
+              "verification": "source",
+              "note": "仅指图中Rosenwald Collection印本1943.3.2763，目录状态iv/iv；不代表《信》的其他印本。",
+              "mapQuery": "National Gallery of Art, Washington, DC, USA",
+              "isImpression": true
+            }
+          },
+          "width": 2658,
+          "height": 4096,
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-14T05:13:02.206Z",
+            "inputHash": "20bee780c52fb0b9026c9aece648fbb537afe569e14174133d6dff2f3afd843a",
+            "referenceSources": [
+              "https://www.nga.gov/artworks/5938-letter",
+              "https://www.nga.gov/terms-and-notices",
+              "https://api.nga.gov/iiif/933ca1ed-8152-4a59-90ad-841dd481d350/info.json",
+              "https://api.nga.gov/iiif/933ca1ed-8152-4a59-90ad-841dd481d350/full/full/0/default.jpg",
+              "https://api.nga.gov/iiif/933ca1ed-8152-4a59-90ad-841dd481d350/full/4775,/0/default.jpg"
+            ]
+          },
+          "addedAt": "2026-11-14T05:13:02.206Z"
+        },
+        {
+          "id": "photo-harris-ewing-mail-carrier",
+          "title": "邮递员：信件在身体上的堆叠",
+          "titleOriginal": "[Mail carrier]",
+          "creator": "Harris & Ewing",
+          "year": "约1923（馆方据同段底片推定）",
+          "category": "art",
+          "methods": [
+            "玻璃底片摄影",
+            "正面人物",
+            "明暗对照",
+            "包裹堆叠"
+          ],
+          "topics": [
+            "邮政传递",
+            "劳动与物件",
+            "通信媒介"
+          ],
+          "sourceUrl": "https://www.loc.gov/item/2016892840/",
+          "imageKey": "photo-harris-ewing-mail-carrier.jpg",
+          "rights": {
+            "label": "公有领域；馆方标注无已知出版限制（Harris & Ewing）",
+            "url": "https://www.loc.gov/rr/print/res/140_harr.html",
+            "credit": "Library of Congress, Prints & Photographs Division, photograph by Harris & Ewing, [Mail carrier], [1923], LC-DIG-hec-43594; original glass negative LC-H234- A-7337. Gift of Harris & Ewing, Inc., 1955.",
+            "usage": "下载官方最高分辨率16位灰度TIFF（10008×7752 px，155,227,984字节），保持全像素尺寸转为8位JPEG，质量90、4:4:4，成品14,789,928字节，小于20MB。未裁剪、未修复、未调色；保留底片边缘、编号及原有损伤。JPEG编码包含位深转换与有损压缩。"
+          },
+          "observation": "一名戴制服帽的男子正对镜头站立，一只手搭在胸前厚厚的信件上，信件由皮带束成几摞；另一侧垂挂着多个纸包和细长包裹。身后的门窗形成竖向格架。信纸和纸包较亮，制服居中灰，玻璃后的暗部把人和物托出。影像四周有黑边、浅色缺损、划痕和倒置的手写底片编号。",
+          "evidence": "已打开 LOC 具体对象的MARC页并读取官方JSON记录，核对摄影者Harris & Ewing、原始玻璃底片LC-H234- A-7337、数字号LC-DIG-hec-43594、1955年捐赠及收藏部门。题名由馆员拟定，1923年由相邻底片年代推定，并非已核实的拍摄日。对象记录标注无已知出版限制；原权利页现转到LOC许可指南，已读取指南所用官方CSV的140_harr.html条目，说明捐赠限制及相关版权均已到期。完整下载最高分辨率TIFF，转换后实际打开最终JPEG，确认无水印或色卡；底片原有边缘与损伤不是附加水印。地点已核查MARC 662及JSON geographic字段，仅支持美国，未支持具体城市、建筑或投递路线；不把华盛顿的收藏地当作拍摄地。",
+          "analysis": {
+            "structure": "人物被两侧的邮件体积扩展成不对称轮廓：一边是密集的信封横层，一边是垂直悬挂的长包裹。背景门窗提供整齐的竖线，衬出纸件边缘的参差。",
+            "borrow": "展示系统的工作量时，可以让物件与人的身体同框，体积、重量和携带方式比孤立数字更易感知。用背景规则线条对照前景不规则堆叠，突出负荷。",
+            "application": "适合邮政史、劳动工具或实体信息流的图像说明。这是一张单幅人物摄影，不能据邮件数量推算日均工作量，也不能由表情断言劳动感受。"
+          },
+          "locations": {
+            "collection": {
+              "id": "library-of-congress-prints-photographs",
+              "name": "美国国会图书馆版画与摄影部",
+              "region": "美国，华盛顿哥伦比亚特区",
+              "sourceUrl": "https://www.loc.gov/pictures/item/2016892840/marc/",
+              "checkedAt": "2026-11-14",
+              "verification": "source",
+              "note": "对应原始玻璃底片LC-H234- A-7337及其数字扫描LC-DIG-hec-43594；1955年由Harris & Ewing捐赠。收藏部门所在地不等于拍摄地点，也不表示底片正在展出。",
+              "mapQuery": "Library of Congress Prints and Photographs Division, Washington, DC, USA"
+            },
+            "depicted": [
+              {
+                "id": "united-states",
+                "name": "美国",
+                "region": "北美洲",
+                "sourceUrl": "https://www.loc.gov/pictures/item/2016892840/marc/",
+                "checkedAt": "2026-11-14",
+                "verification": "source",
+                "note": "仅据本对象MARC 662与官方JSON地点字段确定到国家；具体拍摄城市、门前建筑和投递路线尚未核实，不由收藏部门所在的华盛顿推断。未提供精确定位地图。"
+              }
+            ]
+          },
+          "width": 10008,
+          "height": 7752,
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-14T05:13:02.206Z",
+            "inputHash": "748147a02d275cc195c23eca35913a9fce0b32a5a6729fc9ab552cc48624f176",
+            "referenceSources": [
+              "https://www.loc.gov/item/2016892840/",
+              "https://www.loc.gov/pictures/item/2016892840/marc/",
+              "https://www.loc.gov/item/2016892840/?fo=json",
+              "https://www.loc.gov/rr/print/res/140_harr.html",
+              "https://guides.loc.gov/ld.php?content_id=76336558",
+              "https://tile.loc.gov/storage-services/master/pnp/hec/43500/43594a.tif"
+            ]
+          },
+          "addedAt": "2026-11-14T05:13:02.206Z"
+        }
+      ]
     }
   ]
 }
