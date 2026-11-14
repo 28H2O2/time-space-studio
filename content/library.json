@@ -1,6 +1,150 @@
 {
   "artworks": [
     {
+      "id": "art-van-gogh-bedroom",
+      "title": "卧室：家具围出的中央空地",
+      "titleOriginal": "The Bedroom",
+      "creator": "Vincent van Gogh",
+      "year": "1889",
+      "category": "art",
+      "methods": [
+        "倾斜地板线",
+        "冷暖色块",
+        "家具围合",
+        "墙上小画"
+      ],
+      "topics": [
+        "室内空间",
+        "观看位置",
+        "日常物品"
+      ],
+      "sourceUrl": "https://www.artic.edu/artworks/28560/the-bedroom",
+      "imageKey": "art-van-gogh-bedroom.jpg",
+      "width": 12614,
+      "height": 9875,
+      "rights": {
+        "label": "CC0 Public Domain Designation（Art Institute of Chicago）",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "credit": "Vincent van Gogh, The Bedroom, 1889, oil on canvas. The Art Institute of Chicago, Helen Birch Bartlett Memorial Collection, 1926.417.",
+        "usage": "下载馆方IIIF最高分辨率JPEG（12614×9875 px）；原文件约46.45 MB，保持像素尺寸与ICC配置，重存为JPEG（quality 75）后约19.94 MB。未裁剪、未调色。"
+      },
+      "observation": "木床占据右侧，红色床被夹在黄褐色床架与浅色枕头之间。左边桌上摆着水壶、盆和瓶子，两把椅子一近一远。蓝墙围着绿色窗户，墙上小画高低不一，门分列两侧。地板上的绿与粉褐色笔触斜向后方，中央空出一片地面，床脚和近处椅子都伸向画面下缘。",
+      "evidence": "已打开Art Institute of Chicago作品页28560及官方API，核对作者Vincent van Gogh、1889、布面油画、73.6×92.3 cm、馆藏号1926.417。馆方说明这是1889年9月的第二个版本，不是1888年的首版。作品页标示CC0，API的is_public_domain=true；已核对馆方许可页和IIIF最大尺寸，下载原图并查看压缩后的实际入队文件。",
+      "analysis": {
+        "structure": "床、桌和椅子贴着画面两侧排开，留下中央地板，让观者像是从入口向内看。地板与家具边线迅速向后收拢，蓝墙和黄床则把不同表面分成清楚色块。",
+        "borrow": "展示室内陈设时，可以先留出一条观看通道，再把有代表性的家具放在通道两侧；局部色块比逐件写标签更适合交代区域。",
+        "application": "适合居住空间插画或展陈场景草图，用家具关系引导视线。画中透视有明显倾斜，不应直接据此复原房间尺寸。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-11-06T05:22:39.910Z",
+        "inputHash": "9f5e157c2fb4256c797f3cda3da19f2e6f5ba24e3819ac60acb727c73d143147",
+        "referenceSources": [
+          "https://www.artic.edu/artworks/28560/the-bedroom",
+          "https://api.artic.edu/api/v1/artworks/28560",
+          "https://www.artic.edu/image-licensing",
+          "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/info.json",
+          "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/12614,/0/default.jpg"
+        ]
+      },
+      "addedAt": "2026-11-14T00:02:45.321Z"
+    },
+    {
+      "id": "art-lippi-jerome-study",
+      "title": "书斋中的圣哲罗姆：桌面前后的身体",
+      "titleOriginal": "St. Jerome in His Study",
+      "creator": "Filippino Lippi",
+      "year": "约1490",
+      "category": "art",
+      "methods": [
+        "横向桌面",
+        "线描与淡彩",
+        "局部明暗",
+        "轮廓针孔"
+      ],
+      "topics": [
+        "书斋",
+        "阅读姿态",
+        "遮挡关系"
+      ],
+      "sourceUrl": "https://www.clevelandart.org/art/1924.532",
+      "imageKey": "art-lippi-jerome-study.jpg",
+      "width": 4766,
+      "height": 5562,
+      "rights": {
+        "label": "CC0（Cleveland Museum of Art）",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "credit": "Filippino Lippi, St. Jerome in His Study, c. 1490, pen and brown ink with wash and white heightening on paper. The Cleveland Museum of Art, Gift of Leonard C. Hanna Jr., 1924.532.",
+        "usage": "下载馆方最高分辨率TIFF（4766×5562 px），保持像素尺寸和ICC配置转换为JPEG（约14.58 MB）；未裁剪、未调色，保留纸张裂痕与污渍。"
+      },
+      "observation": "褐色纸面上，一名长须人物坐在桌后俯向书本，手臂靠近桌面，长袍垂落至下方。桌面横跨画幅，桌下可见叠放的书，左下有狮头，右上有较淡的书架线条。衣褶以细线和深浅墨色交代，部分轮廓沿线有密集小孔；纸上有折痕、裂损与深色污渍。",
+      "evidence": "已打开Cleveland Museum of Art作品页1924.532及官方API106463，确认Filippino Lippi、c. 1490、馆藏号1924.532，纸张约24×20.8 cm。馆方媒介说明为棕色墨水笔、淡彩与铅白提亮，黑色粉笔底稿带问号，并标注pricked；不能把疑问底稿说成确定事实。网页允许自由复制，API的share_license_status为CC0。已查看由馆方全尺寸TIFF转换的入队图像，纸面损伤属于作品现状。",
+      "analysis": {
+        "structure": "横向桌面把上半部的头和手、下半部的袍服隔开，同时依靠遮挡将它们连成一个坐姿。桌边、书册和右上书架只用少量线条，就交代了人物周围的工作空间。",
+        "borrow": "围绕一个动作组织空间时，先画清身体与操作面的接触，再补少量能说明用途的物件，不必把整个房间都填满。",
+        "application": "适合阅读、书写或手作场景草图，用桌面与身体关系表达姿态；轮廓小孔可作为观察材料痕迹的入口，本条不推定具体转印过程。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-11-06T05:22:39.910Z",
+        "inputHash": "dff224543d5eb323dac3387421fabb8b3db757c0ad590273df1a61af306e2b0c",
+        "referenceSources": [
+          "https://www.clevelandart.org/art/1924.532",
+          "https://openaccess-api.clevelandart.org/api/artworks/106463",
+          "https://www.clevelandart.org/open-access",
+          "https://openaccess-cdn.clevelandart.org/1924.532/1924.532_full.tif"
+        ]
+      },
+      "addedAt": "2026-11-14T00:02:45.321Z"
+    },
+    {
+      "id": "photo-atget-romainville-interior",
+      "title": "罗曼维尔街住宅室内：镜子背后的房间",
+      "titleOriginal": "Interior of a Working Class Home, rue de Romainville",
+      "creator": "Eugène Atget",
+      "year": "1909—1910",
+      "category": "time-space",
+      "methods": [
+        "镜中反射",
+        "近景遮挡",
+        "竖向纹样",
+        "边缘裁入"
+      ],
+      "topics": [
+        "居住空间",
+        "摄影",
+        "可见与不可见"
+      ],
+      "sourceUrl": "https://www.nga.gov/artworks/131771-interior-working-class-home-rue-de-romainville",
+      "imageKey": "photo-atget-romainville-interior.jpg",
+      "width": 3355,
+      "height": 4096,
+      "rights": {
+        "label": "CC0（National Gallery of Art Open Access）",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "credit": "Eugène Atget, Interior of a Working Class Home, rue de Romainville, 1909–10, albumen silver print. Gift of Mitchell and Nancy Steir, 2004.163.33. Courtesy National Gallery of Art, Washington.",
+        "usage": "从馆方作品页Download链接获取全尺寸JPEG（3355×4096 px，约3.14 MB），原始字节保存，未裁剪、未缩放或调色。"
+      },
+      "observation": "壁炉上方是一面大镜子，镜前摆着人物形座钟、烛台和几件小物；镜中出现门边和这些物件的背面。右侧墙上另有一只圆钟，下方扶手椅上搭着衣物。花纹墙纸、椅面纹样与壁炉罩的流苏彼此紧邻，壁炉下有铁炉。画面左缘是较亮的窗边，右缘被深色帘子截住，底部可见鞋。",
+      "evidence": "已打开National Gallery of Art作品页131771，确认Eugène Atget、1909–10、蛋白银盐照片、约22.1×17.9 cm，馆藏号2004.163.33，Gift of Mitchell and Nancy Steir。作品页明确标示图像免费且属公有领域，链接的开放政策说明以CC0提供。已从页面Download链接取得全尺寸图并实际查看；本站观察独立依据图片，没有把页面自动生成的视觉描述作为核验结论。",
+      "analysis": {
+        "structure": "镜框在壁炉上再划出一块空间，反射把画外门边带进画内；近处椅子遮住部分墙面。墙纸重复纹样铺满平面，与镜中较空的区域形成密度差别。",
+        "borrow": "在狭窄室内取景时，可以用镜面补充拍摄方向之外的信息，同时保留前景遮挡，让观者分清实物、反射和背景。",
+        "application": "适合室内摄影编辑或居住物件研究，比较视野内外的关系。镜中影像是反射空间，不能直接与实景拼接为连续平面图。"
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-11-06T05:22:39.910Z",
+        "inputHash": "2eed98480d0441b14789d5e18580601a904b4fba4009eea6b073a35e8b16f082",
+        "referenceSources": [
+          "https://www.nga.gov/artworks/131771-interior-working-class-home-rue-de-romainville",
+          "https://www.nga.gov/terms-and-notices",
+          "https://api.nga.gov/iiif/8a513415-ff5a-48e7-a1e6-40a91b9dd0d6/full/full/0/default.jpg"
+        ]
+      },
+      "addedAt": "2026-11-14T00:02:45.321Z"
+    },
+    {
       "id": "photo-le-gray-normandy-sun",
       "title": "诺曼底的日光：海平线上的微小船影",
       "titleOriginal": "An Effect of the Sun, Normandy",
@@ -4398,6 +4542,19 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-11-14",
+      "date": "2026-11-14",
+      "featuredIds": [
+        "art-van-gogh-bedroom",
+        "art-lippi-jerome-study",
+        "photo-atget-romainville-interior"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-11-14T00:02:45.321Z",
+      "queueId": "queue-interior-lines-of-sight"
+    },
+    {
       "id": "daily-2026-11-13",
       "date": "2026-11-13",
       "featuredIds": [
@@ -4703,5 +4860,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-11-13T00:02:46.948Z"
+  "latestSuccess": "2026-11-14T00:02:45.321Z"
 }
