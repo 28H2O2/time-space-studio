@@ -47,7 +47,30 @@
           "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/12614,/0/default.jpg"
         ]
       },
-      "addedAt": "2026-11-14T00:02:45.321Z"
+      "addedAt": "2026-11-14T00:02:45.321Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://api.artic.edu/api/v1/artworks/28560",
+          "checkedAt": "2026-11-14",
+          "verification": "source",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA"
+        },
+        "depicted": [
+          {
+            "id": "yellow-house-arles",
+            "name": "黄房子中的卧室",
+            "region": "法国阿尔勒",
+            "note": "此为1889年绘制的第二版，描绘阿尔勒的卧室；地图仅标示城市范围。",
+            "mapQuery": "Arles, France",
+            "sourceUrl": "https://api.artic.edu/api/v1/artworks/28560",
+            "checkedAt": "2026-11-14",
+            "verification": "source"
+          }
+        ]
+      }
     },
     {
       "id": "art-lippi-jerome-study",
@@ -95,7 +118,18 @@
           "https://openaccess-cdn.clevelandart.org/1924.532/1924.532_full.tif"
         ]
       },
-      "addedAt": "2026-11-14T00:02:45.321Z"
+      "addedAt": "2026-11-14T00:02:45.321Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "克利夫兰艺术博物馆",
+          "region": "美国克利夫兰",
+          "sourceUrl": "https://www.clevelandart.org/art/1924.532",
+          "checkedAt": "2026-11-14",
+          "verification": "source",
+          "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA"
+        }
+      }
     },
     {
       "id": "photo-atget-romainville-interior",
@@ -142,7 +176,29 @@
           "https://api.nga.gov/iiif/8a513415-ff5a-48e7-a1e6-40a91b9dd0d6/full/full/0/default.jpg"
         ]
       },
-      "addedAt": "2026-11-14T00:02:45.321Z"
+      "addedAt": "2026-11-14T00:02:45.321Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "美国国家美术馆",
+          "region": "美国华盛顿特区",
+          "sourceUrl": "https://www.nga.gov/artworks/131771-interior-working-class-home-rue-de-romainville",
+          "checkedAt": "2026-11-14",
+          "verification": "source",
+          "mapQuery": "National Gallery of Art, Washington, DC, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "rue-de-romainville",
+            "name": "罗曼维尔街的一处住宅",
+            "note": "据馆方题名及照片背题确认街名，未核实具体门牌，不提供住宅定位。",
+            "sourceUrl": "https://www.nga.gov/artworks/131771-interior-working-class-home-rue-de-romainville",
+            "checkedAt": "2026-11-14",
+            "verification": "source"
+          }
+        ]
+      }
     },
     {
       "id": "photo-le-gray-normandy-sun",
@@ -190,7 +246,30 @@
           "https://openaccess-cdn.clevelandart.org/1987.54/1987.54_full.tif"
         ]
       },
-      "addedAt": "2026-11-13T00:02:46.948Z"
+      "addedAt": "2026-11-13T00:02:46.948Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "克利夫兰艺术博物馆",
+          "region": "美国克利夫兰",
+          "sourceUrl": "https://www.clevelandart.org/art/1987.54",
+          "checkedAt": "2026-11-14",
+          "verification": "source",
+          "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA",
+          "isImpression": true
+        },
+        "depicted": [
+          {
+            "id": "normandy-coast",
+            "name": "诺曼底海岸",
+            "region": "法国",
+            "note": "馆方题名指向诺曼底；采用组合印相，不能视为同一时刻的单次现场曝光。具体海滩未核实。",
+            "sourceUrl": "https://www.clevelandart.org/art/1987.54",
+            "checkedAt": "2026-11-14",
+            "verification": "source"
+          }
+        ]
+      }
     },
     {
       "id": "art-homer-herring-net",
@@ -239,7 +318,30 @@
           "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/9953,/0/default.jpg"
         ]
       },
-      "addedAt": "2026-11-13T00:02:46.948Z"
+      "addedAt": "2026-11-13T00:02:46.948Z",
+      "locations": {
+        "collection": {
+          "id": "collection",
+          "name": "芝加哥艺术博物馆",
+          "region": "美国芝加哥",
+          "sourceUrl": "https://archive.artic.edu/homer_exhb/artwork/25865",
+          "checkedAt": "2026-11-14",
+          "verification": "source",
+          "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA"
+        },
+        "depicted": [
+          {
+            "id": "prouts-neck",
+            "name": "普劳茨角近海",
+            "region": "美国缅因州",
+            "note": "地图仅标示海岬地区，不代表渔船或画家的精确位置。",
+            "mapQuery": "Prouts Neck, Maine, USA",
+            "sourceUrl": "https://www.artic.edu/files/null01bfe0c1-8f25-44e0-8776-9e20187c5590/TheHerringNet.pdf",
+            "checkedAt": "2026-11-14",
+            "verification": "source"
+          }
+        ]
+      }
     },
     {
       "id": "art-redoute-cabbage-rose",

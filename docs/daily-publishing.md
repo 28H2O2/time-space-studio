@@ -43,6 +43,7 @@
 ## 准备与验证
 
 1. 按 `docs/content-workflow.md` 选图、核对来源及许可、实际查看图片并写作。
+   地点检查覆盖全部待发作品，不区分新旧入队日期：必须有有效 `locations`，或核验后仍无法填写的 `locationOmission` 记录。两者都缺失会阻止队列检查和发布，不再当作正常隐藏项。
 2. 将本期记录加入队列；仅新增作品需要提供 `artworks` 与待发布图片。
 3. 执行 `npm run check` 和 `npm run build`，检查提交范围后提交到 `main`。
 4. 在 Actions 运行 `rehearse`。它在临时 runner 中模拟下一期、执行检查和构建，保留 7 天的构建产物，不推送、不影响正式网站。

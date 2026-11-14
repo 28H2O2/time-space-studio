@@ -47,6 +47,8 @@ export interface Artwork {
   topics: string[];
   sourceUrl: string;
   locations?: ArtworkLocations;
+  // Editorial evidence only; used when neither type of location can be supplied.
+  locationOmission?: { checkedAt: string; reason: string; sourceUrls: string[] };
   imageKey: string;
   width: number;
   height: number;

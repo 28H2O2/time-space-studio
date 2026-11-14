@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { isDay, isTimestamp, text, validateArtworks, validateLibrary } from './content-validation.mjs';
+import { isDay, isTimestamp, text, validateArtworks, validateLibrary, validateLocations, validateLocationOmission } from './content-validation.mjs';
 
 export function localDay(now) {
   const parts = Object.fromEntries(new Intl.DateTimeFormat('en', { timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(now).map(p => [p.type, p.value]));
@@ -29,6 +29,11 @@ export function validateQueue(library, queue) {
     for (const id of issue.featuredIds) {
       assert(available.has(id), `Unknown queued artwork: ${id}`);
       assert(!selected.has(id), `Artwork already featured or queued: ${id}`);
+      const artwork = issue.artworks.find(a => a.id === id) || library.artworks.find(a => a.id === id);
+      validateLocations(artwork.locations, id);
+      validateLocationOmission(artwork);
+      assert(artwork.locations !== undefined || artwork.locationOmission !== undefined,
+        `Queued artwork needs verified locations or a documented locationOmission: ${id}`);
       selected.add(id);
     }
   }

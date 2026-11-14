@@ -2053,6 +2053,73 @@
           "region": "Vienna, Austria"
         }
       }
+    },
+    "art-van-gogh-bedroom": {
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        },
+        "depicted": {
+          "yellow-house-arles": {
+            "name": "Bedroom in the Yellow House",
+            "region": "Arles, France",
+            "note": "This second version was painted in 1889 and depicts the Arles bedroom; the map identifies the city only."
+          }
+        }
+      }
+    },
+    "art-lippi-jerome-study": {
+      "locations": {
+        "collection": {
+          "name": "Cleveland Museum of Art",
+          "region": "Cleveland, USA"
+        }
+      }
+    },
+    "photo-atget-romainville-interior": {
+      "locations": {
+        "collection": {
+          "name": "National Gallery of Art",
+          "region": "Washington, DC, USA"
+        },
+        "depicted": {
+          "rue-de-romainville": {
+            "name": "A home on rue de Romainville",
+            "note": "The museum title and verso inscription identify the street; the house number is unverified, so no residential map pin is provided."
+          }
+        }
+      }
+    },
+    "photo-le-gray-normandy-sun": {
+      "locations": {
+        "collection": {
+          "name": "Cleveland Museum of Art",
+          "region": "Cleveland, USA"
+        },
+        "depicted": {
+          "normandy-coast": {
+            "name": "Normandy coast",
+            "region": "France",
+            "note": "The museum title identifies Normandy. This combination print is not a single exposure of one moment; the exact beach is unverified."
+          }
+        }
+      }
+    },
+    "art-homer-herring-net": {
+      "locations": {
+        "collection": {
+          "name": "Art Institute of Chicago",
+          "region": "Chicago, USA"
+        },
+        "depicted": {
+          "prouts-neck": {
+            "name": "Waters off Prout’s Neck",
+            "region": "Maine, USA",
+            "note": "The map identifies the headland area, not the exact position of the boat or artist."
+          }
+        }
+      }
     }
   }
 }

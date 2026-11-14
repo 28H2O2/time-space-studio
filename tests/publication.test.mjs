@@ -12,7 +12,7 @@ const timestamp = '2026-10-26T01:00:00.000Z';
 const now = new Date('2026-10-27T00:37:00.000Z');
 function artwork(id) {
   return { id, title: id, titleOriginal: id, creator: 'Test', year: '1900', category: 'art', methods: ['pattern'], topics: ['test'], sourceUrl: 'https://example.org/' + id,
-    imageKey: id + '.jpg', width: 10, height: 10, rights: { label: 'Test rights', url: 'https://example.org/rights', credit: 'Test', usage: 'Test fixture' },
+    imageKey: id + '.jpg', width: 10, height: 10, locationOmission: { checkedAt: '2026-10-26', reason: 'Digital abstract test work with no physical collection or identifiable scene', sourceUrls: ['https://example.org/' + id] }, rights: { label: 'Test rights', url: 'https://example.org/rights', credit: 'Test', usage: 'Test fixture' },
     observation: 'Visible shapes', evidence: 'Test record', analysis: { structure: 'Shapes', borrow: 'Pattern', application: 'Test' }, addedAt: timestamp,
     writing: { author: 'codex', generatedAt: timestamp, inputHash: 'a'.repeat(64), referenceSources: ['https://example.org'] } };
 }
@@ -107,10 +107,37 @@ test('new artwork ingestion preserves writing provenance and uses actual ingesti
   const { library, queue } = fixtures();
   const added = artwork('brand-new'); queue.issues[0].artworks.push(added); queue.issues[0].featuredIds[0] = added.id;
   added.locations = { collection: { id: 'museum', name: 'Museum', sourceUrl: 'https://example.org/object/1', checkedAt: '2026-10-26', verification: 'source' }, depicted: [{ id: 'city', name: 'City', sourceUrl: 'https://example.org/object/1', checkedAt: '2026-10-26', verification: 'source', mapQuery: 'City, Country' }] };
+  delete added.locationOmission;
   const plan = planPublication(library, queue, now);
   assert.equal(plan.library.artworks[0].addedAt, now.toISOString());
   assert.deepEqual(plan.library.artworks[0].writing, added.writing);
   assert.deepEqual(plan.library.artworks[0].locations, added.locations);
+});
+
+test('legacy queued works cannot silently publish without locations, including existing library references', () => {
+  for (const incoming of [false, true]) {
+    const { library, queue } = fixtures();
+    const work = incoming ? artwork('incoming') : library.artworks.find(a => a.id === 'next-a');
+    if (incoming) { queue.issues[0].artworks.push(work); queue.issues[0].featuredIds[0] = work.id; }
+    delete work.locationOmission;
+    const original = structuredClone({ library, queue });
+    assert.throws(() => planPublication(library, queue, now), /needs verified locations/);
+    assert.deepEqual({ library, queue }, original);
+  }
+});
+
+test('a reviewed location omission is allowed and preserved, but empty or unsafe evidence is rejected', () => {
+  const { library, queue } = fixtures();
+  const work = artwork('incoming'); queue.issues[0].artworks.push(work); queue.issues[0].featuredIds[0] = work.id;
+  assert.deepEqual(planPublication(library, queue, now).library.artworks[0].locationOmission, work.locationOmission);
+  const review = structuredClone(work.locationOmission);
+  for (const patch of [{ checkedAt: '2026-02-30' }, { reason: ' ' }, { sourceUrls: [] }, { sourceUrls: ['javascript:alert(1)'] }]) {
+    work.locationOmission = { ...review, ...patch };
+    assert.throws(() => planPublication(library, queue, now), /location omission/i);
+  }
+  work.locationOmission = review;
+  work.locations = {};
+  assert.throws(() => planPublication(library, queue, now), /Empty locations/);
 });
 test('duplicate image bytes are rejected even under distinct IDs and filenames', () => {
   const bytes = Buffer.alloc(150, 1); bytes[0] = 255; bytes[1] = 216;

@@ -32,6 +32,16 @@ export function validateLocations(locations, id) {
   }
 }
 
+// Keep published legacy records readable, but require an auditable explanation
+// when a future selection deliberately has no location at all.
+export function validateLocationOmission(artwork) {
+  const omission = artwork.locationOmission;
+  if (omission === undefined) return;
+  assert(artwork.locations === undefined, `Location omission conflicts with locations: ${artwork.id}`);
+  assert(object(omission) && isDay(omission.checkedAt) && text(omission.reason), `Invalid location omission: ${artwork.id}`);
+  assert(Array.isArray(omission.sourceUrls) && omission.sourceUrls.length > 0 && omission.sourceUrls.every(url), `Invalid location omission sources: ${artwork.id}`);
+}
+
 function validateLocationTranslations(locations, overlay, id) {
   if (overlay === undefined) return;
   assert(object(overlay) && locations, `Invalid English locations: ${id}`);
@@ -63,6 +73,7 @@ export function validateArtworks(artworks, readImage) {
     for (const key of ['title', 'titleOriginal', 'creator', 'year', 'observation', 'evidence']) assert(text(a[key]), `Missing ${key}: ${a.id}`);
     assert(url(a.sourceUrl), `Invalid source: ${a.id}`);
     validateLocations(a.locations, a.id);
+    validateLocationOmission(a);
     for (const key of ['methods', 'topics']) assert(Array.isArray(a[key]) && a[key].length && a[key].every(text), `Missing ${key}: ${a.id}`);
     for (const key of ['structure', 'borrow', 'application']) assert(text(a.analysis?.[key]), `Missing analysis: ${a.id}`);
     for (const key of ['label', 'credit', 'usage']) assert(text(a.rights?.[key]), `Missing rights: ${a.id}`);
