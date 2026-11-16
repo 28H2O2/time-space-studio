@@ -64,7 +64,7 @@
               "name": "大都会艺术博物馆",
               "region": "美国纽约",
               "sourceUrl": "https://www.metmuseum.org/art/collection/search/204833",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, USA",
               "note": "对应果木与纸制折叠日晷实物68.36，1968年由Mrs. Paul R. Hays纪念Jacques B. Rice捐赠；纽伦堡是制作归属，器物照片不描绘可定位场景。"
@@ -123,7 +123,7 @@
               "name": "克利夫兰艺术博物馆",
               "region": "美国克利夫兰",
               "sourceUrl": "https://www.clevelandart.org/art/2025.17",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA",
               "isImpression": true,
@@ -183,7 +183,7 @@
               "name": "大都会艺术博物馆",
               "region": "美国纽约",
               "sourceUrl": "https://www.metmuseum.org/art/collection/search/435907",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, USA",
               "note": "对应布面油画47.12，Fletcher Fund于1947年入藏；不是同题其他版本，收藏信息不表示当前展出。"
@@ -195,7 +195,7 @@
                 "region": "意大利罗马周边",
                 "note": "馆方说明为受当地乡野启发的田园想象，并非可精确定位的写生地点。",
                 "sourceUrl": "https://www.metmuseum.org/art/collection/search/435907",
-                "checkedAt": "2026-11-15",
+                "checkedAt": "2026-11-16",
                 "verification": "source"
               }
             ]
@@ -270,7 +270,7 @@
               "name": "克利夫兰艺术博物馆",
               "region": "美国克利夫兰",
               "sourceUrl": "https://www.clevelandart.org/art/1950.89",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA",
               "note": "对应布面油画1950.89，Gift of the Hanna Fund。2026-11-15核查时馆方列其于2026-10-17至2027-01-10借展圣路易斯艺术博物馆；此处记录所属收藏机构，不将借展地或画中草地混为收藏归属。"
@@ -331,7 +331,7 @@
               "name": "大都会艺术博物馆",
               "region": "美国纽约",
               "sourceUrl": "https://www.metmuseum.org/art/collection/search/268375",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, USA",
               "isImpression": true,
@@ -392,7 +392,7 @@
               "name": "美国国会图书馆 · 版画与摄影部",
               "region": "美国华盛顿特区",
               "sourceUrl": "https://www.loc.gov/pictures/item/98507722/?fo=json",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "mapQuery": "Library of Congress James Madison Memorial Building, Washington, DC, USA",
               "isImpression": true,
@@ -440,7 +440,7 @@
               "region": "美国，加利福尼亚州，洛杉矶",
               "note": "本图对应Getty馆藏盐纸照片84.XZ.571.3.2；不是大英图书馆或科学博物馆所藏的另一印本。收藏信息不表示正在展出。",
               "sourceUrl": "https://artsandculture.google.com/asset/the-ladder-william-henry-fox-talbot/SgFl1vNwbaHydA?hl=en",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "mapQuery": "J. Paul Getty Museum, 1200 Getty Center Drive, Los Angeles, United States",
               "isImpression": true
@@ -452,7 +452,7 @@
                 "region": "英国，英格兰，威尔特郡，拉科克",
                 "note": "依据大英图书馆同构图《The Ladder》印本的明确场景描述定位；Getty页的Reading是制作地字段，未用作画中地点依据。地图指向修道院整体，未核实梯子所靠门洞的现代精确位置。",
                 "sourceUrl": "https://searcharchives.bl.uk/catalog/041-003305167",
-                "checkedAt": "2026-11-15",
+                "checkedAt": "2026-11-16",
                 "verification": "source",
                 "mapQuery": "Lacock Abbey, Lacock, Wiltshire, United Kingdom"
               }
@@ -517,7 +517,7 @@
               "region": "美国，俄亥俄州，克利夫兰",
               "note": "本图对应馆藏号1941.26.12这一蚀刻印本，馆方列版次状态H. I/III；不能以《监狱》其他印本的馆藏替代。收藏信息不表示正在展出。",
               "sourceUrl": "https://www.clevelandart.org/art/1941.26.12",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, United States",
               "isImpression": true
@@ -580,7 +580,7 @@
               "region": "美国，密苏里州，圣路易斯",
               "note": "本图对应馆藏油画1:1935（Museum Purchase）；来源页的收藏沿革记载馆方于1934年购入。收藏信息不表示当前展厅状态。",
               "sourceUrl": "https://www.slam.org/collection/objects/33826/",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "mapQuery": "Saint Louis Art Museum, One Fine Arts Drive, St. Louis, United States"
             },
@@ -591,7 +591,7 @@
                 "region": "法国，法兰西岛大区",
                 "note": "馆方对象记录明确在depicts字段列出Auvers-sur-Oise。此处只标示村镇范围，未据画面或题名认定现代具体街名、阶梯地址或作画机位。",
                 "sourceUrl": "https://www.slam.org/collection/objects/33826/",
-                "checkedAt": "2026-11-15",
+                "checkedAt": "2026-11-16",
                 "verification": "source",
                 "mapQuery": "Auvers-sur-Oise, Île-de-France, France"
               }
@@ -667,8 +667,8 @@
               "name": "大都会艺术博物馆",
               "region": "纽约，美国",
               "note": "本图对应馆藏油画21.115.3，1921年由Charles A. Fowler上校捐赠；收藏地不表示当前正在展出。",
-              "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10240",
-              "checkedAt": "2026-11-15",
+              "sourceUrl": "https://www.metmuseum.org/art/collection/search/10240",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, United States"
             }
@@ -728,7 +728,7 @@
               "region": "芝加哥，伊利诺伊州，美国",
               "note": "本图为Clarence Buckingham Collection中的馆藏印本1928.323；来源记录载明Kate Sturges Buckingham于1928年购得并于同年5月11日赠予该馆，不代表当前展出。",
               "sourceUrl": "https://api.artic.edu/api/v1/artworks/60315",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "isImpression": true,
               "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, United States"
@@ -789,8 +789,8 @@
               "name": "克利夫兰艺术博物馆",
               "region": "克利夫兰，俄亥俄州，美国",
               "note": "本图对应实物1918.368，来自The Charles G. King Jr. collection，由Ralph King纪念Charles G. King Jr.而捐赠；并非借展品，收藏地不表示当前正在展出。",
-              "sourceUrl": "https://openaccess-api.clevelandart.org/api/artworks/98672",
-              "checkedAt": "2026-11-15",
+              "sourceUrl": "https://www.clevelandart.org/art/1918.368",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, United States"
             }
@@ -876,7 +876,7 @@
               "name": "美国国家美术馆",
               "region": "美国，华盛顿哥伦比亚特区",
               "sourceUrl": "https://www.nga.gov/artworks/46437-lady-writing",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "note": "对应布面油画实物1962.10.1；1962年捐赠入藏。收藏地不表示当前一定展出。",
               "mapQuery": "National Gallery of Art, Washington, DC, USA"
@@ -939,7 +939,7 @@
               "name": "美国国家美术馆",
               "region": "美国，华盛顿哥伦比亚特区",
               "sourceUrl": "https://www.nga.gov/artworks/5938-letter",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "note": "仅指图中Rosenwald Collection印本1943.3.2763，目录状态iv/iv；不代表《信》的其他印本。",
               "mapQuery": "National Gallery of Art, Washington, DC, USA",
@@ -1001,7 +1001,7 @@
               "name": "美国国会图书馆版画与摄影部",
               "region": "美国，华盛顿哥伦比亚特区",
               "sourceUrl": "https://www.loc.gov/pictures/item/2016892840/marc/",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "note": "对应原始玻璃底片LC-H234- A-7337及其数字扫描LC-DIG-hec-43594；1955年由Harris & Ewing捐赠。收藏部门所在地不等于拍摄地点，也不表示底片正在展出。",
               "mapQuery": "Library of Congress Prints and Photographs Division, Washington, DC, USA"
@@ -1012,7 +1012,7 @@
                 "name": "美国",
                 "region": "北美洲",
                 "sourceUrl": "https://www.loc.gov/pictures/item/2016892840/marc/",
-                "checkedAt": "2026-11-15",
+                "checkedAt": "2026-11-16",
                 "verification": "source",
                 "note": "仅据本对象MARC 662与官方JSON地点字段确定到国家；具体拍摄城市、门前建筑和投递路线尚未核实，不由收藏部门所在的华盛顿推断。未提供精确定位地图。"
               }
@@ -1090,7 +1090,7 @@
               "name": "大都会艺术博物馆",
               "region": "美国，纽约",
               "sourceUrl": "https://www.metmuseum.org/art/collection/search/10813",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "note": "对应木板油画81.14，1881年由艺术家本人捐赠；收藏信息不表示未来发表时的展厅状态。",
               "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, USA"
@@ -1101,7 +1101,7 @@
                 "name": "费城",
                 "region": "美国，宾夕法尼亚州",
                 "sourceUrl": "https://www.metmuseum.org/art/collection/search/10813",
-                "checkedAt": "2026-11-15",
+                "checkedAt": "2026-11-16",
                 "verification": "source",
                 "note": "馆方具体对象说明将场景记为费城一所住宅的客厅；此处仅定位到城市，未核实房屋地址、房间现状或精确作画位置。",
                 "mapQuery": "Philadelphia, Pennsylvania, USA"
@@ -1163,7 +1163,7 @@
               "name": "美国国会图书馆版画与摄影部",
               "region": "美国，华盛顿哥伦比亚特区",
               "sourceUrl": "https://www.loc.gov/pictures/item/2014714038/?fo=json",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "note": "对应原始玻璃底片LC-B2-5672-14和由其扫描的LC-DIG-ggbain-33886；收藏部门所在地不等于拍摄地，也不表示底片正在展出。",
               "mapQuery": "Library of Congress Prints and Photographs Division, Washington, DC, USA"
@@ -1225,7 +1225,7 @@
               "name": "大都会艺术博物馆修道院分馆",
               "region": "美国，纽约，曼哈顿",
               "sourceUrl": "https://www.metmuseum.org/art/collection/search/27388",
-              "checkedAt": "2026-11-15",
+              "checkedAt": "2026-11-16",
               "verification": "source",
               "note": "对应象牙棋子68.183，Pfeiffer Fund于1968年入藏；馆方本对象页列The Met Cloisters。此处不代表同题另一棋子68.95，也不保证发表时仍在同一展厅。",
               "mapQuery": "The Met Cloisters, 99 Margaret Corbin Drive, New York, USA"
@@ -1244,6 +1244,238 @@
             ]
           },
           "addedAt": "2026-11-15T05:19:07.534Z"
+        }
+      ]
+    },
+    {
+      "id": "queue-weather-on-city-streets",
+      "notBefore": "2026-11-22",
+      "title": "街道的天气",
+      "approvedBy": "codex",
+      "approvedAt": "2026-11-16T05:10:43.132Z",
+      "featuredIds": [
+        "art-caillebotte-paris-rainy-1877",
+        "graphic-hiroshige-ohashi-shower-ludgin",
+        "photo-detroit-fifth-avenue-snow-1905"
+      ],
+      "artworks": [
+        {
+          "id": "art-caillebotte-paris-rainy-1877",
+          "title": "巴黎街道，雨天：伞面之间的路口",
+          "titleOriginal": "Paris Street; Rainy Day",
+          "creator": "Gustave Caillebotte",
+          "year": "1877",
+          "category": "time-space",
+          "methods": [
+            "布面油画",
+            "透视汇聚",
+            "前景截取",
+            "湿地反光"
+          ],
+          "topics": [
+            "城市街道",
+            "雨天行走",
+            "人群间距"
+          ],
+          "sourceUrl": "https://www.artic.edu/artworks/20684",
+          "imageKey": "art-caillebotte-paris-rainy-1877.jpg",
+          "width": 3000,
+          "height": 2329,
+          "rights": {
+            "label": "CC0 · Art Institute of Chicago",
+            "url": "https://www.artic.edu/open-access/open-access-images",
+            "credit": "Gustave Caillebotte, Paris Street; Rainy Day, 1877, oil on canvas. Art Institute of Chicago, Charles H. and Mary F. S. Worcester Collection, 1964.336.",
+            "usage": "采用馆方页面下载按钮提供的最长边3000像素JPEG（3000×2329，2,047,582字节），按原始字节保存，未裁切、调色或重编码。IIIF元数据声明9987×7755，但原始尺寸、full及max请求均被服务允许规则拒绝；本文件为实际可取得的最高正式下载规格，未称作原始像素母版。用于作品展示与评论。"
+          },
+          "observation": "绿色路灯立在画面中央附近，左侧两条建筑边线朝远处汇合。右前方一男一女共撑一把灰伞，右边另一个持伞人物被画框截断。左侧行人较小，伞面在浅灰色背景中错开；近处石块路面有浅亮反光，深色衣服的轮廓与地面拉开明暗差。",
+          "evidence": "已打开芝加哥馆藏页20684、官方API与图像开放政策，核对Caillebotte、1877年、布面油画、馆藏号1964.336和Worcester Collection署名。对象页明确标记CC0，API is_public_domain=true；馆方说明这是巴黎路口，并以雨伞及湿石路面暗示雨天。已查看正式下载JPEG，画面完整，无馆方色卡或叠加水印。已主动检查收藏沿革和场景说明，收藏归属对应本件油画；画中地点只落实到巴黎，未用制作地或艺术家住址替代街口定位。",
+          "analysis": {
+            "structure": "灯柱把画面分为开阔路口与近处行人两部分。远处建筑的汇聚线拉深空间，前景伞面和被截断的人物则让行走路径延伸到画框外；不同大小的人物给出了距离层次。",
+            "borrow": "表现拥有人流的开放空间时，可先安排一条清楚的远近轴线，再用大小不同、彼此遮挡的轮廓说明行人的间距。天气也可由地面和随身物件交代。",
+            "application": "适合城市步行插画或街道构图研究。可借鉴伞面与留空的组织方式；这幅经过安排的绘画不能作为1877年路口人流密度或降雨强度的测量记录。"
+          },
+          "locations": {
+            "collection": {
+              "id": "art-institute-of-chicago",
+              "name": "芝加哥艺术博物馆",
+              "region": "美国，伊利诺伊州，芝加哥",
+              "sourceUrl": "https://api.artic.edu/api/v1/artworks/20684",
+              "checkedAt": "2026-11-16",
+              "verification": "source",
+              "note": "对应布面油画1964.336，Charles H. and Mary F. S. Worcester Collection；馆方收藏沿革记载1964年购入。收藏归属不保证未来发表时正在展出。",
+              "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA"
+            },
+            "depicted": [
+              {
+                "id": "paris",
+                "name": "巴黎的街道路口",
+                "region": "法国，法兰西岛大区",
+                "sourceUrl": "https://www.artic.edu/artworks/20684",
+                "checkedAt": "2026-11-16",
+                "verification": "source",
+                "note": "馆方对象说明明确为巴黎路口。本轮已查对象场景说明，未核实到具体街名、现代广场名称或作画机位，地图只查询城市范围。",
+                "mapQuery": "Paris, Île-de-France, France"
+              }
+            ]
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-16T05:10:43.132Z",
+            "inputHash": "8d759b9351c0040776405eb8da78527f2bfb234bcc7ff7722519c70dfb40590d",
+            "referenceSources": [
+              "https://www.artic.edu/artworks/20684",
+              "https://api.artic.edu/api/v1/artworks/20684",
+              "https://www.artic.edu/open-access/open-access-images",
+              "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/info.json",
+              "https://www.artic.edu/iiif/2/f8fd76e9-c396-5678-36ed-6a348c904d27/full/!3000,3000/0/default.jpg"
+            ]
+          },
+          "addedAt": "2026-11-16T05:10:43.132Z"
+        },
+        {
+          "id": "graphic-hiroshige-ohashi-shower-ludgin",
+          "title": "大桥安宅骤雨：斜线中的过桥人",
+          "titleOriginal": "Sudden Shower over Shin Ohashi Bridge and Atake (Ohashi Atake no yudachi), from One Hundred Famous Views of Edo",
+          "creator": "歌川广重（Utagawa Hiroshige）",
+          "year": "1857",
+          "category": "graphic",
+          "methods": [
+            "彩色木版画",
+            "斜向雨线",
+            "渐变色带",
+            "桥梁对角线"
+          ],
+          "topics": [
+            "骤雨",
+            "过桥行人",
+            "江户名所"
+          ],
+          "sourceUrl": "https://www.artic.edu/artworks/64447",
+          "imageKey": "graphic-hiroshige-ohashi-shower-ludgin.jpg",
+          "width": 2055,
+          "height": 3000,
+          "rights": {
+            "label": "CC0 · Art Institute of Chicago",
+            "url": "https://www.artic.edu/open-access/open-access-images",
+            "credit": "Utagawa Hiroshige, Sudden Shower over Shin Ohashi Bridge and Atake, 1857, color woodblock print. Art Institute of Chicago, Mary and Earle Ludgin Collection, 1981.1206.",
+            "usage": "采用馆方页面正式下载规格JPEG（2055×3000，2,542,670字节），按原始字节保存完整印本与纸边，未裁切、调色或重编码。IIIF声明母版6772×9886，full及max请求被服务规则拒绝，保存的是实际可取得的最高正式下载规格。对象页标记CC0，依馆方开放图像政策用于作品展示与评论。"
+          },
+          "observation": "木桥从左下斜伸向右侧，伞下和披着蓑衣的人物散布桥面。密集的细长雨线贯穿天空、河面与桥身，顶部黑云向下逐渐变浅。青绿色河面上，一人撑着细长木筏；远岸是一条低矮的深色树影。四周保留纸边、印章和题签。",
+          "evidence": "已打开芝加哥对象页64447及官方API，核对广重、1857年、彩色木版画、Mary and Earle Ludgin Collection及馆藏印本1981.1206；页面CC0与API公版标记一致。已实际查看正式下载图，无馆方色卡或叠加水印。另打开Met对象55433的同构图说明，确认所绘大桥横跨隅田川；该页JP2522仅用于图像主题与地点互证，绝不作为本站1981.1206印本的收藏归属。历史安宅岸与现代具体街块对应尚未核实。",
+          "analysis": {
+            "structure": "桥的斜向轮廓与近乎竖直的雨线交叉，行人集中在窄桥面上，大片河面因此显得空阔。顶部黑云、浅色水面和桥下深蓝色带把纵向画面分成几层。",
+            "borrow": "表现短暂天气时，可让重复线条覆盖多个空间层次，同时保留一条易读的通行路径；少数身体倾斜或收拢的轮廓就能说明人与环境的关系。",
+            "application": "适合研究天气图像、交通场景与竖幅版面的方向安排。雨线是木版画的表现手法，不能据其角度和疏密推算风向、雨量或过桥所需时间。"
+          },
+          "locations": {
+            "collection": {
+              "id": "art-institute-of-chicago",
+              "name": "芝加哥艺术博物馆",
+              "region": "美国，伊利诺伊州，芝加哥",
+              "sourceUrl": "https://www.artic.edu/artworks/64447",
+              "checkedAt": "2026-11-16",
+              "verification": "source",
+              "isImpression": true,
+              "note": "仅指本图Mary and Earle Ludgin Collection印本1981.1206；不代表Met的JP2522、东京富士美术馆或其他同构图印本，收藏信息不表示当前展出。",
+              "mapQuery": "Art Institute of Chicago, 111 South Michigan Avenue, Chicago, USA"
+            },
+            "depicted": [
+              {
+                "id": "edo-shin-ohashi-atake",
+                "name": "江户隅田川的新大桥与安宅一带",
+                "region": "日本，今东京",
+                "sourceUrl": "https://www.metmuseum.org/art/collection/search/55433",
+                "checkedAt": "2026-11-16",
+                "verification": "source",
+                "note": "依据同构图的一手馆藏说明，桥横跨隅田川，远岸为题名中的安宅一带。所绘为1857年的木桥及历史岸线；本轮未核实其与现代桥址、街块的精确对应，不提供现代定位地图。"
+              }
+            ]
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-16T05:10:43.132Z",
+            "inputHash": "b7aa79261c9cea9624b61c3f08725b3e63791877bc7b4f18eef194263bea0642",
+            "referenceSources": [
+              "https://www.artic.edu/artworks/64447",
+              "https://api.artic.edu/api/v1/artworks/64447",
+              "https://www.artic.edu/open-access/open-access-images",
+              "https://www.artic.edu/iiif/2/7e3923a9-e254-8d3f-b377-68d86f6083df/info.json",
+              "https://www.artic.edu/iiif/2/7e3923a9-e254-8d3f-b377-68d86f6083df/full/!3000,3000/0/default.jpg",
+              "https://www.metmuseum.org/art/collection/search/55433"
+            ]
+          },
+          "addedAt": "2026-11-16T05:10:43.132Z"
+        },
+        {
+          "id": "photo-detroit-fifth-avenue-snow-1905",
+          "title": "雪后的第五大道：雪堆之间的通道",
+          "titleOriginal": "Fifth Avenue after a snow storm, New York",
+          "creator": "摄影者未知；Detroit Publishing Co.（出版及版权登记）",
+          "year": "1905（馆方著录c1905；具体拍摄日期未知）",
+          "category": "time-space",
+          "methods": [
+            "玻璃干版底片",
+            "街道透视",
+            "明暗分区",
+            "前景人物尺度"
+          ],
+          "topics": [
+            "雪后街道",
+            "步行通道",
+            "城市空间"
+          ],
+          "sourceUrl": "https://www.loc.gov/pictures/item/2016804564/",
+          "imageKey": "photo-detroit-fifth-avenue-snow-1905.jpg",
+          "width": 10093,
+          "height": 7994,
+          "rights": {
+            "label": "Public Domain · LOC：No known restrictions on publication",
+            "url": "https://www.loc.gov/pictures/item/2016804564/?fo=json",
+            "credit": "Photographer unknown; Detroit Publishing Co., publisher and copyright claimant. Fifth Avenue after a snow storm, New York, c1905. Library of Congress, Prints and Photographs Division, LC-D4-18112; LC-DIG-det-4a12278. Gift, State Historical Society of Colorado, 1949.",
+            "usage": "下载官方资源页最高分辨率16位灰度TIFF母版（10093×7994，161,388,642字节），在原始像素尺寸转为JPEG（quality 98、4:4:4，18,553,400字节），保留底片边缘及原有1905年出版版权字样，未裁切、缩放或调色；JPEG转换为8位。官方具体对象记录列No known restrictions on publication；1905年出版图像已进入美国公有领域。用于历史图像展示与评论。"
+          },
+          "observation": "横幅黑白街景中，两排多层建筑向左侧远处收拢。浅色雪堆占据画面下半部，左中部几名穿深色长衣的人沿窄道向前走；右侧车道有平行车辙。街旁可见招牌、灯柱和车辆，左下保留照片原有版权印记与英文题名，四周可见黑色底片边缘。",
+          "evidence": "已打开LOC官方对象JSON与图像资源页，核对题名、c1905、出版与版权登记者Detroit Publishing Co.、8×10英寸玻璃底片LC-D4-18112，以及由原底片扫描的LC-DIG-det-4a12278。对象记录列No known restrictions on publication及1949年由State Historical Society of Colorado捐赠；未将出版机构当作摄影者。已取得并查看最高分辨率母版，画面无馆方色卡或新增水印，左下版权字样属于历史照片本身。已检查repository及地点主题字段，收藏地对应此底片，画中地点由具体题名和纽约地点字段共同支持，未据招牌推断门牌地址。",
+          "analysis": {
+            "structure": "雪的亮面与行人、建筑的深色轮廓形成强烈对比。前景雪堆围出较窄的步行通道，建筑立面与车辙则继续把视线拉向街道深处，天气改变了画面中可通行区域的形状。",
+            "borrow": "展示环境变化时，可让同一种表面连续覆盖画面，再用通道、脚印或车辙留下行动线索。人物的尺度帮助观者理解障碍的大小。",
+            "application": "适合城市历史展陈或季节性街道空间的视觉比较。可以观察雪堆与通道的关系；单张照片不能说明整条大道的除雪效率、积雪深度或居民的普遍出行体验。"
+          },
+          "locations": {
+            "collection": {
+              "id": "library-of-congress-prints-photographs",
+              "name": "美国国会图书馆版画与摄影部",
+              "region": "美国，华盛顿哥伦比亚特区",
+              "sourceUrl": "https://www.loc.gov/pictures/item/2016804564/?fo=json",
+              "checkedAt": "2026-11-16",
+              "verification": "source",
+              "note": "对应玻璃干版底片LC-D4-18112及其扫描LC-DIG-det-4a12278；馆方记载1949年由State Historical Society of Colorado捐赠。这里记录底片所属收藏部门，不将华盛顿当作拍摄地。",
+              "mapQuery": "Library of Congress Prints and Photographs Division, Washington, DC, USA"
+            },
+            "depicted": [
+              {
+                "id": "fifth-avenue-new-york",
+                "name": "纽约第五大道",
+                "region": "美国，纽约州，纽约市",
+                "sourceUrl": "https://www.loc.gov/pictures/item/2016804564/?fo=json",
+                "checkedAt": "2026-11-16",
+                "verification": "source",
+                "note": "具体题名明确Fifth Avenue，地点字段确定为纽约市；仅标示大道范围，未核实街口、拍摄方向或现代精确机位，地图查询不代表照片取景点。",
+                "mapQuery": "Fifth Avenue, Manhattan, New York, USA"
+              }
+            ]
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-16T05:10:43.132Z",
+            "inputHash": "04b89d7902796db1b039d5f78290dc9ee4923ba726df7eaad3ec366b1f081ef2",
+            "referenceSources": [
+              "https://www.loc.gov/pictures/item/2016804564/?fo=json",
+              "https://www.loc.gov/pictures/resource/det.4a12278/",
+              "https://cdn.loc.gov/master/pnp/det/4a10000/4a12000/4a12200/4a12278a.tif"
+            ]
+          },
+          "addedAt": "2026-11-16T05:10:43.132Z"
         }
       ]
     }
