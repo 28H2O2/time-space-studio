@@ -1,6 +1,186 @@
 {
   "artworks": [
     {
+      "id": "art-chardin-herrings-1974-1",
+      "title": "鲱鱼静物：壶、锅与杯子的高低",
+      "titleOriginal": "Still Life with Herrings",
+      "creator": "Jean-Siméon Chardin",
+      "year": "约1735",
+      "category": "art",
+      "methods": [
+        "布面油画",
+        "器形对照",
+        "材质明暗",
+        "上下呼应"
+      ],
+      "topics": [
+        "静物",
+        "容器轮廓",
+        "日常器具"
+      ],
+      "sourceUrl": "https://www.clevelandart.org/art/1974.1",
+      "observation": "白底蓝纹的有柄壶放在左边，一只铜色锅在右边斜立，圆形锅底迎向观者。透明水杯、面包、蒜头和小罐沿石质台面排列；左侧几颗红果伸到台沿之外。两条鱼从画面上方垂下，在器物之间留下狭长的亮部。",
+      "evidence": "已打开CMA对象页及内嵌对象数据，核对Chardin、约1735年、布面油画、画面41×33.6厘米、1974.1、Leonard C. Hanna Jr. Fund和1974年入藏沿革。对象明确CC0，已打开馆方开放政策，下载并实际查看最高分辨率full TIFF。收藏地对应本件油画；主动检查说明、出处和find_spot字段，画面虽为食物架上的静物，但没有可定位房间、建筑或城市的对象级证据，省略画中地点，不用France文化字段代填。",
+      "analysis": {
+        "structure": "左侧壶的直立轮廓与右侧锅的斜圆面形成一高一宽的对照，前面的透明杯压低了视觉中心。悬挂的鱼补上中间的竖线，台沿将零散食物收进同一平面。",
+        "borrow": "排列不同器物时，可以先比较口沿、把手和底部的几何形，再用一个较小的透明形体穿插其间。材质差异由局部亮暗体现，不必给每件东西相同强度。",
+        "application": "适合器具图录的构图研究或静物写生练习。可借用高低与前后关系，不能从画面估算器皿容量、原始颜色或日常使用顺序。"
+      },
+      "imageKey": "art-chardin-herrings-1974-1.jpg",
+      "width": 4455,
+      "height": 5500,
+      "rights": {
+        "label": "Public Domain / CC0（馆方开放图像）",
+        "url": "https://www.clevelandart.org/open-access",
+        "credit": "Jean-Siméon Chardin, Still Life with Herrings, c. 1735, oil on canvas. The Cleveland Museum of Art, Leonard C. Hanna Jr. Fund, 1974.1.",
+        "usage": "下载馆方最高分辨率TIFF，按原始像素尺寸转换为JPEG（quality 98、4:4:4），保留可用ICC配置，未裁剪或缩放。用于作品展示与评论；文件15,062,193字节，4455×5500像素。"
+      },
+      "locations": {
+        "collection": {
+          "id": "cleveland-museum-of-art",
+          "name": "克利夫兰艺术博物馆",
+          "region": "美国，俄亥俄州，克利夫兰",
+          "note": "对应布面油画1974.1，Leonard C. Hanna Jr. Fund；馆方沿革记载1974年入藏克利夫兰艺术博物馆。收藏地不保证发表时正在展出。",
+          "sourceUrl": "https://www.clevelandart.org/art/1974.1",
+          "checkedAt": "2026-11-21",
+          "verification": "source",
+          "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA"
+        }
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-11-19T05:22:41.905Z",
+        "inputHash": "919b72fcaa3bc844c6c2508cf609e21b629a873e42a32fe3fcecb73616369c2f",
+        "referenceSources": [
+          "https://www.clevelandart.org/art/1974.1",
+          "https://www.clevelandart.org/open-access",
+          "https://openaccess-cdn.clevelandart.org/1974.1/1974.1_full.tif"
+        ]
+      },
+      "addedAt": "2026-11-27T00:02:09.213Z"
+    },
+    {
+      "id": "art-egypt-marsh-bowl-36-3-8",
+      "title": "莲花水池纹碗：圆面中的放射排列",
+      "titleOriginal": "Marsh-Bowl",
+      "creator": "制作者未知（古埃及，新王国早期第18王朝）",
+      "year": "约公元前1491–1473年",
+      "category": "graphic",
+      "methods": [
+        "费昂斯与彩绘",
+        "莲花放射排列",
+        "中心方池",
+        "曲面装饰"
+      ],
+      "topics": [
+        "器物纹样",
+        "圆与方",
+        "容器表面"
+      ],
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/545124",
+      "observation": "一只蓝色浅碗斜立在灰色背景前，碗口略呈椭圆。黑色莲花与花苞围绕中央的长方形图案展开，细茎从中间向边缘弯曲。釉面有磨损、浅色斑点与数条明显裂缝，部分花纹已经变淡；器物外沿完整留在画面内。",
+      "evidence": "已打开Met具体对象页和官方API，核对约公元前1491–1473年、faience及paint、高6.7厘米、直径18厘米、Rogers Fund 1936和36.3.8；作者未列姓名，记为未知。网页Public Domain与API isPublicDomain=true一致，已打开Met CC0政策并下载、实际查看API所列original JPEG。馆方解释纹样为从长方形水池长出的八朵莲花和八个花苞，但没有指认现实水池；出土墓室是发现位置，不是画中地点，故省略depicted。收藏地对应该实物。",
+      "analysis": {
+        "structure": "圆形碗面把莲花限制在环状范围内，中心的长方形水池提供了另一种方向。茎线从中心向外展开，花与花苞交替，使图案在曲面上保持疏密变化。",
+        "borrow": "在圆形表面安排纹样时，可先选一个与外轮廓不同的中心形，再用弯线连接边缘单元。大小或状态不同的图形交替，能避免每个方向都过于相似。",
+        "application": "适合圆盘、器皿贴面或徽章的构成研究。可分析圆与方的配合，但不能把装饰性水池当作古埃及某座园林的平面图；磨损部位也不宜自行补成确定纹样。"
+      },
+      "imageKey": "art-egypt-marsh-bowl-36-3-8.jpg",
+      "width": 1476,
+      "height": 1756,
+      "rights": {
+        "label": "Public Domain / CC0（馆方开放图像）",
+        "url": "https://www.metmuseum.org/policies/image-resources",
+        "credit": "Unknown maker, Marsh-Bowl, ca. 1491–1473 BCE, faience, paint. The Metropolitan Museum of Art, Rogers Fund, 1936, 36.3.8.",
+        "usage": "保存馆方original／Download JPEG的原始字节，未裁剪、缩放、调色或重新编码。用于作品展示与评论；文件371,387字节，1476×1756像素。"
+      },
+      "locations": {
+        "collection": {
+          "id": "metropolitan-museum-of-art",
+          "name": "大都会艺术博物馆",
+          "region": "美国，纽约州，纽约市",
+          "note": "对应彩釉碗实物36.3.8，Rogers Fund于1936年入藏。馆方记录出土于Hatnefer与Ramose墓的一具附属棺内；出土地不是图案所描绘的地点，也不表示当前展出。",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/545124",
+          "checkedAt": "2026-11-21",
+          "verification": "source",
+          "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, USA"
+        }
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-11-19T05:22:41.905Z",
+        "inputHash": "3e0d4170b65c5fda0ab00310cfc448ddf2d4feafea4615b96fac5cca85a75994",
+        "referenceSources": [
+          "https://www.metmuseum.org/art/collection/search/545124",
+          "https://collectionapi.metmuseum.org/public/collection/v1/objects/545124",
+          "https://www.metmuseum.org/policies/image-resources",
+          "https://images.metmuseum.org/CRDImages/eg/original/EG109.jpg"
+        ]
+      },
+      "addedAt": "2026-11-27T00:02:09.213Z"
+    },
+    {
+      "id": "graphic-della-bella-seven-vases-2012-136-99-1",
+      "title": "七只花瓶：把器形排成一页",
+      "titleOriginal": "Seven vases, the vase in the middle decorated with the face of Medusa, Plate 1 from \"Collection of Various Vases\" (Raccolta di Vasi Diversi)",
+      "creator": "Stefano della Bella（版刻）；François Langlois（出版，馆方署名）",
+      "year": "约1650–1656（馆方断代）",
+      "category": "graphic",
+      "methods": [
+        "蚀刻版画",
+        "器形并列",
+        "排线明暗",
+        "图文合用"
+      ],
+      "topics": [
+        "装饰设计",
+        "容器轮廓",
+        "形态对照"
+      ],
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/397817",
+      "observation": "横向纸页上并排放着七只大小不同的花瓶，最左、最右的器形靠近画边。中间花瓶正面写着书名，肩部有一张面孔，两侧把手卷成环状。左右的大瓶上方插着花与羽状枝叶，瓶身混合兽首、翅膀和人面；底部有署名、出版字样和数字1。",
+      "evidence": "已打开Met具体对象页及官方API，核对Stefano della Bella、蚀刻、馆方断代约1650–56、纸幅9.5×19.2厘米、Phyllis Massar遗赠及印本2012.136.99.1。页面同时署François Langlois为出版者，其生卒栏至1647年，与制作断代存在表面张力；保留馆方年代与署名，不自行解释为在世出版年份。作品Public Domain且API isPublicDomain=true，已打开CC0政策并实际查看original JPEG。收藏地对应此具体印本；对象题名、说明与图像为装饰器形组合，没有可定位场景，不把作者籍贯、出版者活动地或神话面孔推作画中地点。",
+      "analysis": {
+        "structure": "七个器形共用近似底线，中央较稳重的花瓶承载标题，两边高低与繁简交错。反复出现的口、颈、腹、足使读者能比较轮廓，兽首与花叶则让局部形态不断变化。",
+        "borrow": "做形态比较时，可让对象共享基线，把最清楚的一件放在中间，再交替排列宽窄和高低。文字若进入一个留白较多的形体，便能同时担任标题与结构的一部分。",
+        "application": "适合器形资料页、设计草图索引或包装轮廓对照。图中装饰不等于制作图，实际成型、重量与承重仍需材料和工艺验证。"
+      },
+      "imageKey": "graphic-della-bella-seven-vases-2012-136-99-1.jpg",
+      "width": 4000,
+      "height": 2044,
+      "rights": {
+        "label": "Public Domain / CC0（馆方开放图像）",
+        "url": "https://www.metmuseum.org/policies/image-resources",
+        "credit": "Stefano della Bella; publisher François Langlois, Seven vases, Plate 1 from Collection of Various Vases, ca. 1650–56, etching. The Metropolitan Museum of Art, Bequest of Phyllis Massar, 2011, 2012.136.99.1.",
+        "usage": "保存馆方original／Download JPEG的原始字节，未裁剪、缩放、调色或重新编码。用于作品展示与评论；文件3,230,361字节，4000×2044像素。"
+      },
+      "locations": {
+        "collection": {
+          "id": "metropolitan-museum-of-art",
+          "name": "大都会艺术博物馆",
+          "region": "美国，纽约州，纽约市",
+          "note": "仅指本图馆藏印本2012.136.99.1，Bequest of Phyllis Massar, 2011；不将同版其他印本归入此记录，收藏地不表示当前正在展出。",
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/397817",
+          "checkedAt": "2026-11-21",
+          "verification": "source",
+          "mapQuery": "The Metropolitan Museum of Art, 1000 Fifth Avenue, New York, USA",
+          "isImpression": true
+        }
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-11-19T05:22:41.905Z",
+        "inputHash": "ba22d170f87df0744aba2fb29ade7bfd0b59b72b1d44a81da54fbfcc123c450e",
+        "referenceSources": [
+          "https://www.metmuseum.org/art/collection/search/397817",
+          "https://collectionapi.metmuseum.org/public/collection/v1/objects/397817",
+          "https://www.metmuseum.org/policies/image-resources",
+          "https://images.metmuseum.org/CRDImages/dp/original/DP833548.jpg"
+        ]
+      },
+      "addedAt": "2026-11-27T00:02:09.213Z"
+    },
+    {
       "id": "art-boudin-le-havre-entrance-1883",
       "title": "勒阿弗尔港口入口：桅杆之间的水路",
       "titleOriginal": "Entrance to the Harbor, Le Havre",
@@ -6814,6 +6994,19 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-11-27",
+      "date": "2026-11-27",
+      "featuredIds": [
+        "art-chardin-herrings-1974-1",
+        "art-egypt-marsh-bowl-36-3-8",
+        "graphic-della-bella-seven-vases-2012-136-99-1"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-11-27T00:02:09.213Z",
+      "queueId": "queue-vessel-contours"
+    },
+    {
       "id": "daily-2026-11-26",
       "date": "2026-11-26",
       "featuredIds": [
@@ -7275,5 +7468,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-11-26T00:02:19.463Z"
+  "latestSuccess": "2026-11-27T00:02:09.213Z"
 }
