@@ -1,6 +1,190 @@
 {
   "artworks": [
     {
+      "id": "graphic-durer-third-knot-1923-112",
+      "title": "第三个结：黑色圆面里的白线回环",
+      "titleOriginal": "Third Knot",
+      "creator": "阿尔布雷希特·丢勒（Albrecht Dürer）",
+      "year": "约1506—1507年",
+      "category": "graphic",
+      "methods": [
+        "木刻",
+        "黑白反转",
+        "交错线条",
+        "环形重复"
+      ],
+      "topics": [
+        "结纹",
+        "平面装饰",
+        "连续与遮挡"
+      ],
+      "sourceUrl": "https://www.clevelandart.org/art/1923.112",
+      "imageKey": "graphic-durer-third-knot-1923-112.jpg",
+      "width": 4032,
+      "height": 5152,
+      "rights": {
+        "label": "CC0 · Cleveland Museum of Art Open Access",
+        "url": "https://www.clevelandart.org/open-access",
+        "credit": "Third Knot, c. 1506–7. Albrecht Dürer (German, 1471–1528). Woodcut. The Cleveland Museum of Art, Dudley P. Allen Fund, 1923.112.",
+        "usage": "下载馆方本视图最高分辨率full TIFF（4032×5152，实际62,344,636字节），保留全部像素，按嵌入ICC转换为sRGB后编码为JPEG，quality 98、4:4:4，成品11,725,756字节。未裁切、缩放、修复或另作调色；包含色彩空间转换与JPEG有损压缩，用于作品展示与原创短评。"
+      },
+      "observation": "米白纸页中央是一块大黑圆面，细白线在其中反复穿插、绕圈，围住带有AD字母组合的浅色小圆。圆外四角各有黑色叶形和卷曲枝线，最外侧由一圈略有断裂的细黑框包围。纸面可见浅斑、折痕及下方的压印。",
+      "evidence": "本轮打开克利夫兰作品页1923.112与官方API 104795，核对Albrecht Dürer、约1506—1507年、woodcut、Meder 276、Dudley P. Allen Fund及具体馆藏号。作品页允许自由复制，API share_license_status为CC0；已读取馆方开放政策与CC0说明。下载主图最高分辨率full TIFF并实际查看其完整JPEG，未见馆方色卡、尺标或叠加水印。主动核查对象说明、出处与find_spot：该页无命名场景，画面为抽象交错结纹，Germany为文化归属，不能作为画中地点；收藏地只对应本馆1923.112印本。",
+      "analysis": {
+        "structure": "白线在黑底上交替中断，让平面线条看起来有了上下穿越的关系。多个相近的回环围绕中央字母排列，四角叶形则把圆形图案接回矩形纸页。",
+        "borrow": "绘制交错纹样时，可以先确定重复单元和交叉点，再统一处理哪一段压在上方。中心、圆周与外框分开安排，密集线条仍能有清楚的层次。",
+        "application": "适合边饰、书封或图案练习，也可用来讨论交叉与连接的区别。线条在视觉上相交并不代表真的相连；若用作网络图，仍需明确节点标记。"
+      },
+      "locations": {
+        "collection": {
+          "id": "cleveland-museum-of-art",
+          "name": "克利夫兰艺术博物馆",
+          "region": "美国，俄亥俄州，克利夫兰",
+          "sourceUrl": "https://www.clevelandart.org/art/1923.112",
+          "checkedAt": "2026-11-21",
+          "verification": "source",
+          "note": "仅指本图木刻印本1923.112，Dudley P. Allen Fund，目录Meder 276；不代表同版其他印本。馆方记录1923年入藏，收藏归属不表示当前正在展出。",
+          "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA",
+          "isImpression": true
+        }
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-11-21T05:12:22.683Z",
+        "inputHash": "911768959ebf110b31c6eed47497a2f21b7e7e1da9a307c18fff2f7f84361dc9",
+        "referenceSources": [
+          "https://www.clevelandart.org/art/1923.112",
+          "https://openaccess-api.clevelandart.org/api/artworks/104795",
+          "https://www.clevelandart.org/open-access",
+          "https://creativecommons.org/publicdomain/zero/1.0/",
+          "https://openaccess-cdn.clevelandart.org/1923.112/1923.112_full.tif"
+        ]
+      },
+      "addedAt": "2026-11-28T00:02:07.693Z"
+    },
+    {
+      "id": "art-herakles-knot-mirror-1956-31",
+      "title": "赫拉克勒斯结银镜：背面的交错把手",
+      "titleOriginal": "Mirror with a Handle in the Form of a Herakles Knot",
+      "creator": "制作者未知（馆方归属：拜占庭，叙利亚？）",
+      "year": "约公元280—400年",
+      "category": "art",
+      "methods": [
+        "银质器物",
+        "弯曲金属线",
+        "对称连接",
+        "背面取景"
+      ],
+      "topics": [
+        "结与把手",
+        "器物结构",
+        "材料表面"
+      ],
+      "sourceUrl": "https://www.clevelandart.org/art/1956.31",
+      "imageKey": "art-herakles-knot-mirror-1956-31.jpg",
+      "width": 4938,
+      "height": 4781,
+      "rights": {
+        "label": "CC0 · Cleveland Museum of Art Open Access",
+        "url": "https://www.clevelandart.org/open-access",
+        "credit": "Mirror with a Handle in the Form of a Herakles Knot, c. 280–400 CE. Byzantium, Syria(?), Byzantine period. Silver; diameter: 2.3 x 34.6 cm (7/8 x 13 5/8 in.). The Cleveland Museum of Art, Purchase from the J. H. Wade Fund, 1956.31.",
+        "usage": "下载馆方本视图最高分辨率full TIFF（4938×4781，实际70,849,154字节），保留全部像素，按嵌入ICC转换为sRGB后编码为JPEG，quality 98、4:4:4，成品17,385,533字节。未裁切、缩放、修复或另作调色；包含色彩空间转换与JPEG有损压缩，用于作品展示与原创短评。"
+      },
+      "observation": "圆形银色盘面布满深浅斑驳，盘边和盘内可见细圆环。中央的粗金属线互相交绕，两侧各留一个小卷环，四条弯曲支线伸向盘面边缘，并接在扁平的弯月形片上。器物置于灰色背景前，下沿投出短影。",
+      "evidence": "本轮打开克利夫兰具体作品页1956.31和官方API 133695，核对约公元280—400年、silver、Purchase from the J. H. Wade Fund及馆藏号；文化归属Syria带问号，未改写成确定制作地。馆方说明把手由两段粗银线交成Herakles knot。作品页允许自由复制，API许可为CC0；已读取开放政策和CC0说明。下载主视图的最高分辨率full TIFF并实际查看完整JPEG，未见色卡、尺标或叠加水印。已主动检查provenance与find_spot：所谓拉塔基亚以南叙利亚海岸是带reportedly限定的发现记录，Germany和Britain是同类器物的发现地，均不属于本图表现的地点；本图是银镜背面的器物照，不填写depicted。收藏地对应1956.31实物。",
+      "analysis": {
+        "structure": "中央银线的交绕集中在一个较小区域，四条支线再把它接到圆盘上。金属线的凸起、投影和相互遮挡，使结的形状与器物表面分离。",
+        "borrow": "展示器物连接关系时，可以选能看清接点的一面，让交绕处与连接端同时出现。保留阴影和表面痕迹，有助于分辨凸起结构与刻在表面的线。",
+        "application": "适合器物图录、连接构件观察或金属造型参考。照片能显示把手与圆盘的可见接合方式，不能单凭这一视角判断内部固定工艺、承重或原来的反光效果。"
+      },
+      "locations": {
+        "collection": {
+          "id": "cleveland-museum-of-art",
+          "name": "克利夫兰艺术博物馆",
+          "region": "美国，俄亥俄州，克利夫兰",
+          "sourceUrl": "https://www.clevelandart.org/art/1956.31",
+          "checkedAt": "2026-11-21",
+          "verification": "source",
+          "note": "对应银镜实物1956.31，Purchase from the J. H. Wade Fund，1956年入藏。馆方对叙利亚发现记录保留reportedly限定；发现地不当作所表现地点，收藏归属不保证当前展厅状态。",
+          "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA"
+        }
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-11-21T05:12:22.683Z",
+        "inputHash": "195a82fcb0caf8e9e2272c19b2b1e52c389f31402f73d701fcbdd00f2584fc0b",
+        "referenceSources": [
+          "https://www.clevelandart.org/art/1956.31",
+          "https://openaccess-api.clevelandart.org/api/artworks/133695",
+          "https://www.clevelandart.org/open-access",
+          "https://creativecommons.org/publicdomain/zero/1.0/",
+          "https://openaccess-cdn.clevelandart.org/1956.31/1956.31_full.tif"
+        ]
+      },
+      "addedAt": "2026-11-28T00:02:07.693Z"
+    },
+    {
+      "id": "graphic-interlacing-knots-textile-1983-140-c",
+      "title": "交错结纹织物残片：紫地上的细线圆饰",
+      "titleOriginal": "Fragment with Gold Foil and Apotropaic Interlacing Knots",
+      "creator": "制作者未知（埃及，拜占庭时期）",
+      "year": "公元4—5世纪",
+      "category": "graphic",
+      "methods": [
+        "亚麻与羊毛织造",
+        "金箔装饰",
+        "交错方形",
+        "环形纹样"
+      ],
+      "topics": [
+        "织物残片",
+        "结纹",
+        "装饰与材料"
+      ],
+      "sourceUrl": "https://www.clevelandart.org/art/1983.140.c",
+      "imageKey": "graphic-interlacing-knots-textile-1983-140-c.jpg",
+      "width": 5374,
+      "height": 5511,
+      "rights": {
+        "label": "CC0 · Cleveland Museum of Art Open Access",
+        "url": "https://www.clevelandart.org/open-access",
+        "credit": "Fragment with Gold Foil and Apotropaic Interlacing Knots, 300s–400s CE. Egypt, Byzantine period. Undyed linen, dyed wool, and gold foil; plain weave with supplementary weft-loops, slit-tapestry weave with supplementary weft wrapping; overall: 20.4 x 18.5 cm (8 1/16 x 7 5/16 in.); mounted: 33 x 33 cm (13 x 13 in.). The Cleveland Museum of Art, Purchase from the J. H. Wade Fund, 1983.140.c.",
+        "usage": "下载馆方本视图最高分辨率full TIFF（5374×5511，实际88,870,408字节），保留全部像素，按嵌入ICC转换为sRGB后编码为JPEG，quality 93、4:4:4，成品18,827,888字节。未裁切、缩放、修复或另作调色；包含色彩空间转换与JPEG有损压缩，用于作品展示与原创短评。"
+      },
+      "observation": "浅色衬底上铺着一块近圆形的深紫色织物，细黄褐线组成数道交错的几何边带，中央菱形内留有金色图案。外圈间隔排列小圆和弯曲线形。上下及左侧保留浅褐色绒圈织物，边缘破损，右下伸出多根散线。",
+      "evidence": "本轮实际读取克利夫兰对象页1983.140.c正文和官方API 151261，核对公元300s—400s、未染亚麻、染色羊毛与金箔、Purchase from the J. H. Wade Fund及本件后缀.c。对象页明确Public Domain且允许自由复制，API share_license_status为CC0；已读馆方开放政策及CC0说明。馆方将此类交错结纹解释为护佑纹样，这是目录阐释，不当作画面可见的功效。下载本件最高分辨率full TIFF并实际查看完整JPEG，保留衬底、残边和散线，未见色卡或叠加水印。主动检查对象说明、provenance及find_spot：Egypt为文化归属，Paris仅是旧藏者所在地；织物上的抽象结纹没有可定位场景，故省略depicted。收藏地严格对应1983.140.c残片，而非同组另一件。",
+      "analysis": {
+        "structure": "细线在紫色底上勾出重叠的方形和环形边带，中央金色图案把视线收在一个小范围内。破损边缘和外侧绒圈让几何秩序与实际织物的厚薄同时可见。",
+        "borrow": "把几何纹样放进有纹理的材料时，可用底色与细线的差异保持可读性，再用中央图案和外围重复带区分主次。观察残片时也应保留断边，避免把缺损误读为原设计边界。",
+        "application": "适合纺织纹样研究、材料展示或局部修复记录的版面参考。可讨论现存线条的重复方式；完整织物的形状、用途和缺失部分不能由这一残片自行补全。"
+      },
+      "locations": {
+        "collection": {
+          "id": "cleveland-museum-of-art",
+          "name": "克利夫兰艺术博物馆",
+          "region": "美国，俄亥俄州，克利夫兰",
+          "sourceUrl": "https://www.clevelandart.org/art/1983.140.c",
+          "checkedAt": "2026-11-21",
+          "verification": "source",
+          "note": "仅指本图织物残片1983.140.c，Purchase from the J. H. Wade Fund，1983年入藏；不混同同组其他残片。收藏归属不表示当前正在展出。",
+          "mapQuery": "Cleveland Museum of Art, 11150 East Boulevard, Cleveland, USA"
+        }
+      },
+      "writing": {
+        "author": "codex",
+        "generatedAt": "2026-11-21T05:12:22.683Z",
+        "inputHash": "6257ae4d047fa9799bd3b0248b0bb7027d50ea29f1dd7d29b5df758c571da8cb",
+        "referenceSources": [
+          "https://www.clevelandart.org/art/1983.140.c",
+          "https://openaccess-api.clevelandart.org/api/artworks/151261",
+          "https://www.clevelandart.org/open-access",
+          "https://creativecommons.org/publicdomain/zero/1.0/",
+          "https://openaccess-cdn.clevelandart.org/1983.140.c/1983.140.c_full.tif"
+        ]
+      },
+      "addedAt": "2026-11-28T00:02:07.693Z"
+    },
+    {
       "id": "art-chardin-herrings-1974-1",
       "title": "鲱鱼静物：壶、锅与杯子的高低",
       "titleOriginal": "Still Life with Herrings",
@@ -6994,6 +7178,19 @@
   ],
   "batches": [
     {
+      "id": "daily-2026-11-28",
+      "date": "2026-11-28",
+      "featuredIds": [
+        "graphic-durer-third-knot-1923-112",
+        "art-herakles-knot-mirror-1956-31",
+        "graphic-interlacing-knots-textile-1983-140-c"
+      ],
+      "status": "published",
+      "count": 3,
+      "createdAt": "2026-11-28T00:02:07.693Z",
+      "queueId": "queue-knots-and-interlacing"
+    },
+    {
       "id": "daily-2026-11-27",
       "date": "2026-11-27",
       "featuredIds": [
@@ -7468,5 +7665,5 @@
       "createdAt": "2026-10-22T04:49:27.635Z"
     }
   ],
-  "latestSuccess": "2026-11-27T00:02:09.213Z"
+  "latestSuccess": "2026-11-28T00:02:07.693Z"
 }
