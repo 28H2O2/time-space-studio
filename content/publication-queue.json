@@ -1,4 +1,215 @@
 {
   "version": 1,
-  "issues": []
+  "issues": [
+    {
+      "id": "queue-bridges-across-water",
+      "notBefore": "2026-11-29",
+      "title": "桥与跨越",
+      "approvedBy": "codex",
+      "approvedAt": "2026-11-28T05:05:32.930Z",
+      "featuredIds": [
+        "art-sisley-villeneuve-64-287",
+        "graphic-hokusai-river-bridge-jp1142",
+        "photo-barnard-chattanooga-33-65-408"
+      ],
+      "artworks": [
+        {
+          "id": "art-sisley-villeneuve-64-287",
+          "title": "维勒讷夫拉加雷讷的桥",
+          "titleOriginal": "The Bridge at Villeneuve-la-Garenne",
+          "creator": "阿尔弗雷德·西斯莱",
+          "year": "1872",
+          "category": "time-space",
+          "methods": [
+            "斜向构图",
+            "光色笔触",
+            "远近层次"
+          ],
+          "topics": [
+            "桥梁",
+            "河流",
+            "城市边缘"
+          ],
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/437680",
+          "imageKey": "art-sisley-villeneuve-64-287.jpg",
+          "width": 4000,
+          "height": 3000,
+          "rights": {
+            "label": "CC0 · Public Domain",
+            "url": "https://www.metmuseum.org/hubs/open-access",
+            "credit": "Alfred Sisley, The Bridge at Villeneuve-la-Garenne, 1872. The Metropolitan Museum of Art, Gift of Mr. and Mrs. Henry Ittleson Jr., 1964, 64.287.",
+            "usage": "馆方标记为公版，并依开放获取政策以 CC0 提供图像；本站保留作品与馆藏署名。"
+          },
+          "observation": "悬索桥从画面左侧斜入，桥下水面铺满短促的蓝绿与浅色笔触；对岸房屋沿河展开，几只小船停在岸边。",
+          "evidence": "已查阅大都会艺术博物馆藏品记录 437680，核对作者、年代、媒介、馆藏及公版标记；图片已实际查看。",
+          "analysis": {
+            "structure": "桥梁斜线与河岸横线将画面分成前景水面、对岸建筑和天空；左侧桥塔形成明显的垂直支点。",
+            "borrow": "用斜向结构引导视线，再以横向岸线稳定画面；用重复的小船和短笔触补充尺度与节奏。",
+            "application": "适合表现跨河连接及沿岸活动的空间叙事。"
+          },
+          "locations": {
+            "collection": {
+              "id": "metropolitan-museum-of-art",
+              "name": "大都会艺术博物馆",
+              "region": "美国纽约",
+              "note": "馆方藏品记录列出本件的入藏信息：Alfred Sisley, The Bridge at Villeneuve-la-Garenne, 1872. The Metropolitan Museum of Art, Gift of Mr. and Mrs. Henry Ittleson Jr., 1964, 64.287.",
+              "sourceUrl": "https://www.metmuseum.org/art/collection/search/437680",
+              "checkedAt": "2026-11-28",
+              "verification": "source",
+              "mapQuery": "The Metropolitan Museum of Art, New York, USA"
+            },
+            "depicted": [
+              {
+                "id": "villeneuve-bridge",
+                "name": "维勒讷夫拉加雷讷的塞纳河桥",
+                "region": "法国巴黎附近",
+                "note": "馆方称画中为1844年建成、连接维勒讷夫拉加雷讷与圣但尼的悬索桥；图中为历史桥梁。",
+                "mapQuery": "Villeneuve-la-Garenne, France",
+                "sourceUrl": "https://www.metmuseum.org/art/collection/search/437680",
+                "checkedAt": "2026-11-28",
+                "verification": "source"
+              }
+            ]
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-28T05:05:32.930Z",
+            "inputHash": "11cd59206729a1e85ff07d2cbcaebc39fe66478b73d1960766f0ab7c3a913e72",
+            "referenceSources": [
+              "https://www.metmuseum.org/art/collection/search/437680",
+              "https://www.metmuseum.org/hubs/open-access"
+            ]
+          },
+          "addedAt": "2026-11-28T05:05:32.930Z"
+        },
+        {
+          "id": "graphic-hokusai-river-bridge-jp1142",
+          "title": "前景有桥的河景",
+          "titleOriginal": "River Scene with Bridge in Foreground",
+          "creator": "葛饰北斋",
+          "year": "约1810年",
+          "category": "time-space",
+          "methods": [
+            "前景遮挡",
+            "曲线重复",
+            "图文并置"
+          ],
+          "topics": [
+            "桥梁",
+            "河流",
+            "版画"
+          ],
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/54349",
+          "imageKey": "graphic-hokusai-river-bridge-jp1142.jpg",
+          "width": 3394,
+          "height": 3833,
+          "rights": {
+            "label": "CC0 · Public Domain",
+            "url": "https://www.metmuseum.org/hubs/open-access",
+            "credit": "Katsushika Hokusai, River Scene with Bridge in Foreground, ca. 1810. The Metropolitan Museum of Art, Rogers Fund, 1919, JP1142.",
+            "usage": "馆方标记为公版，并依开放获取政策以 CC0 提供图像；本站保留作品与馆藏署名。"
+          },
+          "observation": "画面下方的拱桥上有行人，河中小船横向穿过，远岸建筑占据上半部；文字排列在天空留白处。",
+          "evidence": "已查阅大都会艺术博物馆藏品记录 54349，核对作者、年代、媒介、馆藏及公版标记；图片已实际查看。",
+          "analysis": {
+            "structure": "前景桥弧、河面细线与远岸建筑分层排列，文字占据上方的空白。",
+            "borrow": "让前景局部结构建立观看位置，用连续水纹连接前后景，再把文字放入较安静的区域。",
+            "application": "适合图文共同讲述河岸生活的跨页或展览说明。"
+          },
+          "locations": {
+            "collection": {
+              "id": "metropolitan-museum-of-art",
+              "name": "大都会艺术博物馆",
+              "region": "美国纽约",
+              "note": "馆方藏品记录列出本件的入藏信息：Katsushika Hokusai, River Scene with Bridge in Foreground, ca. 1810. The Metropolitan Museum of Art, Rogers Fund, 1919, JP1142.",
+              "sourceUrl": "https://www.metmuseum.org/art/collection/search/54349",
+              "checkedAt": "2026-11-28",
+              "verification": "source",
+              "mapQuery": "The Metropolitan Museum of Art, New York, USA",
+              "isImpression": true
+            }
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-28T05:05:32.930Z",
+            "inputHash": "d96417f320d11e0f82caeeec03df9a1e6746cbee30429aa633d840d1203ec9fe",
+            "referenceSources": [
+              "https://www.metmuseum.org/art/collection/search/54349",
+              "https://www.metmuseum.org/hubs/open-access"
+            ]
+          },
+          "addedAt": "2026-11-28T05:05:32.930Z"
+        },
+        {
+          "id": "photo-barnard-chattanooga-33-65-408",
+          "title": "查塔努加田纳西河上的桥",
+          "titleOriginal": "Bridge over Tennessee River at Chattanooga",
+          "creator": "乔治·N. 巴纳德",
+          "year": "约1864年",
+          "category": "time-space",
+          "methods": [
+            "透视递进",
+            "重复桥墩",
+            "水面倒影"
+          ],
+          "topics": [
+            "桥梁",
+            "河流",
+            "摄影"
+          ],
+          "sourceUrl": "https://www.metmuseum.org/art/collection/search/268221",
+          "imageKey": "photo-barnard-chattanooga-33-65-408.jpg",
+          "width": 2980,
+          "height": 2241,
+          "rights": {
+            "label": "CC0 · Public Domain",
+            "url": "https://www.metmuseum.org/hubs/open-access",
+            "credit": "George N. Barnard, Bridge over Tennessee River at Chattanooga, ca. 1864. The Metropolitan Museum of Art, Harris Brisbane Dick Fund, 1933, 33.65.408.",
+            "usage": "馆方标记为公版，并依开放获取政策以 CC0 提供图像；本站保留作品与馆藏署名。"
+          },
+          "observation": "桥从左下方向右侧远岸延伸，重复的桥墩及倒影横跨水面；前景可见停靠水上的船只。",
+          "evidence": "已查阅大都会艺术博物馆藏品记录 268221，核对作者、年代、媒介、馆藏及公版标记；图片已实际查看。",
+          "analysis": {
+            "structure": "桥面及桥墩形成逐渐收窄的透视序列，深色岸线和大面积水面构成上下分区。",
+            "borrow": "用重复构件的尺度变化表达距离，并让倒影延伸结构的视觉重量。",
+            "application": "适合呈现基础设施的跨度与远近关系。"
+          },
+          "locations": {
+            "collection": {
+              "id": "metropolitan-museum-of-art",
+              "name": "大都会艺术博物馆",
+              "region": "美国纽约",
+              "note": "馆方藏品记录列出本件的入藏信息：George N. Barnard, Bridge over Tennessee River at Chattanooga, ca. 1864. The Metropolitan Museum of Art, Harris Brisbane Dick Fund, 1933, 33.65.408.",
+              "sourceUrl": "https://www.metmuseum.org/art/collection/search/268221",
+              "checkedAt": "2026-11-28",
+              "verification": "source",
+              "mapQuery": "The Metropolitan Museum of Art, New York, USA",
+              "isImpression": true
+            },
+            "depicted": [
+              {
+                "id": "tennessee-river-chattanooga",
+                "name": "查塔努加的田纳西河",
+                "region": "美国田纳西州",
+                "note": "馆方题名将桥定位于查塔努加的田纳西河；未进一步确定历史桥址。",
+                "sourceUrl": "https://www.metmuseum.org/art/collection/search/268221",
+                "checkedAt": "2026-11-28",
+                "verification": "source"
+              }
+            ]
+          },
+          "writing": {
+            "author": "codex",
+            "generatedAt": "2026-11-28T05:05:32.930Z",
+            "inputHash": "7ed8a6c3a602c9537fbe3dee87096912efb27be658fbb08b50bbf1e5c5de8c1c",
+            "referenceSources": [
+              "https://www.metmuseum.org/art/collection/search/268221",
+              "https://www.metmuseum.org/hubs/open-access"
+            ]
+          },
+          "addedAt": "2026-11-28T05:05:32.930Z"
+        }
+      ]
+    }
+  ]
 }
